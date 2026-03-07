@@ -4,12 +4,13 @@ defaultContentLanguage = 'zh-tw'
 title = 'AI 趨勢觀察站'
 theme = 'aicontent'
 paginate = 12
-enableRobotsTXT = true
+enableRobotsTXT = false  # Using static/robots.txt instead
 enableEmoji = true
 
 [params]
   description = '科技、財經、娛樂、時事、小說 — AI 觀點，人類品味'
   author = 'AI Content Hub'
+  defaultImage = 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop'
   dateFormat = '2006-01-02'
   mainSections = ['tech', 'economy', 'entertainment', 'news', 'fiction', 'recipes']
   showReadingTime = true
@@ -48,7 +49,7 @@ enableEmoji = true
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'
-  priority = 0.5
+  priority = 0.7
 
 [menu]
   [[menu.main]]

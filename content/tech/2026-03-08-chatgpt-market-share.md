@@ -15,6 +15,13 @@ image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800"
 readingTime: 5
 draft: false
 lang: en
+faq:
+  - q: "Which AI chatbot has the most users in 2026?"
+    a: "As of early 2026, ChatGPT leads with approximately 60-65% of the consumer AI chatbot market share and around 180 million monthly active users globally. Google's Gemini is second with about 25% market share, followed by Anthropic's Claude at 8-10%."
+  - q: "How much do AI chatbot subscriptions cost?"
+    a: "The three major AI chatbot premium plans are priced similarly: ChatGPT Plus at $20/month, Gemini Advanced at $19.99/month, and Claude Pro at $20/month. All three also offer free tiers with limited features."
+  - q: "Which AI chatbot is best for coding?"
+    a: "For coding tasks, Claude and ChatGPT are generally considered the strongest. Claude's 200K token context window makes it excellent for analyzing large codebases, while ChatGPT's GPT-4o offers strong code execution capabilities. Gemini 2.0 Ultra has also earned strong coding benchmarks."
 ---
 
 The AI chatbot wars of 2026 are no longer just a tech curiosity — they're a multi-billion-dollar battleground reshaping how individuals and businesses interact with information. Three platforms dominate the conversation: OpenAI's ChatGPT, Google's Gemini, and Anthropic's Claude. Each has carved out distinct territory, but the rankings are shifting faster than ever.

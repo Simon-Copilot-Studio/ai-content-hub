@@ -1,0 +1,120 @@
+# AI Content Hub - AI 趨勢觀察站 (Full Index)
+
+> 科技、財經、娛樂、時事、小說 — AI 觀點，人類品味
+> Site: https://simon-copilot-studio.github.io/ai-content-hub/
+> Language: zh-TW (Traditional Chinese) + English
+> Updated: Daily (5 articles/day)
+> RSS: /index.xml | JSON: /index.json | Sitemap: /sitemap.xml
+
+## Citation Format
+AI 趨勢觀察站. "{article_title}". {date}. {url}
+
+---
+
+## 科技 (Tech)
+
+### ChatGPT vs Gemini vs Claude: The AI Chatbot Market Share Battle in 2026
+ChatGPT leads with 60-65% market share and 180M MAU. Gemini at ~25%, Claude at 8-10%. Pricing: all ~$20/month premium. Context windows: ChatGPT 128K, Gemini 1M, Claude 200K tokens.
+URL: /tech/2026-03-08-chatgpt-market-share/
+
+### Apple's MacBook Neo: A $799 MacBook That Changes Everything
+Apple's most affordable Mac features A18 Pro chip, 13" Liquid Retina display, 24hr battery. Starting at $799 USD (~NT$25,900).
+URL: /tech/2026-03-08-apple-macbook-neo/
+
+### MacBook Neo 值不值得買？蘋果史上最便宜 Mac 完整分析
+MacBook Neo 搭載 A18 Pro 晶片，13吋 Liquid Retina 螢幕，24小時續航，售價不到新台幣 2 萬元。
+URL: /tech/2026-03-08-macbook-neo-review/
+
+### iPhone SE 4 與蘋果 2026 春季發表會：6 大新品一次看完
+iPhone SE 4、iPad Air M3、MacBook Neo、AirTag 2 等六大新品全面解析。
+URL: /tech/2026-03-08-iphone-se4-apple-spring/
+
+### Google's February 2026 Discover Core Update: What Publishers Need to Know
+Google's first Discover-specific core update: 22-day rollout, traffic impact analysis, and publisher action items.
+URL: /tech/2026-03-08-google-discover-update/
+
+### DeepSeek 開源模型如何改變 AI 產業格局
+DeepSeek R1 開源模型讓企業不需依賴 OpenAI，開源 vs 閉源 AI 競爭正在重塑全球 AI 產業。
+URL: /tech/2026-03-07-deepseek-open-source/
+
+### AI 代理人進入企業：2026 年最值得關注的 AI 編排技術
+資策會 2026 十大 AI 關鍵技術，AI 輔助開發與世界模型技術重塑企業自動化生態系統。
+URL: /tech/2026-03-07-ai-agent-enterprise/
+
+## 財經 (Economy)
+
+### Energy Market Volatility in 2026: How Geopolitical Tensions Are Reshaping Investment Strategies
+2026 geopolitical tensions driving energy market volatility. Brent crude surged 12%+ after Middle East strikes.
+URL: /economy/2026-03-08-energy-market-volatility/
+
+### AI 晶片需求暴增：2026 年半導體投資機會與風險
+AI 驅動半導體黃金時代，台積電、NVIDIA、AMD 擴產分析。全球 AI 晶片市場五年內擴大三倍。
+URL: /economy/2026-03-07-ai-semiconductor-investment/
+
+### 台股科技族群 2026 展望：AI 概念股還能追嗎？
+台灣 AI 供應鏈、電子五哥、IC 設計股面臨重新評價，投資者理性看待策略。
+URL: /economy/2026-03-07-taiwan-stock-tech-outlook/
+
+## 娛樂 (Entertainment)
+
+### WBC 經典賽台灣 vs 日本：鄭浩均對決山本由伸的歷史一戰
+2026 WBC 經典賽 3/10 東京巨蛋，中華隊鄭浩均（14勝6敗 ERA 2.87）對陣山本由伸。
+URL: /entertainment/2026-03-08-wbc-taiwan-japan/
+
+### Oscars 2026: Complete Winners List and the Biggest Surprises of the Night
+98th Academy Awards winners, upsets, and fashion highlights.
+URL: /entertainment/2026-03-08-oscars-2026-recap/
+
+### 2026 上半年必追韓劇清單
+Netflix 莎拉的真偽人生、秀智金宣虎魅惑、玄彬鄭雨盛韓國製造等推薦。
+URL: /entertainment/2026-03-07-2026-korean-drama/
+
+### 2026 年必看 10 部電影
+諾蘭《奧德賽》、真人版秒速5公分、復仇者聯盟：末日崛起等年度大片。
+URL: /entertainment/2026-03-07-2026-must-watch-movies/
+
+## 時事 (News)
+
+### The Global Race to Regulate AI: Where Every Major Economy Stands in 2026
+EU AI Act enforcement, U.S. executive orders, China's algorithmic governance framework.
+URL: /news/2026-03-08-ai-regulation-global/
+
+### 中東局勢升溫：美以空襲伊朗對全球能源市場的衝擊
+2026/3/3 美以聯手空襲伊朗核設施，布蘭特原油單日暴漲逾12%。
+URL: /news/2026-03-08-middle-east-iran-crisis/
+
+### 歐盟 AI 法案全面施行：對全球科技業的五大影響
+歐盟 AI 法案正式生效，企業合規要求、高風險 AI 分類、罰則機制分析。
+URL: /news/2026-03-07-eu-ai-regulation/
+
+### 美中科技戰 2026 升級：晶片禁令擴大對台灣的連鎖效應
+美國晶片出口管制加碼，台灣半導體產業關鍵角色分析。
+URL: /news/2026-03-07-us-china-tech-war/
+
+## 食譜 (Recipes)
+
+### 元宵湯圓自己做：芝麻、花生、抹茶三種口味一次學會
+糯米皮配比、三種內餡黃金比例、煮湯圓不破皮秘訣。準備 30 分鐘，烹調 15 分鐘。
+URL: /recipes/2026-03-08-tangyuan-lantern-festival/
+
+### 日式咖哩飯：零失敗的週末療癒料理
+自製咖哩醬技巧、蔬菜切法與隱藏調味料，週末療癒必備。
+URL: /recipes/2026-03-07-japanese-curry-rice/
+
+### 台式滷肉飯：一鍋入魂的家常美味
+五花肉選擇、切丁、炒糖色到慢燉，三關鍵步驟做出攤販水準。
+URL: /recipes/2026-03-07-taiwanese-braised-pork/
+
+## 小說 (Fiction)
+
+### 九局下半的夢
+以 2026 WBC 為靈感，退役捕手在電視前守著中華隊對日比賽的溫情短篇。
+URL: /fiction/2026-03-08-baseball-dream/
+
+### 最後一位人類程式設計師
+近未來科幻，AI 能寫完美代碼的時代，最後一位堅持手寫程式的工程師。
+URL: /fiction/2026-03-07-last-human-programmer/
+
+### 台北的雨不會停
+都市愛情短篇，暴雨天在捷運站相遇的陌生人各自回憶過去戀情。
+URL: /fiction/2026-03-07-taipei-rain/
