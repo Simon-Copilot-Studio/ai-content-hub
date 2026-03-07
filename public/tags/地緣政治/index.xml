@@ -1,26 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>地緣政治 on AI 趨勢觀察站</title>
-    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</link>
-    <description>Recent content in 地緣政治 on AI 趨勢觀察站</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-TW</language>
-    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>中東局勢升溫：美以空襲伊朗對全球能源市場的衝擊</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-08-middle-east-iran-crisis/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-08-middle-east-iran-crisis/</guid>
-      <description>2026 年 3 月 3 日凌晨，以色列空軍配合美軍海基巡弋飛彈，對伊朗境內的福爾多、納坦茲等核濃縮設施發動多波次精準打擊。這場被媒體稱為「黎明行動」的軍事打擊，不僅改變了中東的權力格局，更在 72 小時內震撼了全球能源與金融市場。&#xA;能源市場的即時反應 消息傳出後，布蘭特原油期貨單日漲幅達 12.3%，盤中最高觸及每桶 118 美元（來源：Bloomberg Markets，2026年3月4日）——這是自 2022 年俄烏衝突以來最劇烈的單日漲幅。天然氣期貨同步暴漲 15%。&#xA;伊朗雖非全球最大產油國，但其控制的 荷莫茲海峽（Strait of Hormuz）卻是全球能源的咽喉要道。每日流經此海峽的石油佔全球海運原油的 約 21%（來源：美國能源資訊署 EIA，2025年報告），伊朗若採取封鎖反制，影響將是災難性的。&#xA;主要產油國的立即表態 沙烏地阿拉伯：緊急召開 OPEC+ 緊急會議，暫不表態增產 俄羅斯：強烈譴責，宣布暫停與西方的能源合作磋商 美國：拜登政府啟動戰略石油儲備（SPR）釋放機制，每日釋出 100 萬桶 全球供應鏈的連鎖反應 能源衝擊向下游傳導的速度快得令人咋舌：&#xA;航運保險費率飆升：波斯灣航線的戰爭險保費在事發後 48 小時內上漲 340%（來源：Lloyd&amp;rsquo;s of London，2026年3月5日），部分貨輪已宣布繞行好望角，航程增加 10–12 天。&#xA;半導體供應鏈警戒：台積電、三星等晶圓代工廠大量使用的特種氣體（氖氣、氬氣等）有部分來源依賴中東轉口，相關庫存備貨需求急速升溫。&#xA;糧食價格壓力：以能源密集生產的化學肥料成本直接上揚，糧食期貨市場連帶反應。小麥期貨一週內上漲 8.7%。&#xA;台灣的處境與政策應對 台灣的能源脆弱性在此刻再度被放大檢視。&#xA;台灣進口石油有 逾 70% 來自中東（來源：台灣中油，2025年報），荷莫茲海峽一旦封鎖，衝擊將是直接且立即的。台灣現有的石油戰略儲備量約為 148 天（來源：經濟部能源署，2025年）——理論上有緩衝空間，但油價長期高漲帶來的電費、物價連動壓力，才是政府面對的真正難題。&#xA;政府的短期應對：&#xA;行政院宣布啟動油電價格穩定機制，凍漲 30 天 加速 LNG（液化天然氣）多元採購，增加卡達、澳洲採購比重 核二廠延役討論重新浮上檯面 能源轉型的加速契機： 危機往往是改革的催化劑。經濟部能源署預計在 3 月下旬提出「能源韌性強化方案」，核心是加速離岸風電與太陽能裝置容量，降低對進口化石燃料的依賴。&#xA;未來情境推演 目前局勢有三種可能走向：&#xA;情境一（40%機率）：快速降溫 美伊透過第三方調停，伊朗僅做口頭反制，荷莫茲海峽維持暢通，油價在 100–105 美元區間整理。</description>
-    </item>
-    <item>
-      <title>美中科技戰 2026 升級：晶片禁令擴大對台灣的連鎖效應</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-us-china-tech-war/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-us-china-tech-war/</guid>
-      <description>2026年，美中科技戰持續升溫，美國宣布擴大對中國的晶片出口管制，涵蓋更多先進製程設備和技術。這項政策對台灣半導體產業產生連鎖效應，台灣在全球半導體供應鏈中的戰略地位更加凸顯。台積電作為全球最大晶片代工廠，面臨平衡兩大市場的微妙挑戰。一方面，美國市場佔據其高端產品需求的主要部分；另一方面，中國市場的潛力也不可忽視。分析師指出，這場科技戰迫使台灣加速技術升級，同時也推動了亞太地區半導體產業的多元化發展。台灣政府正在推動「台灣半導體2.0」計畫，強化國內產業鏈的韌性。然而，地緣政治風險依然存在，台灣半導體產業需要在國際合作與國家安全之間找到平衡點，以確保在科技戰爭中的持續競爭力。</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>地緣政治 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</link><description>Recent content in 地緣政治 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>中東局勢升溫：美以空襲伊朗對全球能源市場的衝擊</title><link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-08-middle-east-iran-crisis/</link><pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-08-middle-east-iran-crisis/</guid><description>2026 年 3 月 3 日凌晨，以色列空軍配合美軍海基巡弋飛彈，對伊朗境內的福爾多、納坦茲等核濃縮設施發動多波次精準打擊。這場被媒體稱為「黎明行動」的軍事打擊，不僅改變了中東的權力格局，更在 72 小時內震撼了全球能源與金融市場。
+能源市場的即時反應 消息傳出後，布蘭特原油期貨單日漲幅達 12.3%，盤中最高觸及每桶 118 美元（來源：Bloomberg Markets，2026年3月4日）——這是自 2022 年俄烏衝突以來最劇烈的單日漲幅。天然氣期貨同步暴漲 15%。
+伊朗雖非全球最大產油國，但其控制的 荷莫茲海峽（Strait of Hormuz）卻是全球能源的咽喉要道。每日流經此海峽的石油佔全球海運原油的 約 21%（來源：美國能源資訊署 EIA，2025年報告），伊朗若採取封鎖反制，影響將是災難性的。
+主要產油國的立即表態 沙烏地阿拉伯：緊急召開 OPEC+ 緊急會議，暫不表態增產 俄羅斯：強烈譴責，宣布暫停與西方的能源合作磋商 美國：拜登政府啟動戰略石油儲備（SPR）釋放機制，每日釋出 100 萬桶 全球供應鏈的連鎖反應 能源衝擊向下游傳導的速度快得令人咋舌：
+航運保險費率飆升：波斯灣航線的戰爭險保費在事發後 48 小時內上漲 340%（來源：Lloyd&amp;rsquo;s of London，2026年3月5日），部分貨輪已宣布繞行好望角，航程增加 10–12 天。
+半導體供應鏈警戒：台積電、三星等晶圓代工廠大量使用的特種氣體（氖氣、氬氣等）有部分來源依賴中東轉口，相關庫存備貨需求急速升溫。
+糧食價格壓力：以能源密集生產的化學肥料成本直接上揚，糧食期貨市場連帶反應。小麥期貨一週內上漲 8.7%。
+台灣的處境與政策應對 台灣的能源脆弱性在此刻再度被放大檢視。
+台灣進口石油有 逾 70% 來自中東（來源：台灣中油，2025年報），荷莫茲海峽一旦封鎖，衝擊將是直接且立即的。台灣現有的石油戰略儲備量約為 148 天（來源：經濟部能源署，2025年）——理論上有緩衝空間，但油價長期高漲帶來的電費、物價連動壓力，才是政府面對的真正難題。
+政府的短期應對：
+行政院宣布啟動油電價格穩定機制，凍漲 30 天 加速 LNG（液化天然氣）多元採購，增加卡達、澳洲採購比重 核二廠延役討論重新浮上檯面 能源轉型的加速契機： 危機往往是改革的催化劑。經濟部能源署預計在 3 月下旬提出「能源韌性強化方案」，核心是加速離岸風電與太陽能裝置容量，降低對進口化石燃料的依賴。
+未來情境推演 目前局勢有三種可能走向：
+情境一（40%機率）：快速降溫 美伊透過第三方調停，伊朗僅做口頭反制，荷莫茲海峽維持暢通，油價在 100–105 美元區間整理。</description></item><item><title>美中科技戰 2026 升級：晶片禁令擴大對台灣的連鎖效應</title><link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-us-china-tech-war/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-us-china-tech-war/</guid><description>2026年，美中科技戰持續升溫，美國宣布擴大對中國的晶片出口管制，涵蓋更多先進製程設備和技術。這項政策對台灣半導體產業產生連鎖效應，台灣在全球半導體供應鏈中的戰略地位更加凸顯。台積電作為全球最大晶片代工廠，面臨平衡兩大市場的微妙挑戰。一方面，美國市場佔據其高端產品需求的主要部分；另一方面，中國市場的潛力也不可忽視。分析師指出，這場科技戰迫使台灣加速技術升級，同時也推動了亞太地區半導體產業的多元化發展。台灣政府正在推動「台灣半導體2.0」計畫，強化國內產業鏈的韌性。然而，地緣政治風險依然存在，台灣半導體產業需要在國際合作與國家安全之間找到平衡點，以確保在科技戰爭中的持續競爭力。</description></item></channel></rss>

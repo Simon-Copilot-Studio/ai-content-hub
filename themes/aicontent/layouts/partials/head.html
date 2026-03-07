@@ -1,3 +1,9 @@
 {{ partial "seo/meta.html" . }}
 <meta name="generator" content="Hugo {{ hugo.Version }}">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- Umami Analytics (via Cloudflare Tunnel) -->
+{{ if not .Site.IsServer }}
+{{ with .Site.Params.umami }}
+<script defer src="{{ .scriptUrl }}" data-website-id="{{ .websiteId }}"></script>
+{{ end }}
+{{ end }}
