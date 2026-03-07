@@ -1,1 +1,19 @@
-
+{{ if .Site.Params.ads.enabled }}
+    {{ if .Site.Params.ads.adsenseId }}
+        <div class="container">
+            <ins class="adsbygoogle ad-slot ad-footer"
+                 style="display:block; width:970px; height:90px;"
+                 data-ad-client="{{ .Site.Params.ads.adsenseId }}"
+                 data-ad-slot="footer-slot"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    {{ else }}
+        <div class="container">
+            <div class="ad-slot ad-footer">
+                📢 底部廣告 — 970×90
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
