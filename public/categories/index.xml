@@ -6,48 +6,83 @@
     <description>Recent content in Categories on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 07 Mar 2026 14:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>食譜</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/%E9%A3%9F%E8%AD%9C/</link>
-      <pubDate>Sat, 07 Mar 2026 14:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/%E9%A3%9F%E8%AD%9C/</guid>
+      <title>Artificial Intelligence</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/artificial-intelligence/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Economy</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/economy/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
       <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/economy/</guid>
       <description></description>
     </item>
     <item>
       <title>Entertainment</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/entertainment/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
       <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/entertainment/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiction</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/fiction/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
       <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/fiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/hardware/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>News</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/news/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
       <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recipes</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/recipes/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/recipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/seo/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/seo/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
       <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/technology/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>食譜</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/%E9%A3%9F%E8%AD%9C/</link>
+      <pubDate>Sat, 07 Mar 2026 14:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/categories/%E9%A3%9F%E8%AD%9C/</guid>
       <description></description>
     </item>
     <item>
