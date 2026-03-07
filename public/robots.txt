@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /search/
+
+Sitemap: https://ai-content-hub.pages.dev/sitemap.xml

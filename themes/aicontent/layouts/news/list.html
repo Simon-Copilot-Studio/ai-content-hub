@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container section-news">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span> <span>📰 時事</span>
+  </div>
+
+  {{ partial "ads/leaderboard.html" . }}
+
+  <div class="page-layout">
+    <div class="main-content">
+      <div class="section-header">
+        <h2>📰 時事</h2>
+        <span>共 {{ len .Pages }} 篇</span>
+      </div>
+      {{/* Timeline layout for news */}}
+      {{ range .Paginator.Pages }}
+      <div class="timeline-item">
+        <span class="timeline-date">{{ .Date.Format "2006-01-02 15:04" }}</span>
+        <h3 style="margin:0.25rem 0"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p style="font-size:0.9rem;color:var(--color-text-secondary)">{{ .Summary | truncate 150 }}</p>
+      </div>
+      {{ end }}
+      {{ template "_internal/pagination.html" . }}
+    </div>
+
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+      <div class="sidebar-widget">
+        <h3>⚡ 快訊</h3>
+        <ul>
+          {{ range first 8 (where site.RegularPages "Section" "news") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>
+{{ end }}

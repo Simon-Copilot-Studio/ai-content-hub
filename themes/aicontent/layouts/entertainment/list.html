@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container section-entertainment">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span> <span>🎬 娛樂</span>
+  </div>
+
+  {{ partial "ads/leaderboard.html" . }}
+
+  <div class="page-layout">
+    <div class="main-content">
+      <div class="section-header">
+        <h2>🎬 娛樂</h2>
+        <span>共 {{ len .Pages }} 篇</span>
+      </div>
+      <div class="article-grid">
+        {{ range .Paginator.Pages }}
+        <article class="card" style="border-top:3px solid var(--color-entertainment)">
+          {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+          <div class="card-body">
+            <span class="badge badge-entertainment">娛樂</span>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary | truncate 120 }}</p>
+            <div class="card-meta">
+              <time>{{ .Date.Format "2006-01-02" }}</time>
+              {{ with .Params.readingTime }}<span>{{ . }} 分鐘</span>{{ end }}
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+    </aside>
+  </div>
+</div>
+{{ end }}

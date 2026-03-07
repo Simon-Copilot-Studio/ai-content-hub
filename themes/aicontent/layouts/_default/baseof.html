@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ partial "seo/meta.html" . }}
+  {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  <link rel="icon" href="/favicon.ico">
+</head>
+<body class="{{ with .Section }}section-{{ . }}{{ end }}">
+  {{/* Reading progress bar */}}
+  {{ if .IsPage }}<div class="reading-progress" id="reading-progress"></div>{{ end }}
+
+  {{/* Header */}}
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-logo"><span>⚡</span> {{ .Site.Title }}</a>
+      <button class="nav-toggle" aria-label="選單" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" {{ if eq $.Section (strings.TrimPrefix "/" .URL | strings.TrimSuffix "/") }}class="active"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+        <li><a href="/search/">🔍</a></li>
+      </ul>
+    </div>
+  </header>
+
+  {{/* Ad: Header */}}
+  {{ block "header-ad" . }}{{ end }}
+
+  {{/* Main */}}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{/* Ad: Footer */}}
+  {{ block "footer-ad" . }}
+    {{ partial "ads/footer-banner.html" . }}
+  {{ end }}
+
+  {{/* Footer */}}
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>分類</h4>
+          <ul>
+            {{ range .Site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>關於</h4>
+          <ul>
+            <li><a href="/about/">關於我們</a></li>
+            <li><a href="/privacy/">隱私政策</a></li>
+            <li><a href="/search/">搜尋文章</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>訂閱</h4>
+          <ul>
+            <li><a href="/index.xml">RSS 訂閱</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>{{ .Site.Title }}</h4>
+          <p style="font-size:0.85rem;color:var(--color-text-secondary)">{{ .Site.Params.description }}</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; {{ now.Year }} {{ .Site.Title }}. AI 生成內容，僅供參考。
+      </div>
+    </div>
+  </footer>
+
+  {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+  {{ partial "seo/schema.html" . }}
+</body>
+</html>

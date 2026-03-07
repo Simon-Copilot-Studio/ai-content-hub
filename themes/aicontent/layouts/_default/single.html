@@ -1,0 +1,67 @@
+{{ define "main" }}
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span>
+    <a href="/{{ .Section }}/">{{ .Section }}</a> <span>/</span>
+    <span>{{ .Title }}</span>
+  </div>
+
+  {{ partial "ads/leaderboard.html" . }}
+
+  <div class="page-layout">
+    <div class="main-content">
+      <article>
+        <header style="margin-bottom:2rem">
+          <span class="badge badge-{{ .Section }}">{{ .Section }}</span>
+          <h1 style="font-size:2rem;font-weight:800;margin:0.75rem 0">{{ .Title }}</h1>
+          {{ with .Description }}<p style="font-size:1.1rem;color:var(--color-text-secondary)">{{ . }}</p>{{ end }}
+          <div class="card-meta" style="margin-top:1rem">
+            <time>{{ .Date.Format "2006-01-02" }}</time>
+            {{ with .Params.readingTime }}<span>{{ . }} 分鐘閱讀</span>{{ end }}
+            {{ range .Params.tags }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+          </div>
+        </header>
+
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" style="border-radius:var(--radius);margin-bottom:2rem;width:100%">
+        {{ end }}
+
+        {{ partial "ads/in-article.html" . }}
+
+        <div class="article-content">
+          {{ .Content }}
+        </div>
+
+        {{/* Share */}}
+        {{ if .Site.Params.showShareButtons }}
+        <div style="margin:2rem 0;padding:1rem 0;border-top:1px solid var(--color-border)">
+          <strong>分享這篇文章：</strong>
+          <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" rel="noopener">Twitter</a> ·
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener">Facebook</a> ·
+          <a href="https://line.me/R/msg/text/?{{ .Title }}%0A{{ .Permalink }}" target="_blank" rel="noopener">LINE</a>
+        </div>
+        {{ end }}
+
+        {{/* Prev/Next */}}
+        <nav class="chapter-nav">
+          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
+          {{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
+        </nav>
+      </article>
+    </div>
+
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+      <div class="sidebar-widget">
+        <h3>相關文章</h3>
+        <ul>
+          {{ $related := .Site.RegularPages.Related . | first 5 }}
+          {{ range $related }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>
+{{ end }}

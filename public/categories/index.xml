@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on AI 趨勢觀察站</title>
+    <link>https://ai-content-hub.pages.dev/categories/</link>
+    <description>Recent content in Categories on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ai-content-hub.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Economy</title>
+      <link>https://ai-content-hub.pages.dev/categories/economy/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ai-content-hub.pages.dev/categories/economy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entertainment</title>
+      <link>https://ai-content-hub.pages.dev/categories/entertainment/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ai-content-hub.pages.dev/categories/entertainment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fiction</title>
+      <link>https://ai-content-hub.pages.dev/categories/fiction/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ai-content-hub.pages.dev/categories/fiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://ai-content-hub.pages.dev/categories/news/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ai-content-hub.pages.dev/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>https://ai-content-hub.pages.dev/categories/tech/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ai-content-hub.pages.dev/categories/tech/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

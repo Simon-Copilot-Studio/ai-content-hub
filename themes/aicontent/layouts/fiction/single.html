@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container section-fiction">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span> <a href="/fiction/">小說</a> <span>/</span> <span>{{ .Title }}</span>
+  </div>
+
+  <div class="page-layout" style="grid-template-columns:1fr">
+    <div class="main-content" style="max-width:720px;margin:0 auto">
+      <article>
+        <header style="margin-bottom:2rem;text-align:center">
+          <span class="badge badge-fiction">📖 小說</span>
+          <h1 style="font-size:2.2rem;font-weight:800;margin:1rem 0;font-family:var(--font-serif)">{{ .Title }}</h1>
+          {{ with .Description }}<p style="font-size:1.1rem;color:var(--color-text-secondary);font-style:italic">{{ . }}</p>{{ end }}
+          <div class="card-meta" style="margin-top:1rem;justify-content:center">
+            <time>{{ .Date.Format "2006-01-02" }}</time>
+            {{ with .Params.readingTime }}<span>{{ . }} 分鐘閱讀</span>{{ end }}
+          </div>
+        </header>
+
+        {{ partial "ads/in-article.html" . }}
+
+        <div class="article-content">
+          {{ .Content }}
+        </div>
+
+        {{/* Chapter Navigation */}}
+        <nav class="chapter-nav">
+          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← 上一章：{{ .Title }}</a>{{ else }}<span></span>{{ end }}
+          {{ with .NextInSection }}<a href="{{ .RelPermalink }}">下一章：{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
+        </nav>
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

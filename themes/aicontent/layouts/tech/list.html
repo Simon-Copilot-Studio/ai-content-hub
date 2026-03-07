@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="container section-tech">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span> <span>💻 科技</span>
+  </div>
+
+  {{ partial "ads/leaderboard.html" . }}
+
+  <div class="page-layout">
+    <div class="main-content">
+      <div class="section-header">
+        <h2>💻 科技</h2>
+        <span>共 {{ len .Pages }} 篇</span>
+      </div>
+      <div class="article-grid">
+        {{ range .Paginator.Pages }}
+        <article class="card" style="border-top:3px solid var(--color-tech)">
+          {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+          <div class="card-body">
+            <span class="badge badge-tech">科技</span>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary | truncate 120 }}</p>
+            <div class="card-meta">
+              <time>{{ .Date.Format "2006-01-02" }}</time>
+              {{ with .Params.readingTime }}<span>{{ . }} 分鐘</span>{{ end }}
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+      <div class="sidebar-widget">
+        <h3>🏷️ 科技標籤</h3>
+        <div class="tag-cloud">
+          {{ range .Site.Taxonomies.tags.Alphabetical }}
+          <a href="{{ .Page.RelPermalink }}" class="tag">{{ .Page.Title }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+{{ end }}

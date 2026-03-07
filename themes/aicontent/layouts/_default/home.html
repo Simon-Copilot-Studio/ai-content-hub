@@ -1,0 +1,75 @@
+{{ define "main" }}
+{{/* Hero */}}
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+    <div class="search-box">
+      <input type="text" placeholder="搜尋文章..." onclick="window.location='/search/'" readonly>
+    </div>
+  </div>
+</section>
+
+{{/* Ad: Leaderboard */}}
+{{ partial "ads/leaderboard.html" . }}
+
+<div class="container">
+  <div class="page-layout">
+    <div class="main-content">
+      {{/* 5 Section Grids */}}
+      {{ $sections := slice "tech" "economy" "entertainment" "news" "fiction" }}
+      {{ $labels := dict "tech" "科技" "economy" "財經" "entertainment" "娛樂" "news" "時事" "fiction" "小說" }}
+      {{ $icons := dict "tech" "💻" "economy" "📈" "entertainment" "🎬" "news" "📰" "fiction" "📖" }}
+
+      {{ range $sections }}
+        {{ $pages := where site.RegularPages "Section" . }}
+        {{ if $pages }}
+        <section class="section-{{ . }}" style="margin-bottom: 3rem;">
+          <div class="section-header">
+            <h2>{{ index $icons . }} {{ index $labels . }}</h2>
+            <a href="/{{ . }}/">查看全部 →</a>
+          </div>
+          <div class="article-grid">
+            {{ range first 3 $pages }}
+            <article class="card">
+              {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+              <div class="card-body">
+                <span class="badge badge-{{ $.Section }}">{{ index $labels $.Section }}</span>
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Summary | truncate 100 }}</p>
+                <div class="card-meta">
+                  <time>{{ .Date.Format "2006-01-02" }}</time>
+                  {{ with .Params.readingTime }}<span>{{ . }} 分鐘</span>{{ end }}
+                </div>
+              </div>
+            </article>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{/* Sidebar */}}
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+      <div class="sidebar-widget">
+        <h3>🔥 最新文章</h3>
+        <ul>
+          {{ range first 8 site.RegularPages }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="sidebar-widget">
+        <h3>🏷️ 熱門標籤</h3>
+        <div class="tag-cloud">
+          {{ range first 20 .Site.Taxonomies.tags.Alphabetical }}
+          <a href="{{ .Page.RelPermalink }}" class="tag">{{ .Page.Title }} ({{ .Count }})</a>
+          {{ end }}
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+{{ end }}

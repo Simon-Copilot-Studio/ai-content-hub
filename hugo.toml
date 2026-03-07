@@ -1,0 +1,68 @@
+baseURL = 'https://ai-content-hub.pages.dev'
+languageCode = 'zh-TW'
+defaultContentLanguage = 'zh-tw'
+title = 'AI 趨勢觀察站'
+theme = 'aicontent'
+paginate = 12
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+  description = '科技、財經、娛樂、時事、小說 — AI 觀點，人類品味'
+  author = 'AI Content Hub'
+  dateFormat = '2006-01-02'
+  mainSections = ['tech', 'economy', 'entertainment', 'news', 'fiction']
+  showReadingTime = true
+  showShareButtons = true
+
+[params.ads]
+  enabled = true
+  adsenseId = ''  # Fill after approval
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  section = ['HTML', 'RSS']
+
+[outputFormats.JSON]
+  mediaType = 'application/json'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    guessSyntax = true
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[menu]
+  [[menu.main]]
+    name = '科技'
+    url = '/tech/'
+    weight = 1
+  [[menu.main]]
+    name = '財經'
+    url = '/economy/'
+    weight = 2
+  [[menu.main]]
+    name = '娛樂'
+    url = '/entertainment/'
+    weight = 3
+  [[menu.main]]
+    name = '時事'
+    url = '/news/'
+    weight = 4
+  [[menu.main]]
+    name = '小說'
+    url = '/fiction/'
+    weight = 5

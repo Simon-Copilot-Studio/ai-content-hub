@@ -1,0 +1,19 @@
+site = "public"
+
+[search]
+  language = "zh"
+  # 排除不需要索引的頁面
+  exclude_selectors = [
+    "nav",
+    "footer",
+    ".sidebar",
+    ".pagination",
+    "#search",
+  ]
+
+[output]
+  # 輸出目錄（相對於 site）
+  bundle_dir = "pagefind"
+
+[logging]
+  verbose = false

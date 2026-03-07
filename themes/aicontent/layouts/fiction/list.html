@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="container section-fiction">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span> <span>📖 小說</span>
+  </div>
+
+  {{ partial "ads/leaderboard.html" . }}
+
+  <div class="page-layout">
+    <div class="main-content">
+      <div class="section-header">
+        <h2>📖 小說</h2>
+        <span>共 {{ len .Pages }} 篇</span>
+      </div>
+      <div class="article-grid" style="grid-template-columns:1fr">
+        {{ range .Paginator.Pages }}
+        <article class="card" style="border-left:4px solid var(--color-fiction)">
+          <div class="card-body">
+            <span class="badge badge-fiction">小說</span>
+            <h3 style="font-family:var(--font-serif);font-size:1.3rem"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p style="font-family:var(--font-serif)">{{ .Summary | truncate 200 }}</p>
+            <div class="card-meta">
+              <time>{{ .Date.Format "2006-01-02" }}</time>
+              {{ with .Params.readingTime }}<span>{{ . }} 分鐘</span>{{ end }}
+              {{ with .Params.series }}<span>系列：{{ index . 0 }}</span>{{ end }}
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+      <div class="sidebar-widget">
+        <h3>📚 系列小說</h3>
+        <ul>
+          {{ range .Site.Taxonomies.series.Alphabetical }}
+          <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>
+{{ end }}

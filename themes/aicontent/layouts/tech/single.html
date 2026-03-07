@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">首頁</a> <span>/</span> <a href="/tech/">科技</a> <span>/</span> <span>{{ .Title }}</span>
+  </div>
+
+  {{ partial "ads/leaderboard.html" . }}
+
+  <div class="page-layout">
+    <div class="main-content">
+      <article>
+        <header style="margin-bottom:2rem">
+          <span class="badge badge-tech">💻 科技</span>
+          <h1 style="font-size:2rem;font-weight:800;margin:0.75rem 0">{{ .Title }}</h1>
+          {{ with .Description }}<p style="font-size:1.1rem;color:var(--color-text-secondary)">{{ . }}</p>{{ end }}
+          <div class="card-meta" style="margin-top:1rem">
+            <time>{{ .Date.Format "2006-01-02" }}</time>
+            {{ with .Params.readingTime }}<span>{{ . }} 分鐘閱讀</span>{{ end }}
+          </div>
+          <div style="margin-top:0.75rem">
+            {{ range .Params.tags }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+          </div>
+        </header>
+
+        {{ partial "ads/in-article.html" . }}
+
+        <div class="article-content" style="font-family:var(--font-sans)">
+          {{ .Content }}
+        </div>
+
+        <nav class="chapter-nav">
+          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
+          {{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
+        </nav>
+      </article>
+    </div>
+
+    <aside class="sidebar">
+      {{ partial "ads/sidebar.html" . }}
+      <div class="sidebar-widget">
+        <h3>💻 最新科技</h3>
+        <ul>
+          {{ range first 5 (where site.RegularPages "Section" "tech") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>
+{{ end }}
