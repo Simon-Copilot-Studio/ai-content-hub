@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container" style="padding:2rem 0">
+  <div class="page-layout" style="grid-template-columns:1fr">
+    <div class="main-content" style="max-width:760px;margin:0 auto">
+      <article>
+        <h1 style="font-size:2.2rem;font-weight:800;margin-bottom:2rem">{{ .Title }}</h1>
+        <div class="article-content">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -7,6 +7,7 @@
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://images.unsplash.com">
 </head>
 <body class="{{ with .Section }}section-{{ . }}{{ end }}">
   {{/* Reading progress bar */}}
@@ -79,5 +80,6 @@
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
   {{ partial "seo/schema.html" . }}
+  {{ partial "seo/faq.html" . }}
 </body>
 </html>

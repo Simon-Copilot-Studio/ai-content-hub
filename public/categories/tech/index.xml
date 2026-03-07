@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on AI 趨勢觀察站</title>
-    <link>https://ai-content-hub.pages.dev/categories/tech/</link>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</link>
     <description>Recent content in Tech on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ai-content-hub.pages.dev/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI 代理人時代來臨：2026 年企業自動化的新局面</title>
-      <link>https://ai-content-hub.pages.dev/tech/sample/</link>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ai-content-hub.pages.dev/tech/sample/</guid>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</guid>
       <description>2026 年，AI 代理人（AI Agent）已不再是科幻小說裡的概念——它們正在全球各地的辦公室裡悄悄接管重複性工作，甚至開始協助高層決策。&#xA;什麼讓 AI 代理人如此不同？ 過去的 AI 工具像是一個聰明的查詢引擎：你問，它答。現在的 AI 代理人則更像是一位會主動規劃、自我修正的數位同事。它能連結多種工具、分解複雜任務，並在沒有人工干預的情況下，一步步完成整個工作流程。&#xA;以客服場景為例，傳統聊天機器人只能回答預設的問題清單。而 AI 代理人可以查詢訂單系統、閱讀退款政策、與後台工程師溝通，並最終自主處理客戶申訴——所有步驟在幾秒鐘內完成。&#xA;台灣企業的採用現況 根據資策會 2025 年底的調查，台灣中大型企業中，已有 43% 開始測試或部署 AI 代理人解決方案，主要集中在：&#xA;製造業：生產排程優化、品質異常預警 金融業：風控審查、報告自動生成 電商：個人化推薦、庫存預測 值得注意的是，多數企業選擇「人機協作」模式，而非完全自動化——讓 AI 代理人處理 80% 的例行決策，關鍵判斷仍交由人類最終確認。&#xA;技術突破帶來的新可能 Claude 4 Opus、GPT-5 等新一代模型在「長上下文推理」和「工具調用」方面的顯著進步，是這波浪潮的核心驅動力。模型不只更聰明，更重要的是更可靠——減少幻覺（hallucination）輸出，使企業得以在高風險情境下放心部署。&#xA;展望 AI 代理人並非要取代人類，而是解放人類去做更有創意、更需要情感智慧的工作。企業若能在這個節點建立完善的 AI 治理框架，將在下一個十年獲得巨大的競爭優勢。&#xA;科技浪潮不等人。問題不是「要不要導入」，而是「要怎麼導入得比別人好」。</description>
     </item>
   </channel>

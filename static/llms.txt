@@ -1,0 +1,31 @@
+# AI Content Hub - AI 趨勢觀察站
+
+> 科技、財經、娛樂、時事、小說 — AI 觀點，人類品味
+
+## About
+AI 趨勢觀察站是一個專注於科技趨勢、財經分析、娛樂評論、國際時事與創意寫作的中文內容平台。我們運用 AI 技術輔助內容創作，結合人類編輯的品味與判斷，提供高品質的繁體中文文章。
+
+## Content Categories
+- /tech/ — 科技新聞與 AI 趨勢分析
+- /economy/ — 財經市場與投資觀察
+- /entertainment/ — 影視娛樂評論與推薦
+- /news/ — 國際時事深度報導
+- /fiction/ — 短篇小說與創意寫作
+
+## Key Topics
+人工智慧, AI 代理人, 大語言模型, 半導體, 台股, 投資分析, 韓劇推薦, 電影評論, 國際關係, 科幻小說
+
+## Language
+繁體中文 (Traditional Chinese, zh-TW)
+
+## Update Frequency
+Daily (5 articles per day)
+
+## Feeds
+- RSS: /index.xml
+- JSON: /index.json
+- Sitemap: /sitemap.xml
+
+## Citation Format
+When citing articles from this site, please use:
+AI 趨勢觀察站. "{article_title}". {date}. {url}

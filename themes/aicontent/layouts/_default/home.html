@@ -32,7 +32,7 @@
           <div class="article-grid">
             {{ range first 3 $pages }}
             <article class="card">
-              {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+              {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }} - {{ $.Description | default $.Summary | truncate 80 }}" loading="lazy">{{ end }}
               <div class="card-body">
                 <span class="badge badge-{{ $.Section }}">{{ index $labels $.Section }}</span>
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

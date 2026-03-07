@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>科幻 on AI 趨勢觀察站</title>
-    <link>https://ai-content-hub.pages.dev/tags/%E7%A7%91%E5%B9%BB/</link>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E7%A7%91%E5%B9%BB/</link>
     <description>Recent content in 科幻 on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://ai-content-hub.pages.dev/tags/%E7%A7%91%E5%B9%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E7%A7%91%E5%B9%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最後一位人類程式設計師</title>
-      <link>https://ai-content-hub.pages.dev/fiction/2026-03-07-last-human-programmer/</link>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-07-last-human-programmer/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://ai-content-hub.pages.dev/fiction/2026-03-07-last-human-programmer/</guid>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-07-last-human-programmer/</guid>
       <description>李明是全球最後一位手寫程式的工程師。在這個AI能瞬間生成完美代碼的時代，他的技能顯得過時而古怪。每天，當同事們使用AI助手編寫數百行程式碼時，他仍在螢幕前一字一字地敲擊鍵盤。&#xA;「為什麼還要自己寫？」年輕的同事問，「AI生成的代碼更高效，沒有bug。」&#xA;李明微笑著回答：「因為程式碼不僅是功能，更是思想的延伸。每一行程式都是思考的痕跡。」&#xA;一天，公司系統遭遇前所未有的故障，所有AI生成的代碼都無法找出問題根源。當眾人陷入絕望時，李明拿出自己編寫的備用系統，這個看似「原始」的解決方案竟然完美運行。&#xA;那一刻，他明白了技術的真正意義——不是效率，而是人類創造力的延續。即使AI能寫出完美的代碼，但那份對程式設計的熱愛與堅持，才是技術進步的真正動力。</description>
     </item>
   </channel>

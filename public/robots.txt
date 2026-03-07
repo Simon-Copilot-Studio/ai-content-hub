@@ -5,4 +5,4 @@ Disallow: /tags/
 Disallow: /categories/
 Disallow: /search/
 
-Sitemap: https://ai-content-hub.pages.dev/sitemap.xml
+Sitemap: https://simon-copilot-studio.github.io/ai-content-hub/sitemap.xml

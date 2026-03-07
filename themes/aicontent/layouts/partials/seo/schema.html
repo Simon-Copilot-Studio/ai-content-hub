@@ -48,7 +48,8 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": {{ .Site.Title | jsonify }}
+    "name": {{ .Site.Title | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
   }{{ with .Params.image }},
   "image": {{ . | absURL | jsonify }}{{ end }},
   "articleSection": {{ .Section | jsonify }}{{ with .Params.tags }},
