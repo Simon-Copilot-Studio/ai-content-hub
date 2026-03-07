@@ -17,9 +17,9 @@
   <div class="page-layout">
     <div class="main-content">
       {{/* 5 Section Grids */}}
-      {{ $sections := slice "tech" "economy" "entertainment" "news" "fiction" }}
-      {{ $labels := dict "tech" "科技" "economy" "財經" "entertainment" "娛樂" "news" "時事" "fiction" "小說" }}
-      {{ $icons := dict "tech" "💻" "economy" "📈" "entertainment" "🎬" "news" "📰" "fiction" "📖" }}
+      {{ $sections := slice "tech" "economy" "entertainment" "news" "fiction" "recipes" }}
+      {{ $labels := dict "tech" "科技" "economy" "財經" "entertainment" "娛樂" "news" "時事" "fiction" "小說" "recipes" "食譜" }}
+      {{ $icons := dict "tech" "💻" "economy" "📈" "entertainment" "🎬" "news" "📰" "fiction" "📖" "recipes" "🍳" }}
 
       {{ range $sections }}
         {{ $pages := where site.RegularPages "Section" . }}

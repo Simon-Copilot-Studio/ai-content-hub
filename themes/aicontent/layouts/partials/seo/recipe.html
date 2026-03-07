@@ -1,0 +1,37 @@
+{{/* Recipe Schema - for articles with .Params.recipe */}}
+{{ if and (eq .Section "recipes") .Params.recipe }}
+{{ $r := .Params.recipe }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ with .Params.image }}"image": {{ . | absURL | jsonify }},{{ end }}
+  {{ with $r.prepTime }}"prepTime": "PT{{ . }}",{{ end }}
+  {{ with $r.cookTime }}"cookTime": "PT{{ . }}",{{ end }}
+  {{ with $r.totalTime }}"totalTime": "PT{{ . }}",{{ end }}
+  {{ with .Params.servings }}"recipeYield": "{{ . }}",{{ end }}
+  {{ with $r.calories }}"nutrition": { "@type": "NutritionInformation", "calories": "{{ . }} calories" },{{ end }}
+  {{ with $r.category }}"recipeCategory": {{ . | jsonify }},{{ end }}
+  {{ with $r.cuisine }}"recipeCuisine": {{ . | jsonify }},{{ end }}
+  {{ with $r.ingredients }}
+  "recipeIngredient": {{ . | jsonify }},
+  {{ end }}
+  {{ with $r.steps }}
+  "recipeInstructions": [
+    {{- range $i, $step := . -}}
+    {{ if $i }},{{ end }}
+    { "@type": "HowToStep", "text": {{ $step | jsonify }} }
+    {{- end -}}
+  ],
+  {{ end }}
+  "author": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify }}
+  }
+}
+</script>
+{{ end }}

@@ -11,7 +11,7 @@ enableEmoji = true
   description = '科技、財經、娛樂、時事、小說 — AI 觀點，人類品味'
   author = 'AI Content Hub'
   dateFormat = '2006-01-02'
-  mainSections = ['tech', 'economy', 'entertainment', 'news', 'fiction']
+  mainSections = ['tech', 'economy', 'entertainment', 'news', 'fiction', 'recipes']
   showReadingTime = true
   showShareButtons = true
 
@@ -66,3 +66,7 @@ enableEmoji = true
     name = '小說'
     url = '/fiction/'
     weight = 5
+  [[menu.main]]
+    name = '食譜'
+    url = '/recipes/'
+    weight = 6
