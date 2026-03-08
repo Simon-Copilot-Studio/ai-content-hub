@@ -1,14 +1,79 @@
 baseURL = 'https://simon-copilot-studio.github.io/ai-content-hub/'
-languageCode = 'zh-TW'
-defaultContentLanguage = 'zh-tw'
 title = 'AI 趨勢觀察站'
 theme = 'aicontent'
 paginate = 12
 enableRobotsTXT = false  # Using static/robots.txt instead
 enableEmoji = true
+defaultContentLanguage = 'zh-tw'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.zh-tw]
+    languageCode = 'zh-TW'
+    languageName = '中文'
+    weight = 1
+    title = 'AI 趨勢觀察站'
+    [languages.zh-tw.params]
+      description = '科技、財經、娛樂、時事、小說 — AI 觀點，人類品味'
+    [[languages.zh-tw.menu.main]]
+      name = '科技'
+      url = '/tech/'
+      weight = 1
+    [[languages.zh-tw.menu.main]]
+      name = '財經'
+      url = '/economy/'
+      weight = 2
+    [[languages.zh-tw.menu.main]]
+      name = '娛樂'
+      url = '/entertainment/'
+      weight = 3
+    [[languages.zh-tw.menu.main]]
+      name = '時事'
+      url = '/news/'
+      weight = 4
+    [[languages.zh-tw.menu.main]]
+      name = '小說'
+      url = '/fiction/'
+      weight = 5
+    [[languages.zh-tw.menu.main]]
+      name = '食譜'
+      url = '/recipes/'
+      weight = 6
+
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 2
+    title = 'AI Content Hub'
+    contentDir = 'content/en'
+    [languages.en.params]
+      description = 'Tech, Economy, Entertainment, News, Fiction & Recipes — AI Perspective, Human Taste'
+    [[languages.en.menu.main]]
+      name = 'Tech'
+      url = '/en/tech/'
+      weight = 1
+    [[languages.en.menu.main]]
+      name = 'Economy'
+      url = '/en/economy/'
+      weight = 2
+    [[languages.en.menu.main]]
+      name = 'Entertainment'
+      url = '/en/entertainment/'
+      weight = 3
+    [[languages.en.menu.main]]
+      name = 'News'
+      url = '/en/news/'
+      weight = 4
+    [[languages.en.menu.main]]
+      name = 'Fiction'
+      url = '/en/fiction/'
+      weight = 5
+    [[languages.en.menu.main]]
+      name = 'Recipes'
+      url = '/en/recipes/'
+      weight = 6
 
 [params]
-  description = '科技、財經、娛樂、時事、小說 — AI 觀點，人類品味'
   author = 'AI Content Hub'
   defaultImage = 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop'
   dateFormat = '2006-01-02'
@@ -51,28 +116,4 @@ enableEmoji = true
   filename = 'sitemap.xml'
   priority = 0.5
 
-[menu]
-  [[menu.main]]
-    name = '科技'
-    url = '/tech/'
-    weight = 1
-  [[menu.main]]
-    name = '財經'
-    url = '/economy/'
-    weight = 2
-  [[menu.main]]
-    name = '娛樂'
-    url = '/entertainment/'
-    weight = 3
-  [[menu.main]]
-    name = '時事'
-    url = '/news/'
-    weight = 4
-  [[menu.main]]
-    name = '小說'
-    url = '/fiction/'
-    weight = 5
-  [[menu.main]]
-    name = '食譜'
-    url = '/recipes/'
-    weight = 6
+# Menu defined per-language in [languages] above

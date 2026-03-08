@@ -25,6 +25,21 @@
         <li><a href="{{ .URL }}" {{ if eq $.Section (strings.TrimPrefix "/" .URL | strings.TrimSuffix "/") }}class="active"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
         <li><a href="/search/">🔍</a></li>
+        {{ if .IsTranslated }}
+        <li class="lang-switch">
+          {{ range .Translations }}
+          <a href="{{ .RelPermalink }}" class="lang-link" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a>
+          {{ end }}
+        </li>
+        {{ else }}
+        <li class="lang-switch">
+          {{ range .Site.Languages }}
+          {{ if ne .Lang $.Site.Language.Lang }}
+          <a href="/{{ if ne .Lang "zh-tw" }}{{ .Lang }}/{{ end }}" class="lang-link" title="{{ .LanguageName }}">{{ .LanguageName }}</a>
+          {{ end }}
+          {{ end }}
+        </li>
+        {{ end }}
       </ul>
     </div>
   </header>
