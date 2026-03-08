@@ -1,1 +1,15 @@
-
+{{ if .Site.Params.ads.enabled }}
+  {{ if .Site.Params.ads.adsenseId }}
+    <div class="ad-slot ad-in-article">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-client="{{ .Site.Params.ads.adsenseId }}"
+           data-ad-slot="in-article-slot"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  {{ else }}
+    {{ partial "ads/cross-promo.html" (dict "context" . "slot" "in-article") }}
+  {{ end }}
+{{ end }}

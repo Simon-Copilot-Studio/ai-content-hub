@@ -18,6 +18,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Cross-promo banner rotation (leaderboard & footer)
+  function rotatePromos(prefix) {
+    const el1 = document.getElementById(prefix + '-1');
+    const el2 = document.getElementById(prefix + '-2');
+    if (!el1 || !el2) return;
+    let showing = 1;
+    setInterval(() => {
+      if (showing === 1) {
+        el1.style.opacity = '0';
+        setTimeout(() => { el1.style.display = 'none'; el2.style.display = 'flex'; setTimeout(() => { el2.style.opacity = '1'; }, 50); }, 300);
+        showing = 2;
+      } else {
+        el2.style.opacity = '0';
+        setTimeout(() => { el2.style.display = 'none'; el1.style.display = 'flex'; setTimeout(() => { el1.style.opacity = '1'; }, 50); }, 300);
+        showing = 1;
+      }
+    }, 8000);
+  }
+  rotatePromos('promo-leaderboard');
+  rotatePromos('promo-footer');
+
   // Close nav on outside click
   document.addEventListener('click', (e) => {
     const nav = document.querySelector('.nav-links');

@@ -1,0 +1,138 @@
+{{/*
+  Cross-Promotion Banner System
+  Usage: {{ partial "ads/cross-promo.html" (dict "context" . "slot" "leaderboard") }}
+  Slots: leaderboard | sidebar | in-article | footer
+  Smart matching: recipe/entertainment/fiction → numerology, tech/economy/news → lottery
+*/}}
+
+{{ $slot := .slot | default "sidebar" }}
+{{ $section := .context.Section | default "" }}
+
+{{/* Smart category matching */}}
+{{ $showLottery := true }}
+{{ $showNumerology := true }}
+
+{{/* For sidebar & in-article: match by content category */}}
+{{ if or (eq $slot "sidebar") (eq $slot "in-article") }}
+  {{ if or (eq $section "recipes") (eq $section "entertainment") (eq $section "fiction") }}
+    {{ $showLottery = false }}
+  {{ else if or (eq $section "tech") (eq $section "economy") (eq $section "news") }}
+    {{ $showNumerology = false }}
+  {{ end }}
+{{ end }}
+
+{{/* ===== LEADERBOARD (728×90) ===== */}}
+{{ if eq $slot "leaderboard" }}
+<div class="promo-banner promo-leaderboard">
+  <a href="https://tw-lottery-ai.vercel.app/?utm_source=blog&utm_medium=banner&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-link promo-link-lottery" id="promo-leaderboard-1">
+    <div class="promo-inner">
+      <span class="promo-icon">🎰</span>
+      <div class="promo-text">
+        <strong>台灣樂透 AI 預測</strong>
+        <span>28 種 AI 演算法 × 真實回測數據 — 免費試用</span>
+      </div>
+      <span class="promo-cta">立即體驗 →</span>
+    </div>
+  </a>
+  <a href="https://numerology-dna.vercel.app/?utm_source=blog&utm_medium=banner&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-link promo-link-numerology" id="promo-leaderboard-2" style="display:none">
+    <div class="promo-inner">
+      <span class="promo-icon">🔮</span>
+      <div class="promo-text">
+        <strong>生命靈數 DNA 解析</strong>
+        <span>輸入生日，解鎖你的天賦密碼與運勢藍圖</span>
+      </div>
+      <span class="promo-cta">免費解析 →</span>
+    </div>
+  </a>
+</div>
+
+{{/* ===== SIDEBAR (300×250) ===== */}}
+{{ else if eq $slot "sidebar" }}
+  {{ if $showNumerology }}
+  <div class="promo-banner promo-sidebar promo-card-numerology">
+    <a href="https://numerology-dna.vercel.app/?utm_source=blog&utm_medium=sidebar&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-card-link">
+      <div class="promo-card">
+        <div class="promo-card-icon">🔮</div>
+        <h4 class="promo-card-title">生命靈數 DNA</h4>
+        <p class="promo-card-desc">用生日解碼你的天賦特質、大運走勢、號碼磁場</p>
+        <ul class="promo-card-features">
+          <li>✨ 主命數天賦分析</li>
+          <li>📱 手機號碼磁場解讀</li>
+          <li>📅 身分證大運時間軸</li>
+        </ul>
+        <span class="promo-card-btn">免費體驗 →</span>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+  {{ if $showLottery }}
+  <div class="promo-banner promo-sidebar promo-card-lottery">
+    <a href="https://tw-lottery-ai.vercel.app/?utm_source=blog&utm_medium=sidebar&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-card-link">
+      <div class="promo-card">
+        <div class="promo-card-icon">🎰</div>
+        <h4 class="promo-card-title">台灣樂透 AI</h4>
+        <p class="promo-card-desc">28 種 AI 演算法分析歷史開獎，找出數據背後的規律</p>
+        <ul class="promo-card-features">
+          <li>🤖 邏輯回歸・神經網路</li>
+          <li>📊 28,000+ 筆真實數據</li>
+          <li>📈 全方法回測排名</li>
+        </ul>
+        <span class="promo-card-btn">查看分析 →</span>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+
+{{/* ===== IN-ARTICLE (full width CTA) ===== */}}
+{{ else if eq $slot "in-article" }}
+<div class="promo-banner promo-inline">
+  {{ if $showNumerology }}
+  <a href="https://numerology-dna.vercel.app/?utm_source=blog&utm_medium=inline&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-inline-card promo-inline-numerology">
+    <div class="promo-inline-left">
+      <span class="promo-inline-icon">🔮</span>
+    </div>
+    <div class="promo-inline-body">
+      <strong>你的生日藏著什麼秘密？</strong>
+      <p>生命靈數 DNA — 輸入生日即刻解析天賦、運勢與號碼磁場</p>
+    </div>
+    <span class="promo-inline-cta">免費解析 →</span>
+  </a>
+  {{ else }}
+  <a href="https://tw-lottery-ai.vercel.app/?utm_source=blog&utm_medium=inline&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-inline-card promo-inline-lottery">
+    <div class="promo-inline-left">
+      <span class="promo-inline-icon">🎰</span>
+    </div>
+    <div class="promo-inline-body">
+      <strong>AI 能預測樂透嗎？</strong>
+      <p>28 種演算法 × 28,000+ 筆真實數據 — 看看 AI 怎麼分析號碼</p>
+    </div>
+    <span class="promo-inline-cta">看分析結果 →</span>
+  </a>
+  {{ end }}
+</div>
+
+{{/* ===== FOOTER (970×90) ===== */}}
+{{ else if eq $slot "footer" }}
+<div class="promo-banner promo-footer">
+  <a href="https://numerology-dna.vercel.app/?utm_source=blog&utm_medium=footer&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-link promo-link-numerology" id="promo-footer-1">
+    <div class="promo-inner">
+      <span class="promo-icon">🔮</span>
+      <div class="promo-text">
+        <strong>生命靈數 DNA 解析</strong>
+        <span>探索你的天賦密碼 — 生日、手機、身分證全解讀</span>
+      </div>
+      <span class="promo-cta">免費解析 →</span>
+    </div>
+  </a>
+  <a href="https://tw-lottery-ai.vercel.app/?utm_source=blog&utm_medium=footer&utm_campaign=cross-promo" target="_blank" rel="noopener" class="promo-link promo-link-lottery" id="promo-footer-2" style="display:none">
+    <div class="promo-inner">
+      <span class="promo-icon">🎰</span>
+      <div class="promo-text">
+        <strong>台灣樂透 AI 預測分析</strong>
+        <span>28 種 AI 方法 × 真實回測 — 數據驅動的選號策略</span>
+      </div>
+      <span class="promo-cta">立即體驗 →</span>
+    </div>
+  </a>
+</div>
+{{ end }}

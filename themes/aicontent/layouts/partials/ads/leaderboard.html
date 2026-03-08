@@ -1,19 +1,13 @@
 {{ if .Site.Params.ads.enabled }}
-    {{ if .Site.Params.ads.adsenseId }}
-        <div class="container">
-            <ins class="adsbygoogle ad-slot ad-leaderboard"
-                 style="display:block; width:728px; height:90px;"
-                 data-ad-client="{{ .Site.Params.ads.adsenseId }}"
-                 data-ad-slot="leaderboard-slot"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-    {{ else }}
-        <div class="container">
-            <div class="ad-slot ad-leaderboard">
-                📢 廣告位 — 728×90
-            </div>
-        </div>
-    {{ end }}
+  {{ if .Site.Params.ads.adsenseId }}
+    <div class="container">
+      <ins class="adsbygoogle ad-slot ad-leaderboard"
+           style="display:block; width:728px; height:90px;"
+           data-ad-client="{{ .Site.Params.ads.adsenseId }}"
+           data-ad-slot="leaderboard-slot"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  {{ else }}
+    {{ partial "ads/cross-promo.html" (dict "context" . "slot" "leaderboard") }}
+  {{ end }}
 {{ end }}

@@ -1,17 +1,13 @@
 {{ if .Site.Params.ads.enabled }}
-    {{ if .Site.Params.ads.adsenseId }}
-        <div class="ad-slot ad-sidebar">
-            <ins class="adsbygoogle"
-                 style="display:block; width:300px; height:250px;"
-                 data-ad-client="{{ .Site.Params.ads.adsenseId }}"
-                 data-ad-slot="sidebar-slot"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-    {{ else }}
-        <div class="ad-slot ad-sidebar">
-            📢 側邊欄廣告 — 300×250
-        </div>
-    {{ end }}
+  {{ if .Site.Params.ads.adsenseId }}
+    <div class="ad-slot ad-sidebar">
+      <ins class="adsbygoogle"
+           style="display:block; width:300px; height:250px;"
+           data-ad-client="{{ .Site.Params.ads.adsenseId }}"
+           data-ad-slot="sidebar-slot"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  {{ else }}
+    {{ partial "ads/cross-promo.html" (dict "context" . "slot" "sidebar") }}
+  {{ end }}
 {{ end }}
