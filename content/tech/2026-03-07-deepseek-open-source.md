@@ -7,6 +7,11 @@ tags: ["DeepSeek", "開源", "LLM", "大語言模型", "AI競爭"]
 image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800"
 readingTime: 2
 draft: false
+faq:
+  - q: "DeepSeek 是什麼？"
+    a: "DeepSeek 是中國 AI 公司，以開源方式發布多個大型語言模型，包括 DeepSeek-V3 和 DeepSeek-R1，完全免費使用。"
+  - q: "DeepSeek 和 ChatGPT 相比如何？"
+    a: "DeepSeek 最新模型推理能力接近甚至超越 GPT-4，且完全開源。ChatGPT 優勢在產品生態系統和插件支援。"
 ---
 
 2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。

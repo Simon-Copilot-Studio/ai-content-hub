@@ -15,6 +15,11 @@ image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800"
 readingTime: 5
 draft: false
 lang: en
+faq:
+  - q: "Google Discover 2026 年 2 月更新影響了哪些網站？"
+    a: "主要影響新聞類和內容型網站，部分網站 Discover 流量下降 30-50%，符合新品質標準的網站則流量提升。"
+  - q: "如何優化 Google Discover 的文章？"
+    a: "使用高品質大尺寸圖片（至少 1200px 寬）、引人注目的標題、時效性和原創性內容、提升 E-E-A-T 信號。"
 ---
 
 When Google announced its February 2026 Discover Core Update on February 6th, most publishers braced for the familiar turbulence of a broad core algorithm refresh. What they didn't expect was the unprecedented scope: this was Google's **first core update explicitly targeting Google Discover** as a distinct surface — separate from traditional Search rankings — and the 22-day rollout left traffic analytics dashboards swinging by as much as ±40% for major media outlets.

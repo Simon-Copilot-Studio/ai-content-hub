@@ -15,6 +15,11 @@ image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
 readingTime: 5
 draft: false
 lang: en
+faq:
+  - q: "MacBook Neo 售價多少？"
+    a: "MacBook Neo 起售價為 799 美元，是 Apple 有史以來最便宜的 MacBook，搭載 M4 晶片，8GB RAM 和 256GB SSD。"
+  - q: "MacBook Neo 和 MacBook Air 有什麼差別？"
+    a: "MacBook Neo 定位入門市場，售價更低（799 vs 1099 美元），螢幕較小（13.3 吋），記憶體 8GB，適合學生和輕度使用者。"
 ---
 
 For decades, "affordable Mac" was practically an oxymoron. Apple's entry-level laptops rarely dipped below $999, leaving the sub-$800 market firmly in the hands of Chromebook manufacturers and Windows budget OEMs. That changed on March 4, 2026, when Apple announced the **MacBook Neo** — a $799 laptop that Apple is billing as "the most accessible Mac we've ever made."

@@ -7,6 +7,11 @@ tags: ["iPhone SE", "蘋果發表會", "Apple", "2026", "新品"]
 image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800"
 readingTime: 4
 draft: false
+faq:
+  - q: "iPhone SE 4 什麼時候上市？"
+    a: "預計在 2026 年春季 Apple 發表會亮相，最快 3 月底或 4 月初開始預購。"
+  - q: "iPhone SE 4 的價格是多少？"
+    a: "預計起售價 429-499 美元，搭載 A18 Pro 晶片和 OLED 螢幕。"
 ---
 
 2026 年 3 月 5 日凌晨，蘋果在 Apple Park 舉行了年度春季發表會「**Spring Into Apple**」，一口氣推出六款新產品，涵蓋 iPhone、iPad、Mac、配件四大產品線。以下是所有新品的完整整理。

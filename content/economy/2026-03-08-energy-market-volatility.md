@@ -14,6 +14,11 @@ image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800"
 readingTime: 5
 draft: false
 lang: en
+faq:
+  - q: "2026 年能源市場為什麼波動這麼大？"
+    a: "中東地緣政治緊張、OPEC+ 減產政策調整、AI 資料中心電力需求激增、各國加速能源轉型。"
+  - q: "投資者如何應對能源市場波動？"
+    a: "分散投資傳統能源和新能源 ETF、關注地緣政治風險指標、設定停損點、考慮期貨和選擇權避險。"
 ---
 
 ## A Storm Brewing in Global Energy Markets

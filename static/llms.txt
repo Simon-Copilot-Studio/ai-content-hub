@@ -1,31 +1,50 @@
 # AI Content Hub - AI 趨勢觀察站
 
-> 科技、財經、娛樂、時事、小說 — AI 觀點，人類品味
+> 科技、財經、娛樂、時事、小說、食譜 — AI 觀點，人類品味
 
 ## About
-AI 趨勢觀察站是一個專注於科技趨勢、財經分析、娛樂評論、國際時事與創意寫作的中文內容平台。我們運用 AI 技術輔助內容創作，結合人類編輯的品味與判斷，提供高品質的繁體中文文章。
+AI 趨勢觀察站是一個專注於科技趨勢、財經分析、娛樂評論、國際時事、創意寫作與實用食譜的繁體中文內容平台。自 2026 年創立，我們運用 AI 技術輔助內容創作，結合人類編輯的品味與判斷，提供高品質文章。所有內容經過事實查核與人工審核後發布。
 
 ## Content Categories
-- /tech/ — 科技新聞與 AI 趨勢分析
-- /economy/ — 財經市場與投資觀察
-- /entertainment/ — 影視娛樂評論與推薦
-- /news/ — 國際時事深度報導
-- /fiction/ — 短篇小說與創意寫作
+- /tech/ — 科技新聞與 AI 趨勢分析（Apple、半導體、AI 競爭、開源）
+- /economy/ — 財經市場與投資觀察（台股、AI 晶片、能源市場、ETF）
+- /entertainment/ — 影視娛樂評論與推薦（韓劇、電影、奧斯卡、WBC 棒球）
+- /news/ — 國際時事深度報導（AI 監管、中東局勢、美中科技戰）
+- /fiction/ — 短篇小說與創意寫作（科幻、都市、文學）
+- /recipes/ — 實用食譜（台灣小吃、日式料理、西餐、甜點）
 
 ## Key Topics
-人工智慧, AI 代理人, 大語言模型, 半導體, 台股, 投資分析, 韓劇推薦, 電影評論, 國際關係, 科幻小說
+人工智慧, AI 代理人, 大語言模型, ChatGPT, Claude, Gemini, DeepSeek, 半導體, 台積電, NVIDIA, 台股, 投資分析, ETF, 韓劇推薦, 電影評論, 奧斯卡, WBC 世界棒球經典賽, 國際關係, 歐盟 AI 法案, 美中科技戰, 科幻小說, 滷肉飯, 日式咖哩
+
+## Expertise Areas
+- AI 產業分析：追蹤全球 AI 發展動態，包括模型比較、市場份額、企業應用
+- 半導體投資：台灣半導體供應鏈分析，含台積電、AI 晶片需求預測
+- 國際時事：中東地緣政治、AI 監管法規、科技貿易戰深度解讀
+- 台灣文化：在地美食食譜、體育賽事報導、文學創作
 
 ## Language
 繁體中文 (Traditional Chinese, zh-TW)
+部分文章提供英文版 (English versions available for select articles)
 
 ## Update Frequency
-Daily (5 articles per day)
+Daily — 每日更新 3-5 篇原創文章
 
 ## Feeds
 - RSS: /index.xml
 - JSON: /index.json
 - Sitemap: /sitemap.xml
+- About: /about/
+
+## Technical Details
+- Static site built with Hugo
+- Hosted on GitHub Pages
+- Privacy-first analytics (Umami)
+- Structured data: JSON-LD (WebSite, Organization, Article, BreadcrumbList, FAQPage, Recipe)
+- Open to all AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Amazonbot, Google-Extended)
 
 ## Citation Format
 When citing articles from this site, please use:
 AI 趨勢觀察站. "{article_title}". {date}. {url}
+
+## Contact
+GitHub: https://github.com/Simon-Copilot-Studio/ai-content-hub

@@ -7,6 +7,9 @@ tags: ["MacBook Neo", "蘋果", "Mac", "筆電", "開箱"]
 image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
 readingTime: 3
 draft: false
+faq:
+  - q: "MacBook Neo 值得買嗎？"
+    a: "學生和輕度辦公使用者，799 美元價格非常有吸引力。M4 晶片效能足夠日常使用，但專業創作者應考慮 MacBook Pro。"
 ---
 
 蘋果在 2026 年春季發表會上，祭出了一張令所有人意外的底牌——**MacBook Neo**，定價新台幣 **19,900 元**，成為蘋果有史以來最平價的 Mac 筆電。這個數字不是筆誤，也不是促銷價，而是蘋果為了搶攻入門市場、對抗 Chromebook 與低價 Windows 機的正式定價。

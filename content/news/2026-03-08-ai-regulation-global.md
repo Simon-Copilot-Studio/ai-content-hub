@@ -14,6 +14,11 @@ image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800"
 readingTime: 6
 draft: false
 lang: en
+faq:
+  - q: "哪些國家已實施 AI 監管法規？"
+    a: "歐盟 AI Act 已全面生效，美國行業自律加行政命令，中國有生成式 AI 管理辦法，日韓採寬鬆路線。"
+  - q: "AI 監管對一般使用者有什麼影響？"
+    a: "AI 生成內容需標示、高風險 AI 使用受限、個資保護加強、AI 決策需可解釋。"
 ---
 
 ## 2026: The Year AI Governance Gets Real
