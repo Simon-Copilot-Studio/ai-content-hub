@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container section-entertainment">
   <div class="breadcrumb">
-    <a href="/">首頁</a> <span>/</span> <span>🎬 娛樂</span>
+    <a href="/">首頁</a> <span>/</span> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clapperboard" style="margin-right:2px;vertical-align:-2px;"><path d="M20.2 6 3 11l-.9-2.4c-.3-.8.1-1.6.9-1.9l17.2-5c.8-.3 1.6.1 1.9.9l.9 2.4-2.8 1ZM2 11h20v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V11Z"/><path d="m7 7 3 10"/><path d="m12 7 3 10"/><path d="m17 7 3 10"/></svg> 娛樂</span>
   </div>
 
   {{ partial "ads/leaderboard.html" . }}
@@ -9,7 +9,7 @@
   <div class="page-layout">
     <div class="main-content">
       <div class="section-header">
-        <h2>🎬 娛樂</h2>
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clapperboard" style="margin-right:4px;"><path d="M20.2 6 3 11l-.9-2.4c-.3-.8.1-1.6.9-1.9l17.2-5c.8-.3 1.6.1 1.9.9l.9 2.4-2.8 1ZM2 11h20v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V11Z"/><path d="m7 7 3 10"/><path d="m12 7 3 10"/><path d="m17 7 3 10"/></svg> 娛樂</h2>
         <span>共 {{ len .Pages }} 篇</span>
       </div>
       <div class="article-grid">

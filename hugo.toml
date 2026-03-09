@@ -1,4 +1,4 @@
-baseURL = 'https://simon-copilot-studio.github.io/ai-content-hub/'
+baseURL = '/'
 title = 'AI 趨勢觀察站'
 theme = 'aicontent'
 paginate = 12

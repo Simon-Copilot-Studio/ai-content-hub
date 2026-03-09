@@ -10,7 +10,7 @@
     <div class="main-content">
       <article>
         <header style="margin-bottom:2rem">
-          <span class="badge badge-tech">💻 科技</span>
+          <span class="badge badge-tech"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor" style="margin-right:4px;vertical-align:-2px;"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg> 科技</span>
           <h1 style="font-size:2rem;font-weight:800;margin:0.75rem 0">{{ .Title }}</h1>
           {{ with .Description }}<p style="font-size:1.1rem;color:var(--color-text-secondary)">{{ . }}</p>{{ end }}
           <div class="card-meta" style="margin-top:1rem">
@@ -42,7 +42,7 @@
     <aside class="sidebar">
       {{ partial "ads/sidebar.html" . }}
       <div class="sidebar-widget">
-        <h3>💻 最新科技</h3>
+        <h3><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor" style="margin-right:4px;"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg> 最新科技</h3>
         <ul>
           {{ range first 5 (where site.RegularPages "Section" "tech") }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
