@@ -4,7 +4,7 @@ date: 2026-03-07T12:00:00+08:00
 description: "傳統台式滷肉飯完整做法，從選肉、切丁、炒糖色到慢燉入味，掌握三個關鍵步驟就能做出攤販等級的滷肉飯。附營養資訊與保存建議。"
 categories: ["食譜"]
 tags: ["滷肉飯", "台灣料理", "家常菜", "米飯", "豬肉"]
-image: "https://images.unsplash.com/photo-1569058242567-93de6f36f8e6?w=800"
+image: "images/recipes/2026-03-07-taiwanese-braised-pork.jpg"
 readingTime: 3
 draft: false
 prepTime: "20 分鐘"
