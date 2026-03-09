@@ -72,8 +72,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Search Trigger Logic
+  document.querySelectorAll('.search-trigger').forEach(el => {
+    el.addEventListener('click', () => {
+      const url = el.getAttribute('data-search-url');
+      if (url) window.location.href = url;
+    });
+  });
+
   // Close nav on outside click
-  document.addEventListener('click', (e) => {
     const nav = document.querySelector('.nav-links');
     const toggle = document.querySelector('.nav-toggle');
     if (nav && toggle && !nav.contains(e.target) && !toggle.contains(e.target)) {

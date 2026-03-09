@@ -43,8 +43,8 @@
   {{/* Header */}}
   <header class="site-header">
     <div class="container">
-      <a href="/" class="site-logo">
-        <img src="/images/logo.png" alt="{{ .Site.Title }}" style="height:36px;width:auto;border-radius:6px;">
+      <a href="{{ "/" | relURL }}" class="site-logo">
+        <img src="{{ "images/logo.png" | relURL }}" alt="{{ .Site.Title }}" style="height:36px;width:auto;border-radius:6px;">
         {{ .Site.Title }}
       </a>
       <button class="nav-toggle" aria-label="選單" onclick="document.querySelector('.nav-links').classList.toggle('open')">
@@ -58,7 +58,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun sun-icon"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon moon-icon" style="display:none"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
         </button></li>
-        <li><a href="/search/" aria-label="Search" class="icon-cyber">
+        <li><a href="{{ "/search/" | relURL }}" aria-label="Search" class="icon-cyber">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         </a></li>
         {{ if .IsTranslated }}
@@ -106,15 +106,15 @@
         <div class="footer-col">
           <h4>關於</h4>
           <ul>
-            <li><a href="/about/">關於我們</a></li>
-            <li><a href="/privacy/">隱私政策</a></li>
-            <li><a href="/search/">搜尋文章</a></li>
+            <li><a href="{{ "/about/" | relURL }}">關於我們</a></li>
+            <li><a href="{{ "/privacy/" | relURL }}">隱私政策</a></li>
+            <li><a href="{{ "/search/" | relURL }}">搜尋文章</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>訂閱</h4>
           <ul>
-            <li><a href="/index.xml">RSS 訂閱</a></li>
+            <li><a href="{{ "/index.xml" | relURL }}">RSS 訂閱</a></li>
           </ul>
         </div>
         <div class="footer-col">

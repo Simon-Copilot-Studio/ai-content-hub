@@ -2,7 +2,7 @@
 <div class="container">
   <div class="breadcrumb">
     <a href="{{ "/" | relURL }}">首頁</a> <span>/</span>
-    <a href="{{ .Section | relURL }}">{{ .Section }}</a> <span>/</span>
+    <a href="{{ printf "/%s/" .Section | relURL }}">{{ .Section | humanize }}</a> <span>/</span>
     <span>{{ .Title }}</span>
   </div>
 

@@ -5,8 +5,8 @@
     搜尋文章
   </h1>
   <div id="search"></div>
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-  <script src="/pagefind/pagefind-ui.js"></script>
+  <link href="{{ "pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet">
+  <script src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       new PagefindUI({
