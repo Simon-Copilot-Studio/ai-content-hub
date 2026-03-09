@@ -10,7 +10,7 @@ tags:
   - 半導體
   - 晶片戰爭
   - 投資
-image: "https://images.unsplash.com/photo-1591696205602-2f950c4176ee?auto=format&fit=crop&q=80&w=800"
+image: "https://images.unsplash.com/photo-1591696205602-2f950c4176ee?w=1200&h=600&fit=crop"
 readingTime: 6
 lang: zh-TW
 ---

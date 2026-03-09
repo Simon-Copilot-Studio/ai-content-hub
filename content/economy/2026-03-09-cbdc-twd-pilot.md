@@ -10,7 +10,7 @@ tags:
   - 中央銀行
   - 電子支付
   - 金融科技
-image: "https://images.unsplash.com/photo-1621416848440-23690bd1eb53?auto=format&fit=crop&q=80&w=800"
+image: "https://images.unsplash.com/photo-1621416848440-23690bd1eb53?w=1200&h=600&fit=crop"
 readingTime: 6
 lang: zh-TW
 ---
