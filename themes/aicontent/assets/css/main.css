@@ -80,6 +80,7 @@ a:hover { color: var(--color-primary-hover); }
 img { max-width: 100%; height: auto; display: block; content-visibility: auto; }
 img[loading="lazy"] { opacity: 0; transition: opacity 0.3s; }
 img[loading="lazy"].loaded, img[loading="lazy"][complete] { opacity: 1; }
+img[loading="lazy"].loaded, img[loading="lazy"][complete] { opacity: 1; }
 
 /* --- Container --- */
 .container {

@@ -48,3 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+// Lazy load fade-in
+document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
+  if (img.complete) { img.style.opacity = '1'; }
+  else { img.addEventListener('load', function() { this.style.opacity = '1'; }); }
+});
