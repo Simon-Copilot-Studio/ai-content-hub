@@ -9,7 +9,7 @@
   {{ partial "head.html" . }}
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}">
   <link rel="preconnect" href="https://images.unsplash.com">
   <script>
     (function() {

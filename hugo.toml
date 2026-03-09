@@ -1,6 +1,5 @@
 baseURL = 'https://simon-copilot-studio.github.io/ai-content-hub/'
-relativeURLs = true
-canonifyURLs = true
+# relativeURLs and canonifyURLs are removed as they interfere with correct path generation on GitHub Pages
 title = 'AI 趨勢觀察站'
 theme = 'aicontent'
 paginate = 12
