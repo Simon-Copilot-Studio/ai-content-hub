@@ -4,7 +4,7 @@ date: 2026-03-08T03:00:00+08:00
 description: "Learn to make authentic Taiwanese tangyuan with three fillings — black sesame, peanut, and matcha red bean. Perfect for the Lantern Festival."
 categories: ["recipes"]
 tags: ["taiwanese", "tangyuan", "glutinous rice balls", "dessert", "lantern festival", "sesame", "matcha"]
-image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800"
+image: "/images/recipes/2026-03-08-tangyuan-en.jpg"
 lang: en
 readingTime: 5
 draft: false

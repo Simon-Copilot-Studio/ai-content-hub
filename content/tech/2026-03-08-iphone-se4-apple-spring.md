@@ -4,7 +4,7 @@ date: 2026-03-08T00:00:00+08:00
 description: "蘋果 2026 年春季發表會正式登場，iPhone SE 4、iPad Air M3、MacBook Neo、AirTag 2 等六大新品全面亮相。本文整理台灣正式售價、上市日期與各產品核心亮點，讓你一篇掌握所有重點。"
 categories: ["tech"]
 tags: ["iPhone SE", "蘋果發表會", "Apple", "2026", "新品"]
-image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800"
+image: "/images/tech/2026-03-08-iphone-se4-apple-spring.jpg"
 readingTime: 4
 draft: false
 faq:

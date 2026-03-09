@@ -4,7 +4,7 @@ date: 2026-03-08T02:00:00+08:00
 description: "Master authentic Taiwanese braised pork belly rice (Lu Rou Fan) — Taiwan's most beloved street food with crispy shallots and melt-in-your-mouth pork."
 categories: ["recipes"]
 tags: ["taiwanese", "pork", "rice", "braised", "comfort food", "street food"]
-image: "https://images.unsplash.com/photo-1569058242567-93de6f36f8e6?w=800"
+image: "/images/recipes/2026-03-08-taiwanese-braised-pork-en.jpg"
 lang: en
 readingTime: 3
 draft: false

@@ -11,7 +11,7 @@ tags:
   - Discover
   - algorithm
   - publishers
-image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800"
+image: "/images/tech/2026-03-08-google-discover-update.jpg"
 readingTime: 5
 draft: false
 lang: en

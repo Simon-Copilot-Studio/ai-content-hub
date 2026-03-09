@@ -11,7 +11,7 @@ tags:
   - laptop
   - budget
   - A18 Pro
-image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+image: "/images/tech/2026-03-08-apple-macbook-neo.jpg"
 readingTime: 5
 draft: false
 lang: en

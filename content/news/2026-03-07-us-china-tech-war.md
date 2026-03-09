@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "分析美國對中國晶片出口管制加嚨政策，探討台灣半導體產業在這場科技戰中的關鍵角色與面臨的地緣政治風險。"
 categories: ["國際"]
 tags: ["美中關係", "晶片禁令", "台灣", "地緣政治", "半導體"]
-image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=800"
+image: "/images/news/2026-03-07-us-china-tech-war.jpg"
 readingTime: 2
 draft: false
 faq:

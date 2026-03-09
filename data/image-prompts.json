@@ -329,7 +329,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-japanese-curry-rice-en.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/2026-03-08-japanese-curry-rice-en.jpg",
+    "last_updated": "2026-03-09T12:53:38"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-korean-fried-chicken.md",
@@ -391,7 +393,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-taiwanese-braised-pork-en.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/2026-03-08-taiwanese-braised-pork-en.jpg",
+    "last_updated": "2026-03-09T12:54:35"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-tangyuan-en.md",
@@ -405,7 +409,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-tangyuan-en.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/2026-03-08-tangyuan-en.jpg",
+    "last_updated": "2026-03-09T12:55:29"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/tech/2026-03-08-apple-macbook-neo.md",
@@ -419,7 +425,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-apple-macbook-neo.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-apple-macbook-neo.jpg",
+    "last_updated": "2026-03-09T13:11:34"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/tech/2026-03-08-chatgpt-market-share.md",
@@ -433,7 +441,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-chatgpt-market-share.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-chatgpt-market-share.jpg",
+    "last_updated": "2026-03-09T13:12:44"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/tech/2026-03-08-google-discover-update.md",
@@ -447,7 +457,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-google-discover-update.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-google-discover-update.jpg",
+    "last_updated": "2026-03-09T13:16:12"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/entertainment/2026-03-07-2026-korean-drama.md",
@@ -571,7 +583,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/fiction/2026-03-08-baseball-dream.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/fiction/2026-03-08-baseball-dream.jpg",
+    "last_updated": "2026-03-09T12:58:01"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/fiction/sample.md",
@@ -599,7 +613,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/news/2026-03-07-eu-ai-regulation.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/news/2026-03-07-eu-ai-regulation.jpg",
+    "last_updated": "2026-03-09T13:06:49"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/news/2026-03-07-us-china-tech-war.md",
@@ -613,7 +629,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/news/2026-03-07-us-china-tech-war.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/news/2026-03-07-us-china-tech-war.jpg",
+    "last_updated": "2026-03-09T13:08:00"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/news/2026-03-08-ai-regulation-global.md",
@@ -643,7 +661,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/news/2026-03-08-middle-east-iran-crisis.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/news/2026-03-08-middle-east-iran-crisis.jpg",
+    "last_updated": "2026-03-09T13:09:26"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/news/2026-03-08-taiwan-digital-nomad-visa.md",
@@ -657,7 +677,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/news/2026-03-08-taiwan-digital-nomad-visa.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/news/2026-03-08-taiwan-digital-nomad-visa.jpg",
+    "last_updated": "2026-03-09T13:10:28"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/news/sample.md",
@@ -1007,7 +1029,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-07-ai-agent-enterprise.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-07-ai-agent-enterprise.jpg",
+    "last_updated": "2026-03-09T13:22:52"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-07-deepseek-open-source.md",
@@ -1021,7 +1045,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-07-deepseek-open-source.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-07-deepseek-open-source.jpg",
+    "last_updated": "2026-03-09T13:30:58"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-08-apple-macbook-neo.md",
@@ -1035,7 +1061,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-apple-macbook-neo.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-apple-macbook-neo.jpg",
+    "last_updated": "2026-03-09T13:11:34"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-08-chatgpt-market-share.md",
@@ -1049,7 +1077,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-chatgpt-market-share.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-chatgpt-market-share.jpg",
+    "last_updated": "2026-03-09T13:12:44"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-08-claude-code-developer-tools.md",
@@ -1063,7 +1093,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-claude-code-developer-tools.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-claude-code-developer-tools.jpg",
+    "last_updated": "2026-03-09T13:41:33"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-08-google-discover-update.md",
@@ -1077,7 +1109,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-google-discover-update.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-google-discover-update.jpg",
+    "last_updated": "2026-03-09T13:16:12"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-08-iphone-se4-apple-spring.md",
@@ -1091,7 +1125,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-iphone-se4-apple-spring.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-iphone-se4-apple-spring.jpg",
+    "last_updated": "2026-03-09T13:42:36"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-08-macbook-neo-review.md",
@@ -1105,7 +1141,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/tech/2026-03-08-macbook-neo-review.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/tech/2026-03-08-macbook-neo-review.jpg",
+    "last_updated": "2026-03-09T13:43:40"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/sample.md",

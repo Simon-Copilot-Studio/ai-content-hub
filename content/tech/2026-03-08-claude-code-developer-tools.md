@@ -10,7 +10,7 @@ tags:
   - Claude
   - GitHub Copilot
   - 開發工具
-image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800"
+image: "/images/tech/2026-03-08-claude-code-developer-tools.jpg"
 readingTime: 5
 lang: zh-TW
 faq:
