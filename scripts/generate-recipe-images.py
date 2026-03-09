@@ -33,6 +33,7 @@ CONTENT_DIRS = [
 ]
 IMAGE_BASE = PROJECT_ROOT / "static" / "images" / "recipes"
 SITE_IMAGE_PREFIX = "/images/recipes"
+KEYS_FILE = Path.home() / ".openclaw" / "workspace" / "config" / "gemini-keys.json"
 
 # Models to try in order (free tier rotation)
 MODELS = [
@@ -45,6 +46,61 @@ MODELS = [
 RATE_LIMIT_DELAY = 12  # seconds between requests (free tier: ~5 RPM)
 MAX_RETRIES = 3
 RETRY_DELAY = 30  # seconds after 429
+
+
+def load_api_keys():
+    """Load API keys from keys file + env var. Returns list of keys."""
+    keys = []
+    # From env
+    env_key = os.environ.get("GEMINI_API_KEY", "")
+    if env_key:
+        keys.append(env_key)
+    # From keys file
+    if KEYS_FILE.exists():
+        try:
+            with open(KEYS_FILE) as f:
+                data = json.load(f)
+            for k in data.get("keys", []):
+                if k and k not in keys:
+                    keys.append(k)
+        except Exception:
+            pass
+    return keys
+
+
+class KeyRotator:
+    """Rotate through multiple API keys, skipping exhausted ones."""
+
+    def __init__(self, keys):
+        self.keys = keys
+        self.exhausted = set()  # indices of exhausted keys
+        self.current = 0
+
+    def get_key(self):
+        """Get next available key, or None if all exhausted."""
+        if len(self.exhausted) >= len(self.keys):
+            return None
+        attempts = 0
+        while attempts < len(self.keys):
+            if self.current not in self.exhausted:
+                return self.keys[self.current]
+            self.current = (self.current + 1) % len(self.keys)
+            attempts += 1
+        return None
+
+    def mark_exhausted(self):
+        """Mark current key as exhausted (daily limit hit)."""
+        print(f"  🔑 Key #{self.current + 1} exhausted, rotating...")
+        self.exhausted.add(self.current)
+        self.current = (self.current + 1) % len(self.keys)
+
+    def advance(self):
+        """Move to next key (for per-minute limits)."""
+        self.current = (self.current + 1) % len(self.keys)
+
+    @property
+    def available(self):
+        return len(self.keys) - len(self.exhausted)
 
 # === Image Generation Plan ===
 # Each recipe gets up to 5 images:
@@ -262,10 +318,20 @@ def generate_prompts(info, slug):
     return prompts
 
 
-def generate_image(prompt, output_path, api_key, model_index=0):
-    """Generate an image using Gemini API. Returns True on success."""
+def generate_image(prompt, output_path, key_rotator, model_index=0):
+    """Generate an image using Gemini API with key rotation. Returns True on success."""
     if model_index >= len(MODELS):
-        print(f"  ❌ All models exhausted")
+        # All models tried with current key, try next key
+        key_rotator.mark_exhausted()
+        if key_rotator.available > 0:
+            print(f"  🔄 Trying next API key ({key_rotator.available} remaining)...")
+            return generate_image(prompt, output_path, key_rotator, model_index=0)
+        print(f"  ❌ All keys and models exhausted")
+        return False
+
+    api_key = key_rotator.get_key()
+    if not api_key:
+        print(f"  ❌ No available API keys")
         return False
 
     model = MODELS[model_index]
@@ -297,22 +363,41 @@ def generate_image(prompt, output_path, api_key, model_index=0):
                     with open(output_path, "wb") as f:
                         f.write(img_data)
                     size_kb = len(img_data) / 1024
-                    print(f"  ✅ Saved {output_path.name} ({size_kb:.0f} KB) via {model}")
+                    key_num = key_rotator.current + 1
+                    print(f"  ✅ Saved {output_path.name} ({size_kb:.0f} KB) via {model} [key#{key_num}]")
                     return True
 
             print(f"  ⚠️ No image in response from {model}")
             return False
 
         except urllib.error.HTTPError as e:
-            error_body = e.read().decode()[:300]
+            error_body = e.read().decode()[:500]
             if e.code == 429:
+                is_daily = "PerDay" in error_body or "per_day" in error_body.lower()
+                if is_daily:
+                    # Daily limit - try next key first, then next model
+                    print(f"  🔑 Daily limit hit on key#{key_rotator.current + 1}/{model}")
+                    key_rotator.mark_exhausted()
+                    if key_rotator.available > 0:
+                        return generate_image(prompt, output_path, key_rotator, model_index=0)
+                    else:
+                        # All keys exhausted, try next model with reset keys
+                        print(f"  🔄 All keys exhausted for {model}, trying next model...")
+                        return generate_image(prompt, output_path, key_rotator, model_index + 1)
+
+                # Per-minute limit - wait and retry
                 if attempt < MAX_RETRIES - 1:
-                    print(f"  ⏳ Rate limited ({model}), waiting {RETRY_DELAY}s... (attempt {attempt + 1}/{MAX_RETRIES})")
+                    key_rotator.advance()  # Try different key while waiting
+                    print(f"  ⏳ Per-minute limit, rotating key & waiting {RETRY_DELAY}s... (attempt {attempt + 1})")
                     time.sleep(RETRY_DELAY)
+                    # Rebuild request with new key
+                    new_key = key_rotator.get_key()
+                    if new_key:
+                        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={new_key}"
+                        req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
                 else:
-                    # Try next model
-                    print(f"  🔄 {model} rate limited, trying next model...")
-                    return generate_image(prompt, output_path, api_key, model_index + 1)
+                    print(f"  🔄 {model} rate limited after retries, trying next model...")
+                    return generate_image(prompt, output_path, key_rotator, model_index + 1)
             else:
                 print(f"  ❌ HTTP {e.code} from {model}: {error_body[:100]}")
                 return False
@@ -421,7 +506,7 @@ def get_slug(filepath):
     return slug
 
 
-def process_recipe(filepath, api_key, dry_run=False, skip_existing=False):
+def process_recipe(filepath, key_rotator, dry_run=False, skip_existing=False):
     """Process a single recipe file: generate images and insert into article."""
     slug = get_slug(filepath)
     img_dir = IMAGE_BASE / slug
@@ -468,7 +553,11 @@ def process_recipe(filepath, api_key, dry_run=False, skip_existing=False):
             generated.append(p)
             continue
 
-        success = generate_image(p['prompt'], output_path, api_key)
+        if key_rotator.available == 0:
+            print(f"  🛑 All API keys exhausted, stopping this recipe")
+            break
+
+        success = generate_image(p['prompt'], output_path, key_rotator)
         if success:
             generated.append(p)
             time.sleep(RATE_LIMIT_DELAY)
@@ -493,10 +582,11 @@ def main():
     parser.add_argument('--lang', choices=['all', 'en', 'zh'], default='all', help="Filter by language")
     args = parser.parse_args()
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key and not args.dry_run:
-        print("❌ GEMINI_API_KEY not set")
+    api_keys = load_api_keys()
+    if not api_keys and not args.dry_run:
+        print("❌ No API keys found (set GEMINI_API_KEY or add to config/gemini-keys.json)")
         sys.exit(1)
+    key_rotator = KeyRotator(api_keys) if api_keys else None
 
     # Collect recipe files
     files = []
@@ -526,6 +616,8 @@ def main():
     print(f"   Found {len(files)} recipe files")
     print(f"   Mode: {'DRY RUN' if args.dry_run else 'GENERATE'}")
     print(f"   Max per run: {args.max_per_run or 'unlimited'}")
+    if key_rotator:
+        print(f"   API keys: {len(api_keys)} loaded")
     if args.skip_existing:
         print(f"   Skipping existing: YES")
 
@@ -535,7 +627,11 @@ def main():
             print(f"\n⚡ Reached max {args.max_per_run} images, stopping.")
             break
 
-        count = process_recipe(filepath, api_key, args.dry_run, args.skip_existing)
+        if key_rotator and key_rotator.available == 0:
+            print(f"\n🛑 All API keys exhausted. Generated {total_generated} images before stopping.")
+            break
+
+        count = process_recipe(filepath, key_rotator, args.dry_run, args.skip_existing)
         total_generated += count
 
     print(f"\n{'='*60}")
