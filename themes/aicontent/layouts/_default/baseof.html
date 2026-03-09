@@ -43,7 +43,7 @@
   {{/* Header */}}
   <header class="site-header">
     <div class="container">
-      <a href="{{ "/" | relURL }}" class="site-logo">
+      <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
         <img src="{{ "images/logo.png" | relURL }}" alt="{{ .Site.Title }}" style="height:36px;width:auto;border-radius:6px;">
         {{ .Site.Title }}
       </a>

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container section-recipes">
   <div class="breadcrumb">
-    <a href="{{ "/" | relURL }}">首頁</a> <span>/</span> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat" style="margin-right:2px;vertical-align:-2px;"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589v-.11a4 4 0 1 0-8 0v.11a4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/><path d="M6 17h12"/></svg> 食譜</span>
+    <a href="{{ .Site.Home.RelPermalink }}">首頁</a> <span>/</span> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat" style="margin-right:2px;vertical-align:-2px;"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589v-.11a4 4 0 1 0-8 0v.11a4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/><path d="M6 17h12"/></svg> 食譜</span>
   </div>
 
   {{ partial "ads/leaderboard.html" . }}
