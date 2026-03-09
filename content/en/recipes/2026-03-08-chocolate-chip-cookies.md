@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["cookies", "chocolate", "baking", "dessert", "classic", "chocolate chip"]
 lang: en
 readingTime: 4
-image: "/images/recipes/2026-03-08-chocolate-chip-cookies.jpg"
+image: "images/recipes/2026-03-08-chocolate-chip-cookies.jpg"
 draft: false
 recipe:
   prepTime: "15M"

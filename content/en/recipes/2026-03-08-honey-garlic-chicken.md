@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["chicken", "honey garlic", "easy", "weeknight dinner", "one-pan", "30 minutes"]
 lang: en
 readingTime: 4
-image: "/images/recipes/honey-garlic-chicken.jpg"
+image: "images/recipes/honey-garlic-chicken.jpg"
 draft: false
 recipe:
   prepTime: "10M"

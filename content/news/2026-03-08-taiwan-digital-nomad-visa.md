@@ -11,7 +11,7 @@ tags:
   - 簽證
   - 遠端工作
   - 國際
-image: "/images/news/2026-03-08-taiwan-digital-nomad-visa.jpg"
+image: "images/news/2026-03-08-taiwan-digital-nomad-visa.jpg"
 readingTime: 5
 lang: zh-TW
 faq:

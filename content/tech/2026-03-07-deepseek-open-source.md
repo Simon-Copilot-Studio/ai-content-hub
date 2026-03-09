@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "DeepSeek R1 開源模型讓更多企業不需依賴 OpenAI，開源 vs 閉源 AI 的競爭正在重塑全球 AI 產業生態系統，降低企業 AI 部署門檻。"
 categories: ["科技"]
 tags: ["DeepSeek", "開源", "LLM", "大語言模型", "AI競爭"]
-image: "/images/tech/2026-03-07-deepseek-open-source.jpg"
+image: "images/tech/2026-03-07-deepseek-open-source.jpg"
 readingTime: 2
 draft: false
 faq:

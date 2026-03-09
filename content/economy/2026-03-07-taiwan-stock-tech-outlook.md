@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "台灣 AI 供應鏈、電子五哥、IC 設計股在 2026 年面臨重新評價，投資者需理性看待 AI 概念股熱潮，注重企業實質營運績效與技術實力。"
 categories: ["經濟"]
 tags: ["台股", "科技股", "AI概念股", "投資分析", "台灣"]
-image: "/images/economy/2026-03-07-taiwan-stock-tech-outlook.jpg"
+image: "images/economy/2026-03-07-taiwan-stock-tech-outlook.jpg"
 readingTime: 2
 draft: false
 faq:

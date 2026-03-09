@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["seafood", "salmon", "grilled", "lemon", "herbs", "healthy", "dinner", "low-carb"]
 lang: en
 readingTime: 5
-image: "/images/recipes/2026-03-08-grilled-salmon.jpg"
+image: "images/recipes/2026-03-08-grilled-salmon.jpg"
 draft: false
 recipe:
   prepTime: "15M"

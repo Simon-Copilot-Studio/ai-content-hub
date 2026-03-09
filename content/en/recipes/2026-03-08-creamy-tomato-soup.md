@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["soup", "tomato", "creamy", "comfort food", "vegetarian", "easy"]
 lang: en
 readingTime: 5
-image: "/images/recipes/2026-03-08-creamy-tomato-soup.jpg"
+image: "images/recipes/2026-03-08-creamy-tomato-soup.jpg"
 draft: false
 recipe:
   prepTime: "15M"

@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "都市愛情短篇，在台北的暴雨天，一對在捷運站相遇的陌生人各自回憶起過去的戀情，在雨水中找到心靈的共鳴。"
 categories: ["文學"]
 tags: ["愛情", "短篇小說", "台北", "都市", "文學"]
-image: "/images/fiction/2026-03-07-taipei-rain.jpg"
+image: "images/fiction/2026-03-07-taipei-rain.jpg"
 readingTime: 2
 draft: false
 ---

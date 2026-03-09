@@ -4,7 +4,7 @@ date: 2026-03-08T00:00:00+08:00
 description: "以 2026 WBC 世界棒球經典賽為靈感的短篇小說。一位退役捕手阿成，在電視前守著中華隊對日本的比賽，回憶起二十年前那個差一步就能站上國際舞台的夜晚——關於夢想、遺憾與和解的故事。"
 categories: ["fiction"]
 tags: ["棒球", "短篇小說", "WBC", "夢想", "台灣"]
-image: "/images/fiction/2026-03-08-baseball-dream.jpg"
+image: "images/fiction/2026-03-08-baseball-dream.jpg"
 readingTime: 3
 draft: false
 ---

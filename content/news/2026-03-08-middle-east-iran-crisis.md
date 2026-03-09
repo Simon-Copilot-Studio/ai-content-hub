@@ -4,7 +4,7 @@ date: 2026-03-08T00:00:00+08:00
 description: "2026年3月初，美以聯手對伊朗核設施發動精準空襲，布蘭特原油單日暴漲逾12%。本文從石油供給衝擊、全球供應鏈風險、到台灣能源政策，多角度分析這場地緣政治危機的深遠影響。"
 categories: ["news"]
 tags: ["中東", "伊朗", "能源", "地緣政治", "石油"]
-image: "/images/news/2026-03-08-middle-east-iran-crisis.jpg"
+image: "images/news/2026-03-08-middle-east-iran-crisis.jpg"
 readingTime: 4
 draft: false
 faq:

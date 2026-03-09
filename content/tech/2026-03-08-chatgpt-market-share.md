@@ -11,7 +11,7 @@ tags:
   - Gemini
   - Claude
   - market share
-image: "/images/tech/2026-03-08-chatgpt-market-share.jpg"
+image: "images/tech/2026-03-08-chatgpt-market-share.jpg"
 readingTime: 5
 draft: false
 lang: en

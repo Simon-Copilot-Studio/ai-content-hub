@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["breakfast", "french toast", "eggs", "cinnamon", "vanilla", "easy", "comfort food", "weekend brunch"]
 lang: en
 readingTime: 4
-image: "/images/recipes/2026-03-08-french-toast.jpg"
+image: "images/recipes/2026-03-08-french-toast.jpg"
 draft: false
 recipe:
   prepTime: "10M"

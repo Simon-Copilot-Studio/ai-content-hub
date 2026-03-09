@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["risotto", "mushrooms", "italian", "creamy", "comfort food", "vegetarian", "dinner party", "arborio rice"]
 lang: en
 readingTime: 5
-image: "/images/recipes/mushroom-risotto.jpg"
+image: "images/recipes/mushroom-risotto.jpg"
 draft: false
 recipe:
   prepTime: "15M"

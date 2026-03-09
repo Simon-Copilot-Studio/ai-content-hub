@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "資策會 2026 十大 AI 關鍵技術中，AI 輔助開發與世界模型技術正在重塑企業自動化生態系統，AI 編排調度成為企業數位轉型的核心引擎。"
 categories: ["科技"]
 tags: ["AI", "人工智慧", "企業應用", "AI代理人", "自動化"]
-image: "/images/tech/2026-03-07-ai-agent-enterprise.jpg"
+image: "images/tech/2026-03-07-ai-agent-enterprise.jpg"
 readingTime: 2
 draft: false
 faq:

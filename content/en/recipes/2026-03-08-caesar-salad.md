@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["salad", "caesar", "homemade dressing", "healthy", "easy", "lunch"]
 lang: en
 readingTime: 3
-image: "/images/recipes/2026-03-08-caesar-salad.jpg"
+image: "images/recipes/2026-03-08-caesar-salad.jpg"
 draft: false
 recipe:
   prepTime: "15M"

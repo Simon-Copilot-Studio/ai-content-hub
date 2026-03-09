@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "歐盟AI法案正式生效，分析對企業合規要求、高風險AI分類、罰則機制，以及對台灣科技業的啟示與挑戰。"
 categories: ["科技"]
 tags: ["歐盟", "AI監管", "法規", "科技政策", "合規"]
-image: "/images/news/2026-03-07-eu-ai-regulation.jpg"
+image: "images/news/2026-03-07-eu-ai-regulation.jpg"
 readingTime: 2
 draft: false
 faq:

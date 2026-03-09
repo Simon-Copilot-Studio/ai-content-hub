@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "近未來科幻短篇，在AI能寫出完美代碼的時代，最後一位堅持手寫程式的工程師面臲存在意義的挑戰與自我實現的探索。"
 categories: ["文學"]
 tags: ["科幻", "短篇小說", "AI", "程式設計", "未來"]
-image: "/images/fiction/2026-03-07-last-human-programmer.jpg"
+image: "images/fiction/2026-03-07-last-human-programmer.jpg"
 readingTime: 2
 draft: false
 ---

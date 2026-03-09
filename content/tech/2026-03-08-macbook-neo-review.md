@@ -4,7 +4,7 @@ date: 2026-03-08T00:00:00+08:00
 description: "MacBook Neo 搭載 A18 Pro 晶片，13吋 Liquid Retina 螢幕，24小時超長續航，售價不到新台幣 2 萬元。本文完整分析規格亮點、與 MacBook Air M4 的差異，以及它究竟適合哪些人購買，幫你做出最聰明的選擇。"
 categories: ["tech"]
 tags: ["MacBook Neo", "蘋果", "Mac", "筆電", "開箱"]
-image: "/images/tech/2026-03-08-macbook-neo-review.jpg"
+image: "images/tech/2026-03-08-macbook-neo-review.jpg"
 readingTime: 3
 draft: false
 faq:

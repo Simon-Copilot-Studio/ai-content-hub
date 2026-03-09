@@ -10,7 +10,7 @@ tags:
   - geopolitics
   - inflation
   - markets
-image: "/images/economy/2026-03-08-energy-market-volatility.jpg"
+image: "images/economy/2026-03-08-energy-market-volatility.jpg"
 readingTime: 5
 draft: false
 lang: en

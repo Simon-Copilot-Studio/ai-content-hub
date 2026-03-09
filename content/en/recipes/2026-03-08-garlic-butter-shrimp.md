@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["shrimp", "garlic", "butter", "quick", "seafood", "15 minutes", "easy", "weeknight"]
 lang: en
 readingTime: 3
-image: "/images/recipes/2026-03-08-garlic-butter-shrimp.jpg"
+image: "images/recipes/2026-03-08-garlic-butter-shrimp.jpg"
 draft: false
 recipe:
   prepTime: "5M"
