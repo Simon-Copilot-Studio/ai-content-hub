@@ -15,7 +15,7 @@
       <div class="article-grid">
         {{ range .Paginator.Pages }}
         <article class="card">
-          {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+          {{ with .Params.image }}<img class="card-image" src="{{ . | relURL }}" alt="{{ $.Title }}">{{ end }}
           <div class="card-body">
             <span class="badge badge-{{ .Section }}">{{ .Section }}</span>
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

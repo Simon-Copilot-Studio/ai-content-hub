@@ -15,7 +15,7 @@
       <div class="article-grid">
         {{ range .Paginator.Pages }}
         <article class="card" style="border-top:3px solid var(--color-recipes)">
-          {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">{{ end }}
+          {{ with .Params.image }}<img class="card-image" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">{{ end }}
           <div class="card-body">
             <span class="badge badge-recipes">食譜</span>
             {{ with .Params.difficulty }}<span class="badge" style="background:#f0fdf4;color:#16a34a">{{ . }}</span>{{ end }}

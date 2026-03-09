@@ -32,7 +32,7 @@
           <div class="article-grid">
             {{ range first 3 $pages }}
             <article class="card">
-              {{ with .Params.image }}<img class="card-image" src="{{ . }}" alt="{{ $.Title }} - {{ $.Description | default $.Summary | truncate 80 }}" loading="lazy">{{ end }}
+              {{ with .Params.image }}<img class="card-image" src="{{ . | relURL }}" alt="{{ $.Title }} - {{ $.Description | default $.Summary | truncate 80 }}" loading="lazy">{{ end }}
               <div class="card-body">
                 <span class="badge badge-{{ $.Section }}">{{ index $labels $.Section }}</span>
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -68,7 +68,7 @@
           {{ range first 5 $recipes }}
           <li>
             <a href="{{ .RelPermalink }}" class="recipe-sidebar-link">
-              {{ with .Params.image }}<img src="{{ . }}?w=60&h=60&fit=crop" alt="{{ $.Title }}" loading="lazy" class="recipe-thumb">{{ end }}
+              {{ with .Params.image }}<img src="{{ . | relURL }}?w=60&h=60&fit=crop" alt="{{ $.Title }}" loading="lazy" class="recipe-thumb">{{ end }}
               <span>{{ .Title }}</span>
             </a>
           </li>

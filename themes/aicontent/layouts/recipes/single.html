@@ -25,7 +25,7 @@
         </header>
 
         {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" style="border-radius:var(--radius);margin-bottom:2rem;width:100%">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" style="border-radius:var(--radius);margin-bottom:2rem;width:100%">
         {{ end }}
 
         {{ partial "ads/in-article.html" . }}
