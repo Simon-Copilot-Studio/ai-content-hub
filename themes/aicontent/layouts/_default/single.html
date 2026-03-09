@@ -23,7 +23,7 @@
         </header>
 
         {{ with .Params.image }}
-        <img src="{{ . | relURL }}" alt="{{ $.Title }} - {{ $.Description | default "" | truncate 100 }}" loading="lazy" style="border-radius:var(--radius);margin-bottom:2rem;width:100%">
+        <img src="{{ if (urls.Parse .).IsAbs }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }} - {{ $.Description | default "" | truncate 100 }}" loading="lazy" style="border-radius:var(--radius);margin-bottom:2rem;width:100%">
         {{ end }}
 
         {{ partial "ads/in-article.html" . }}
@@ -69,7 +69,7 @@
           {{ range first 6 $recipes }}
           <li>
             <a href="{{ .RelPermalink }}" class="recipe-sidebar-link">
-              {{ with .Params.image }}<img src="{{ . | relURL }}?w=60&h=60&fit=crop" alt="{{ $.Title }}" loading="lazy" class="recipe-thumb">{{ end }}
+              {{ with .Params.image }}<img src="{{ if (urls.Parse .).IsAbs }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}?w=60&h=60&fit=crop" alt="{{ $.Title }}" loading="lazy" class="recipe-thumb">{{ end }}
               <span>{{ .Title }}</span>
             </a>
           </li>
