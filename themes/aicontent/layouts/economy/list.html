@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container section-economy">
   <div class="breadcrumb">
-    <a href="/">首頁</a> <span>/</span> <span>📈 財經</span>
+    <a href="{{ .Site.Home.RelPermalink }}">首頁</a> <span>/</span> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up" style="margin-right:2px;vertical-align:-2px;"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 財經</span>
   </div>
 
   {{ partial "ads/leaderboard.html" . }}
@@ -9,13 +9,13 @@
   <div class="page-layout">
     <div class="main-content">
       <div class="section-header">
-        <h2>📈 財經</h2>
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up" style="margin-right:4px;"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 財經</h2>
         <span>共 {{ len .Pages }} 篇</span>
       </div>
       <div class="article-grid">
         {{ range .Paginator.Pages }}
         <article class="card" style="border-top:3px solid var(--color-economy)">
-          {{ with .Params.image }}<img class="card-image" src="{{ . | relURL }}" alt="{{ $.Title }}">{{ end }}
+          {{ with .Params.image }}<img class="card-image" src="{{ if (urls.Parse .).IsAbs }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}">{{ end }}
           <div class="card-body">
             <span class="badge badge-economy">財經</span>
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

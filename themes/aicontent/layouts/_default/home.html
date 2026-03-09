@@ -5,7 +5,7 @@
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.description }}</p>
     <div class="search-box">
-      <input type="text" placeholder="搜尋文章..." onclick="window.location='/search/'" readonly>
+      <input type="text" placeholder="搜尋文章..." data-search-url="{{ "/search/" | relURL }}" class="search-trigger" readonly>
     </div>
   </div>
 </section>
@@ -19,20 +19,30 @@
       {{/* 5 Section Grids */}}
       {{ $sections := slice "tech" "economy" "entertainment" "news" "fiction" "recipes" }}
       {{ $labels := dict "tech" "科技" "economy" "財經" "entertainment" "娛樂" "news" "時事" "fiction" "小說" "recipes" "食譜" }}
-      {{ $icons := dict "tech" "💻" "economy" "📈" "entertainment" "🎬" "news" "📰" "fiction" "📖" "recipes" "🍳" }}
+      {{ $icons := dict "tech" "monitor" "economy" "trending-up" "entertainment" "clapperboard" "news" "newspaper" "fiction" "book-open" "recipes" "chef-hat" }}
 
       {{ range $sections }}
         {{ $pages := where site.RegularPages "Section" . }}
         {{ if $pages }}
         <section class="section-{{ . }}" style="margin-bottom: 3rem;">
           <div class="section-header">
-            <h2>{{ index $icons . }} {{ index $labels . }}</h2>
-            <a href="/{{ . }}/">查看全部 →</a>
+            <h2>
+              {{ $iconName := index $icons . }}
+              {{ if eq $iconName "monitor" }}<span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg></span>
+              {{ else if eq $iconName "trending-up" }}<span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span>
+              {{ else if eq $iconName "clapperboard" }}<span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clapperboard"><path d="M20.2 6 3 11l-.9-2.4c-.3-.8.1-1.6.9-1.9l17.2-5c.8-.3 1.6.1 1.9.9l.9 2.4-2.8 1ZM2 11h20v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V11Z"/><path d="m7 7 3 10"/><path d="m12 7 3 10"/><path d="m17 7 3 10"/></svg></span>
+              {{ else if eq $iconName "newspaper" }}<span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-newspaper"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg></span>
+              {{ else if eq $iconName "book-open" }}<span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
+              {{ else if eq $iconName "chef-hat" }}<span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589v-.11a4 4 0 1 0-8 0v.11a4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/><path d="M6 17h12"/></svg></span>
+              {{ end }}
+              {{ index $labels . }}
+            </h2>
+            <a href="{{ printf "/%s/" . | relURL }}">查看全部 →</a>
           </div>
           <div class="article-grid">
             {{ range first 3 $pages }}
             <article class="card">
-              {{ with .Params.image }}<img class="card-image" src="{{ . | relURL }}" alt="{{ $.Title }} - {{ $.Description | default $.Summary | truncate 80 }}" loading="lazy">{{ end }}
+              {{ with .Params.image }}<img class="card-image" src="{{ if (urls.Parse .).IsAbs }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }} - {{ $.Description | default $.Summary | truncate 80 }}" loading="lazy">{{ end }}
               <div class="card-body">
                 <span class="badge badge-{{ $.Section }}">{{ index $labels $.Section }}</span>
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -54,7 +64,7 @@
     <aside class="sidebar">
       {{ partial "ads/sidebar.html" . }}
       <div class="sidebar-widget">
-        <h3>🔥 最新文章</h3>
+        <h3><span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame" style="margin-right:0.5rem;color:#ef4444;"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.285 1.1-3.185.733-.915 2.656-1.551 2.4-3.315.114 1.17 1 2.25 1 3.5Z"/></svg></span> 最新文章</h3>
         <ul>
           {{ range first 8 site.RegularPages }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
@@ -62,22 +72,22 @@
         </ul>
       </div>
       <div class="sidebar-widget sidebar-recipes">
-        <h3>🍳 精選食譜</h3>
+        <h3><span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils" style="margin-right:0.5rem;color:#f97316;"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg></span> 精選食譜</h3>
         <ul>
           {{ $recipes := where site.RegularPages "Section" "recipes" }}
           {{ range first 5 $recipes }}
           <li>
             <a href="{{ .RelPermalink }}" class="recipe-sidebar-link">
-              {{ with .Params.image }}<img src="{{ . | relURL }}?w=60&h=60&fit=crop" alt="{{ $.Title }}" loading="lazy" class="recipe-thumb">{{ end }}
+              {{ with .Params.image }}<img src="{{ if (urls.Parse .).IsAbs }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}?w=60&h=60&fit=crop" alt="{{ $.Title }}" loading="lazy" class="recipe-thumb">{{ end }}
               <span>{{ .Title }}</span>
             </a>
           </li>
           {{ end }}
         </ul>
-        <a href="/recipes/" class="sidebar-more">查看全部食譜 →</a>
+        <a href="{{ "/recipes/" | relURL }}" class="sidebar-more">查看全部食譜 →</a>
       </div>
       <div class="sidebar-widget">
-        <h3>🏷️ 熱門標籤</h3>
+        <h3><span class="icon-cyber"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tag" style="margin-right:0.5rem;color:var(--color-primary);"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg></span> 熱門標籤</h3>
         <div class="tag-cloud">
           {{ range first 20 .Site.Taxonomies.tags.Alphabetical }}
           <a href="{{ .Page.RelPermalink }}" class="tag">{{ .Page.Title }} ({{ .Count }})</a>

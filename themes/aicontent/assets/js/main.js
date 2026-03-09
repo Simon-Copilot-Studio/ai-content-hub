@@ -39,6 +39,47 @@ document.addEventListener('DOMContentLoaded', () => {
   rotatePromos('promo-leaderboard');
   rotatePromos('promo-footer');
 
+  // Theme Toggle Logic
+  const themeToggle = document.getElementById('theme-toggle');
+  const sunIcon = document.querySelector('.sun-icon');
+  const moonIcon = document.querySelector('.moon-icon');
+  const html = document.documentElement;
+
+  function updateIcons(isDark) {
+    if (isDark) {
+      sunIcon.style.display = 'block';
+      moonIcon.style.display = 'none';
+    } else {
+      sunIcon.style.display = 'none';
+      moonIcon.style.display = 'block';
+    }
+  }
+
+  // Initial icon state
+  updateIcons(html.classList.contains('dark-theme'));
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      if (html.classList.contains('dark-theme')) {
+        html.classList.replace('dark-theme', 'light-theme');
+        localStorage.setItem('theme', 'light');
+        updateIcons(false);
+      } else {
+        html.classList.replace('light-theme', 'dark-theme');
+        localStorage.setItem('theme', 'dark');
+        updateIcons(true);
+      }
+    });
+  }
+
+  // Search Trigger Logic
+  document.querySelectorAll('.search-trigger').forEach(el => {
+    el.addEventListener('click', () => {
+      const url = el.getAttribute('data-search-url');
+      if (url) window.location.href = url;
+    });
+  });
+
   // Close nav on outside click
   document.addEventListener('click', (e) => {
     const nav = document.querySelector('.nav-links');
@@ -49,8 +90,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Lazy load fade-in
+// Lazy load fade-in with frosted glass effect
 document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
-  if (img.complete) { img.style.opacity = '1'; }
-  else { img.addEventListener('load', function() { this.style.opacity = '1'; }); }
+  const handleLoad = () => {
+    img.classList.add('loaded');
+  };
+  if (img.complete) {
+    handleLoad();
+  } else {
+    img.addEventListener('load', handleLoad);
+  }
 });

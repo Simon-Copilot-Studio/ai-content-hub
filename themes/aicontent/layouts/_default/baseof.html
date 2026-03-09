@@ -3,28 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' stats-small-decorative-demonstrated.trycloudflare.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' data: images.unsplash.com; connect-src 'self' stats-small-decorative-demonstrated.trycloudflare.com;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
   {{ partial "head.html" . }}
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}">
   <link rel="preconnect" href="https://images.unsplash.com">
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-theme');
+      } else if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark-theme');
+      } else {
+        // Default to dark as requested
+        document.documentElement.classList.add('dark-theme');
+      }
+    })();
+  </script>
 </head>
 <body class="{{ with .Section }}section-{{ . }}{{ end }}">
   {{/* Reading progress bar */}}
   {{ if .IsPage }}<div class="reading-progress" id="reading-progress"></div>{{ end }}
 
+  {{/* Shared SVG Definitions for Cyber Icons */}}
+  <svg class="cyber-svg-defs" aria-hidden="true">
+    <defs>
+      <linearGradient id="cyber-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#00c8ff;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#0071ff;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#00c8ff;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  </svg>
+
   {{/* Header */}}
   <header class="site-header">
     <div class="container">
-      <a href="/" class="site-logo"><span>⚡</span> {{ .Site.Title }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
+        <img src="{{ "images/logo.png" | relURL }}" alt="{{ .Site.Title }}" style="height:36px;width:auto;border-radius:6px;">
+        {{ .Site.Title }}
+      </a>
       <button class="nav-toggle" aria-label="選單" onclick="document.querySelector('.nav-links').classList.toggle('open')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
       </button>
       <ul class="nav-links">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL }}" {{ if eq $.Section (strings.TrimPrefix "/" .URL | strings.TrimSuffix "/") }}class="active"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
-        <li><a href="/search/">🔍</a></li>
+        <li><button id="theme-toggle" class="icon-cyber theme-toggle-btn" aria-label="切換主題">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun sun-icon"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon moon-icon" style="display:none"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button></li>
+        <li><a href="{{ "/search/" | relURL }}" aria-label="Search" class="icon-cyber">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </a></li>
         {{ if .IsTranslated }}
         <li class="lang-switch">
           {{ range .Translations }}
@@ -70,15 +106,15 @@
         <div class="footer-col">
           <h4>關於</h4>
           <ul>
-            <li><a href="/about/">關於我們</a></li>
-            <li><a href="/privacy/">隱私政策</a></li>
-            <li><a href="/search/">搜尋文章</a></li>
+            <li><a href="{{ "/about/" | relURL }}">關於我們</a></li>
+            <li><a href="{{ "/privacy/" | relURL }}">隱私政策</a></li>
+            <li><a href="{{ "/search/" | relURL }}">搜尋文章</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>訂閱</h4>
           <ul>
-            <li><a href="/index.xml">RSS 訂閱</a></li>
+            <li><a href="{{ "/index.xml" | relURL }}">RSS 訂閱</a></li>
           </ul>
         </div>
         <div class="footer-col">
