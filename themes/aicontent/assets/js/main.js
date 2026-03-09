@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Close nav on outside click
+  document.addEventListener('click', (e) => {
     const nav = document.querySelector('.nav-links');
     const toggle = document.querySelector('.nav-toggle');
     if (nav && toggle && !nav.contains(e.target) && !toggle.contains(e.target)) {
