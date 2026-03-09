@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["chicken", "fried", "korean", "spicy", "gochujang", "appetizer", "party", "crispy", "asian"]
 lang: en
 readingTime: 5
-image: "https://images.unsplash.com/photo-1575932444877-5106bee2a599?w=800"
+image: "/images/recipes/korean-fried-chicken.jpg"
 draft: false
 recipe:
   prepTime: "20M"

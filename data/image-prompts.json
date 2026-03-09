@@ -299,7 +299,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-honey-garlic-chicken.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/honey-garlic-chicken.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-japanese-curry-rice-en.md",
@@ -327,7 +329,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-korean-fried-chicken.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/korean-fried-chicken.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-mac-and-cheese.md",
@@ -341,7 +345,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-mac-and-cheese.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/mac-and-cheese.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-mushroom-risotto.md",
@@ -355,7 +361,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-mushroom-risotto.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/mushroom-risotto.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-taiwanese-braised-pork-en.md",
@@ -649,7 +657,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-07-japanese-curry-rice.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/japanese-curry-rice.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-07-taiwanese-braised-pork.md",
@@ -663,7 +673,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-07-taiwanese-braised-pork.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/taiwanese-braised-pork.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-avocado-toast.md",
@@ -677,7 +689,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-avocado-toast.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/2026-03-08-avocado-toast.jpg",
+    "last_updated": "2026-03-09T11:59:39"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-banana-bread.md",
@@ -851,7 +865,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-honey-garlic-chicken.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-japanese-curry-rice-en.md",
@@ -865,7 +879,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-japanese-curry-rice-en.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-korean-fried-chicken.md",
@@ -879,7 +893,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-korean-fried-chicken.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-mac-and-cheese.md",
@@ -893,7 +907,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-mac-and-cheese.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-mushroom-risotto.md",
@@ -907,7 +921,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-mushroom-risotto.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-taiwanese-braised-pork-en.md",
@@ -921,7 +935,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-taiwanese-braised-pork-en.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-tangyuan-en.md",
@@ -935,7 +949,7 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-tangyuan-en.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "skipped"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/recipes/2026-03-08-tangyuan-lantern-festival.md",
@@ -949,7 +963,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/recipes/2026-03-08-tangyuan-lantern-festival.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/recipes/tangyuan-lantern-festival.jpg",
+    "last_updated": "2026-03-09T12:06:50"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/tech/2026-03-07-ai-agent-enterprise.md",

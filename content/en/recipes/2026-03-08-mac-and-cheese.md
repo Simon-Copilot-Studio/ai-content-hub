@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["mac and cheese", "pasta", "easy", "one-pot", "comfort food", "kid-friendly"]
 lang: en
 readingTime: 3
-image: "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=800"
+image: "/images/recipes/mac-and-cheese.jpg"
 draft: false
 recipe:
   prepTime: "5M"
