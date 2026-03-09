@@ -11,7 +11,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/economy/2026-03-07-ai-semiconductor-investment.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/economy/2026-03-07-ai-semiconductor-investment.jpg",
+    "last_updated": "2026-03-09T12:11:54"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/economy/2026-03-07-taiwan-stock-tech-outlook.md",
@@ -25,7 +27,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/economy/2026-03-07-taiwan-stock-tech-outlook.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/economy/2026-03-07-taiwan-stock-tech-outlook.jpg",
+    "last_updated": "2026-03-09T12:13:49"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/economy/2026-03-08-energy-market-volatility.md",
@@ -39,7 +43,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/economy/2026-03-08-energy-market-volatility.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/economy/2026-03-08-energy-market-volatility.jpg",
+    "last_updated": "2026-03-09T12:15:17"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/economy/2026-03-08-taiwan-central-bank-rate.md",
@@ -53,7 +59,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/economy/2026-03-08-taiwan-central-bank-rate.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/economy/2026-03-08-taiwan-central-bank-rate.jpg",
+    "last_updated": "2026-03-09T12:16:48"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/economy/sample.md",
@@ -81,7 +89,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/economy/2026-03-08-energy-market-volatility.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/economy/2026-03-08-energy-market-volatility.jpg",
+    "last_updated": "2026-03-09T12:15:17"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/entertainment/2026-03-08-oscars-2026-recap.md",
@@ -95,7 +105,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/entertainment/2026-03-08-oscars-2026-recap.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/entertainment/2026-03-08-oscars-2026-recap.jpg",
+    "last_updated": "2026-03-09T12:25:15"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/news/2026-03-08-ai-regulation-global.md",
@@ -109,7 +121,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/news/2026-03-08-ai-regulation-global.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/news/2026-03-08-ai-regulation-global.jpg",
+    "last_updated": "2026-03-09T12:37:34"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/en/recipes/2026-03-08-avocado-toast.md",
@@ -447,7 +461,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/entertainment/2026-03-07-2026-korean-drama.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/entertainment/2026-03-07-2026-korean-drama.jpg",
+    "last_updated": "2026-03-09T12:27:45"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/entertainment/2026-03-07-2026-must-watch-movies.md",
@@ -461,7 +477,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/entertainment/2026-03-07-2026-must-watch-movies.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/entertainment/2026-03-07-2026-must-watch-movies.jpg",
+    "last_updated": "2026-03-09T12:29:05"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/entertainment/2026-03-08-oscars-2026-recap.md",
@@ -475,7 +493,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/entertainment/2026-03-08-oscars-2026-recap.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/entertainment/2026-03-08-oscars-2026-recap.jpg",
+    "last_updated": "2026-03-09T12:25:15"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/entertainment/2026-03-08-wbc-taiwan-japan.md",
@@ -489,7 +509,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/entertainment/2026-03-08-wbc-taiwan-japan.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/entertainment/2026-03-08-wbc-taiwan-japan.jpg",
+    "last_updated": "2026-03-09T12:30:26"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/entertainment/sample.md",
@@ -517,7 +539,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/fiction/2026-03-07-last-human-programmer.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/fiction/2026-03-07-last-human-programmer.jpg",
+    "last_updated": "2026-03-09T12:31:36"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/fiction/2026-03-07-taipei-rain.md",
@@ -531,7 +555,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/fiction/2026-03-07-taipei-rain.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/fiction/2026-03-07-taipei-rain.jpg",
+    "last_updated": "2026-03-09T12:42:04"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/fiction/2026-03-08-baseball-dream.md",
@@ -601,7 +627,9 @@
     "target_full_path": "/home/simon/.openclaw/workspace/projects/ai-content-hub/static/images/news/2026-03-08-ai-regulation-global.jpg",
     "already_local": false,
     "already_generated": false,
-    "status": "pending"
+    "status": "done",
+    "generated_image": "/images/news/2026-03-08-ai-regulation-global.jpg",
+    "last_updated": "2026-03-09T12:37:34"
   },
   {
     "filepath": "/home/simon/.openclaw/workspace/projects/ai-content-hub/content/news/2026-03-08-middle-east-iran-crisis.md",

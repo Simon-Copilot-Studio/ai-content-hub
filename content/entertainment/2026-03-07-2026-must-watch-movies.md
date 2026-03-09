@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "2026年電影市場重點推薦，包含真人版秒速5公分、驀然回首、沙丘3、蜘蛛人重生日等年度大作，從文藝到超級英雄全面覆蓋。"
 categories: ["娛樂"]
 tags: ["電影", "2026電影", "漫威", "諾蘭", "推薦"]
-image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800"
+image: "/images/entertainment/2026-03-07-2026-must-watch-movies.jpg"
 readingTime: 2
 draft: false
 faq:

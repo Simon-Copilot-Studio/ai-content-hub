@@ -10,7 +10,7 @@ tags:
   - EU AI Act
   - technology governance
   - compliance
-image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800"
+image: "/images/news/2026-03-08-ai-regulation-global.jpg"
 readingTime: 6
 draft: false
 lang: en

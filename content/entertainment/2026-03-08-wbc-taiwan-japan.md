@@ -4,7 +4,7 @@ date: 2026-03-08T00:00:00+08:00
 description: "2026 WBC 世界棒球經典賽，中華隊迎戰強敵日本。先發鄭浩均對陣聯盟頂尖投手山本由伸，加上台美混血新星 Stuart Fairchild 加盟助陣，分析這場萬眾矚目對決的關鍵勝負點。"
 categories: ["entertainment"]
 tags: ["WBC", "經典賽", "棒球", "中華隊", "日本"]
-image: "https://images.unsplash.com/photo-1508344928928-7165b67de128?w=800"
+image: "/images/entertainment/2026-03-08-wbc-taiwan-japan.jpg"
 readingTime: 4
 draft: false
 faq:

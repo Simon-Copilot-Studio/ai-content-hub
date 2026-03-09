@@ -4,7 +4,7 @@ date: 2026-03-07T00:00:00+08:00
 description: "AI 驅動半導體產業進入黃金時代，台積電、NVIDIA、AMD 等巨頭積極擴產，投資者需在機會與風險間取得平衡，把握 AI 晶片產業鏈投資契機。"
 categories: ["經濟"]
 tags: ["半導體", "台積電", "NVIDIA", "AI晶片", "投資"]
-image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800"
+image: "/images/economy/2026-03-07-ai-semiconductor-investment.jpg"
 readingTime: 2
 draft: false
 faq:
