@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["pasta", "chicken", "alfredo", "creamy", "italian", "weeknight dinner", "30 minutes"]
 lang: en
 readingTime: 3
-image: "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=800"
+image: "/images/recipes/2026-03-08-chicken-alfredo.jpg"
 draft: false
 recipe:
   prepTime: "10M"

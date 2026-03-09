@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["beef", "stir fry", "vegetables", "asian", "quick", "weeknight dinner", "healthy"]
 lang: en
 readingTime: 4
-image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800"
+image: "/images/recipes/2026-03-08-beef-stir-fry.jpg"
 draft: false
 recipe:
   prepTime: "15M"

@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["breakfast", "pancakes", "easy", "homemade", "american"]
 lang: en
 readingTime: 4
-image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=800"
+image: "/images/recipes/2026-03-08-fluffy-pancakes.jpg"
 draft: false
 recipe:
   prepTime: "10M"

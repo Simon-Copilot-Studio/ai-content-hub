@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["salad", "caesar", "homemade dressing", "healthy", "easy", "lunch"]
 lang: en
 readingTime: 3
-image: "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=800"
+image: "/images/recipes/2026-03-08-caesar-salad.jpg"
 draft: false
 recipe:
   prepTime: "15M"
