@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container section-news">
   <div class="breadcrumb">
-    <a href="/">首頁</a> <span>/</span> <a href="/news/">時事</a> <span>/</span> <span>{{ .Title }}</span>
+    <a href="{{ "/" | relURL }}">首頁</a> <span>/</span> <a href="{{ "news/" | relURL }}">時事</a> <span>/</span> <span>{{ .Title }}</span>
   </div>
 
   {{ partial "ads/leaderboard.html" . }}
@@ -19,6 +19,10 @@
             {{ with .Params.source }}<span>來源：{{ . }}</span>{{ end }}
           </div>
         </header>
+
+        {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }} - {{ $.Description | default "" | truncate 100 }}" loading="lazy" style="border-radius:var(--radius);margin-bottom:2rem;width:100%">
+        {{ end }}
 
         {{ partial "ads/in-article.html" . }}
 
