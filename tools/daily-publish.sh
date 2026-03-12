@@ -9,7 +9,7 @@
 
 set -euo pipefail
 
-REPO_DIR="/home/simon/.openclaw/workspace/projects/ai-content-hub"
+REPO_DIR="/home/simon/.openclaw/workspace"
 LOG_FILE="${REPO_DIR}/tools/publish.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 

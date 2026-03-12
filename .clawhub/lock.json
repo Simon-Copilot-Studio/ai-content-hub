@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "ddg-web-search": {
+      "version": "1.0.0",
+      "installedAt": 1771756131741
+    },
+    "telegram-auto-topic": {
+      "version": "0.1.8",
+      "installedAt": 1771756134847
+    },
+    "deep-research-pro": {
+      "version": "1.0.2",
+      "installedAt": 1771756144804
+    },
+    "youtube-transcript": {
+      "version": "1.0.1",
+      "installedAt": 1771756146209
+    },
+    "task-decomposer": {
+      "version": "1.0.0",
+      "installedAt": 1771756148259
+    },
+    "news-feed": {
+      "version": "1.0.0",
+      "installedAt": 1771756322476
+    },
+    "security-audit-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1771756324658
+    },
+    "reminder": {
+      "version": "0.1.1",
+      "installedAt": 1771756327001
+    },
+    "gemini-image-simple": {
+      "version": "1.1.0",
+      "installedAt": 1771756328404
+    },
+    "pr-reviewer": {
+      "version": "1.0.1",
+      "installedAt": 1771756329836
+    },
+    "pdf-extract": {
+      "version": "1.0.0",
+      "installedAt": 1771756334365
+    },
+    "docker-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1771756335787
+    },
+    "agentmail": {
+      "version": "1.1.1",
+      "installedAt": 1772601946209
+    }
+  }
+}
