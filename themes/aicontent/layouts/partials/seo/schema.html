@@ -67,7 +67,7 @@
   }{{ with .Params.image }},
   "image": {
     "@type": "ImageObject",
-    "url": "{{ . | relURL }}"
+    "url": "{{ . | absURL }}"
   }{{ end }},
   "articleSection": "{{ $.Section }}",
   "wordCount": {{ .WordCount }},
