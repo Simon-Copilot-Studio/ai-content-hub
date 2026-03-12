@@ -11,7 +11,7 @@ tags:
   - "2026選舉"
   - "新北議員"
   - "政治"
-image: "images/news/2026-03-12-xiao-jing-yan-kmt-primary.webp"
+image: "images/news/2026-03-12-xiao-jing-yan-kmt-primary.jpg"
 readingTime: 3
 draft: false
 faq:

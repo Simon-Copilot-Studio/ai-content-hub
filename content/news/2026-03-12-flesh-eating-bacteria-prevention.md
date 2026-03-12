@@ -10,7 +10,7 @@ tags:
   - "健康"
   - "感染症"
   - "預防醫學"
-image: "images/news/2026-03-12-flesh-eating-bacteria-prevention.webp"
+image: "images/news/2026-03-12-flesh-eating-bacteria-prevention.jpg"
 readingTime: 3
 draft: false
 faq:

@@ -11,7 +11,7 @@ tags:
   - "戶外運動"
   - "台灣山岳"
   - "健行"
-image: "images/news/2026-03-12-xiluan-mountain-hiking.webp"
+image: "images/news/2026-03-12-xiluan-mountain-hiking.jpg"
 readingTime: 3
 draft: false
 faq:

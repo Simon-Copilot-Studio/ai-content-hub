@@ -12,7 +12,7 @@ tags:
   - "灰狼"
   - "籃球"
   - "運動"
-image: "images/entertainment/2026-03-12-nba-march-highlights.webp"
+image: "images/entertainment/2026-03-12-nba-march-highlights.jpg"
 readingTime: 3
 draft: false
 faq:

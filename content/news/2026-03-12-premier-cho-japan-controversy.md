@@ -10,7 +10,7 @@ tags:
   - "政治"
   - "朝野攻防"
   - "外交"
-image: "images/news/2026-03-12-premier-cho-japan-controversy.webp"
+image: "images/news/2026-03-12-premier-cho-japan-controversy.jpg"
 readingTime: 3
 draft: false
 faq:

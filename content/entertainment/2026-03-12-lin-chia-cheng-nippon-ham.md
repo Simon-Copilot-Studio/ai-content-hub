@@ -12,7 +12,7 @@ tags:
   - "日職"
   - "棒球"
   - "中華隊"
-image: "images/entertainment/2026-03-12-lin-chia-cheng-nippon-ham.webp"
+image: "images/entertainment/2026-03-12-lin-chia-cheng-nippon-ham.jpg"
 readingTime: 3
 draft: false
 faq:

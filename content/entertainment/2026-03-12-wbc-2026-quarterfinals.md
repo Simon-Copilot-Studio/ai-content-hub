@@ -12,7 +12,7 @@ tags:
   - "美國"
   - "八強"
   - "Pasquantino"
-image: "images/entertainment/2026-03-12-wbc-2026-quarterfinals.webp"
+image: "images/entertainment/2026-03-12-wbc-2026-quarterfinals.jpg"
 readingTime: 3
 draft: false
 faq:

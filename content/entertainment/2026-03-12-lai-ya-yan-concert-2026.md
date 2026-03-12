@@ -10,7 +10,7 @@ tags:
   - "Legacy"
   - "台劇女神"
   - "娛樂"
-image: "images/entertainment/2026-03-12-lai-ya-yan-concert-2026.webp"
+image: "images/entertainment/2026-03-12-lai-ya-yan-concert-2026.jpg"
 readingTime: 3
 draft: false
 faq:

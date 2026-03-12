@@ -12,7 +12,7 @@ tags:
   - "AI伺服器"
   - "配息"
   - "台股"
-image: "images/economy/2026-03-12-pegatron-earnings-dividend.webp"
+image: "images/economy/2026-03-12-pegatron-earnings-dividend.jpg"
 readingTime: 3
 draft: false
 faq:

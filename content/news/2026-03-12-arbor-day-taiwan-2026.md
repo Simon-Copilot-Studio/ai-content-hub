@@ -11,7 +11,7 @@ tags:
   - "城市綠化"
   - "ESG"
   - "永續"
-image: "images/news/2026-03-12-arbor-day-taiwan-2026.webp"
+image: "images/news/2026-03-12-arbor-day-taiwan-2026.jpg"
 readingTime: 3
 draft: false
 faq:

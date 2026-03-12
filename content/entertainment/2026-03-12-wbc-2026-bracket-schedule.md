@@ -11,7 +11,7 @@ tags:
   - "棒球"
   - "轉播"
   - "八強"
-image: "images/entertainment/2026-03-12-wbc-2026-bracket-schedule.webp"
+image: "images/entertainment/2026-03-12-wbc-2026-bracket-schedule.jpg"
 readingTime: 3
 draft: false
 faq:

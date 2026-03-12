@@ -10,7 +10,7 @@ tags:
   - "音樂"
   - "歌手"
   - "華語樂壇"
-image: "images/entertainment/2026-03-12-chen-fang-yu-comeback.webp"
+image: "images/entertainment/2026-03-12-chen-fang-yu-comeback.jpg"
 readingTime: 3
 draft: false
 faq:

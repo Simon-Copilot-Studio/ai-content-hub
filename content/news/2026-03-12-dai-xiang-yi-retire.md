@@ -11,7 +11,7 @@ tags:
   - "2026選舉"
   - "侯家軍"
   - "政治"
-image: "images/news/2026-03-12-dai-xiang-yi-retire.webp"
+image: "images/news/2026-03-12-dai-xiang-yi-retire.jpg"
 readingTime: 3
 draft: false
 faq:

@@ -11,7 +11,7 @@ tags:
   - "生技股"
   - "投資風險"
   - "台股"
-image: "images/economy/2026-03-12-polaris-pharma-capital-reduction.webp"
+image: "images/economy/2026-03-12-polaris-pharma-capital-reduction.jpg"
 readingTime: 3
 draft: false
 faq:

@@ -11,7 +11,7 @@ tags:
   - "鶯歌"
   - "鳳鳴"
   - "鐵路安全"
-image: "images/news/2026-03-12-train-accident-yingge.webp"
+image: "images/news/2026-03-12-train-accident-yingge.jpg"
 readingTime: 3
 draft: false
 faq:

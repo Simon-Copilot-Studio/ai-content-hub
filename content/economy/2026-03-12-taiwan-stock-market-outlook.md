@@ -11,7 +11,7 @@ tags:
   - "投資策略"
   - "中東局勢"
   - "科技股"
-image: "images/economy/2026-03-12-taiwan-stock-market-outlook.webp"
+image: "images/economy/2026-03-12-taiwan-stock-market-outlook.jpg"
 readingTime: 3
 draft: false
 faq:

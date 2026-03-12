@@ -12,7 +12,7 @@ tags:
   - "光通訊"
   - "面板"
   - "半導體"
-image: "images/tech/2026-03-12-innolux-silicon-photonics.webp"
+image: "images/tech/2026-03-12-innolux-silicon-photonics.jpg"
 readingTime: 3
 draft: false
 faq:

@@ -11,7 +11,7 @@ tags:
   - "台美關係"
   - "貿易戰"
   - "國際貿易"
-image: "images/tech/2026-03-12-us-301-investigation-taiwan.webp"
+image: "images/tech/2026-03-12-us-301-investigation-taiwan.jpg"
 readingTime: 3
 draft: false
 faq:

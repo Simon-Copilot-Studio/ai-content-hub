@@ -10,7 +10,7 @@ tags:
   - "社群媒體"
   - "網路文化"
   - "短影音"
-image: "images/news/2026-03-12-wang-zha-jie-social-media.webp"
+image: "images/news/2026-03-12-wang-zha-jie-social-media.jpg"
 readingTime: 3
 draft: false
 faq:

@@ -12,7 +12,7 @@ tags:
   - "成交量"
   - "矽光子"
   - "投資"
-image: "images/economy/2026-03-12-innolux-record-volume.webp"
+image: "images/economy/2026-03-12-innolux-record-volume.jpg"
 readingTime: 3
 draft: false
 faq:

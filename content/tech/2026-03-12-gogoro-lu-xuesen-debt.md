@@ -10,7 +10,7 @@ tags:
   - "尹衍樑"
   - "電動機車"
   - "商業糾紛"
-image: "images/tech/2026-03-12-gogoro-lu-xuesen-debt.webp"
+image: "images/tech/2026-03-12-gogoro-lu-xuesen-debt.jpg"
 readingTime: 3
 draft: false
 faq:
