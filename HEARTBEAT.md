@@ -1,5 +1,11 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 每日 Blog 更新（08:00-09:00 觸發）
+- 檢查今天是否已發布文章（看 content/ 有無今天日期的 .md）
+- 若無：抓取 Google Trends 台灣熱門話題 → 生成 10-15 篇文章 → 用 FLUX.1 API 生成配圖 → 評分 ≥7 才保留 → git push
+- 發布後通知 Simon
 
-# Add tasks below when you want the agent to check something periodically.
+## 每日 Blog 圖片品質巡檢（20:00 觸發）
+- 掃描最近 3 天的文章圖片
+- 用 image 工具抽檢 3-5 張，確認品質 ≥ 7
+- 若有不合格，自動重新生成
