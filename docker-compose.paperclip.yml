@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: paperclip
+      POSTGRES_PASSWORD: paperclip
+      POSTGRES_DB: paperclip
+    ports:
+      - "5434:5432"
+    volumes:
+      - paperclip_db:/var/lib/postgresql/data
+    networks:
+      - paperclip-network
+
+  paperclip-server:
+    build:
+      context: /home/simon/paperclip-src
+      dockerfile: Dockerfile
+    ports:
+      - "3101:3100"
+    environment:
+      DATABASE_URL: postgres://paperclip:paperclip@postgres:5432/paperclip
+      PORT: "3100"
+      SERVE_UI: "true"
+      PAPERCLIP_DEPLOYMENT_MODE: "authenticated"
+      PAPERCLIP_DEPLOYMENT_EXPOSURE: "localhost"
+      PAPERCLIP_PUBLIC_URL: "http://localhost:3101"
+      BETTER_AUTH_SECRET: "dev-secret-key-change-in-production"
+      PAPERCLIP_AUTH_BASE_URL_MODE: "auto"
+    volumes:
+      - paperclip-data:/paperclip
+    depends_on:
+      - postgres
+    networks:
+      - paperclip-network
+
+volumes:
+  paperclip_db:
+  paperclip-data:
+
+networks:
+  paperclip-network:
+    driver: bridge

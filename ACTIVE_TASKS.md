@@ -21,3 +21,4 @@
 - [x] /btw skill 建立 + 測試通過
 - [x] Blog 3/12 圖片修復（22 張 FLUX.1 AI 生成，全部 ≥7 分）
 - [x] Git 清理（移除 rag-env、skills submodule）
+- [x] Paperclip 安裝與部署（PostgreSQL + Server，localhost:3101）
