@@ -4,7 +4,7 @@ set -euo pipefail
 
 HF_API="https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
 HF_KEY="${HUGGINGFACE_API_KEY}"
-STATIC_DIR="/home/simon/.openclaw/workspace/static/images"
+STATIC_DIR="/home/simon/blog/static/images"
 LOG="/tmp/image-gen.log"
 
 echo "Starting image generation at $(date)" | tee "$LOG"

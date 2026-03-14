@@ -3,8 +3,8 @@
 
 import os
 
-CONTENT_DIR = "/home/simon/.openclaw/workspace/content"
-IMAGE_DIR = "/home/simon/.openclaw/workspace/static/images"
+CONTENT_DIR = "/home/simon/blog/content"
+IMAGE_DIR = "/home/simon/blog/static/images"
 DATE = "2026-03-12"
 
 articles = [

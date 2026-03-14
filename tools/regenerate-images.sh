@@ -4,7 +4,7 @@ set -euo pipefail
 
 HF_API="https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
 HF_KEY="${HUGGINGFACE_API_KEY}"
-BASE_DIR=~/.openclaw/workspace/static/images
+BASE_DIR=~/blog/static/images
 
 generate() {
   local category="$1"

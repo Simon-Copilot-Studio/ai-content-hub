@@ -20,7 +20,7 @@ Usage:
 import json, os, sys, subprocess, re, glob
 from datetime import datetime
 
-PROJECT_DIR = "/home/simon/.openclaw/workspace/projects/ai-content-hub"
+PROJECT_DIR = "/home/simon/blog"
 SCRIPTS_DIR = f"{PROJECT_DIR}/scripts"
 DATA_DIR = f"{PROJECT_DIR}/data"
 CONTENT_DIR = f"{PROJECT_DIR}/content"

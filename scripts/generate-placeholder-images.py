@@ -10,7 +10,7 @@ except ImportError:
 import os
 import hashlib
 
-IMAGE_DIR = "/home/simon/.openclaw/workspace/static/images"
+IMAGE_DIR = "/home/simon/blog/static/images"
 
 articles = [
     ("tech", "2026-03-12-gogoro-lu-xuesen-debt", "Gogoro 陸學森\n欠款失聯事件"),

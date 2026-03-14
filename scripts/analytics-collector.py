@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 
 UMAMI_URL = "http://localhost:3100"
 WEBSITE_ID = "eef023a2-ea1f-40fb-b0c2-23ec694d3dc3"
-DATA_DIR = "/home/simon/.openclaw/workspace/projects/ai-content-hub/data/analytics"
-CREDS_FILE = "/home/simon/.openclaw/workspace/projects/ai-content-hub/docker/umami/.admin-password"
+DATA_DIR = "/home/simon/blog/data/analytics"
+CREDS_FILE = "/home/simon/blog/docker/umami/.admin-password"
 
 def get_token():
     """Login to Umami and get auth token."""

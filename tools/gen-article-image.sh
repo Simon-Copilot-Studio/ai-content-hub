@@ -10,7 +10,7 @@ PROMPT="$3"
 
 HF_API="https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
 HF_KEY="${HUGGINGFACE_API_KEY}"
-BASE_DIR="${HOME}/.openclaw/workspace/static/images"
+BASE_DIR="${HOME}/blog/static/images"
 OUTPATH="${BASE_DIR}/${CATEGORY}/${SLUG}.jpg"
 
 mkdir -p "${BASE_DIR}/${CATEGORY}"

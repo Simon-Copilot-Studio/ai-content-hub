@@ -12,9 +12,9 @@ Optimization actions:
 import json, os, glob, re
 from datetime import datetime, timedelta
 
-CONTENT_DIR = "/home/simon/.openclaw/workspace/projects/ai-content-hub/content"
-DATA_DIR = "/home/simon/.openclaw/workspace/projects/ai-content-hub/data/analytics"
-OPTIMIZATION_LOG = "/home/simon/.openclaw/workspace/projects/ai-content-hub/data/optimization-log.json"
+CONTENT_DIR = "/home/simon/blog/content"
+DATA_DIR = "/home/simon/blog/data/analytics"
+OPTIMIZATION_LOG = "/home/simon/blog/data/optimization-log.json"
 
 
 def load_latest_analytics():

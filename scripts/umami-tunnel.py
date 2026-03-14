@@ -1,8 +1,8 @@
 """Umami Cloudflare Tunnel Manager - starts tunnel and captures URL."""
 import subprocess, time, re, os, sys
 
-HUGO_TOML = "/home/simon/.openclaw/workspace/projects/ai-content-hub/hugo.toml"
-DATA_DIR = "/home/simon/.openclaw/workspace/projects/ai-content-hub/data"
+HUGO_TOML = "/home/simon/blog/hugo.toml"
+DATA_DIR = "/home/simon/blog/data"
 PIDFILE = "/tmp/umami-tunnel.pid"
 
 def start():
