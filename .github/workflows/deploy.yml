@@ -30,7 +30,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://simon-copilot-studio.github.io/ai-content-hub/"
+        run: hugo --minify --buildFuture --baseURL "https://simon-copilot-studio.github.io/ai-content-hub/"
 
       - name: Setup Pagefind
         run: npx pagefind --site public
