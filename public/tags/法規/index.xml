@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>法規 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E6%B3%95%E8%A6%8F/</link><description>Recent content in 法規 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E6%B3%95%E8%A6%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>歐盟 AI 法案全面施行：對全球科技業的五大影響</title><link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-eu-ai-regulation/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-eu-ai-regulation/</guid><description>歐盟AI法案於2026年正式全面施行，這項全球最嚴格的AI監管框架將對全球科技業產生深遠影響。首先，所有在歐盟市場營運的企業都必須建立完善的AI風險評估體系，特別是針對高風險AI系統如醫療、交通、司法等領域。其次，透明度要求將迫使企業公開AI系統的決策邏輯，增加信任度。第三，數據保護標準大幅提高，個人數據的使用必須獲得明確授權。第四，違規罰則高達全球營收的6%，這對違規企業將是沉重打擊。對台灣企業而言，這既是挑戰也是機會。台灣的AI產業需要加強合規能力，同時可以借鑑歐盟標準提升產品競爭力。專家建議，企業應及早建立AI治理架構，培養相關人才，以應對這場AI監管的革命性變革。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>法規 on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E6%B3%95%E8%A6%8F/</link>
+    <description>Recent content in 法規 on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E6%B3%95%E8%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>歐盟 AI 法案全面施行：對全球科技業的五大影響</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-eu-ai-regulation/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-07-eu-ai-regulation/</guid>
+      <description>歐盟AI法案於2026年正式全面施行，這項全球最嚴格的AI監管框架將對全球科技業產生深遠影響。首先，所有在歐盟市場營運的企業都必須建立完善的AI風險評估體系，特別是針對高風險AI系統如醫療、交通、司法等領域。其次，透明度要求將迫使企業公開AI系統的決策邏輯，增加信任度。第三，數據保護標準大幅提高，個人數據的使用必須獲得明確授權。第四，違規罰則高達全球營收的6%，這對違規企業將是沉重打擊。對台灣企業而言，這既是挑戰也是機會。台灣的AI產業需要加強合規能力，同時可以借鑑歐盟標準提升產品競爭力。專家建議，企業應及早建立AI治理架構，培養相關人才，以應對這場AI監管的革命性變革。</description>
+    </item>
+  </channel>
+</rss>

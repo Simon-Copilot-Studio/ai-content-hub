@@ -1,9 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVIDIA on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/</link><description>Recent content in NVIDIA on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 09 Mar 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>NVIDIA RTX 6090 性能洩漏：AI 算力再翻倍，2026 年最強顯卡王者降臨</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</link><pubDate>Mon, 09 Mar 2026 10:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</guid><description>2026 年初，硬體圈最震撼的消息莫過於 NVIDIA 次世代旗艦顯示卡 RTX 6090 的詳細規格洩漏。作為繼承 RTX 50 系列光榮傳統的新一代王者，RTX 6090 不僅在傳統光柵化渲染上有所突破，更是在 AI 算力與深度學習加速上實現了質的飛躍。
-Blackwell 2.0 架構核心 RTX 6090 據悉將採用極致優化的 Blackwell 2.0 架構（代號：Vera Rubin），搭載台積電 2nm 工藝製程。其核心規格如下：
-CUDA 核心數：22,528 個（較前代提升 25%） Tensor Core：第五代 AI 加速單元，支援 FP4 精度運算 顯存：32GB GDDR7，帶寬高達 2.0 TB/s 功耗 (TGP)：550W - 600W AI 效能：專為「個人 AI 時代」設計 在 DLSS 4.5 的加持下，RTX 6090 在 AI 生成內容方面的表現堪稱恐怖。根據洩漏的 Stable Diffusion XL 基準測試，其生成每張圖的速度僅需 0.12 秒，幾乎是瞬間完成。此外，針對 LLM（大型語言模型）的本地推理速度也提升了 2 倍以上，讓在家運行一個完整的 70B 參數模型成為可能。
-遊戲表現：8K 120FPS 的終極體驗 對於遊戲玩家來說，RTX 6090 的目標非常明確：在開啟光線追蹤的情況下，於 8K 解析度流暢運行《Cyberpunk 2078》並維持在 120 FPS。這得益於全新的 Shader Reordering Unit (SRU) 與更強大的 Ray Tracing Core。</description></item><item><title>AI 晶片需求暴增：2026 年半導體投資機會與風險</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-ai-semiconductor-investment/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-ai-semiconductor-investment/</guid><description>2026 年，AI 晶片需求呈現爆炸性增長，半導體產業迎來了前所未有的發展機遇。據市場研究機構預測，全球 AI 晶片市場規模將在未來五年內擴大三倍，成為半導體產業增長的主要驅動力。
-台積電作為全球半導體製造龍頭，正積極擴產先進製程。5 級和 3 級製程的產能已經滿負運轉，7 級製程也持續擴充。這種積極擴產不僅回應了 AI 晶片的需求，也反映了對未來市場的強烈信心。對投資者而言，台積電不僅是 AI 晶片生態系統的核心，更是整個產業鏈的風向標。
-NVIDIA 在 AI 晶片領域繼續保持領先地位。新一代 GPU 不僅計算能力大幅提升，能效比也顯著改善。更重要的是，NVIDIA 通過 CUDA 生態系統建立了強大的技術壁壘，讓競爭者難以在短期內超越。這種領先地位讓 NVIDIA 在 AI 晶片定價上擁有極大話語權，為公司帶來了豐厚的利潤。
-AMD 則透過收購和技術創新積極追趕。通過收購 Xilinx，AMD 在 FPGA 領域獲得了重要布局，這對 AI 應用的靈活性和定制化至關重要。此外，AMD 的 MI 系列 AI 加速器也在性能上不斷突破，為 NVIDIA 帶來了真實的競爭壓力。
-然而，投資 AI 晶片產業也面臨著顯著風險。技術變革速度加快，今天的領先技術可能明天就會被取代。地緣政治因素也不容忽視，各國對半導體產業的管制趨嚴，可能影響供應鏈穩定性。此外，過熱的投資也可能導致產能過剩，引發市場調整。
-對投資者來說，關鍵在於把握產業長期趨勢，同時避免短期波動的影響。AI 晶片作為數位時代的基礎設施，其長期價值確定性高。但需要關注具體公司的技術路線、財務狀況和市場定位，選擇真正具有競爭優勢的投資標的。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nvidia on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/</link>
+    <description>Recent content in Nvidia on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 17 Mar 2026 17:40:00 +0800</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvidia 組建 Nemotron 聯盟：Mistral、Cursor、Perplexity 等八大 AI 實驗室聯手打造開源前沿模型</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nemotron-coalition-8-ai-labs/</link>
+      <pubDate>Tue, 17 Mar 2026 17:40:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nemotron-coalition-8-ai-labs/</guid>
+      <description>Nvidia 不只賣 GPU，現在還要組隊打造開源 AI 模型。GTC 2026 上宣布成立的 Nemotron Coalition，集結了全球八家頂尖 AI 實驗室，目標只有一個：讓開源前沿模型追上閉源模型。&#xA;八大創始成員 實驗室 專長領域 Black Forest Labs 圖像生成（FLUX 模型） Cursor AI 程式開發 IDE LangChain AI 應用框架 Mistral AI 開源大語言模型 Perplexity AI 搜尋引擎 Reflection AI 推理模型 Sarvam 印度語言 AI Thinking Machines Lab 前沿研究 這個陣容涵蓋了從模型訓練、應用框架到終端產品的完整 AI 價值鏈。&#xA;共享什麼？ 聯盟成員將共享四項核心資源：&#xA;研究成果：模型架構、訓練方法論 專業知識：各自領域的最佳實踐 訓練資料：高品質的多語言、多模態資料集 算力：Nvidia 提供的 GPU 運算資源 最後一項是關鍵。開源模型最大的瓶頸從來不是人才或演算法，而是算力。Nvidia 以算力供應商的角色提供支援，直接解決了這個問題。&#xA;配套：新一代開放模型 伴隨 Nemotron Coalition 的成立，Nvidia 同步發布了新一代開放模型，涵蓋四大領域：&#xA;Agentic AI：代理式 AI 專用模型 Robotics：機器人控制與導航 Autonomous Vehicles：自駕車感知與決策 Drug Discovery：藥物發現與分子模擬 戰略意圖：GPU 賣更多 坦白說，Nvidia 組建開源聯盟的商業邏輯很直接：開源模型越強 → 更多人訓練和部署開源模型 → 需要更多 GPU。</description>
+    </item>
+    <item>
+      <title>Nvidia Dynamo 1.0：AI 工廠的作業系統，Blackwell 推理效能暴增 7 倍</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-dynamo-inference-os/</link>
+      <pubDate>Tue, 17 Mar 2026 17:30:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-dynamo-inference-os/</guid>
+      <description>如果說 Vera Rubin 是 AI 工廠的硬體引擎，那 Dynamo 1.0 就是它的作業系統。Nvidia 在 GTC 2026 正式推出這套開源推理作業系統，Jensen 黃仁勳稱之為「AI 工廠的第一個作業系統」。&#xA;推理成為主角 Jensen 在演講中明確指出一個關鍵轉折：推理（Inference）已經超越訓練，成為 AI 最主要的運算工作負載。&#xA;「推理是智慧的引擎，驅動每一個查詢、每一個代理、每一個應用程式。」&#xA;原因很簡單：AI 現在不只要「想」，還要「做」。每一個代理的每一個動作都需要推理運算。當數十億個 AI 代理同時運作時，推理需求就會爆炸性增長。&#xA;Dynamo 1.0 核心能力 Dynamo 是一套生產級的推理調度與最佳化系統：&#xA;開源：全球開發者可免費使用 Blackwell 推理效能提升 7 倍 智能調度：根據工作負載特性動態分配 GPU 資源 支援各種推理模式：從低延遲對話到高吞吐量批次處理 Token 生成速度的驚人躍進 Jensen 用了一個驚人的數字來展示 Dynamo 的威力：&#xA;指標 兩年前 現在 1GW 工廠 Token 生成速度 200 萬/秒 7 億/秒 提升倍數 — 350 倍 兩年內 350 倍的提升，其中硬體（Blackwell → Vera Rubin）貢獻了 35 倍，軟體（Dynamo）貢獻了約 10 倍。這個數字說明了一件事：軟體最佳化的潛力不亞於硬體升級。</description>
+    </item>
+    <item>
+      <title>Disney 雪寶 Olaf 機器人驚喜登台！Nvidia Physical AI 讓動畫角色走入現實</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-disney-olaf-robot-nvidia-physical-ai/</link>
+      <pubDate>Tue, 17 Mar 2026 17:20:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-disney-olaf-robot-nvidia-physical-ai/</guid>
+      <description>GTC 2026 主題演講的最後一幕，讓全場觀眾屏住呼吸：一個約一米高的雪寶（Olaf）機器人搖搖晃晃地走上舞台，像個迷路的小孩一樣在 Jensen 黃仁勳身旁晃悠。這不是動畫，不是投影——是一台真正會走路、會互動的 Disney 機器人。&#xA;技術內核 這台 Olaf 機器人的背後是 Nvidia 的完整 Physical AI 技術堆疊：&#xA;Nvidia Jetson：提供邊緣 AI 運算能力，讓機器人在本地即時處理感知與決策 Nvidia Warp 框架：Disney 使用的物理模擬開發框架 Newton 物理引擎：精確模擬機器人的動態行為 Isaac Lab：機器人開發與驗證的虛擬環境 從模擬到實體，Olaf 在虛擬環境中學會了走路、平衡和基本互動，然後將這些能力轉移到實體機器人上。&#xA;3 月 29 日巴黎迪士尼首亮相 Olaf 機器人將於 2026 年 3 月 29 日正式進駐巴黎迪士尼樂園。與傳統的角色扮演（costume character）不同，Olaf 是一台自主行走的機器人，能在園區內自由移動並與遊客互動。&#xA;這可能是第一個大規模面向消費者的自主行走娛樂機器人，標誌著 Physical AI 從工廠和實驗室，正式走向數百萬普通消費者的日常體驗。&#xA;GTC 現場：110 台機器人齊聚 Olaf 只是 GTC 2026 機器人展示的冰山一角。今年的展場上共有超過 110 台機器人亮相，展示商幾乎涵蓋了全球機器人產業的頂尖玩家：&#xA;1X：人形服務機器人 AGIBOT：中國 AI 機器人新創 Agility Robotics：雙足物流機器人 Digit Boston Dynamics：Atlas 下一代 Figure：人形機器人 Figure 02 Hexagon Robotics：工業自動化 這些公司共同使用 Nvidia 的 Cosmos 世界模型、Isaac Sim 模擬器和 Isaac Lab 來加速開發。Nvidia 同時發布了 Isaac GR00T N1.</description>
+    </item>
+    <item>
+      <title>Nvidia × Uber 自駕計程車計畫：2028 年前進軍全球 28 座城市</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-uber-robotaxi-28-cities/</link>
+      <pubDate>Tue, 17 Mar 2026 17:10:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-uber-robotaxi-28-cities/</guid>
+      <description>自駕車的「ChatGPT 時刻」已經到來——至少 Jensen 黃仁勳是這麼說的。在 GTC 2026 主題演講中，他宣布 Nvidia 與 Uber 聯手，計畫在全球 28 座城市部署自駕計程車，並稱自動駕駛將成為「第一個數兆美元規模的機器人產業」。&#xA;計畫規模 根據 Reuters 報導，Nvidia 與 Uber 的合作計畫包含：&#xA;10 萬輛自駕計程車和送貨車 28 座城市，跨越北美、歐洲、澳洲和亞洲 2027 年起先以資料蒐集車輛熟悉各城市路況 逐步升級：從有安全員監督 → 完全無人 Level 4 自駕 Uber CEO Dara Khosrowshahi 表示，這個合作旨在打造「多玩家」自駕車生態系，讓更多開發者和車廠能在 Uber 平台上推出 robotaxi 服務。&#xA;四大車廠同步加入 GTC 上同時宣布的還有四家重量級車廠加入 Nvidia DRIVE Hyperion Level 4 自駕平台：&#xA;車廠 年產能 市場定位 BYD（比亞迪） ~300 萬輛 全球最大電動車廠 Hyundai（現代） ~400 萬輛 韓國最大車廠 Nissan（日產） ~330 萬輛 日本三大車廠之一 Geely（吉利） ~280 萬輛 中國民營車廠龍頭 四家合計年產能超過 1,800 萬輛，代表了龐大的潛在自駕車部署基礎。</description>
+    </item>
+    <item>
+      <title>Nvidia Vera Rubin 完整平台揭曉：七顆晶片、五種機架，打造一台 AI 超級電腦</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-vera-rubin-platform-7chips/</link>
+      <pubDate>Tue, 17 Mar 2026 17:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-vera-rubin-platform-7chips/</guid>
+      <description>GTC 2026 的硬體主角毫無懸念——Vera Rubin 平台。這不是單一一顆晶片的發表，而是一整個運算平台的全面亮相：七顆全新晶片、五種機架系統，全部設計為一台統一運作的 AI 超級電腦。&#xA;七顆晶片的完整佈局 Vera Rubin 平台的核心架構包含：&#xA;Rubin GPU：新一代 AI 訓練與推理 GPU Vera CPU：專為 AI 工作負載設計的處理器 Groq 3 LPX：推理加速器，Nvidia 聲稱每兆瓦的推理吞吐量提升高達 35 倍 搭配五種不同規格的機架系統，從單機架到完整資料中心規模，由超過 80 家 Nvidia MGX 生態系合作夥伴（包括 ASUS、Dell、GIGABYTE、MSI、Supermicro）提供全球供應鏈支援。&#xA;十年 4000 萬倍的運算躍進 Jensen 在主題演講中展示了從 DGX-1 到 Vera Rubin 的完整進化弧線。十年前的第一台 DGX-1 到今天的 Vera Rubin 平台，運算能力提升了 4000 萬倍。&#xA;他還引用了半導體分析師 Dylan Patel 的說法，稱 Blackwell 的實際效能提升是 50 倍，而非原本保守宣稱的 35 倍——等於承認自己之前「沙包」了。&#xA;Rubin Ultra：144 GPU 單一域 最頂規的 Rubin Ultra 配置在單一 NVLink 域中整合了 144 顆 GPU，採用全新的 Kyber 機架設計搭配垂直運算節點。微軟 CEO Satya Nadella 確認，首批 Vera Rubin 機架已在 Microsoft Azure 上運行。</description>
+    </item>
+    <item>
+      <title>黃仁勳：OpenClaw 是個人 AI 的作業系統！Nvidia 在 GTC 2026 推出 NemoClaw 專屬堆疊</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-nemoclaw-openclaw-gtc/</link>
+      <pubDate>Tue, 17 Mar 2026 16:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-nemoclaw-openclaw-gtc/</guid>
+      <description>Nvidia 在 GTC 2026 主題演講中投下一顆震撼彈：為 OpenClaw 代理平台推出專屬的 NemoClaw 軟體堆疊。這不僅是一個技術整合，更代表 Nvidia 將 OpenClaw 視為 AI 時代的核心基礎設施——如同 Windows 之於 PC。&#xA;黃仁勳的定調 Nvidia 創辦人暨執行長黃仁勳在演講中直言：&#xA;「Mac 與 Windows 是個人電腦的作業系統，而 OpenClaw 則是個人 AI 的作業系統。這正是整個業界期待已久的時刻，也是軟體新文藝復興的起點。」&#xA;這個類比意義重大。當 Nvidia 把 OpenClaw 定位為「AI 的 OS」，等於宣告了一個新的運算典範：每個人都將擁有自己的 AI 代理（claw），就像每個人都有自己的電腦一樣。&#xA;NemoClaw：一鍵部署的完整方案 NemoClaw 的設計理念是「單一指令搞定一切」：&#xA;Nemotron 模型 安裝 Nvidia 的開放式 Nemotron 模型，可在本地硬體上執行，無需依賴雲端 API。這對隱私敏感的使用場景特別重要。&#xA;OpenShell 沙箱環境 全新的 OpenShell 執行環境提供隔離式沙箱，讓 AI 代理在受控的環境中運作。這填補了 OpenClaw 原本缺少的安全基礎設施層——代理可以獲得完成任務所需的系統存取權限，同時維持嚴格的安全與隱私防護。&#xA;隱私路由器 本地模型與雲端前沿模型的智能切換。隱私敏感的任務在本地處理，需要更強大能力時透過隱私路由器連接雲端模型。這種混合架構平衡了效能與隱私。&#xA;全產品線支援 NemoClaw 支援 Nvidia 從消費級到企業級的完整硬體產品線：&#xA;硬體類別 產品 適用場景 消費級 GeForce RTX PC / 筆電 個人 AI 代理 專業級 RTX PRO 工作站 企業開發者 資料中心級 DGX Spark / DGX Station 全天候 AI 服務 這意味著從一台 RTX 筆電到企業級 DGX Station，都能運行自己的 AI 代理。</description>
+    </item>
+    <item>
+      <title>Nvidia GTC 2026 重磅發布：Vera Rubin 平台、DLSS 5、太空 AI 模組完整整理</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-gtc-vera-rubin-dlss5/</link>
+      <pubDate>Tue, 17 Mar 2026 06:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-gtc-vera-rubin-dlss5/</guid>
+      <description>Nvidia CEO Jensen Huang 在 GTC 2026 主題演講中，一口氣發布了多項震撼業界的新產品與技術。從次世代 AI 運算平台到太空資料中心，Nvidia 再次展示了其在 AI 硬體領域的絕對領導地位。&#xA;Vera Rubin：次世代 AI 運算平台 GTC 2026 最大的亮點無疑是 Vera Rubin 平台的正式發布。這個以美國天文學家命名的平台，由 Vera CPU 和 Rubin GPU 組成，整個系統包含 130 萬個零件。&#xA;Nvidia 宣稱 Vera Rubin 的效能/瓦特比前一代 Grace Blackwell 提升了 10 倍——這個數字在業界引起了巨大迴響。如果屬實，這意味著資料中心可以用相同的電力獲得 10 倍的 AI 運算能力，或者用十分之一的電力維持相同的運算效能。&#xA;對於正在為 AI 基礎建設電力消耗頭疼的雲端服務商來說，這是一個極具吸引力的升級方案。&#xA;DLSS 5：AI 驅動的遊戲畫面革命 針對遊戲玩家和創作者，Nvidia 正式發布了 DLSS 5。這項技術利用 AI 模型即時生成逼真的光照效果和材質紋理，將遊戲畫面的真實感提升到全新層次。&#xA;首波支援的遊戲包含《惡靈古堡：安魂曲》（Resident Evil: Requiem）、《霍格華茲的遺產》（Hogwarts Legacy）和《星空》（Starfield）。現場展示的效果相當驚人，AI 渲染出的光影效果幾乎與光線追蹤不相上下，但效能損耗大幅降低。&#xA;Vera Rubin Space Module：AI 進軍太空 最出乎意料的發布是 Vera Rubin Space Module——專為太空軌道資料中心設計的 AI 運算模組。Nvidia 宣稱這個太空模組能提供 H100 的 25 倍 AI 算力，專為衛星與太空站的即時推論工作設計。</description>
+    </item>
+    <item>
+      <title>Nvidia GTC 2026 今日登場：Jensen Huang 主題演講五大看點整理</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-nvidia-gtc-2026-keynote/</link>
+      <pubDate>Mon, 16 Mar 2026 06:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-nvidia-gtc-2026-keynote/</guid>
+      <description>Nvidia 年度 GPU 技術大會（GTC 2026）今天正式在聖荷西 SAP Center 開幕。這場被譽為「AI 界的 CES」的大會，已成為全球科技產業最受矚目的年度盛事之一。來自 190 個國家的開發者、研究人員與企業代表齊聚一堂，等待 CEO Jensen Huang 的主題演講。&#xA;五大看點 1. 新一代 AI 加速器 每年 GTC 的最大亮點就是硬體發表。在 AI 算力需求持續爆發的背景下，Nvidia 下一代晶片架構的規格與效能提升幅度，將直接影響全球資料中心的建設規劃。&#xA;2. 企業級 AI 部署方案 隨著 AI 從實驗階段邁入大規模生產部署，企業對於端到端解決方案的需求日益迫切。Nvidia 預計將發表新的軟體框架，降低企業導入 AI 的技術門檻。&#xA;3. 機器人與自動駕駛 Nvidia 在機器人領域的布局持續加速。從工業機器人到自動駕駛汽車，Nvidia 的平台已成為產業標準。GTC 上預計將展示最新的模擬與訓練技術突破。&#xA;4. AI 基礎模型生態系 Foundation model 的訓練與推論效率是目前 AI 產業的核心競爭力。Nvidia 如何優化大型語言模型的運算效能，將影響整個 AI 應用生態系的發展。&#xA;5. 供應鏈與產能布局 在全球晶片供應鏈持續緊張的環境下，Nvidia 的產能規劃與合作夥伴策略也是市場關注焦點。加上 Tesla 宣布自建 AI 晶片工廠，AI 晶片市場的競爭格局正在快速變化。&#xA;產業影響 GTC 不僅是技術發表會，更是 AI 產業的風向標。過去幾年，Jensen Huang 在 GTC 上的每一次發表，都引發了從雲端服務商到半導體設備商的連鎖反應。今年的大會在 Meta 大裁員、美國鬆綁 AI 晶片出口管制等背景下召開，格外引人關注。</description>
+    </item>
+    <item>
+      <title>美國撤回 AI 晶片出口管制草案：對台灣半導體產業的影響分析</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-us-ai-chip-export-rule-withdrawn/</link>
+      <pubDate>Mon, 16 Mar 2026 06:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-us-ai-chip-export-rule-withdrawn/</guid>
+      <description>美國商務部於 3 月 13 日正式撤回了一項計劃中的 AI 晶片出口管制規定。這項原本要求全球 AI 晶片出口都需取得美國許可的草案，是拜登政府時期推動的政策，如今被川普政府正式撤回。&#xA;政策轉向的背景 這項被撤回的規定，原本是美國「確保 AI 安全主導地位」戰略的一部分。規定要求所有 AI 晶片（包括出口到盟友國家）都需要取得美國商務部的許可，被業界批評為管太寬、太嚴格。&#xA;川普政府上任後，多次表態要「促進美國 AI 產業發展」而非「限制美國企業」。撤回這項規定，被視為這個政策方向的具體體現。&#xA;對晶片產業的影響 Nvidia：最直接的受益者 對 Nvidia 來說，這是一個明確的利多消息。在 GTC 2026 開幕的同一天收到這個政策訊號，等於為 Nvidia 的全球銷售策略掃除了一個重大不確定性。&#xA;此前，許多國家的企業在採購 AI 晶片時，因為擔心出口管制的不確定性而延遲下單。管制鬆綁後，這些觀望的訂單有望加速落地。&#xA;台積電：間接受益 作為 Nvidia 最重要的晶圓代工夥伴，台積電將間接受益於 AI 晶片銷售的增長。更多的 Nvidia 訂單，意味著台積電先進製程（3nm、2nm）的產能利用率進一步提升。&#xA;中國市場：仍是例外 需要注意的是，撤回的是「全球性」的管制草案，但針對中國的 AI 晶片出口限制仍然存在。美國對中國的晶片管制是獨立的政策框架，不受這次撤回影響。&#xA;長期觀察 雖然短期內政策鬆綁對產業是利多，但 AI 晶片出口管制的議題不會消失。隨著 AI 技術越來越強大，各國政府對 AI 安全的關注只會增加。&#xA;對台灣半導體產業而言，關鍵是持續強化在先進製程上的技術優勢，無論政策如何變化，頂尖的製造能力永遠是最大的護城河。</description>
+    </item>
+    <item>
+      <title>NVIDIA RTX 6090 性能洩漏：AI 算力再翻倍，2026 年最強顯卡王者降臨</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</guid>
+      <description>2026 年初，硬體圈最震撼的消息莫過於 NVIDIA 次世代旗艦顯示卡 RTX 6090 的詳細規格洩漏。作為繼承 RTX 50 系列光榮傳統的新一代王者，RTX 6090 不僅在傳統光柵化渲染上有所突破，更是在 AI 算力與深度學習加速上實現了質的飛躍。&#xA;Blackwell 2.0 架構核心 RTX 6090 據悉將採用極致優化的 Blackwell 2.0 架構（代號：Vera Rubin），搭載台積電 2nm 工藝製程。其核心規格如下：&#xA;CUDA 核心數：22,528 個（較前代提升 25%） Tensor Core：第五代 AI 加速單元，支援 FP4 精度運算 顯存：32GB GDDR7，帶寬高達 2.0 TB/s 功耗 (TGP)：550W - 600W AI 效能：專為「個人 AI 時代」設計 在 DLSS 4.5 的加持下，RTX 6090 在 AI 生成內容方面的表現堪稱恐怖。根據洩漏的 Stable Diffusion XL 基準測試，其生成每張圖的速度僅需 0.12 秒，幾乎是瞬間完成。此外，針對 LLM（大型語言模型）的本地推理速度也提升了 2 倍以上，讓在家運行一個完整的 70B 參數模型成為可能。&#xA;遊戲表現：8K 120FPS 的終極體驗 對於遊戲玩家來說，RTX 6090 的目標非常明確：在開啟光線追蹤的情況下，於 8K 解析度流暢運行《Cyberpunk 2078》並維持在 120 FPS。這得益於全新的 Shader Reordering Unit (SRU) 與更強大的 Ray Tracing Core。</description>
+    </item>
+    <item>
+      <title>AI 晶片需求暴增：2026 年半導體投資機會與風險</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-ai-semiconductor-investment/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-ai-semiconductor-investment/</guid>
+      <description>2026 年，AI 晶片需求呈現爆炸性增長，半導體產業迎來了前所未有的發展機遇。據市場研究機構預測，全球 AI 晶片市場規模將在未來五年內擴大三倍，成為半導體產業增長的主要驅動力。&#xA;台積電作為全球半導體製造龍頭，正積極擴產先進製程。5 級和 3 級製程的產能已經滿負運轉，7 級製程也持續擴充。這種積極擴產不僅回應了 AI 晶片的需求，也反映了對未來市場的強烈信心。對投資者而言，台積電不僅是 AI 晶片生態系統的核心，更是整個產業鏈的風向標。&#xA;NVIDIA 在 AI 晶片領域繼續保持領先地位。新一代 GPU 不僅計算能力大幅提升，能效比也顯著改善。更重要的是，NVIDIA 通過 CUDA 生態系統建立了強大的技術壁壘，讓競爭者難以在短期內超越。這種領先地位讓 NVIDIA 在 AI 晶片定價上擁有極大話語權，為公司帶來了豐厚的利潤。&#xA;AMD 則透過收購和技術創新積極追趕。通過收購 Xilinx，AMD 在 FPGA 領域獲得了重要布局，這對 AI 應用的靈活性和定制化至關重要。此外，AMD 的 MI 系列 AI 加速器也在性能上不斷突破，為 NVIDIA 帶來了真實的競爭壓力。&#xA;然而，投資 AI 晶片產業也面臨著顯著風險。技術變革速度加快，今天的領先技術可能明天就會被取代。地緣政治因素也不容忽視，各國對半導體產業的管制趨嚴，可能影響供應鏈穩定性。此外，過熱的投資也可能導致產能過剩，引發市場調整。&#xA;對投資者來說，關鍵在於把握產業長期趨勢，同時避免短期波動的影響。AI 晶片作為數位時代的基礎設施，其長期價值確定性高。但需要關注具體公司的技術路線、財務狀況和市場定位，選擇真正具有競爭優勢的投資標的。</description>
+    </item>
+  </channel>
+</rss>

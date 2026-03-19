@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>開源 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E9%96%8B%E6%BA%90/</link><description>Recent content in 開源 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E9%96%8B%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>DeepSeek 開源模型如何改變 AI 產業格局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid><description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。
-DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。
-性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。
-開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。
-對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。
-未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>開源 on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E9%96%8B%E6%BA%90/</link>
+    <description>Recent content in 開源 on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 17 Mar 2026 17:30:00 +0800</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E9%96%8B%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvidia Dynamo 1.0：AI 工廠的作業系統，Blackwell 推理效能暴增 7 倍</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-dynamo-inference-os/</link>
+      <pubDate>Tue, 17 Mar 2026 17:30:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-nvidia-dynamo-inference-os/</guid>
+      <description>如果說 Vera Rubin 是 AI 工廠的硬體引擎，那 Dynamo 1.0 就是它的作業系統。Nvidia 在 GTC 2026 正式推出這套開源推理作業系統，Jensen 黃仁勳稱之為「AI 工廠的第一個作業系統」。&#xA;推理成為主角 Jensen 在演講中明確指出一個關鍵轉折：推理（Inference）已經超越訓練，成為 AI 最主要的運算工作負載。&#xA;「推理是智慧的引擎，驅動每一個查詢、每一個代理、每一個應用程式。」&#xA;原因很簡單：AI 現在不只要「想」，還要「做」。每一個代理的每一個動作都需要推理運算。當數十億個 AI 代理同時運作時，推理需求就會爆炸性增長。&#xA;Dynamo 1.0 核心能力 Dynamo 是一套生產級的推理調度與最佳化系統：&#xA;開源：全球開發者可免費使用 Blackwell 推理效能提升 7 倍 智能調度：根據工作負載特性動態分配 GPU 資源 支援各種推理模式：從低延遲對話到高吞吐量批次處理 Token 生成速度的驚人躍進 Jensen 用了一個驚人的數字來展示 Dynamo 的威力：&#xA;指標 兩年前 現在 1GW 工廠 Token 生成速度 200 萬/秒 7 億/秒 提升倍數 — 350 倍 兩年內 350 倍的提升，其中硬體（Blackwell → Vera Rubin）貢獻了 35 倍，軟體（Dynamo）貢獻了約 10 倍。這個數字說明了一件事：軟體最佳化的潛力不亞於硬體升級。</description>
+    </item>
+    <item>
+      <title>OpenClaw 下週重大更新：支援 Claude Code 與 OpenAI Codex，開源 AI 代理引擎的野心</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-openclaw-claude-code-codex-update/</link>
+      <pubDate>Tue, 17 Mar 2026 07:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-openclaw-claude-code-codex-update/</guid>
+      <description>OpenClaw 創辦人 Peter Steinberger 在 X 上宣布了下週即將推出的更新清單，涵蓋多項重大功能整合。這次更新將讓 OpenClaw 同時打通 Anthropic 和 OpenAI 兩大生態系，進一步鞏固其作為開源代理引擎的定位。&#xA;五大更新內容 1. Claude Code 外掛支援 OpenClaw 將能作為 Anthropic 生態系的延伸工具運作。這意味著使用者可以在 OpenClaw 的框架內，直接調用 Claude Code 的程式開發能力，實現更深度的自動化工作流程。&#xA;2. OpenAI Codex CLI 整合 同時相容 OpenAI 的命令列開發工具 Codex CLI。雙平台支援讓使用者不必在 Anthropic 和 OpenAI 之間二選一，根據任務特性選擇最適合的模型。&#xA;3. ACP 協議相容 ACP（Agent Communication Protocol）是目前多代理架構的基礎設施標準。支援 ACP 意味著 OpenClaw 的代理可以與其他遵循同一協議的代理系統互通，為跨平台協作開啟大門。&#xA;4. 代理中斷機制修復 解決了代理執行中途無法優雅停止的問題。這聽起來是小事，但在生產環境中，能否安全中斷一個正在執行的 AI 代理，是可靠性的關鍵指標。&#xA;5. 核心引擎拆分 將核心引擎拆分為獨立套件，降低安裝體積並改善模組化程度。這對於只需要 OpenClaw 部分功能的開發者來說，是一個實用的改進。&#xA;市場定位：第三層的生存空間 目前 AI 編碼工具市場大致分三層：&#xA;完整 IDE：Cursor、Windsurf、GitHub Copilot Workspace CLI 代理：Claude Code、OpenAI Codex CLI、Aider 可嵌入引擎：OpenClaw 試圖佔據的位置 OpenClaw 的策略是「讓別人的工具用我的引擎」，這需要生態系的網路效應來支撐。開源是它的護城河之一，特別是對資料敏感的企業用戶有吸引力。</description>
+    </item>
+    <item>
+      <title>DeepSeek 開源模型如何改變 AI 產業格局</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid>
+      <description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。&#xA;DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。&#xA;性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。&#xA;開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。&#xA;對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。&#xA;未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description>
+    </item>
+  </channel>
+</rss>

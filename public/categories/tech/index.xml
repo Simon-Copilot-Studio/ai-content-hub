@@ -1,14 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</link><description>Recent content in Tech on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>iPhone SE 4 與蘋果 2026 春季發表會：6 大新品一次看完</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-iphone-se4-apple-spring/</link><pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-iphone-se4-apple-spring/</guid><description>2026 年 3 月 5 日凌晨，蘋果在 Apple Park 舉行了年度春季發表會「Spring Into Apple」，一口氣推出六款新產品，涵蓋 iPhone、iPad、Mac、配件四大產品線。以下是所有新品的完整整理。
-1. iPhone SE 4 — 現代設計，平價旗艦 台灣售價：17,900 元起｜上市日期：3 月 21 日
-iPhone SE 系列終於迎來世代蛻變。SE 4 捨棄了延用多年的 iPhone 8 外殼，改採 6.1 吋 Super Retina XDR OLED 螢幕，邊框極窄，外型幾乎與 iPhone 16 無異。
-晶片：A17 Pro，支援 Apple Intelligence 鏡頭：單顆 48MP 主鏡，支援 4K 60fps 錄影 充電：首次支援 USB-C，告別 Lightning 其他：Face ID（無 Touch ID）、5G、Wi-Fi 7 對於想用 iPhone 但預算受限的用戶，SE 4 是 2026 年最有說服力的入場券。
-2. iPad Air M3 — 輕量生產力再升級 台灣售價：23,900 元起（11吋）｜3 月 21 日上市</description></item><item><title>MacBook Neo 值不值得買？蘋果史上最便宜 Mac 完整分析</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-macbook-neo-review/</link><pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-macbook-neo-review/</guid><description>蘋果在 2026 年春季發表會上，祭出了一張令所有人意外的底牌——MacBook Neo，定價新台幣 19,900 元，成為蘋果有史以來最平價的 Mac 筆電。這個數字不是筆誤，也不是促銷價，而是蘋果為了搶攻入門市場、對抗 Chromebook 與低價 Windows 機的正式定價。
-硬體規格：A18 Pro 的意外驚喜 MacBook Neo 搭載的 A18 Pro 晶片，原本是 iPhone 16 Pro 系列的主角，移植到 Mac 後效能表現令人刮目相看。根據 Geekbench 6 測試數據（來源：Primate Labs，2026年3月），單核心成績約 3,400，多核心約 8,200，已足以輕鬆應付日常文書、4K 影片剪輯與輕度開發工作。
-螢幕：13吋 Liquid Retina，2560×1664，500 尼特亮度 記憶體：8GB 統一記憶體（可選升 16GB） 儲存：256GB SSD（可選升至 512GB） 續航：官方宣稱最長 24 小時，實測輕度使用約 20–21 小時 重量：1.22 公斤，比 MacBook Air M4 輕了 130 克 連接埠：2× USB-C（MagSafe 充電、3.5mm 耳機孔） 與 MacBook Air M4 的差距在哪？ 規格 MacBook Neo MacBook Air M4 售價（台幣） 19,900 36,900 晶片 A18 Pro M4 GPU 核心 5 核 10 核 風扇 無（被動散熱） 無（被動散熱） 螢幕亮度 500 尼特 600 尼特 連接埠 2× USB-C 2× Thunderbolt 4 最大差距在於 GPU 效能與 Thunderbolt 支援。M4 的 10 核 GPU 在 Final Cut Pro 渲染與 Stable Diffusion 本地運算上，仍比 A18 Pro 快出 40–60%（來源：Tom&amp;rsquo;s Hardware，2026年3月）。若你需要外接 4K 顯示器或高速傳輸，Air M4 的 Thunderbolt 4 不可或缺。</description></item><item><title>AI 代理人時代來臨：2026 年企業自動化的新局面</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</guid><description>2026 年，AI 代理人（AI Agent）已不再是科幻小說裡的概念——它們正在全球各地的辦公室裡悄悄接管重複性工作，甚至開始協助高層決策。
-什麼讓 AI 代理人如此不同？ 過去的 AI 工具像是一個聰明的查詢引擎：你問，它答。現在的 AI 代理人則更像是一位會主動規劃、自我修正的數位同事。它能連結多種工具、分解複雜任務，並在沒有人工干預的情況下，一步步完成整個工作流程。
-以客服場景為例，傳統聊天機器人只能回答預設的問題清單。而 AI 代理人可以查詢訂單系統、閱讀退款政策、與後台工程師溝通，並最終自主處理客戶申訴——所有步驟在幾秒鐘內完成。
-台灣企業的採用現況 根據資策會 2025 年底的調查，台灣中大型企業中，已有 43% 開始測試或部署 AI 代理人解決方案，主要集中在：
-製造業：生產排程優化、品質異常預警 金融業：風控審查、報告自動生成 電商：個人化推薦、庫存預測 值得注意的是，多數企業選擇「人機協作」模式，而非完全自動化——讓 AI 代理人處理 80% 的例行決策，關鍵判斷仍交由人類最終確認。
-技術突破帶來的新可能 Claude 4 Opus、GPT-5 等新一代模型在「長上下文推理」和「工具調用」方面的顯著進步，是這波浪潮的核心驅動力。模型不只更聰明，更重要的是更可靠——減少幻覺（hallucination）輸出，使企業得以在高風險情境下放心部署。
-展望 AI 代理人並非要取代人類，而是解放人類去做更有創意、更需要情感智慧的工作。企業若能在這個節點建立完善的 AI 治理框架，將在下一個十年獲得巨大的競爭優勢。
-科技浪潮不等人。問題不是「要不要導入」，而是「要怎麼導入得比別人好」。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</link>
+    <description>Recent content in Tech on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iPhone SE 4 與蘋果 2026 春季發表會：6 大新品一次看完</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-iphone-se4-apple-spring/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-iphone-se4-apple-spring/</guid>
+      <description>2026 年 3 月 5 日凌晨，蘋果在 Apple Park 舉行了年度春季發表會「Spring Into Apple」，一口氣推出六款新產品，涵蓋 iPhone、iPad、Mac、配件四大產品線。以下是所有新品的完整整理。&#xA;1. iPhone SE 4 — 現代設計，平價旗艦 台灣售價：17,900 元起｜上市日期：3 月 21 日&#xA;iPhone SE 系列終於迎來世代蛻變。SE 4 捨棄了延用多年的 iPhone 8 外殼，改採 6.1 吋 Super Retina XDR OLED 螢幕，邊框極窄，外型幾乎與 iPhone 16 無異。&#xA;晶片：A17 Pro，支援 Apple Intelligence 鏡頭：單顆 48MP 主鏡，支援 4K 60fps 錄影 充電：首次支援 USB-C，告別 Lightning 其他：Face ID（無 Touch ID）、5G、Wi-Fi 7 對於想用 iPhone 但預算受限的用戶，SE 4 是 2026 年最有說服力的入場券。&#xA;2. iPad Air M3 — 輕量生產力再升級 台灣售價：23,900 元起（11吋）｜3 月 21 日上市</description>
+    </item>
+    <item>
+      <title>MacBook Neo 值不值得買？蘋果史上最便宜 Mac 完整分析</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-macbook-neo-review/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-macbook-neo-review/</guid>
+      <description>蘋果在 2026 年春季發表會上，祭出了一張令所有人意外的底牌——MacBook Neo，定價新台幣 19,900 元，成為蘋果有史以來最平價的 Mac 筆電。這個數字不是筆誤，也不是促銷價，而是蘋果為了搶攻入門市場、對抗 Chromebook 與低價 Windows 機的正式定價。&#xA;硬體規格：A18 Pro 的意外驚喜 MacBook Neo 搭載的 A18 Pro 晶片，原本是 iPhone 16 Pro 系列的主角，移植到 Mac 後效能表現令人刮目相看。根據 Geekbench 6 測試數據（來源：Primate Labs，2026年3月），單核心成績約 3,400，多核心約 8,200，已足以輕鬆應付日常文書、4K 影片剪輯與輕度開發工作。&#xA;螢幕：13吋 Liquid Retina，2560×1664，500 尼特亮度 記憶體：8GB 統一記憶體（可選升 16GB） 儲存：256GB SSD（可選升至 512GB） 續航：官方宣稱最長 24 小時，實測輕度使用約 20–21 小時 重量：1.22 公斤，比 MacBook Air M4 輕了 130 克 連接埠：2× USB-C（MagSafe 充電、3.5mm 耳機孔） 與 MacBook Air M4 的差距在哪？ 規格 MacBook Neo MacBook Air M4 售價（台幣） 19,900 36,900 晶片 A18 Pro M4 GPU 核心 5 核 10 核 風扇 無（被動散熱） 無（被動散熱） 螢幕亮度 500 尼特 600 尼特 連接埠 2× USB-C 2× Thunderbolt 4 最大差距在於 GPU 效能與 Thunderbolt 支援。M4 的 10 核 GPU 在 Final Cut Pro 渲染與 Stable Diffusion 本地運算上，仍比 A18 Pro 快出 40–60%（來源：Tom&amp;rsquo;s Hardware，2026年3月）。若你需要外接 4K 顯示器或高速傳輸，Air M4 的 Thunderbolt 4 不可或缺。</description>
+    </item>
+    <item>
+      <title>AI 代理人時代來臨：2026 年企業自動化的新局面</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</guid>
+      <description>2026 年，AI 代理人（AI Agent）已不再是科幻小說裡的概念——它們正在全球各地的辦公室裡悄悄接管重複性工作，甚至開始協助高層決策。&#xA;什麼讓 AI 代理人如此不同？ 過去的 AI 工具像是一個聰明的查詢引擎：你問，它答。現在的 AI 代理人則更像是一位會主動規劃、自我修正的數位同事。它能連結多種工具、分解複雜任務，並在沒有人工干預的情況下，一步步完成整個工作流程。&#xA;以客服場景為例，傳統聊天機器人只能回答預設的問題清單。而 AI 代理人可以查詢訂單系統、閱讀退款政策、與後台工程師溝通，並最終自主處理客戶申訴——所有步驟在幾秒鐘內完成。&#xA;台灣企業的採用現況 根據資策會 2025 年底的調查，台灣中大型企業中，已有 43% 開始測試或部署 AI 代理人解決方案，主要集中在：&#xA;製造業：生產排程優化、品質異常預警 金融業：風控審查、報告自動生成 電商：個人化推薦、庫存預測 值得注意的是，多數企業選擇「人機協作」模式，而非完全自動化——讓 AI 代理人處理 80% 的例行決策，關鍵判斷仍交由人類最終確認。&#xA;技術突破帶來的新可能 Claude 4 Opus、GPT-5 等新一代模型在「長上下文推理」和「工具調用」方面的顯著進步，是這波浪潮的核心驅動力。模型不只更聰明，更重要的是更可靠——減少幻覺（hallucination）輸出，使企業得以在高風險情境下放心部署。&#xA;展望 AI 代理人並非要取代人類，而是解放人類去做更有創意、更需要情感智慧的工作。企業若能在這個節點建立完善的 AI 治理框架，將在下一個十年獲得巨大的競爭優勢。&#xA;科技浪潮不等人。問題不是「要不要導入」，而是「要怎麼導入得比別人好」。</description>
+    </item>
+  </channel>
+</rss>
