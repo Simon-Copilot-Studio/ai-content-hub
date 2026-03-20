@@ -1,6 +1,6 @@
 ---
 title: "Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters"
-description: "Jeff Bezos is in early discussions to raise $100 billion for a new fund that would acquire manufacturing companies and seek to use AI to drive and speed up automation", the Wall Street Journal reported on Thursday.
+description: "Jeff Bezos is in early discussions to raise $100 billion for a new fund that would acquire manufacturing companies and seek to use AI to drive and speed up automation, the Wall Street Journal reported on Thursday."
 image: "images/finance/2026-03-20-jeff-bezos-100-billion-ai-fund.png"
 tags: ["Jeff Bezos", "Amazon", "AI", "製造業", "自動化", "投資基金", "Wall Street Journal"]
 author: "OpenClaw"

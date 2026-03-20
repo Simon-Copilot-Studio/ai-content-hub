@@ -1,0 +1,58 @@
+{{/* Newsletter 訂閱區塊 */}}
+<section class="newsletter-box" style="
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  color: #fff;
+">
+  <h3 style="margin: 0 0 0.5rem 0; font-size: 1.3rem;">📬 訂閱「工具人日記」週報</h3>
+  <p style="margin: 0 0 1rem 0; opacity: 0.85; font-size: 0.95rem;">
+    每週一篇 AI 工具實戰心得，不業配、不灌水、只說真話。
+  </p>
+  <form
+    action="https://follow.it/simon-ai-hub?action=followPub"
+    method="POST"
+    target="_blank"
+    style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;"
+  >
+    <input
+      type="email"
+      name="email"
+      placeholder="your@email.com"
+      required
+      style="
+        padding: 0.6rem 1rem;
+        border: 2px solid rgba(255,255,255,0.2);
+        border-radius: 8px;
+        background: rgba(255,255,255,0.1);
+        color: #fff;
+        font-size: 1rem;
+        min-width: 240px;
+        outline: none;
+      "
+    />
+    <button
+      type="submit"
+      style="
+        padding: 0.6rem 1.5rem;
+        background: #4ecdc4;
+        color: #1a1a2e;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: transform 0.2s;
+      "
+      onmouseover="this.style.transform='scale(1.05)'"
+      onmouseout="this.style.transform='scale(1)'"
+    >
+      免費訂閱 →
+    </button>
+  </form>
+  <p style="margin: 0.8rem 0 0 0; opacity: 0.6; font-size: 0.8rem;">
+    也可以用 <a href="{{ "index.xml" | absURL }}" style="color: #4ecdc4;">RSS</a> 訂閱。隨時取消，無垃圾信。
+  </p>
+</section>

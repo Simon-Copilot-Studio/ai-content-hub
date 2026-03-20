@@ -50,6 +50,9 @@
         {{ end }}
 
         {{/* Prev/Next */}}
+        {{/* Newsletter 訂閱區塊 */}}
+        {{ partial "newsletter.html" . }}
+
         <nav class="chapter-nav">
           {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
           {{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
