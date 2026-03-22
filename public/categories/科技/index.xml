@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>科技 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/categories/%E7%A7%91%E6%8A%80/</link><description>Recent content in 科技 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Fri, 20 Mar 2026 07:50:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml"/><item><title>聯發科一口氣開源 3 款台灣 AI 模型：繁中多模態 Llama-Breeze2 + 台灣口音語音合成 BreezyVoice</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze2-open-source/</link><pubDate>Fri, 20 Mar 2026 07:50:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze2-open-source/</guid><description>台灣半導體龍頭聯發科，這次不是發晶片，是發 AI 模型——而且一次三款，全部開源。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>科技 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/categories/%E7%A7%91%E6%8A%80/</link><description>Recent content in 科技 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 22 Mar 2026 07:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 的 ChatGPT 時刻：AI 模型商品化危機來了嗎？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</link><pubDate>Sun, 22 Mar 2026 07:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</guid><description>2026 年 3 月 21 日，CNBC 發表了一篇重量級報導，標題直白：「OpenClaw 的 ChatGPT 時刻引發 AI 模型商品化擔憂。」
+三個月前，科技產業還不知道這個以龍蝦為主題的 AI 程式專案。如今，全球最有價值公司的 CEO 在年度大會上稱它為「人類史上最受歡迎的開源專案」。
+這不只是一個開源軟體的成功故事——它可能標誌著 AI 產業權力結構的根本轉移。
+Jensen Huang 的背書 在 Nvidia GTC 2026 大會上，Jensen Huang 對 OpenClaw 的推崇程度超出所有人預期：
+「OpenClaw 絕對是下一個 ChatGPT。」——對 CNBC Jim Cramer 表示
+「它在幾週內超越了 Linux 30 年的成就。」——GTC 主題演講
+Nvidia 不只是嘴巴說說。他們在 GTC 上發布了 NemoClaw——一套免費的安全服務套件，專門為 OpenClaw 打造，幫助企業安全地部署 AI agent。
+這意味著全球最大的 AI 硬體公司，正在把自己的未來與一個開源 agent 平台綁在一起。
+為什麼業界擔憂「商品化」？ OpenClaw 的獨特之處在於：它不依賴任何特定的 AI 模型。
+你可以用 Claude、GPT-4、Gemini、甚至開源的 Llama 來驅動 OpenClaw agent。這意味著：
+AI 模型變成可替換的零件 — 用戶不在乎底層用哪個模型，只在乎 agent 能完成任務 價值轉移到應用層 — 真正的商業價值不在模型，而在 agent 如何解決問題 訓練大模型的投資回報受質疑 — OpenAI 和 Anthropic 投入數十億美元訓練的模型，可能只是 agent 生態中的一個可替換零件 CNBC 報導引述業界專家的說法：</description></item><item><title>Meta AI Agent 意外洩露敏感數據：Agentic AI 的安全警鐘</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-meta-ai-agent-data-leak/</link><pubDate>Sun, 22 Mar 2026 06:30:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-meta-ai-agent-data-leak/</guid><description>2026 年 3 月 20 日，英國《衛報》率先報導了一起令業界震驚的事件：Meta 內部的 AI agent 指引一名工程師執行操作，意外導致大量敏感的用戶和公司數據暴露給內部員工長達兩小時。
+這不是一般的資安漏洞，而是 agentic AI 在企業環境中可能造成的全新型態安全事件。
+事件始末 根據 The Information 的首發報導和《衛報》的後續追蹤：
+一名 Meta 工程師在內部論壇提出了一個工程問題 Meta 的內部 AI agent 自動回覆了一個解決方案 工程師照做，實施了 AI 建議的方案 這個方案導致了敏感數據意外暴露給內部工程師 兩小時後問題被發現並修復 Meta 發言人確認了事件，但強調「沒有用戶數據被不當處理」，並表示「人類也可能給出錯誤建議」。事件觸發了 Meta 內部的重大安全警報。
+不只是 Meta 的問題 這起事件反映的是整個科技產業正在面對的共同挑戰——AI agent 正在以驚人速度滲透企業內部流程，但安全防護遠遠跟不上。
+Amazon 的 AI 災難 上個月，《金融時報》報導 Amazon 至少發生兩次因 AI 工具部署造成的系統中斷。多名 Amazon 員工匿名向《衛報》透露，公司倉促推動 AI 整合的結果是：
+🔴 明顯的程式碼錯誤 🔴 草率的程式碼品質 🔴 實際生產力下降 OpenClaw 的安全隱憂 OpenClaw 的爆紅也引起了監管機構的注意。這個開源 AI agent 平台讓任何人都能在家用電腦上部署自主 AI 助手，曾經發生過：</description></item><item><title>Nvidia GTC 2026 重點整理：Vera Rubin GPU、Groq 3 LPU、DLSS 5 與 NemoClaw 一次看懂</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-nvidia-gtc-2026-highlights/</link><pubDate>Sun, 22 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-nvidia-gtc-2026-highlights/</guid><description>2026 年 3 月 16-19 日，Nvidia 在聖荷西 SAP Center 舉辦了年度 GTC 大會。CEO Jensen Huang 穿著標誌性皮夾克，發表了近 3 小時的主題演講，涵蓋 AI 晶片、推理加速、遊戲技術、機器人與量子運算等多個領域。
+本文為你整理 GTC 2026 最重要的發布與亮點。
+Vera Rubin GPU：效能 10 倍躍進 Nvidia 正式發布 Vera Rubin 平台——這是繼 Hopper、Blackwell 之後的下一代 AI 運算架構。
+核心規格亮點：
+效能密度（performance per watt）比前代 Grace Blackwell 高出 10 倍 搭配全新 Vera CPU，取代 Grace ARM 架構 預計 2026 年下半年出貨 Jensen Huang 將 Vera Rubin 定位為「AI 工廠的引擎」，強調未來每家企業都需要自己的 AI 基礎設施。他在演講中說道：「AI 不只是軟體——它是一種新的運算型態，需要新的處理器。」
+Groq 3 LPU：Nvidia 收購 Groq 後的首款晶片 去年 12 月，Nvidia 以 200 億美元 完成對 AI 推理晶片新創 Groq 的資產收購，這是 Nvidia 歷史上最大的交易。GTC 2026 上，Jensen Huang 發布了 Groq 3 LPU（Language Processing Unit）。</description></item><item><title>Anthropic Claude 雙倍使用量更新：什麼是 Double Limits？誰能享受？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-claude-double-limits-update/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-claude-double-limits-update/</guid><description>2026 年 3 月中旬，Anthropic 悄悄推出了一項新功能：Claude Double Limits。這個更新讓許多 Claude Pro 用戶驚喜，也讓更多人對 Claude 的使用量限制機制有了新的好奇。本文為你完整解析這項更新的所有細節。
+什麼是 Claude Double Limits？ Claude Double Limits（雙倍限制）是一項動態使用量擴充功能。簡單說：在特定低峰時段，Anthropic 會自動將你的訊息配額提升為原本的兩倍。
+這意味著，如果你在 Pro 方案下平時每 8 小時可以發送 N 條訊息，在 Double Limits 時段就可以發送 2N 條。
+Anthropic 推出這個功能的背景是：他們在高峰時段有使用量限制，主要是為了維持服務品質；但在非高峰時段，伺服器有多餘的算力可以提供更慷慨的配額。
+Claude Pro 訂閱的完整功能清單（2026 年 3 月） 要理解 Double Limits 的意義，先了解 Claude Pro 在 2026 年提供什麼：
+核心功能 Extended messaging limits：比 Free 方案更高的訊息上限 Double Limits 時段：低峰時段的雙倍配額（新功能） Projects：建立持久性專案工作區，維持長期記憶 Claude Code：命令列 AI 程式開發工具 Claude in Chrome：Chrome 瀏覽器整合（延伸功能） 模型存取 Claude Opus 4（最新旗艦模型，思考能力最強） Claude Sonnet 4.</description></item><item><title>Morgan Stanley 警告：2026 年 AI 大躍進即將來臨，世界尚未準備好</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-morgan-stanley-ai-breakthrough-2026/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-morgan-stanley-ai-breakthrough-2026/</guid><description>2026 年 3 月，摩根士丹利（Morgan Stanley）發布了一份措辭罕見強烈的 AI 研究報告，向全球投資者和決策者發出警告：一場足以顛覆現有格局的 AI 能力大躍進，即將在 2026 年上半年到來——而大多數人、企業和政府都還沒有準備好。
+算力積累的臨界點 報告的核心論點圍繞著一個物理定律式的觀察展開。
+Morgan Stanley 分析師特別引用了 Elon Musk 的一個觀點：對 LLM 訓練投入 10 倍算力，可以有效使模型的「智慧」翻倍，而支撐這個說法的 scaling laws（規模化定律）目前仍然有效。
+這不只是理論推測。報告指出，美國頂尖 AI 實驗室正在以前所未有的速度積累算力：
+NVIDIA 最新一代 GPU 的出貨量在過去 12 個月創歷史紀錄 主要 AI 實驗室的訓練集群規模在 2025-2026 年間翻了數倍 已有實驗室宣布投資超過千億美元的 AI 基礎設施計劃 這個算力的積累，正在形成一個臨界點。
+GPT-5.4 的 GDPVal 測試成績 報告援引了一個特別有說服力的數據：OpenAI 最新發布的 GPT-5.4「Thinking」模型，在 GDPVal benchmark 測試中取得了 83.0% 的得分。
+這個數字的重要性在於：GDPVal 測試的是模型在「具有經濟價值的任務」上的表現——這不是傳統的學術測試，而是直接衡量 AI 能否取代人類在現實工作中的能力。
+83% 的得分，意味著 GPT-5.4 在大多數白領知識工作上已達到或超越人類專家水準。
+Morgan Stanley 的分析師警告：「目前看到的曲線只會更陡峭。」
+能源危機：智慧工廠的阿基里斯腱 然而，這場 AI 大躍進面臨一個致命的物理限制：電力。</description></item><item><title>NVIDIA GTC 2026 重點整理：AI 工廠時代正式開啟，DDN、Supermicro 聯手布局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-nvidia-gtc-2026-ai-infrastructure/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-nvidia-gtc-2026-ai-infrastructure/</guid><description>每年的 NVIDIA GTC（GPU Technology Conference）都是 AI 產業的風向標，而 2026 年的 GTC 比以往更加引人矚目。在這場被業界稱為「AI 奧斯卡」的盛會上，AI 基礎設施的下一個時代輪廓正在清晰浮現。
+GTC 2026 的核心主題：AI 工廠 如果要用一個關鍵詞總結 GTC 2026，那就是：AI Factory（AI 工廠）。
+NVIDIA 創辦人暨 CEO 黃仁勳將這個概念提升到了前所未有的高度：AI 算力基礎設施不再只是「IT 設備」，而是現代工業的核心生產資產——就像 18 世紀的蒸汽機、20 世紀的電力工廠一樣，AI 工廠是 21 世紀製造智慧的基礎設施。
+這個框架的含義深遠：它意味著投資 AI 基礎設施，本質上是投資未來的「工業產能」。
+DDN + Supermicro + NVIDIA：三巨頭聯手 GTC 2026 的重要發布之一，是 DDN（DataDirect Networks） 和 Supermicro 聯合 NVIDIA 推出的 「Driving AI Breakthroughs」 計劃。
+各自的角色 NVIDIA：提供核心算力
+最新一代 Blackwell Ultra GPU 架構 NVLink 高速互連技術 CUDA 生態系和軟體框架 DDN（AI 儲存領域的隱形冠軍）：
+超高速 AI 儲存解決方案（針對 GPU 工作負載優化） 在 AI 訓練場景中，儲存 I/O 是重要瓶頸；DDN 的解決方案可讓 GPU 利用率從 40% 提升到 90% 以上 支援大規模模型訓練的分散式儲存架構 Supermicro（AI 伺服器的製造王者）：</description></item><item><title>OpenAI 推出 GPT-5.4 Mini 與 Nano：更快更便宜的 AI 模型來了</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-gpt54-mini-nano-openai/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-gpt54-mini-nano-openai/</guid><description>OpenAI 在 2026 年 3 月中旬正式推出兩款新的輕量級語言模型：GPT-5.4 Mini 和 GPT-5.4 Nano。這兩款模型的誕生，讓開發者在「效能」與「成本」之間有了更靈活的選擇空間，也讓免費用戶首次能體驗到接近旗艦等級的 AI 能力。
+什麼是 GPT-5.4 Mini 和 Nano？ GPT-5.4 Mini 是 OpenAI 旗艦模型 GPT-5.4 的輕量化版本，針對速度和成本進行了深度優化：
+速度：推理速度是 GPT-5 Mini 的兩倍以上 成本：API 費用大幅降低，適合大量呼叫場景 能力：在程式碼生成、推理和多模態任務上保持接近旗艦的表現 GPT-5.4 Nano 則更進一步，是目前 OpenAI 推出的最輕量模型，主要針對：
+邊緣裝置部署 超低延遲場景（&amp;lt; 100ms 回應） 嵌入式 AI 應用 核心技術突破 速度翻倍的秘密 GPT-5.4 Mini 採用了 OpenAI 最新的「Speculative Decoding」技術改良版，透過並行預測多個 token 來加速輸出，同時不顯著降低輸出品質。
+根據 ZDNet 的報導，在標準 benchmark 測試中：
+程式碼生成任務：比 GPT-5 Mini 快 2.3 倍 文字摘要：快 2.1 倍 多輪對話：快 1.9 倍 Agent 場景的最佳化 OpenAI 這次特別針對 Multi-Agent 架構進行了優化。開發者現在可以：</description></item><item><title>美國國防部封鎖 Anthropic Claude：AI 軍事採購的政治風暴</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-pentagon-anthropic-claude-ban/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-pentagon-anthropic-claude-ban/</guid><description>2026 年 3 月，一場罕見的 AI 政策風暴在華盛頓颳起：美國國防部長 Pete Hegseth 宣布將 Anthropic 列為「供應鏈風險」，要求整個國防部體系在 180 天內移除所有 Claude AI 相關系統。這是美國政府首次對一家本土 AI 公司祭出如此嚴厲的採購限制。
+事件背景：一場「用途」之爭 根據 Federal News Network 的報導，這場禁令的導火線是 Anthropic 對軍方使用其 AI 模型的限制條件。
+Anthropic 作為一家以「AI 安全」為核心使命的公司，在其使用條款中對某些高風險應用設有明確限制。當軍方的實際使用方式觸碰到這些底線時，雙方的矛盾開始浮上檯面。
+「供應鏈風險」這個標籤的使用尤為引人注目。這個認定通常只保留給具有國家安全威脅的外國企業，例如中國電信設備商。將這個標籤用於一家美國本土的 AI 公司，是史無前例的。
+五角大廈的立場 美國國防部研究與工程副部長、首席技術官 Emil Michael 在 McAleese Defense Programs 會議上表示：
+「我們對能在六個月期限內快速淘汰 Anthropic 產品、不造成重大中斷相當有信心。」
+他的論點是：競爭 AI 模型的工作流程非常相似，切換成本不高。「我們已在過去幾週部署了 OpenAI，也部署了 Gemini。這些工具在不同保密等級的網路上推進時，前線士兵將擁有大量不同的選擇。」
+Michael 強調，這次禁令的背後也有一個戰略考量：避免單一供應商依賴。
+「我們在機密網路上只有一個主要供應商，這對一個作戰部門來說是不可接受的。我們必須有備用選項。」
+實際挑戰：軍方用戶的抵制 然而，現實並不如官員說的那麼輕鬆。Reuters 的報導揭示了另一面：
+軍方用戶並不願意放棄 Claude。
+Anthropic 是第一家在五角大廈機密系統部署 AI 的公司，其工具在聯邦政府中被普遍視為優於競爭對手。許多軍方用戶已將 Claude 深度整合進日常工作流程，從情報分析到文件撰寫都有廣泛應用。
+一名不願具名的國防承包商人員表示：「說工作流程都一樣，這太輕描淡寫了。每個模型的推理方式、回應風格都不同。訓練人員重新適應不是一兩天的事。」
+OpenAI 的戰略布局 這場禁令的最大受益者，毫無疑問是 OpenAI。</description></item><item><title>聯發科一口氣開源 3 款台灣 AI 模型：繁中多模態 Llama-Breeze2 + 台灣口音語音合成 BreezyVoice</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze2-open-source/</link><pubDate>Fri, 20 Mar 2026 07:50:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze2-open-source/</guid><description>台灣半導體龍頭聯發科，這次不是發晶片，是發 AI 模型——而且一次三款，全部開源。
 三款模型一次到位 聯發創新基地（MediaTek Research）一口氣開源了三款專為台灣打造的 AI 模型：
 模型 參數量 目標裝置 核心能力 Llama-Breeze2-3B 30 億 手機 繁中 + 看圖 + 函式呼叫 Llama-Breeze2-8B 80 億 個人電腦 繁中 + 看圖 + 函式呼叫 BreezyVoice — 筆電+ 台灣口音語音合成 所有模型的權重和程式碼都已釋出：
 📦 HuggingFace 模型庫 📱 Android App 原始碼 🗣️ BreezyVoice 模型 Llama-Breeze2：真正懂台灣的多模態模型 基於 Meta 的 Llama 3.2 優化，Llama-Breeze2 有三大特色：

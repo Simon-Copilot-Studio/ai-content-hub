@@ -1,0 +1,17 @@
+[2026-03-22 18:00:02] Starting daily publish...
+Start building sites … 
+hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
+
+
+                   | ZH-TW |  EN   
+-------------------+-------+-------
+  Pages            |  3643 | 2733  
+  Paginator pages  |   257 |  270  
+  Non-page files   |     4 |    0  
+  Static files     |   387 |  387  
+  Processed images |     0 |    0  
+  Aliases          |  1471 | 1020  
+  Cleaned          |     0 |    0  
+
+Total in 10104 ms
+[2026-03-22 18:00:02] Build OK — 2733 pages
