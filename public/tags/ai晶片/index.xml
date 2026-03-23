@@ -6,8 +6,29 @@
     <description>Recent content in AI晶片 on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 22 Mar 2026 06:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/ai%E6%99%B6%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三星供應 OpenAI HBM4 記憶體：搶攻自研 AI 晶片市場</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-samsung-openai-hbm4/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-samsung-openai-hbm4/</guid>
+      <description>歷史性合作：AI 巨頭 × 記憶體龍頭 2026 年 3 月 10 日，三星電子與 OpenAI 聯合宣布簽署 HBM4 記憶體獨家供應協議，合約期三年，總金額達 18 億美元。三星將為 OpenAI 自研 AI 訓練晶片（代號 &amp;ldquo;Tigris&amp;rdquo;）提供客製化 HBM4 記憶體，首批產品預計 2027 年第四季交付。&#xA;這是繼 Google TPU、特斯拉 Dojo 後，又一科技巨頭啟動「去 NVIDIA 化」戰略。OpenAI CEO Sam Altman 在發布會上表示：「掌控算力供應鏈是 AGI 競賽的關鍵。我們不能將命運完全交給外部供應商。」&#xA;OpenAI 的晶片野心 Tigris 晶片規格（洩露版） 根據 The Information 報導，OpenAI 的自研晶片規格：&#xA;製程：台積電 3nm N3E（2027 年轉 2nm） 晶粒面積：約 850 mm² 運算核心：640 個 Transformer Engine（專為 Attention 機制優化） 記憶體：256 GB HBM4（4-Hi 堆疊 × 4） 互連：NVLink 5.0 兼容協議（頻寬 1.</description>
+    </item>
+    <item>
+      <title>半導體產值 2026 提前突破 1 兆美元：AI 與記憶體雙引擎驅動</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-semiconductor-trillion-dollar/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-semiconductor-trillion-dollar/</guid>
+      <description>產業里程碑：1 兆美元大關提前達陣 根據世界半導體貿易統計組織（WSTS）最新報告，全球半導體產業 2026 年總產值預估達到 1.02 兆美元，較原先預測提前兩年突破萬億門檻。這項歷史性里程碑背後，是人工智慧（AI）晶片需求爆發與高頻寬記憶體（HBM）供應緊張的雙重驅動。&#xA;AI 晶片：成長引擎的核心 AI 訓練與推論晶片市場在 2026 年達到 2,800 億美元規模，年成長率高達 68%。NVIDIA 的 H200、AMD 的 MI350X，以及 Google 自研的 TPU v6 等先進 AI 加速器，成為各大雲端服務商與企業客戶的必備基礎設施。&#xA;關鍵數據：&#xA;NVIDIA 單季 AI 晶片出貨量突破 150 萬顆 全球前五大雲端廠商 AI 資本支出達 2,100 億美元 Edge AI 晶片市場年成長率 42%，終端裝置 AI 化加速 HBM 記憶體：供不應求的黃金賽道 高頻寬記憶體（HBM）成為 2026 年最炙手可熱的半導體產品。由於 AI 模型參數量持續膨脹，對記憶體頻寬需求呈指數級成長。三星、SK 海力士與美光的 HBM3E、HBM4 產能全面滿載，平均交貨週期延長至 36 週。&#xA;HBM 市場規模從 2025 年的 180 億美元暴增至 2026 年的 420 億美元，成長幅度超過 130%。SK 海力士憑藉技術領先優勢，市佔率達 52%，三星緊追在後佔 31%，美光則佔 17%。</description>
+    </item>
+    <item>
+      <title>特斯拉 AI6 晶片 2026 年底定版：三星 2 奈米製程 2027 量產</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-tesla-ai6-chip/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-tesla-ai6-chip/</guid>
+      <description>特斯拉的晶片野心：從 FSD 到 Dojo 2026 年 3 月 18 日，特斯拉在 AI Day 2026 上公布 AI6 訓練晶片最終規格，確認採用三星 2 奈米 GAA（Gate-All-Around）製程，預計 2027 年第二季進入量產。這是特斯拉繼 HW3.0（車載推論晶片）、Dojo D1（訓練晶片）後，第三代自研 AI 晶片。&#xA;Elon Musk 在發布會上直言：「我們不需要通用 GPU，我們需要為特斯拉工作負載優化到極致的晶片。AI6 將讓特斯拉在 FSD（Full Self-Driving）與 Optimus 機器人訓練上完全自主。」&#xA;AI6 技術規格：針對視覺 AI 極致優化 根據特斯拉公布的技術白皮書，AI6 採用以下設計：&#xA;核心架構 製程：Samsung 2nm GAA (SF2) 晶粒面積：約 820 mm²（比 NVIDIA H200 的 814 mm² 略大） 電晶體數量：1,100 億顆 運算核心：576 個 Tensor Core（特斯拉稱為 Neural Engine） 記憶體：128 GB HBM3E（頻寬 5.2 TB/s） 互連頻寬：單晶片對外 1.6 TB/s（NVLink-5 兼容協議） 功耗：700W TDP（散熱設計功耗） 專用優化設計 視覺 Transformer 加速器：硬體化的 Multi-Head Attention 單元，處理 ViT（Vision Transformer）模型速度比通用 GPU 快 3.</description>
+    </item>
     <item>
       <title>Nvidia GTC 2026 重點整理：Vera Rubin GPU、Groq 3 LPU、DLSS 5 與 NemoClaw 一次看懂</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-nvidia-gtc-2026-highlights/</link>

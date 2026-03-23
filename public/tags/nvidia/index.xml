@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nvidia on AI 趨勢觀察站</title>
+    <title>NVIDIA on AI 趨勢觀察站</title>
     <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/</link>
-    <description>Recent content in Nvidia on AI 趨勢觀察站</description>
+    <description>Recent content in NVIDIA on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA GTC 2026 光銅並行策略：資料中心互連未來</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</guid>
+      <description>GTC 2026：互連技術的十字路口 2026 年 3 月 18-21 日，NVIDIA 在聖荷西舉辦 GTC（GPU Technology Conference）大會。CEO Jensen Huang 主題演講中，互連技術佔據 45 分鐘，遠超過往年對 GPU 架構本身的著墨。&#xA;這反映一個產業共識：AI 訓練瓶頸已從「運算」轉移至「通訊」。當單一模型需要數萬張 GPU 協同訓練，晶片間互連的頻寬與延遲成為決定性因素。&#xA;NVIDIA 宣布 「光銅並行」（Optical-Copper Coexistence） 策略：&#xA;NVLink 6.0：銅線互連升級版，頻寬達 1.8 TB/s NVLink-Optical：矽光子光學互連，頻寬達 3.6 TB/s 這是 NVIDIA 首次在同一代產品中提供兩種互連方案，標誌著產業從「單一技術路線」進入「混合互連時代」。&#xA;為什麼需要新一代互連？ AI 模型的「通訊地獄」 大型語言模型訓練中，GPU 並非持續運算，而是頻繁等待資料同步。以 GPT-5 等級模型（3 兆參數，32,768 張 H200 訓練）為例：&#xA;訓練一個 Batch 的時間分配：&#xA;前向傳播（Forward Pass）：12 秒 反向傳播（Backward Pass）：18 秒 梯度同步（All-Reduce）：22 秒（佔總時長 42%） 若能將 All-Reduce 時間減半，整體訓練效率提升 21%。&#xA;NVLink 5.0 的極限 現有 Blackwell 架構採用 NVLink 5.</description>
+    </item>
+    <item>
+      <title>OpenAI 自研晶片計畫：打破 NVIDIA 壟斷的可能性</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-23-openai-custom-chip/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-23-openai-custom-chip/</guid>
+      <description>一張 H100 背後的算計 2026 年 3 月,OpenAI 執行長 Sam Altman 在內部會議上透露一個驚人數字:「我們每天在 NVIDIA GPU 上燒掉 850 萬美元。」換算下來,OpenAI 僅訓練與推理成本,一年就超過 $31 億——這還不包括電費、冷卻與維護。&#xA;更令人頭痛的是供應瓶頸。即使願意付溢價,H100 交貨期仍需 6-9 個月。當競爭對手 Anthropic、Google 都在瘋狂擴充算力,每一天的延遲都意味著技術領先優勢的流失。&#xA;於是,OpenAI 做出大膽決定:自己造晶片。&#xA;這不是衝動之舉。2024 年 10 月,OpenAI 便開始招募半導體人才,從蘋果、Google 挖角超過 120 名晶片設計師。2025 年 7 月,與台積電簽訂戰略合作協議。2026 年 3 月,首款 AI 晶片「Triton」(暫定代號) 已完成流片,預計 2027 年 Q2 量產。&#xA;這場豪賭能否成功?它將如何改變 AI 晶片市場格局?&#xA;NVIDIA 帝國的堅實根基 要理解 OpenAI 的挑戰難度,先看 NVIDIA 的護城河有多深:&#xA;市場主導地位 (2026 年 Q1 數據) 市場區隔 NVIDIA 市佔率 主要競爭者 AI 訓練 92% Google TPU (4%), AMD MI300 (3%) AI 推理 78% Intel Gaudi (8%), AWS Inferentia (7%) 資料中心總營收 $114B/年 佔全球 83% 技術優勢 1.</description>
+    </item>
     <item>
       <title>OpenClaw 的 ChatGPT 時刻：AI 模型商品化危機來了嗎？</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</link>

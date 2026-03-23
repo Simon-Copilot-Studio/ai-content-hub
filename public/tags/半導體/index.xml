@@ -6,8 +6,50 @@
     <description>Recent content in 半導體 on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 16 Mar 2026 06:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI 自研晶片計畫：打破 NVIDIA 壟斷的可能性</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-23-openai-custom-chip/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-23-openai-custom-chip/</guid>
+      <description>一張 H100 背後的算計 2026 年 3 月,OpenAI 執行長 Sam Altman 在內部會議上透露一個驚人數字:「我們每天在 NVIDIA GPU 上燒掉 850 萬美元。」換算下來,OpenAI 僅訓練與推理成本,一年就超過 $31 億——這還不包括電費、冷卻與維護。&#xA;更令人頭痛的是供應瓶頸。即使願意付溢價,H100 交貨期仍需 6-9 個月。當競爭對手 Anthropic、Google 都在瘋狂擴充算力,每一天的延遲都意味著技術領先優勢的流失。&#xA;於是,OpenAI 做出大膽決定:自己造晶片。&#xA;這不是衝動之舉。2024 年 10 月,OpenAI 便開始招募半導體人才,從蘋果、Google 挖角超過 120 名晶片設計師。2025 年 7 月,與台積電簽訂戰略合作協議。2026 年 3 月,首款 AI 晶片「Triton」(暫定代號) 已完成流片,預計 2027 年 Q2 量產。&#xA;這場豪賭能否成功?它將如何改變 AI 晶片市場格局?&#xA;NVIDIA 帝國的堅實根基 要理解 OpenAI 的挑戰難度,先看 NVIDIA 的護城河有多深:&#xA;市場主導地位 (2026 年 Q1 數據) 市場區隔 NVIDIA 市佔率 主要競爭者 AI 訓練 92% Google TPU (4%), AMD MI300 (3%) AI 推理 78% Intel Gaudi (8%), AWS Inferentia (7%) 資料中心總營收 $114B/年 佔全球 83% 技術優勢 1.</description>
+    </item>
+    <item>
+      <title>半導體產值 2026 提前突破 1 兆美元：AI 與記憶體雙引擎驅動</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-semiconductor-trillion-dollar/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-semiconductor-trillion-dollar/</guid>
+      <description>產業里程碑：1 兆美元大關提前達陣 根據世界半導體貿易統計組織（WSTS）最新報告，全球半導體產業 2026 年總產值預估達到 1.02 兆美元，較原先預測提前兩年突破萬億門檻。這項歷史性里程碑背後，是人工智慧（AI）晶片需求爆發與高頻寬記憶體（HBM）供應緊張的雙重驅動。&#xA;AI 晶片：成長引擎的核心 AI 訓練與推論晶片市場在 2026 年達到 2,800 億美元規模，年成長率高達 68%。NVIDIA 的 H200、AMD 的 MI350X，以及 Google 自研的 TPU v6 等先進 AI 加速器，成為各大雲端服務商與企業客戶的必備基礎設施。&#xA;關鍵數據：&#xA;NVIDIA 單季 AI 晶片出貨量突破 150 萬顆 全球前五大雲端廠商 AI 資本支出達 2,100 億美元 Edge AI 晶片市場年成長率 42%，終端裝置 AI 化加速 HBM 記憶體：供不應求的黃金賽道 高頻寬記憶體（HBM）成為 2026 年最炙手可熱的半導體產品。由於 AI 模型參數量持續膨脹，對記憶體頻寬需求呈指數級成長。三星、SK 海力士與美光的 HBM3E、HBM4 產能全面滿載，平均交貨週期延長至 36 週。&#xA;HBM 市場規模從 2025 年的 180 億美元暴增至 2026 年的 420 億美元，成長幅度超過 130%。SK 海力士憑藉技術領先優勢，市佔率達 52%，三星緊追在後佔 31%，美光則佔 17%。</description>
+    </item>
+    <item>
+      <title>半導體產業三大隱憂：人才荒、綠電不足、供應鏈壓力</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-semiconductor-industry-three-concerns/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-semiconductor-industry-three-concerns/</guid>
+      <description>台灣半導體產業的光與影 台灣半導體產業 2025 年產值突破 4.8 兆新台幣，全球晶圓代工市佔率超過 60%，台積電更以先進製程技術領先全球。然而在亮眼成績背後，三大隱憂正逐漸浮現：人才荒、綠電不足與供應鏈壓力，這些挑戰若未妥善應對，將影響台灣在全球半導體版圖的競爭力。&#xA;隱憂一：人才荒持續惡化 產業缺工現況 根據工研院 2026 年 2 月報告，台灣半導體產業人才缺口已達 3.5 萬人，預計 2028 年將擴大至 5 萬人。主要缺口集中在：&#xA;製程工程師：先進製程（3nm 以下）需求年增 25% 設備工程師：新廠擴建導致需求激增 封裝測試人才：先進封裝技術人才嚴重不足 人才流失問題 台灣半導體人才不僅供不應求，還面臨海外挖角壓力。美國、日本、歐洲積極建廠，以 2-3 倍薪資挖角台灣工程師。2025 年台積電美國亞利桑那廠就從台灣調派超過 1,000 名工程師。&#xA;解方建議 產學合作：擴大半導體學院規模，強化實務訓練 薪資競爭力：提升基層工程師薪資待遇 留才機制：改善工作環境與職涯發展路徑 隱憂二：綠電供應嚴重不足 RE100 壓力 全球大廠（Apple、Google、Microsoft）要求供應鏈 2030 年達成 100% 使用再生能源（RE100）。然而台灣綠電供應遠遠不足：&#xA;2025 年再生能源發電占比僅 9.8% 台積電一座先進製程廠年用電量超過 80 億度 綠電憑證供不應求，價格飆漲 40% 電力吃緊危機 台灣半導體產業用電量占全國總用電 17%，隨著新廠陸續開工，2028 年預估將突破 20%。若綠電供應無法跟上，將面臨：&#xA;客戶訂單流失風險 碳關稅成本增加 國際品牌形象受損 解方建議 加速再生能源建置：離岸風電、太陽能擴建計畫 儲能系統投資：提升電網穩定性 企業自建綠電：鼓勵半導體廠自建太陽能電廠 隱憂三：供應鏈地緣壓力 美中科技戰衝擊 美國對中國祭出晶片禁令，限制 14nm 以下先進製程設備出口。台灣夾在中美之間，面臨：&#xA;技術管制：EUV 光刻機等關鍵設備受限 客戶分流：中國客戶訂單減少 15% 地緣風險：台海緊張影響投資信心 供應鏈韌性不足 COVID-19 疫情暴露全球半導體供應鏈脆弱性。台灣高度依賴：</description>
+    </item>
+    <item>
+      <title>台灣上市公司 2 月營收創新高：台積電年增 22% 帶動</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</guid>
+      <description>台股 2 月營收創歷史新高 台灣證券交易所公布數據顯示，上市公司 2026 年 2 月合併營收達 4.12 兆新台幣，月增 8.3%，年增 18.5%，創下歷年同期新高。在台積電、鴻海、聯發科三大巨頭帶動下，半導體、AI 伺服器、電動車供應鏈表現亮眼，顯示台灣科技業在全球供應鏈的關鍵地位持續鞏固。&#xA;台積電年增 22% 領軍 先進製程需求強勁 台積電 2 月營收 2,387 億新台幣，月增 12.5%，年增 22%，創單月歷史次高（僅次於 2025 年 12 月）。主要驅動力來自：&#xA;3nm 製程訂單爆發：Apple A18、M4 晶片、NVIDIA H200 GPU 大量投片 AI 晶片需求：生成式 AI 帶動 CoWoS 先進封裝產能滿載 HPC 客戶回溫：AMD、Intel 委外代工訂單增加 法人預估台積電 Q1 營收將達 6,800-7,000 億新台幣，年增 20% 以上，全年營收挑戰 3 兆新台幣大關。&#xA;美國廠投產進度 台積電美國亞利桑那廠第一期（4nm 製程）已於 2025 年底試產，預計 2026 年下半年量產。美國客戶（Apple、AMD、NVIDIA）將部分訂單移至美國生產,符合《晶片法案》補貼要求。&#xA;AI 伺服器供應鏈爆發 鴻海營收年增 28% 鴻海 2 月營收 6,235 億新台幣，年增 28%，創歷年同期新高。主要成長來自：</description>
+    </item>
+    <item>
+      <title>美中科技戰升溫：關稅 301 條款對台灣供應鏈衝擊</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-us-china-tech-war-301-tariffs-taiwan-impact/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-us-china-tech-war-301-tariffs-taiwan-impact/</guid>
+      <description>美中科技戰進入新階段 美國貿易代表署（USTR）於 2026 年 3 月宣布，擴大 301 條款關稅制裁範圍，針對中國半導體、AI 晶片、先進封裝技術加徵 50% 關稅，並將部分中國企業列入「實體清單」，禁止購買美國技術。這是繼 2018 年貿易戰、2022 年晶片法案後，美中科技戰的最新升級。&#xA;台灣身為全球半導體供應鏈核心，夾在中美之間，面臨訂單分流、技術管制、地緣風險三重壓力。本文深入分析 301 條款對台灣供應鏈的衝擊與因應策略。&#xA;301 條款最新措施 新增關稅清單 美國 2026 年 3 月公布的 301 條款修正案，新增以下產品關稅：&#xA;產品類別 關稅稅率 生效日期 半導體晶片（14nm 以下） 50% 2026/5/1 AI 訓練晶片 50% 2026/5/1 先進封裝設備 30% 2026/7/1 EUV 光刻機零組件 25% 2026/7/1 這些關稅涵蓋中國製或在中國組裝的產品，即使使用台灣晶片，只要在中國封裝測試，仍會被課稅。&#xA;實體清單擴大 美國商務部同步將 38 家中國企業加入「實體清單」，禁止購買美國半導體設備、EDA 軟體、IP 授權。名單包括：&#xA;中芯國際（SMIC）：禁止購買 EUV 光刻機 華為海思：禁止使用 ARM、RISC-V 最新架構 長江存儲：禁止購買 ASML DUV 設備 台灣廠商若與這些企業往來，可能面臨次級制裁風險。&#xA;對台灣供應鏈三大衝擊 衝擊一：中國訂單分流 中國是台灣半導體第二大市場（僅次於美國），占台灣 IC 出口 28%。301 條款實施後：</description>
+    </item>
+    <item>
+      <title>費半回檔？半導體 ETF 與高殖利 ETF 投資策略</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-semiconductor-etf-strategy/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-semiconductor-etf-strategy/</guid>
+      <description>費半指數震盪：技術性修正還是趨勢反轉？ 費城半導體指數（SOX）在 2026 年 2 月 28 日創下歷史新高 7,850 點後，3 月急跌 12%，失守 7,000 點關卡。市場恐慌情緒升溫，半導體 ETF 單週資金流出 38 億美元，創 2022 年以來最大。&#xA;回檔三大原因 1. NVIDIA 財報不如預期 實際營收：326 億美元（vs 市場預期 340 億） 原因：H200 良率爬坡慢於預期，出貨遞延至 Q2 影響：台積電 CoWoS 訂單短期放緩，供應鏈砍單疑慮 2. AI 資本支出放緩擔憂 微軟：2026 財年 Capex 從 600 億下修至 550 億 Google：削減 TPU v6 採購量 15% 解讀：雲端巨頭「理性化投資」，不再盲目擴張算力 3. 獲利了結賣壓 2025 年 SOX 指數暴漲 82%，短期漲幅過大 對沖基金減碼科技股，轉向債券與防禦性產業 RSI 技術指標顯示「超買」（&amp;gt;80），修正屬健康回檔 機構觀點：長期看多 高盛：「AI 基礎建設週期才剛開始，回檔是加碼機會」 摩根士丹利：上調費半 2026 底目標至 8,200 點（+17%） 台灣外資：3 月第三週轉為淨買超，逢低承接台積電 半導體 ETF 深度對比 1.</description>
+    </item>
     <item>
       <title>美國撤回 AI 晶片出口管制草案：對台灣半導體產業的影響分析</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-us-ai-chip-export-rule-withdrawn/</link>

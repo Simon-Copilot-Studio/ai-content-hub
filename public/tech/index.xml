@@ -9,6 +9,76 @@
     <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI Agent 安全新標準：從 Meta 洩漏事件看企業部署風險</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-ai-agent-security-meta-leak/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-ai-agent-security-meta-leak/</guid>
+      <description>震撼業界的洩漏事件 2026 年 2 月 18 日，駭客組織「ShadowBroker 2.0」在暗網公開 280 GB Meta 內部資料，包含：&#xA;Quest Pro 2 VR 頭盔完整設計圖 12,000 名員工薪資與績效評估 850,000 家廣告客戶的投放策略與預算資料 Meta AI（LLaMA 4）訓練資料集索引 調查顯示，駭客並非直接攻破 Meta 主系統，而是透過 內部 AI Agent 系統的 SQL 注入漏洞間接取得權限。這個 Agent 原本設計用於「自動化資料分析」，但被授予過高的資料庫存取權限，成為安全破口。&#xA;Meta 股價單日暴跌 8.2%，蒸發市值 820 億美元。CEO Mark Zuckerberg 被傳喚至參議院作證，承認「AI Agent 安全管理存在重大疏失」。&#xA;事件時間軸與技術細節 攻擊路徑還原 根據 CrowdStrike 事後分析報告：&#xA;第 1 階段：釣魚與內網滲透（1 月 5-15 日） 駭客透過 LinkedIn 偽裝獵頭，寄送含惡意附件的「職缺邀約」給 Meta 資料工程師 受害者在公司筆電開啟附件，植入後門程式 後門建立 C2（Command &amp;amp; Control）通道，繞過防火牆 第 2 階段：發現 AI Agent 系統（1 月 20 日） 駭客在內網掃描，發現一個名為「DataInsight-Agent」的內部服務 該 Agent 使用 LangChain 框架，連接 Meta 資料倉庫（Presto + Hive） 測試發現 Agent 接受自然語言查詢，且無身份驗證機制 第 3 階段：提示注入攻擊（1 月 25 日） 駭客輸入精心設計的提示：</description>
+    </item>
+    <item>
+      <title>Cursor Composer 2 AI 編碼模型：效能超越 Claude Opus</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-cursor-composer-2/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-cursor-composer-2/</guid>
+      <description>AI 編碼工具的新王者誕生 2026 年 3 月 15 日，AI 編輯器新創 Cursor 發布 Composer 2 編碼模型，在程式碼生成標竿測試 SWE-bench 上取得 38.2% 解決率，首次超越 Anthropic 的 Claude Opus（32.1%）與 OpenAI 的 GPT-4 Turbo（29.8%）。&#xA;這標誌著「垂直領域專用模型」在特定任務上超越通用大型語言模型的里程碑。Cursor 共同創辦人 Aman Sanger 表示：「我們不追求通用智慧，只專注把『寫程式』這件事做到極致。」&#xA;發布兩週內，Cursor 付費用戶從 45 萬增長至 68 萬，超越 GitHub Copilot 成為訂閱數最高的 AI 編碼工具。&#xA;技術突破：為編輯而生的架構 核心設計理念 傳統 LLM（如 GPT-4）針對「生成流暢文字」優化，Composer 2 則針對「最小編輯距離」優化：&#xA;範例任務：將 React Class Component 重構為 Function Component&#xA;GPT-4 做法：生成全新檔案（200 行程式碼） Composer 2 做法：精準定位 8 處需修改的位置，僅輸出差異（diff） 這種「手術刀式編輯」降低 75% 的 token 消耗，且減少引入 bug 的風險。</description>
+    </item>
+    <item>
+      <title>Google Search Live 全球推出：Gemini 3.1 Flash 即時視覺問答</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-google-search-live/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-google-search-live/</guid>
+      <description>搜尋體驗的典範轉移 2026 年 3 月 20 日,Google 在 I/O 開發者大會上宣布 Search Live 功能全球上線,整合 Gemini 3.1 Flash 多模態大型語言模型。使用者只需打開手機攝影機對準任何物體,AI 即時理解畫面內容並回答問題,延遲低於 300 毫秒,體驗如同與 AI 助理「共同觀看」世界。&#xA;Google CEO Sundar Pichai 表示:「這是搜尋引擎發明 25 年來最重大的躍進。我們從『輸入關鍵字』進化到『語音問答』,現在進入『視覺對話』時代。」&#xA;首週數據顯示,Search Live 日活躍用戶突破 1.2 億,平均每人每日使用 8.3 次,其中 35% 的查詢來自購物場景。&#xA;技術架構:三層式即時處理 Layer 1: 裝置端預處理 Gemini Nano 2.0（裝置端模型）：在手機晶片（如 Snapdragon 8 Gen 4、天璣 9400）上運行,負責: 物體偵測與追蹤（每秒 30 幀） 場景分類（室內/戶外、光線條件） OCR 文字辨識（支援 120 種語言） Layer 2: 邊緣快取加速 Cloud TPU v6e（Google 資料中心）： 預載熱門物品特徵向量（如 Amazon Top 1000 商品） 地理位置相關知識（如用戶所在城市的地標） 語意相似度快速匹配（向量搜尋延遲 &amp;lt; 50ms） Layer 3: 多模態推論 Gemini 3.</description>
+    </item>
+    <item>
+      <title>Google 擴大國防 AI 合約：Anthropic 拒絕五角大廈遭封殺</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-google-anthropic-defense-ai/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-google-anthropic-defense-ai/</guid>
+      <description>科技巨頭的「新冷戰」選邊站 2026 年 3 月 12 日，Google 宣布與美國國防部簽署為期五年、總價值 28 億美元的「Sentinel AI」合約，部署 Gemini 模型用於衛星影像分析、網路安全與後勤優化。這是 Google 自 2018 年 Project Maven 爭議後，首次大規模回歸國防領域。&#xA;同日，Anthropic 發布聲明，正式拒絕五角大廈的 AI 合作邀約，重申「憲章承諾：Claude 不用於軍事目的」。48 小時後，美國聯邦採購服務局（GSA）將 Anthropic 列入「不適格供應商」名單，禁止其參與任何聯邦政府合約投標。&#xA;這場對決揭示科技產業面臨的終極選擇：在國家安全與商業倫理間，你站哪一邊？&#xA;Google 的「Sentinel AI」合約細節 合約範圍 根據五角大廈採購文件（部分解密），Sentinel AI 包含三大項目：&#xA;1. 太空態勢感知（Space Domain Awareness） 任務：分析衛星影像，追蹤他國軍事資產（如飛彈發射台、艦隊動向） 技術：Gemini 3.1 Pro Vision 模型，辨識 SAR（合成孔徑雷達）與光學影像 性能：識別精度 95%，處理速度 10,000 張/小時（vs 人工分析 50 張/小時） 限制：不用於武器目標鎖定，僅情報蒐集 2. 網路安全防禦（Cyber Defense Operations） 任務：即時偵測國家級駭客攻擊（APT 組織），自動生成防禦策略 技術：Gemini Code 模型分析惡意程式碼，預測攻擊路徑 案例：2025 年 12 月偵測中國 APT41 針對美軍後勤系統的 0-day 漏洞攻擊，提前 8 小時預警 3.</description>
+    </item>
+    <item>
+      <title>NVIDIA GTC 2026 光銅並行策略：資料中心互連未來</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</guid>
+      <description>GTC 2026：互連技術的十字路口 2026 年 3 月 18-21 日，NVIDIA 在聖荷西舉辦 GTC（GPU Technology Conference）大會。CEO Jensen Huang 主題演講中，互連技術佔據 45 分鐘，遠超過往年對 GPU 架構本身的著墨。&#xA;這反映一個產業共識：AI 訓練瓶頸已從「運算」轉移至「通訊」。當單一模型需要數萬張 GPU 協同訓練，晶片間互連的頻寬與延遲成為決定性因素。&#xA;NVIDIA 宣布 「光銅並行」（Optical-Copper Coexistence） 策略：&#xA;NVLink 6.0：銅線互連升級版，頻寬達 1.8 TB/s NVLink-Optical：矽光子光學互連，頻寬達 3.6 TB/s 這是 NVIDIA 首次在同一代產品中提供兩種互連方案，標誌著產業從「單一技術路線」進入「混合互連時代」。&#xA;為什麼需要新一代互連？ AI 模型的「通訊地獄」 大型語言模型訓練中，GPU 並非持續運算，而是頻繁等待資料同步。以 GPT-5 等級模型（3 兆參數，32,768 張 H200 訓練）為例：&#xA;訓練一個 Batch 的時間分配：&#xA;前向傳播（Forward Pass）：12 秒 反向傳播（Backward Pass）：18 秒 梯度同步（All-Reduce）：22 秒（佔總時長 42%） 若能將 All-Reduce 時間減半，整體訓練效率提升 21%。&#xA;NVLink 5.0 的極限 現有 Blackwell 架構採用 NVLink 5.</description>
+    </item>
+    <item>
+      <title>OPPO 手機漲價 Apple 逆勢突圍：中國智慧型手機市場 Q1 分析</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-china-smartphone-market-q1/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-china-smartphone-market-q1/</guid>
+      <description>市場概況：寒冬中的結構性轉變 根據 IDC 最新報告，2026 年第一季中國智慧型手機市場出貨量達 6,820 萬台，年減 3.2%，連續第九季下滑。但數字背後隱藏結構性變化：高階市場（≥4,000 人民幣）逆勢成長 12%，中低階市場（&amp;lt;2,000 元）暴跌 18%。&#xA;市場呈現「啞鈴型」格局：&#xA;高階玩家：Apple、華為穩坐前二，份額持續擴大 中階崩塌：OPPO、vivo、小米陷入價格戰，毛利率跌破 8% 低階出清：realme、榮耀份額被線上品牌（如一加、iQOO）侵蝕 OPPO 的漲價困境：成本壓力無處可逃 漲價細節 2026 年 3 月 1 日，OPPO 宣布旗艦機 Find X8 Pro 建議售價調整：&#xA;舊價：5,999 人民幣（12GB+256GB） 新價：6,699 人民幣（+700 元，+12%） Find X8 標準版：4,299 → 4,799 元（+500 元，+12%） 這是 OPPO 近五年來首次「正式漲價」（不含通膨調整）。&#xA;成本結構拆解 以 Find X8 Pro 為例，BOM（物料成本）變化：&#xA;項目 2025 成本 2026 成本 變化 高通驍龍 8 Gen 4 $185 $226 +22% Samsung AMOLED（6.82吋） $78 $84 +8% 潛望鏡頭模組 $42 $45 +7% LPDDR5X 記憶體 $28 $32 +14% 組裝與測試 $35 $38 +9% 總 BOM $488 $562 +15% 匯率損失：人民幣兌美元貶值 3.</description>
+    </item>
+    <item>
+      <title>三星供應 OpenAI HBM4 記憶體：搶攻自研 AI 晶片市場</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-samsung-openai-hbm4/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-samsung-openai-hbm4/</guid>
+      <description>歷史性合作：AI 巨頭 × 記憶體龍頭 2026 年 3 月 10 日，三星電子與 OpenAI 聯合宣布簽署 HBM4 記憶體獨家供應協議，合約期三年，總金額達 18 億美元。三星將為 OpenAI 自研 AI 訓練晶片（代號 &amp;ldquo;Tigris&amp;rdquo;）提供客製化 HBM4 記憶體，首批產品預計 2027 年第四季交付。&#xA;這是繼 Google TPU、特斯拉 Dojo 後，又一科技巨頭啟動「去 NVIDIA 化」戰略。OpenAI CEO Sam Altman 在發布會上表示：「掌控算力供應鏈是 AGI 競賽的關鍵。我們不能將命運完全交給外部供應商。」&#xA;OpenAI 的晶片野心 Tigris 晶片規格（洩露版） 根據 The Information 報導，OpenAI 的自研晶片規格：&#xA;製程：台積電 3nm N3E（2027 年轉 2nm） 晶粒面積：約 850 mm² 運算核心：640 個 Transformer Engine（專為 Attention 機制優化） 記憶體：256 GB HBM4（4-Hi 堆疊 × 4） 互連：NVLink 5.0 兼容協議（頻寬 1.</description>
+    </item>
+    <item>
+      <title>半導體產值 2026 提前突破 1 兆美元：AI 與記憶體雙引擎驅動</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-semiconductor-trillion-dollar/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-semiconductor-trillion-dollar/</guid>
+      <description>產業里程碑：1 兆美元大關提前達陣 根據世界半導體貿易統計組織（WSTS）最新報告，全球半導體產業 2026 年總產值預估達到 1.02 兆美元，較原先預測提前兩年突破萬億門檻。這項歷史性里程碑背後，是人工智慧（AI）晶片需求爆發與高頻寬記憶體（HBM）供應緊張的雙重驅動。&#xA;AI 晶片：成長引擎的核心 AI 訓練與推論晶片市場在 2026 年達到 2,800 億美元規模，年成長率高達 68%。NVIDIA 的 H200、AMD 的 MI350X，以及 Google 自研的 TPU v6 等先進 AI 加速器，成為各大雲端服務商與企業客戶的必備基礎設施。&#xA;關鍵數據：&#xA;NVIDIA 單季 AI 晶片出貨量突破 150 萬顆 全球前五大雲端廠商 AI 資本支出達 2,100 億美元 Edge AI 晶片市場年成長率 42%，終端裝置 AI 化加速 HBM 記憶體：供不應求的黃金賽道 高頻寬記憶體（HBM）成為 2026 年最炙手可熱的半導體產品。由於 AI 模型參數量持續膨脹，對記憶體頻寬需求呈指數級成長。三星、SK 海力士與美光的 HBM3E、HBM4 產能全面滿載，平均交貨週期延長至 36 週。&#xA;HBM 市場規模從 2025 年的 180 億美元暴增至 2026 年的 420 億美元，成長幅度超過 130%。SK 海力士憑藉技術領先優勢，市佔率達 52%，三星緊追在後佔 31%，美光則佔 17%。</description>
+    </item>
+    <item>
+      <title>台積電矽光子技術量產：共同封裝光學 CPO 商轉元年</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-tsmc-silicon-photonics/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-tsmc-silicon-photonics/</guid>
+      <description>光學互連時代正式開啟 2026 年 3 月，台積電宣布其矽光子共同封裝光學（Co-Packaged Optics, CPO）技術平台正式量產，首批客戶包括 NVIDIA、Broadcom 與 Marvell。這項技術將光學收發器與 AI 加速器、交換晶片整合在同一封裝內，標誌著資料中心互連技術進入「光電融合」新紀元。&#xA;根據市場研究機構 Yole Intelligence 預測，CPO 市場規模將從 2026 年的 8 億美元暴增至 2030 年的 120 億美元，年複合成長率達 95%。&#xA;為什麼需要 CPO？銅線互連的極限 傳統資料中心架構採用可插拔光模組（如 QSFP-DD、OSFP），運算晶片輸出電訊號經過 PCB 走線、連接器傳輸至光模組，再轉換為光訊號。這種架構在高速傳輸時面臨三大瓶頸：&#xA;1. 功耗牆 銅線高速傳輸的訊號損耗嚴重，需要強大的等化器（Equalizer）與重定時器（Retimer）來補償。800G 光模組功耗高達 15-20W，1.6T 模組更突破 30W。一個搭載 64 個 800G 光模組的交換機，光是互連就消耗近 1kW 功率。&#xA;2. 頻寬密度限制 可插拔模組需要預留散熱空間與連接器插槽，限制了交換機面板的埠密度。現有架構下，單一 1U 交換機最多支援 64 個 800G 埠，總頻寬 51.2 Tbps。&#xA;3. 延遲問題 電訊號在 PCB 走線與連接器間的傳播延遲約 500-800 奈秒，對於大規模 GPU 叢集（如 10,000 張 H200 組成的訓練系統）來說，累積延遲影響訓練效率。&#xA;CPO 技術如何突破？ 核心原理 CPO 將雷射光源、調制器、光偵測器等光學元件，透過矽光子晶片整合到運算晶片封裝內。訊號路徑縮短至 5-10mm，直接在封裝內完成電光轉換。</description>
+    </item>
+    <item>
+      <title>特斯拉 AI6 晶片 2026 年底定版：三星 2 奈米製程 2027 量產</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-tesla-ai6-chip/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-tesla-ai6-chip/</guid>
+      <description>特斯拉的晶片野心：從 FSD 到 Dojo 2026 年 3 月 18 日，特斯拉在 AI Day 2026 上公布 AI6 訓練晶片最終規格，確認採用三星 2 奈米 GAA（Gate-All-Around）製程，預計 2027 年第二季進入量產。這是特斯拉繼 HW3.0（車載推論晶片）、Dojo D1（訓練晶片）後，第三代自研 AI 晶片。&#xA;Elon Musk 在發布會上直言：「我們不需要通用 GPU，我們需要為特斯拉工作負載優化到極致的晶片。AI6 將讓特斯拉在 FSD（Full Self-Driving）與 Optimus 機器人訓練上完全自主。」&#xA;AI6 技術規格：針對視覺 AI 極致優化 根據特斯拉公布的技術白皮書，AI6 採用以下設計：&#xA;核心架構 製程：Samsung 2nm GAA (SF2) 晶粒面積：約 820 mm²（比 NVIDIA H200 的 814 mm² 略大） 電晶體數量：1,100 億顆 運算核心：576 個 Tensor Core（特斯拉稱為 Neural Engine） 記憶體：128 GB HBM3E（頻寬 5.2 TB/s） 互連頻寬：單晶片對外 1.6 TB/s（NVLink-5 兼容協議） 功耗：700W TDP（散熱設計功耗） 專用優化設計 視覺 Transformer 加速器：硬體化的 Multi-Head Attention 單元，處理 ViT（Vision Transformer）模型速度比通用 GPU 快 3.</description>
+    </item>
+    <item>
       <title>騰訊整合微信與 OpenClaw：AI 代理的中國爆發與資安隱憂</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-openclaw-wechat-integration/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>

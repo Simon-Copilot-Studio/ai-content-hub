@@ -6,8 +6,15 @@
     <description>Recent content in 科技政策 on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E7%A7%91%E6%8A%80%E6%94%BF%E7%AD%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>歐盟 AI 法案 2026 最新進展：全球首部 AI 監管法規影響</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-23-eu-ai-act-2026-update/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-23-eu-ai-act-2026-update/</guid>
+      <description>全球 AI 監管典範的誕生 2025 年 8 月正式生效的《歐盟人工智慧法案》(EU AI Act),至今實施已滿八個月。作為人類史上首部全面性 AI 法規,它不僅改變了歐洲的科技生態,更掀起「布魯塞爾效應」(Brussels Effect),迫使全球企業重新設計 AI 系統。2026 年 3 月的最新執行報告顯示,這部法案正以前所未有的速度重塑產業規則。&#xA;風險分級制度的實際運作 AI 法案的核心是四級風險分類系統,根據對人權與安全的潛在危害程度,實施差異化管理：&#xA;🚫 禁止類 (Prohibited AI) 明確禁止的應用已造成實質影響：&#xA;社會信用評分系統：中國科技公司在歐盟的相關服務全面下架 情緒辨識技術：學校與職場禁用,影響超過 120 家 HR Tech 業者 遠端生物辨識：執法機關僅在嚴重犯罪調查時可申請例外使用 截至 2026 年 3 月,歐盟執委會已發出 37 項禁令通知,涉及 18 個國家的產品與服務。&#xA;⚠️ 高風險類 (High-Risk AI) 此類系統佔監管重點,涵蓋範圍包括：&#xA;領域 應用範例 已認證系統數 醫療健康 疾病診斷輔助、手術機器人 243 關鍵基礎設施 供水系統、交通管理 187 教育就業 履歷篩選、考試評分 156 執法司法 犯罪風險評估、證據分析 89 金融信貸 信用評分、詐欺偵測 412 這些系統必須通過符合性評估 (Conformity Assessment),包括：&#xA;技術文件審查：演算法邏輯、訓練數據、測試結果 風險管理驗證：偏見檢測、錯誤率分析、人工監督機制 持續監控要求：部署後每季提交效能報告 截至目前,共有 1,087 個 AI 系統取得 CE 認證標章,但仍有約 3,500 個申請案在審核中,平均等待時間達 7.</description>
+    </item>
     <item>
       <title>AI 監管浪潮：歐盟 AI 法案全面生效後，全球科技版圖如何重塑？</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/news/sample/</link>
