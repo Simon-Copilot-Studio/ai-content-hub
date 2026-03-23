@@ -1,0 +1,27 @@
+{{/* ClaimReview schema for news articles with fact-checking front matter */}}
+{{ if and (eq .Section "news") .Params.claim }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "url": "{{ .Permalink }}",
+  "claimReviewed": "{{ .Params.claim }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ .Params.claimResult | default 3 }}",
+    "bestRating": 5,
+    "worstRating": 1,
+    "alternateName": "{{ .Params.claimLabel | default "需要更多查證" }}"
+  },
+  "itemReviewed": {
+    "@type": "Claim",
+    "name": "{{ .Params.claim }}"
+  }
+}
+</script>
+{{ end }}

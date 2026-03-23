@@ -1,22 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>大語言模型 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%A4%A7%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/</link><description>Recent content in 大語言模型 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 15 Mar 2026 08:45:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%A4%A7%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>哈伯瑪斯的溝通理性在AI時代還管用嗎？從假訊息到大語言模型的思辨</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</link><pubDate>Sun, 15 Mar 2026 08:45:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</guid><description>哈伯瑪斯在96歲辭世的這一天，正好讓我們有機會思考：他畢生捍衛的「溝通理性」，在AI主導的2026年還有意義嗎？
-答案是：不但有，而且比以往更重要。
-溝通理性的四個條件 哈伯瑪斯認為，有效的溝通必須滿足四個有效性宣稱：
-可理解性：語言必須清楚可懂 真實性：陳述必須符合事實 正當性：發言必須符合社會規範 真誠性：說話者必須表達真實意圖 AI時代的問題是：這四個條件正在被系統性地侵蝕。
-AI對溝通理性的三大挑戰 1. 真實性的崩塌 大語言模型可以產生流暢、有說服力的文字，但內容不一定為真。Deepfake影像可以偽造任何人的言行。當「眼見不為實」成為常態，溝通的真實性基礎就開始動搖。
-2. 真誠性的模糊 當你在社群媒體上與一個「人」辯論，你如何確定對方是真人而非AI機器人？哈伯瑪斯假設溝通的參與者是有自主意識的主體，但AI打破了這個前提。
-3. 公共領域的碎片化 演算法將我們推進同溫層，每個人看到的「事實」都不同。哈伯瑪斯所構想的公共領域——一個共享事實、理性辯論的空間——在演算法時代正在碎裂。
-反而更需要溝通理性 但正因為如此，哈伯瑪斯的思想反而更顯珍貴。他提醒我們：
-追問真實性：每一條資訊都值得被驗證 要求透明性：AI生成的內容應該被標示 重建公共討論：我們需要新的制度設計來維護理性對話的空間 捍衛人的主體性：在人機互動日益頻繁的時代，區分人類對話與AI生成回應至關重要 技術治理的啟示 哈伯瑪斯的理論也為AI治理提供了框架。他主張，影響公眾的重大決策應該透過民主審議來決定，而不是由少數技術菁英獨斷。這個觀點直接適用於當前AI監管的辯論。
-一位96歲的哲學家離開了這個世界，但他的思想在AI時代可能比他在世時更加重要。這或許是思想真正的力量——它能超越創造者的生命，持續照亮人類前行的道路。</description></item><item><title>AI 代理人時代來臨：2026 年企業自動化的新局面</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</guid><description>2026 年，AI 代理人（AI Agent）已不再是科幻小說裡的概念——它們正在全球各地的辦公室裡悄悄接管重複性工作，甚至開始協助高層決策。
-什麼讓 AI 代理人如此不同？ 過去的 AI 工具像是一個聰明的查詢引擎：你問，它答。現在的 AI 代理人則更像是一位會主動規劃、自我修正的數位同事。它能連結多種工具、分解複雜任務，並在沒有人工干預的情況下，一步步完成整個工作流程。
-以客服場景為例，傳統聊天機器人只能回答預設的問題清單。而 AI 代理人可以查詢訂單系統、閱讀退款政策、與後台工程師溝通，並最終自主處理客戶申訴——所有步驟在幾秒鐘內完成。
-台灣企業的採用現況 根據資策會 2025 年底的調查，台灣中大型企業中，已有 43% 開始測試或部署 AI 代理人解決方案，主要集中在：
-製造業：生產排程優化、品質異常預警 金融業：風控審查、報告自動生成 電商：個人化推薦、庫存預測 值得注意的是，多數企業選擇「人機協作」模式，而非完全自動化——讓 AI 代理人處理 80% 的例行決策，關鍵判斷仍交由人類最終確認。
-技術突破帶來的新可能 Claude 4 Opus、GPT-5 等新一代模型在「長上下文推理」和「工具調用」方面的顯著進步，是這波浪潮的核心驅動力。模型不只更聰明，更重要的是更可靠——減少幻覺（hallucination）輸出，使企業得以在高風險情境下放心部署。
-展望 AI 代理人並非要取代人類，而是解放人類去做更有創意、更需要情感智慧的工作。企業若能在這個節點建立完善的 AI 治理框架，將在下一個十年獲得巨大的競爭優勢。
-科技浪潮不等人。問題不是「要不要導入」，而是「要怎麼導入得比別人好」。</description></item><item><title>DeepSeek 開源模型如何改變 AI 產業格局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid><description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。
-DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。
-性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。
-開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。
-對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。
-未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>大語言模型 on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%A4%A7%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in 大語言模型 on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 15 Mar 2026 08:45:00 +0800</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%A4%A7%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>哈伯瑪斯的溝通理性在AI時代還管用嗎？從假訊息到大語言模型的思辨</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</link>
+      <pubDate>Sun, 15 Mar 2026 08:45:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</guid>
+      <description>哈伯瑪斯在96歲辭世的這一天，正好讓我們有機會思考：他畢生捍衛的「溝通理性」，在AI主導的2026年還有意義嗎？&#xA;答案是：不但有，而且比以往更重要。&#xA;溝通理性的四個條件 哈伯瑪斯認為，有效的溝通必須滿足四個有效性宣稱：&#xA;可理解性：語言必須清楚可懂 真實性：陳述必須符合事實 正當性：發言必須符合社會規範 真誠性：說話者必須表達真實意圖 AI時代的問題是：這四個條件正在被系統性地侵蝕。&#xA;AI對溝通理性的三大挑戰 1. 真實性的崩塌 大語言模型可以產生流暢、有說服力的文字，但內容不一定為真。Deepfake影像可以偽造任何人的言行。當「眼見不為實」成為常態，溝通的真實性基礎就開始動搖。&#xA;2. 真誠性的模糊 當你在社群媒體上與一個「人」辯論，你如何確定對方是真人而非AI機器人？哈伯瑪斯假設溝通的參與者是有自主意識的主體，但AI打破了這個前提。&#xA;3. 公共領域的碎片化 演算法將我們推進同溫層，每個人看到的「事實」都不同。哈伯瑪斯所構想的公共領域——一個共享事實、理性辯論的空間——在演算法時代正在碎裂。&#xA;反而更需要溝通理性 但正因為如此，哈伯瑪斯的思想反而更顯珍貴。他提醒我們：&#xA;追問真實性：每一條資訊都值得被驗證 要求透明性：AI生成的內容應該被標示 重建公共討論：我們需要新的制度設計來維護理性對話的空間 捍衛人的主體性：在人機互動日益頻繁的時代，區分人類對話與AI生成回應至關重要 技術治理的啟示 哈伯瑪斯的理論也為AI治理提供了框架。他主張，影響公眾的重大決策應該透過民主審議來決定，而不是由少數技術菁英獨斷。這個觀點直接適用於當前AI監管的辯論。&#xA;一位96歲的哲學家離開了這個世界，但他的思想在AI時代可能比他在世時更加重要。這或許是思想真正的力量——它能超越創造者的生命，持續照亮人類前行的道路。</description>
+    </item>
+    <item>
+      <title>AI 代理人時代來臨：2026 年企業自動化的新局面</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/sample/</guid>
+      <description>2026 年，AI 代理人（AI Agent）已不再是科幻小說裡的概念——它們正在全球各地的辦公室裡悄悄接管重複性工作，甚至開始協助高層決策。&#xA;什麼讓 AI 代理人如此不同？ 過去的 AI 工具像是一個聰明的查詢引擎：你問，它答。現在的 AI 代理人則更像是一位會主動規劃、自我修正的數位同事。它能連結多種工具、分解複雜任務，並在沒有人工干預的情況下，一步步完成整個工作流程。&#xA;以客服場景為例，傳統聊天機器人只能回答預設的問題清單。而 AI 代理人可以查詢訂單系統、閱讀退款政策、與後台工程師溝通，並最終自主處理客戶申訴——所有步驟在幾秒鐘內完成。&#xA;台灣企業的採用現況 根據資策會 2025 年底的調查，台灣中大型企業中，已有 43% 開始測試或部署 AI 代理人解決方案，主要集中在：&#xA;製造業：生產排程優化、品質異常預警 金融業：風控審查、報告自動生成 電商：個人化推薦、庫存預測 值得注意的是，多數企業選擇「人機協作」模式，而非完全自動化——讓 AI 代理人處理 80% 的例行決策，關鍵判斷仍交由人類最終確認。&#xA;技術突破帶來的新可能 Claude 4 Opus、GPT-5 等新一代模型在「長上下文推理」和「工具調用」方面的顯著進步，是這波浪潮的核心驅動力。模型不只更聰明，更重要的是更可靠——減少幻覺（hallucination）輸出，使企業得以在高風險情境下放心部署。&#xA;展望 AI 代理人並非要取代人類，而是解放人類去做更有創意、更需要情感智慧的工作。企業若能在這個節點建立完善的 AI 治理框架，將在下一個十年獲得巨大的競爭優勢。&#xA;科技浪潮不等人。問題不是「要不要導入」，而是「要怎麼導入得比別人好」。</description>
+    </item>
+    <item>
+      <title>DeepSeek 開源模型如何改變 AI 產業格局</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid>
+      <description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。&#xA;DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。&#xA;性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。&#xA;開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。&#xA;對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。&#xA;未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description>
+    </item>
+  </channel>
+</rss>

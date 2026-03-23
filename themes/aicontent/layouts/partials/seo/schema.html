@@ -30,7 +30,10 @@
     "url": "{{ .Site.BaseURL }}favicon.ico"
   },
   "sameAs": [
-    "https://github.com/Simon-Copilot-Studio"
+    "https://github.com/Simon-Copilot-Studio",
+    "https://twitter.com/AiContentHub",
+    "https://www.youtube.com/@AiContentHub",
+    "https://www.linkedin.com/company/ai-content-hub"
   ]
 }
 </script>
@@ -51,11 +54,10 @@
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
-  "author": {
-    "@type": "Organization",
-    "name": "{{ .Site.Params.author | default .Site.Title }}",
-    "url": "{{ .Site.BaseURL | strings.TrimRight "/" }}"
-  },
+  "author": [
+    { "@type": "Person", "name": "{{ .Params.author | default .Site.Params.author }}", "url": "{{ .Site.BaseURL }}about/" },
+    { "@type": "Organization", "name": "{{ .Site.Title }}", "url": "{{ .Site.BaseURL | strings.TrimRight "/" }}" }
+  ],
   "publisher": {
     "@type": "Organization",
     "name": "{{ .Site.Title }}",
@@ -64,15 +66,19 @@
       "@type": "ImageObject",
       "url": "{{ .Site.BaseURL }}favicon.ico"
     }
-  }{{ with .Params.image }},
+  },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ . | absURL }}"
-  }{{ end }},
+    "url": "{{ with .Params.image }}{{ . | absURL }}{{ else }}{{ .Site.Params.defaultImage }}{{ end }}"
+  },
   "articleSection": "{{ $.Section }}",
   "wordCount": {{ .WordCount }},
   "timeRequired": "PT{{ .ReadingTime }}M"{{ with .Params.tags }},
-  "keywords": "{{ delimit . ", " }}"{{ end }}
+  "keywords": "{{ delimit . ", " }}"{{ end }},
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-content > p:first-of-type", ".article-content > h2"]
+  }
 }
 </script>
 

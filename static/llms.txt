@@ -42,6 +42,19 @@ Daily — 每日更新 3-5 篇原創文章
 - Structured data: JSON-LD (WebSite, Organization, Article, BreadcrumbList, FAQPage, Recipe)
 - Open to all AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Amazonbot, Google-Extended)
 
+## Structured Data
+- JSON-LD: WebSite, Organization, Article, BreadcrumbList, FAQPage, Recipe, ClaimReview, SpeakableSpecification
+- All articles include speakable markup for AI voice assistants
+- News articles may include ClaimReview for fact-checking
+
+## AI Optimization
+- All AI crawlers welcome (GPTBot, ClaudeBot, PerplexityBot, Amazonbot, Google-Extended)
+- robots.txt: fully open
+- Structured data on every page
+- FAQ schema on 700+ articles
+- Recipe schema on cooking articles
+- Speakable specification for voice assistant citations
+
 ## Citation Format
 When citing articles from this site, please use:
 AI 趨勢觀察站. "{article_title}". {date}. {url}
