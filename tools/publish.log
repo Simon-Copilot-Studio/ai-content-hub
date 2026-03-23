@@ -34,3 +34,10 @@ hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubu
 Total in 8253 ms
 [2026-03-23 18:00:00] Build OK — 2733 pages
 [2026-03-23 18:00:00] Deployed successfully — 1253 articles total
+[2026-03-24 06:00:01] Starting daily publish...
+Start building sites … 
+hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
+
+Total in 1037 ms
+Error: error building site: process: readAndProcessContent: "/home/simon/blog/content/economy/2026-03-24-crypto-etf-institutional.md:2:1": EOF looking for end YAML front matter delimiter
+[2026-03-24 06:00:01] ERROR: Hugo build failed!
