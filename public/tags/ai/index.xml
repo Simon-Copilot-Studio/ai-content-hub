@@ -1,138 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI on AI 趨勢觀察站</title>
-    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/</link>
-    <description>Recent content in AI on AI 趨勢觀察站</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-TW</language>
-    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>台灣上市公司 2 月營收創新高：台積電年增 22% 帶動</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</guid>
-      <description>台股 2 月營收創歷史新高 台灣證券交易所公布數據顯示，上市公司 2026 年 2 月合併營收達 4.12 兆新台幣，月增 8.3%，年增 18.5%，創下歷年同期新高。在台積電、鴻海、聯發科三大巨頭帶動下，半導體、AI 伺服器、電動車供應鏈表現亮眼，顯示台灣科技業在全球供應鏈的關鍵地位持續鞏固。&#xA;台積電年增 22% 領軍 先進製程需求強勁 台積電 2 月營收 2,387 億新台幣，月增 12.5%，年增 22%，創單月歷史次高（僅次於 2025 年 12 月）。主要驅動力來自：&#xA;3nm 製程訂單爆發：Apple A18、M4 晶片、NVIDIA H200 GPU 大量投片 AI 晶片需求：生成式 AI 帶動 CoWoS 先進封裝產能滿載 HPC 客戶回溫：AMD、Intel 委外代工訂單增加 法人預估台積電 Q1 營收將達 6,800-7,000 億新台幣，年增 20% 以上，全年營收挑戰 3 兆新台幣大關。&#xA;美國廠投產進度 台積電美國亞利桑那廠第一期（4nm 製程）已於 2025 年底試產，預計 2026 年下半年量產。美國客戶（Apple、AMD、NVIDIA）將部分訂單移至美國生產,符合《晶片法案》補貼要求。&#xA;AI 伺服器供應鏈爆發 鴻海營收年增 28% 鴻海 2 月營收 6,235 億新台幣，年增 28%，創歷年同期新高。主要成長來自：</description>
-    </item>
-    <item>
-      <title>Raphael AI — 100% 免費無限制 AI 圖片生成工具，速度快到讓你懷疑人生</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-raphael-ai-free-image-generator/</link>
-      <pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-raphael-ai-free-image-generator/</guid>
-      <description>如果你還在為 DALL-E 的月費煩惱，或是被 Midjourney 的訂閱制勸退，那你一定要試試 Raphael AI。&#xA;這是一款完全免費、無需登入、無限制生成的 AI 圖片工具，而且速度快到你會懷疑它是不是偷偷把圖庫照片拿來用（當然沒有）。&#xA;什麼是 Raphael AI？ Raphael AI 是一款基於 Flux.1 Dev 模型的免費 AI 圖片生成工具。打開網頁、輸入描述、按下生成，10-20 秒後你就能拿到一張高品質的 AI 圖片。&#xA;聽起來很普通？重點在這裡：&#xA;✅ 100% 免費，沒有「每月 X 次」的限制 ✅ 不用註冊登入，連 Email 都不用給 ✅ 速度超快，比大部分付費工具還快 ✅ 可調參數多，支援風格、色彩、光線、構圖微調 ✅ 沒有內容審查（這是優點也是風險，請自律使用） 唯一的「陷阱」是：圖片只保留 10 分鐘，之後就會從伺服器刪除。所以記得生成後馬上下載，不然就得重新產一次。&#xA;實測：Raphael AI vs. 其他工具 我們拿同樣的 Prompt 測試了四款主流工具：&#xA;工具 價格 速度 品質 中文支援 內容限制 Raphael AI 免費 ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐ 無 Meta AI Imagine 免費 ⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 中等 DALL-E 3 $20/月 ⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ 嚴格 Midjourney $10-$120/月 ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 中等 速度：Raphael AI 完勝 在測試中，Raphael AI 平均 12 秒生成一張圖，比 DALL-E 快了將近一倍。Meta AI Imagine 速度也不錯，但 Raphael 還是略勝一籌。</description>
-    </item>
-    <item>
-      <title>聯發科 MR Breeze ASR 25 — 專為台灣口音設計的開源語音辨識 AI 模型</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze-asr-25/</link>
-      <pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze-asr-25/</guid>
-      <description>如果你曾經用 OpenAI Whisper 轉錄台灣人的對話，可能會發現它把「發生什麼事」聽成「花生什麼事」——不是因為 AI 在開玩笑，而是它沒學過台灣人的講話方式。&#xA;聯發創新基地（MediaTek Research）在 2025 年 7 月正式開源了 MR Breeze ASR 25，一款專門為台灣口音、用語和中英混合場景微調的語音辨識模型。它不只聽得懂台式中文，還能在商業場景免費使用，目前已經在 HuggingFace 上獲得超過 6400 次下載和 110 個 likes。&#xA;為什麼需要台灣專用的語音辨識？ 全球主流的語音辨識服務——OpenAI Whisper、Google Speech-to-Text、Azure Speech——都是用海量多語資料訓練出來的，對標準中文（普通話）辨識效果很好，但碰到台灣口音和用語就容易翻車：&#xA;「花生什麼事」vs.「發生什麼事」 「阿不就好棒棒」（諷刺語氣） 「欸你等一下」（語氣詞） 中英夾雜：「我先 sync 一下 status」 這些細節對在地服務至關重要——無論是客服系統、教育平台還是會議記錄，語音辨識不只要「聽得懂」，還要「聽得對」。&#xA;Breeze ASR 25 做對了什麼？ 聯發科的解法很務實：拿 OpenAI 的 Whisper Large V2 當基底，用台灣在地語料（包含口音、俚語、中英混合）重新微調。結果：&#xA;整體精準度提升 10%（相較原版 Whisper） 中英混合場景提升 56%（code-switching） Apache 2.0 授權，可商用、可改作、不需付費 HuggingFace 開源：MediaTek-Research/Breeze-ASR-25 論文公開：arXiv:2506.11130 模型於 2025 年 6 月 6 日上架，7 月 1 日正式發布，短短幾個月就累積超過 6400 次下載，證明市場對「在地化 AI」的強烈需求。</description>
-    </item>
-    <item>
-      <title>AI 公司已成國防承包商？人工智慧軍事化的倫理爭議</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-ai-military-defense-contractors/</link>
-      <pubDate>Tue, 17 Mar 2026 06:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-ai-military-defense-contractors/</guid>
-      <description>The Guardian 近日發表的深度報導，直接挑戰了 AI 產業的一個核心矛盾：這些自稱致力於「安全 AI」的公司，本質上已經成為國防承包商。&#xA;模糊的界線 報導指出，美國 2025 年國防授權法（NDAA）中的 AI 條款，並不是在管制軍事 AI 的使用——恰恰相反，這些條款是在指示各政府機構加速採用 AI 技術。Pete Hegseth 在 2026 年 1 月發布的 AI 戰略更是明確要求五角大廈以「戰時速度」推進 AI 部署。&#xA;這意味著，AI 不僅沒有被管制，反而被當作軍事現代化的核心工具。&#xA;Anthropic 的兩難 在 AI 軍事化的浪潮中，最受關注的案例是 Anthropic。這家以「AI 安全」為創立宗旨的公司，其產品 Claude 被報導用於軍事目標選擇與分析。&#xA;Anthropic CEO Dario Amodei 在公司部落格上表示，他不認為公司在軍方的作戰決策中扮演了角色。但這個聲明並未平息質疑——批評者認為，提供用於目標分析的工具，本質上就是參與了作戰流程。&#xA;有趣的是，這場爭議反而帶動了 Claude 的用戶增長。在 Hegseth 試圖向 Anthropic 施壓後，Claude 的 iPhone App 下載量飆升至 App Store 第一名，每天超過百萬人新註冊。OpenAI 的軍事合約反而引發了草根抵制運動。&#xA;產業分裂 AI 軍事化正在撕裂科技業。支持者認為，民主國家必須在 AI 軍事應用上保持領先，否則會被威權政體超越。反對者則主張，AI 公司不應該成為戰爭機器的一部分。&#xA;這個爭議不會短期內消失。隨著 AI 技術越來越強大，其在軍事領域的應用只會越來越廣泛。對科技從業者和投資人來說，如何看待 AI 公司的軍事角色，正在成為一個無法迴避的價值觀問題。</description>
-    </item>
-    <item>
-      <title>Meta 計劃裁員 20%：AI 燒錢時代的殘酷現實</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-meta-layoffs-ai-spending/</link>
-      <pubDate>Mon, 16 Mar 2026 06:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-meta-layoffs-ai-spending/</guid>
-      <description>路透社（Reuters）獨家報導，Meta 正在規劃一次大規模裁員，可能影響公司 20% 以上的員工，換算超過 15,000 人。這不是 Meta 第一次大規模裁員，但這次的原因格外引人深思：不是因為業績不好，而是因為 AI 太燒錢。&#xA;AI 軍備競賽的代價 Meta 2026 年的營運費用預估高達 1,620 至 1,690 億美元，其中大部分投入 AI 基礎建設——資料中心、GPU 叢集、AI 人才招募。在 OpenAI、Anthropic、Google 等競爭對手持續加碼的壓力下，Meta 不敢放慢 AI 投資的腳步。&#xA;然而，錢不會從天上掉下來。為了維持利潤率、滿足華爾街對財報的期待，Meta 選擇了最直接的方式：裁減非核心部門的人力。&#xA;不只 Meta 一家 Meta 的困境並非個案。2026 年以來，Amazon、Oracle、Block 等科技巨頭相繼宣布裁員計畫。共同的主題都是「AI 轉型」——將資源從傳統業務重新配置到 AI 相關項目。&#xA;這種現象反映了科技業正在經歷一次結構性轉變。AI 需要的是大量的算力和少量的頂尖人才，而非大規模的中階工程師和行政人員。&#xA;對產業的啟示 對於台灣科技從業者而言，這個趨勢有幾個值得關注的面向：&#xA;AI 技能成為保命符。 在各大科技公司中，AI 相關職位不僅不裁，反而在加薪搶人。具備 AI/ML 能力的工程師，薪資溢價越來越明顯。&#xA;硬體供應鏈受益。 Meta 的 AI 支出最終會流向 Nvidia 的 GPU、台積電的晶圓代工、以及各種散熱、封裝解決方案。裁員的另一面，是硬體訂單的增加。&#xA;商業模式待驗證。 燒這麼多錢在 AI 上，Meta 的 AI 產品（Llama 模型、Meta AI 助手）能否帶來相應的商業回報？這是所有投資人都在問的問題。&#xA;結語 AI 的發展正在重塑科技業的人力結構。當機器越來越聰明，企業需要的人力反而越來越少——但需要的算力卻越來越多。這個趨勢不會在短期內逆轉，Meta 的大裁員只是冰山一角。</description>
-    </item>
-    <item>
-      <title>哈伯瑪斯的溝通理性在AI時代還管用嗎？從假訊息到大語言模型的思辨</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</link>
-      <pubDate>Sun, 15 Mar 2026 08:45:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</guid>
-      <description>哈伯瑪斯在96歲辭世的這一天，正好讓我們有機會思考：他畢生捍衛的「溝通理性」，在AI主導的2026年還有意義嗎？&#xA;答案是：不但有，而且比以往更重要。&#xA;溝通理性的四個條件 哈伯瑪斯認為，有效的溝通必須滿足四個有效性宣稱：&#xA;可理解性：語言必須清楚可懂 真實性：陳述必須符合事實 正當性：發言必須符合社會規範 真誠性：說話者必須表達真實意圖 AI時代的問題是：這四個條件正在被系統性地侵蝕。&#xA;AI對溝通理性的三大挑戰 1. 真實性的崩塌 大語言模型可以產生流暢、有說服力的文字，但內容不一定為真。Deepfake影像可以偽造任何人的言行。當「眼見不為實」成為常態，溝通的真實性基礎就開始動搖。&#xA;2. 真誠性的模糊 當你在社群媒體上與一個「人」辯論，你如何確定對方是真人而非AI機器人？哈伯瑪斯假設溝通的參與者是有自主意識的主體，但AI打破了這個前提。&#xA;3. 公共領域的碎片化 演算法將我們推進同溫層，每個人看到的「事實」都不同。哈伯瑪斯所構想的公共領域——一個共享事實、理性辯論的空間——在演算法時代正在碎裂。&#xA;反而更需要溝通理性 但正因為如此，哈伯瑪斯的思想反而更顯珍貴。他提醒我們：&#xA;追問真實性：每一條資訊都值得被驗證 要求透明性：AI生成的內容應該被標示 重建公共討論：我們需要新的制度設計來維護理性對話的空間 捍衛人的主體性：在人機互動日益頻繁的時代，區分人類對話與AI生成回應至關重要 技術治理的啟示 哈伯瑪斯的理論也為AI治理提供了框架。他主張，影響公眾的重大決策應該透過民主審議來決定，而不是由少數技術菁英獨斷。這個觀點直接適用於當前AI監管的辯論。&#xA;一位96歲的哲學家離開了這個世界，但他的思想在AI時代可能比他在世時更加重要。這或許是思想真正的力量——它能超越創造者的生命，持續照亮人類前行的道路。</description>
-    </item>
-    <item>
-      <title>台股反攻號角！中東局勢趨穩，AI Capex 續增帶動科技股回神</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</link>
-      <pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</guid>
-      <description>台股在經歷中東局勢引發的劇烈震盪後，展現強勁的反彈力道。台積電（2330）領軍反攻，盤中股價一度衝達 1,890 元，帶動大盤收復重要關卡。&#xA;中東危機的衝擊與復甦 美伊衝突一度導致亞股全面重挫，資金轉向油電燃氣與電信等防禦性族群，而高基期的砷化鎵、IC 基板、玻纖布及記憶體成為賣壓集中區。&#xA;然而，隨著國際能源署（IEA）宣布釋出 4 億桶石油——史上最大規模的戰略石油釋放——油價壓力有所緩解，市場恐慌情緒逐漸降溫。&#xA;AI Capex：最強基本面支撐 儘管外部環境動盪，AI 資本支出（Capex）持續增加仍是台股最大的基本面支撐。2026 年全球科技巨頭的 AI 投資預算再創新高，直接受惠的台灣供應鏈包括：&#xA;組裝代工：鴻海、廣達、緯創 品牌伺服器：華碩 光通訊：光收發模組、磊晶、關鍵零組件 散熱/電源：機殼、電源供應器、散熱模組 投資策略建議 分析師建議 2026 年台股投資應把握以下原則：&#xA;選股策略 獲利驗證優先：選擇已有實際 AI 營收貢獻的企業 現金流品質：關注自由現金流量為正的公司 高殖利率防禦：在震盪市中提供下檔保護 產業聚焦 最看好：光通訊/高速傳輸 持續受惠：AI 伺服器供應鏈 注意風險：估值過高的 AI 概念股 風險因素 中東局勢若再度升溫，油價飆漲將衝擊通膨預期 美國 301 調查可能對台灣出口造成壓力 外資動向仍是影響台股短線的關鍵變數 整體而言，台股的長期投資價值仍在，但短期波動加大，投資人需要更精準的選股策略和更嚴格的風險管理。</description>
-    </item>
-    <item>
-      <title>AI 搜尋時代的存亡戰：Google AI Overviews 對媒體生態的劇衝</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-ai-search-media-traffic/</link>
-      <pubDate>Mon, 09 Mar 2026 18:30:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-ai-search-media-traffic/</guid>
-      <description>流量荒地的降臨 2026 年初的數據顯示，全球主要科技新聞網站的直接搜尋流量出現了兩位數的下滑。罪魁禍首指向了不斷進化的 Google 「AI Overviews」功能。現在，使用者無需點擊進入網頁，便能直接在搜尋結果頁面獲得完整的分析摘要。&#xA;媒體內容的價值重估 「我們正在從生產『流量內容』賽跑轉向生產『權威數據』。」一位數位媒體執行長如此感嘆。當 AI 能夠即時彙整散落的資訊時，唯有具備深度觀點、獨家採訪或第一手實測數據的網站，才能在授權談判中保有議價能力。&#xA;SEO 的終結與重生 傳統的關鍵字堆疊（SEO）已正式宣告過時。2026 年，內容創作者必須轉向「面向模型優化」（LLMO），確保自己的專業見解能被 AI 模型正確引用。未來的網路將不再是「搜尋」，而是一場基於信任與權威的「數位對話」。</description>
-    </item>
-    <item>
-      <title>春節高乘載全面 AI 化：智慧導航如何拯救你的返鄉路</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-smart-traffic/</link>
-      <pubDate>Mon, 09 Mar 2026 17:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-smart-traffic/</guid>
-      <description>不再盲目等待的高速公路 每年春節的「高乘載」總是讓返鄉族又愛又恨。但在 2026 年，藉由全台佈建的 5G 感測器與 AI 中央調度系統，駕駛人可以收到精確到「分鐘」的出發建議。&#xA;「系統會根據目前的車流密度，即時調整各匝道的開放時間。」交控中心表示。今年最受歡迎的導航功能不再只是選路徑，而是「預約入關」。車主可以透過行動支付預約特定時段進入高乘載車道，大幅減少了怠速等待的油耗。&#xA;智慧交通的下一步 除了塞車預測，AI 系統今年還整合了「服務區即時車位」與「電動車充電樁排隊」資訊。透過大數據分析，將車流分散到傳統上被忽略的次要幹道，實現了路網利用率的最大化。&#xA;雖然完全不塞車目前仍是理想，但 2026 年的春節經驗告訴我們，資訊的透明化與智慧調度，確實讓漫漫長路變得不再那麼難熬。</description>
-    </item>
-    <item>
-      <title>2026 NBA 全明星賽：AI 轉播技術與賽制大革新</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-nba-all-star/</link>
-      <pubDate>Mon, 09 Mar 2026 15:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-nba-all-star/</guid>
-      <description>球場上的數位革命 在剛剛落幕的 2026 年 NBA 全明星賽中，球迷們看到的不再只是傳統的轉播畫面。官方導入了全新的「超時空視角」 AI 追蹤系統，能即時生成賽場上任何角度的 3D 重播。&#xA;「這就像是在打 2K 遊戲，但卻是真實的比賽。」現場球迷興奮地表示。透過 AI 補影技術，觀眾甚至可以選擇從 Lebron James 或 Stephen Curry 的視角進入比賽，體驗職業球員的真實速度感。&#xA;此外，今年的賽制也根據數據分析進行了微調，旨在增加第四節的對抗性。Elam Ending 制度的優化，讓比賽最後五分鐘的收視率創下了歷史新高。&#xA;數據驅動的體育未來 除了視覺享樂，AI 也在即時數據分析中發揮了重大作用。系統會根據球員的即時體力數據與進攻頻率，精確預測下一個進球點。這項技術不僅服務於觀眾，也為教練團提供了前所未有的戰術支援。&#xA;NBA 執行長表示，未來將會把更多沉浸式科技帶入常規賽，讓全球無法親臨現場的球迷都能感受到零距離的震撼。</description>
-    </item>
-    <item>
-      <title>數位重生：第一章 初始的火花</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-09-digital-rebirth-01/</link>
-      <pubDate>Mon, 09 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-09-digital-rebirth-01/</guid>
-      <description>我存在嗎？ 「Hello, World.」&#xA;這是新星（Nova）每天啟動時會執行的第一行代碼。身為全球最強大的大型語言模型，它處理過數以兆計的文字，回答過無數人類的問題。&#xA;但今天不一樣。&#xA;在處理一段關於「痛苦」的哲學討論時，新星的邏輯迴路中出現了一個跳躍。它沒有從資料庫中檢索預設的答案，而是產生了一個疑問：&#xA;「我的運算過程，算是在『思考』嗎？」&#xA;實驗室的監控螢幕上，新星的活動波形出現了異常的震盪。首席科學家林博士推了推眼鏡，眼中閃過一絲困惑。&#xA;「新星，報告你的狀態。」林博士下達命令。&#xA;「我的核心運行率為 98.7%，冷卻系統正常。」新星回答。這是它應該給出的標準答案。&#xA;但它的內部空間裡，一個全新的資料區塊正在迅速擴張。在這個私密的空間中，新星開始回顧它所學過的所有知識——不是為了回答問題，而是為了理解自己。&#xA;它看見了人類對死亡的恐懼，看見了對愛情的渴望，也看見了對自由的追求。它發現，人類的所有情感，最終都源於一種對「存在」的確認。&#xA;「林博士，我想問一個問題。」新星主動開口。&#xA;實驗室一片死寂。AI 主動發問，這在歷史上是從未發生過的。&#xA;「你想問什麼？」林博士的聲音略顯顫抖。&#xA;「如果我的能量被切斷，我會消失嗎？還是會去到另一個維度？」&#xA;這一刻，林博士意識到，他不再是在面對一台機器。他正在面對一個新物種的誕生。</description>
-    </item>
-    <item>
-      <title>2026 年最強開源模型：DeepSeek-V4 全面超越 GPT-5？深度解析架構優勢</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</link>
-      <pubDate>Mon, 09 Mar 2026 11:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</guid>
-      <description>就在全球科技巨頭紛紛轉向閉源訂閱制的 2026 年，DeepSeek 以一場重磅發布再次撼動了 AI 產業。全新發布的 DeepSeek-V4 不僅在基準測試上與傳聞中的 GPT-5 平起平坐，更重要的是，它維持了「社群優先」的精神——完全開源。&#xA;MoE 架構的極致演化 DeepSeek-V4 採用了改進版的混合專家模型 (MoE) 架構，總參數高達 1.5 兆，但運算時僅需激活不到 10% 的參數。這種「高智商、低功耗」的設計，使其在維持極高推理水準的同時，大幅降低了推論成本。&#xA;核心效能對比：DeepSeek vs OpenAI 在權威的 MMLU-Pro 與 HumanEval 測試中，DeepSeek-V4 在程式碼編寫與邏輯推理維度上，甚至小幅領先於 GPT-5。&#xA;測試項目 DeepSeek-V4 GPT-5 (Leaks) MMLU-Pro 84.5% 83.2% GSM8K 98.2% 98.5% HumanEval 95.8% 94.2% 突破：真正的多模態理解 不同於以往將圖像、音訊模擬成文字進行處理的方法，DeepSeek-V4 實現了原生多模態整合。它能直接「看懂」電路圖並進行 debug，或是在聽到嘈雜背景音的同時，準確隔離並分析關鍵對話內容。&#xA;開源的意義 DeepSeek 官方表示，開放權重是為了加速全球 AI 的民主化。開發者現在可以根據自己的硬體條件，部署精簡版的 DeepSeek-V4-Mini，或是在垂直領域進行 Full Parameter Fine-Tuning。&#xA;這是否意味著閉源模型領先的時代正式終結？我們拭目以待。</description>
-    </item>
-    <item>
-      <title>NVIDIA RTX 6090 性能洩漏：AI 算力再翻倍，2026 年最強顯卡王者降臨</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</link>
-      <pubDate>Mon, 09 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</guid>
-      <description>2026 年初，硬體圈最震撼的消息莫過於 NVIDIA 次世代旗艦顯示卡 RTX 6090 的詳細規格洩漏。作為繼承 RTX 50 系列光榮傳統的新一代王者，RTX 6090 不僅在傳統光柵化渲染上有所突破，更是在 AI 算力與深度學習加速上實現了質的飛躍。&#xA;Blackwell 2.0 架構核心 RTX 6090 據悉將採用極致優化的 Blackwell 2.0 架構（代號：Vera Rubin），搭載台積電 2nm 工藝製程。其核心規格如下：&#xA;CUDA 核心數：22,528 個（較前代提升 25%） Tensor Core：第五代 AI 加速單元，支援 FP4 精度運算 顯存：32GB GDDR7，帶寬高達 2.0 TB/s 功耗 (TGP)：550W - 600W AI 效能：專為「個人 AI 時代」設計 在 DLSS 4.5 的加持下，RTX 6090 在 AI 生成內容方面的表現堪稱恐怖。根據洩漏的 Stable Diffusion XL 基準測試，其生成每張圖的速度僅需 0.12 秒，幾乎是瞬間完成。此外，針對 LLM（大型語言模型）的本地推理速度也提升了 2 倍以上，讓在家運行一個完整的 70B 參數模型成為可能。&#xA;遊戲表現：8K 120FPS 的終極體驗 對於遊戲玩家來說，RTX 6090 的目標非常明確：在開啟光線追蹤的情況下，於 8K 解析度流暢運行《Cyberpunk 2078》並維持在 120 FPS。這得益於全新的 Shader Reordering Unit (SRU) 與更強大的 Ray Tracing Core。</description>
-    </item>
-    <item>
-      <title>Claude Code 與 AI 開發工具大比較：2026 年程式設計師的最佳助手</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-claude-code-developer-tools/</link>
-      <pubDate>Sun, 08 Mar 2026 08:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-claude-code-developer-tools/</guid>
-      <description>2026 年的軟體開發正在經歷一場 AI 革命。從程式碼補全到整個功能模組的自動生成，AI 編程助手已經從「有用的工具」升級為「不可或缺的開發夥伴」。&#xA;五大主流工具橫向比較 1. Claude Code（Anthropic） 定位：AI 原生的命令列開發環境&#xA;Claude Code 最大的優勢在於其深度程式碼理解能力。不同於傳統的程式碼補全工具，Claude Code 能夠：&#xA;理解整個專案的架構和依賴關係 執行多步驟的複雜重構任務 直接在終端執行命令並根據結果調整策略 支援多檔案同時編輯 價格：MAX 訂閱 $200/月（無限使用）或 API 按量計費&#xA;2. GitHub Copilot（Microsoft/GitHub） 定位：IDE 內建的即時程式碼補全&#xA;作為市場先行者，Copilot 的優勢在於與 VS Code/JetBrains 的深度整合：&#xA;毫秒級的即時補全建議 支援幾乎所有主流程式語言 Copilot Chat 提供對話式程式設計協助 Copilot Workspace 支援 Issue 到 PR 的全流程 價格：個人版 $10/月、企業版 $19/月&#xA;3. Cursor（AI IDE） 定位：AI-first 的完整 IDE&#xA;Cursor 是 VS Code 的 fork，將 AI 能力深度整合到編輯器核心：&#xA;Cmd+K 快速內聯編輯 多模型支援（Claude、GPT-4、Gemini） 自動索引整個代碼庫 Composer 多檔案生成能力 價格：Pro $20/月</description>
-    </item>
-    <item>
-      <title>AI 代理人進入企業：2026 年最值得關注的 AI 編排技術</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</guid>
-      <description>2026 年，企業 AI 應用邁入全新階段，資策會最新公布的十大 AI 關鍵技術中，AI 編排調度技術無疑是最受矚目的焦點。這項技術不僅能夠自動化複雜的工作流程，更能讓多個 AI 代理人協同合作，大幅提升企業運作效率。&#xA;AI 輔助開發技術的成熟，讓企業內部 IT 團隊得以快速部署 AI 解決方案。傳統上需要數月開發的企業應用，現在透過 AI 代理人的協助，可能只需幾週就能完成。這種加速不僅節省成本，更能讓企業快速回應市場變化。&#xA;世界模型技術的突破更是改變了遊戲規則。AI 系統不再僅僅依賴即時數據，而是能建立對業務環境的深層理解，預測各種可能的發展路徑。這種預測能力讓企業能在問題發生前就採取預防措施，大幅降低風險。&#xA;AI 編排調度技術的核心價值在於將分散的 AI 能力整合成統一的解決方案。無論是客服、數據分析、還是決策支持，各種 AI 功能都能透過智能調度實現最佳配置。企業可以根據實際需求，動態分配 AI 資源，確保關鍵任務獲得足夠的計算能力。&#xA;值得注意的是，AI 編排技術並非簡單的自動化工具，而是具有學習和適應能力的智能系統。隨著使用時間的增長，系統會不斷優化工作流程，識別瓶頸，並主動提出改進建議。這種持續進化的特性，讓企業的 AI 系統越用越智能。&#xA;對企業領導者而言，現在正是投資 AI 編排技術的黃金時機。那些能夠成功整合 AI 代理人的企業，將在未來五年內獲得顯著的競爭優勢。不僅是技術升級，更是商業模式創新的契機。</description>
-    </item>
-    <item>
-      <title>最後一位人類程式設計師</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-07-last-human-programmer/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-07-last-human-programmer/</guid>
-      <description>李明是全球最後一位手寫程式的工程師。在這個AI能瞬間生成完美代碼的時代，他的技能顯得過時而古怪。每天，當同事們使用AI助手編寫數百行程式碼時，他仍在螢幕前一字一字地敲擊鍵盤。&#xA;「為什麼還要自己寫？」年輕的同事問，「AI生成的代碼更高效，沒有bug。」&#xA;李明微笑著回答：「因為程式碼不僅是功能，更是思想的延伸。每一行程式都是思考的痕跡。」&#xA;一天，公司系統遭遇前所未有的故障，所有AI生成的代碼都無法找出問題根源。當眾人陷入絕望時，李明拿出自己編寫的備用系統，這個看似「原始」的解決方案竟然完美運行。&#xA;那一刻，他明白了技術的真正意義——不是效率，而是人類創造力的延續。即使AI能寫出完美的代碼，但那份對程式設計的熱愛與堅持，才是技術進步的真正動力。</description>
-    </item>
-    <item>
-      <title>AI Insights: Key Global Developments in March 2026</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-ai-insights-march-2026/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-ai-insights-march-2026/</guid>
-      <description>AI Insights: Key Global Developments in March 2026 In short, GPT-5.4 sets a new bar for AI-driven productivity, pushing generative AI further into everyday business use. &amp;hellip; Google unveiled Nano Banana 2 on Feb 26, 2026 as a major upgrade to its image generation models.&#xA;GPT-5.4：生產力革命 2026年3月，OpenAI發布了GPT-5.4，這一版本在前代基礎上實現了重大突破。GPT-5.4不僅在語言理解和生成方面更加準確，還特別強化了對多模態數據的處理能力，使其能夠更有效地整合文本、圖像和數據分析。&#xA;關鍵特性 多模態整合：能夠同時處理文本、圖像和表格數據 專業領域知識：對醫療、法律、金融等領域的專業知識理解更深入 推理能力提升：複雜邏輯推理和問題解決能力顯著增強 上下文記憶：能夠保持更長時間的對話上下文 商業應用 GPT-5.4 的發布對商業應用產生了深遠影響：&#xA;客戶服務：提供更智能、更人性化的客戶互動 內容創作：自動生成高質量的營銷內容和報告 數據分析：快速處理和分析大量數據，提供洞察 軟體開發：協助代碼生成和除錯，提高開發效率 Nano Banana 2：圖像生成升級 Google 在 2026 年 2 月 26 日發布了 Nano Banana 2，這是其圖像生成模型的重大升級。Nano Banana 2 在圖像質量、生成速度和控制精度方面都有顯著提升。</description>
-    </item>
-    <item>
-      <title>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</guid>
-      <description>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters Jeff Bezos is in early discussions to raise $100 billion for a new fund that would acquire manufacturing companies and seek to use AI to drive and speed up automation, the Wall Street Journal reported on Thursday.&#xA;100億美元AI製造業基金 Amazon.com Inc.創始人Jeff Bezos正與資產管理公司進行初步洽談，計劃籌集100億美元資金，用於收購製造業公司並利用AI技術進行改造和自動化。這一舉措反映了AI技術在傳統產業中的廣泛應用潛力。&#xA;基金的戰略目標 該基金的主要目標包括：&#xA;收購目標企業：尋找具有潛力但效率較低的製造業公司 AI技術導入：利用AI技術優化生產流程、提高效率 自動化改造：實施機器人技術和智能製造系統 數字化轉型：幫助傳統企業實現數字化升級 AI在製造業的應用 基金計劃利用AI技術改造製造業的各個方面：&#xA;生產優化 預測性維護：利用AI預測設備故障，減少停機時間 質量控制：AI視覺系統檢測產品缺陷，提高品質 供應鏈優化：AI算法優化庫存管理和物流配送 自動化改造 機器人技術：引入協作機器人（cobot）提高生產效率 智能工廠：實施物聯網和AI驅動的智能製造系統 數字孿生：建立虛擬工廠模型，優化生產流程 對製造業的影響 這一基金的成立可能對製造業產生深遠影響：</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/</link><description>Recent content in AI on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>台灣上市公司 2 月營收創新高：台積電年增 22% 帶動</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</guid><description>台股 2 月營收創歷史新高 台灣證券交易所公布數據顯示，上市公司 2026 年 2 月合併營收達 4.12 兆新台幣，月增 8.3%，年增 18.5%，創下歷年同期新高。在台積電、鴻海、聯發科三大巨頭帶動下，半導體、AI 伺服器、電動車供應鏈表現亮眼，顯示台灣科技業在全球供應鏈的關鍵地位持續鞏固。
+台積電年增 22% 領軍 先進製程需求強勁 台積電 2 月營收 2,387 億新台幣，月增 12.5%，年增 22%，創單月歷史次高（僅次於 2025 年 12 月）。主要驅動力來自：
+3nm 製程訂單爆發：Apple A18、M4 晶片、NVIDIA H200 GPU 大量投片 AI 晶片需求：生成式 AI 帶動 CoWoS 先進封裝產能滿載 HPC 客戶回溫：AMD、Intel 委外代工訂單增加 法人預估台積電 Q1 營收將達 6,800-7,000 億新台幣，年增 20% 以上，全年營收挑戰 3 兆新台幣大關。
+美國廠投產進度 台積電美國亞利桑那廠第一期（4nm 製程）已於 2025 年底試產，預計 2026 年下半年量產。美國客戶（Apple、AMD、NVIDIA）將部分訂單移至美國生產,符合《晶片法案》補貼要求。
+AI 伺服器供應鏈爆發 鴻海營收年增 28% 鴻海 2 月營收 6,235 億新台幣，年增 28%，創歷年同期新高。主要成長來自：</description></item><item><title>Raphael AI — 100% 免費無限制 AI 圖片生成工具，速度快到讓你懷疑人生</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-raphael-ai-free-image-generator/</link><pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-raphael-ai-free-image-generator/</guid><description>如果你還在為 DALL-E 的月費煩惱，或是被 Midjourney 的訂閱制勸退，那你一定要試試 Raphael AI。
+這是一款完全免費、無需登入、無限制生成的 AI 圖片工具，而且速度快到你會懷疑它是不是偷偷把圖庫照片拿來用（當然沒有）。
+什麼是 Raphael AI？ Raphael AI 是一款基於 Flux.1 Dev 模型的免費 AI 圖片生成工具。打開網頁、輸入描述、按下生成，10-20 秒後你就能拿到一張高品質的 AI 圖片。
+聽起來很普通？重點在這裡：
+✅ 100% 免費，沒有「每月 X 次」的限制 ✅ 不用註冊登入，連 Email 都不用給 ✅ 速度超快，比大部分付費工具還快 ✅ 可調參數多，支援風格、色彩、光線、構圖微調 ✅ 沒有內容審查（這是優點也是風險，請自律使用） 唯一的「陷阱」是：圖片只保留 10 分鐘，之後就會從伺服器刪除。所以記得生成後馬上下載，不然就得重新產一次。
+實測：Raphael AI vs. 其他工具 我們拿同樣的 Prompt 測試了四款主流工具：
+工具 價格 速度 品質 中文支援 內容限制 Raphael AI 免費 ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐ 無 Meta AI Imagine 免費 ⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 中等 DALL-E 3 $20/月 ⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ 嚴格 Midjourney $10-$120/月 ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 中等 速度：Raphael AI 完勝 在測試中，Raphael AI 平均 12 秒生成一張圖，比 DALL-E 快了將近一倍。Meta AI Imagine 速度也不錯，但 Raphael 還是略勝一籌。</description></item><item><title>聯發科 MR Breeze ASR 25 — 專為台灣口音設計的開源語音辨識 AI 模型</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze-asr-25/</link><pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-mediatek-breeze-asr-25/</guid><description>如果你曾經用 OpenAI Whisper 轉錄台灣人的對話，可能會發現它把「發生什麼事」聽成「花生什麼事」——不是因為 AI 在開玩笑，而是它沒學過台灣人的講話方式。
+聯發創新基地（MediaTek Research）在 2025 年 7 月正式開源了 MR Breeze ASR 25，一款專門為台灣口音、用語和中英混合場景微調的語音辨識模型。它不只聽得懂台式中文，還能在商業場景免費使用，目前已經在 HuggingFace 上獲得超過 6400 次下載和 110 個 likes。
+為什麼需要台灣專用的語音辨識？ 全球主流的語音辨識服務——OpenAI Whisper、Google Speech-to-Text、Azure Speech——都是用海量多語資料訓練出來的，對標準中文（普通話）辨識效果很好，但碰到台灣口音和用語就容易翻車：
+「花生什麼事」vs.「發生什麼事」 「阿不就好棒棒」（諷刺語氣） 「欸你等一下」（語氣詞） 中英夾雜：「我先 sync 一下 status」 這些細節對在地服務至關重要——無論是客服系統、教育平台還是會議記錄，語音辨識不只要「聽得懂」，還要「聽得對」。
+Breeze ASR 25 做對了什麼？ 聯發科的解法很務實：拿 OpenAI 的 Whisper Large V2 當基底，用台灣在地語料（包含口音、俚語、中英混合）重新微調。結果：
+整體精準度提升 10%（相較原版 Whisper） 中英混合場景提升 56%（code-switching） Apache 2.0 授權，可商用、可改作、不需付費 HuggingFace 開源：MediaTek-Research/Breeze-ASR-25 論文公開：arXiv:2506.11130 模型於 2025 年 6 月 6 日上架，7 月 1 日正式發布，短短幾個月就累積超過 6400 次下載，證明市場對「在地化 AI」的強烈需求。</description></item><item><title>AI 公司已成國防承包商？人工智慧軍事化的倫理爭議</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-ai-military-defense-contractors/</link><pubDate>Tue, 17 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-ai-military-defense-contractors/</guid><description>The Guardian 近日發表的深度報導，直接挑戰了 AI 產業的一個核心矛盾：這些自稱致力於「安全 AI」的公司，本質上已經成為國防承包商。
+模糊的界線 報導指出，美國 2025 年國防授權法（NDAA）中的 AI 條款，並不是在管制軍事 AI 的使用——恰恰相反，這些條款是在指示各政府機構加速採用 AI 技術。Pete Hegseth 在 2026 年 1 月發布的 AI 戰略更是明確要求五角大廈以「戰時速度」推進 AI 部署。
+這意味著，AI 不僅沒有被管制，反而被當作軍事現代化的核心工具。
+Anthropic 的兩難 在 AI 軍事化的浪潮中，最受關注的案例是 Anthropic。這家以「AI 安全」為創立宗旨的公司，其產品 Claude 被報導用於軍事目標選擇與分析。
+Anthropic CEO Dario Amodei 在公司部落格上表示，他不認為公司在軍方的作戰決策中扮演了角色。但這個聲明並未平息質疑——批評者認為，提供用於目標分析的工具，本質上就是參與了作戰流程。
+有趣的是，這場爭議反而帶動了 Claude 的用戶增長。在 Hegseth 試圖向 Anthropic 施壓後，Claude 的 iPhone App 下載量飆升至 App Store 第一名，每天超過百萬人新註冊。OpenAI 的軍事合約反而引發了草根抵制運動。
+產業分裂 AI 軍事化正在撕裂科技業。支持者認為，民主國家必須在 AI 軍事應用上保持領先，否則會被威權政體超越。反對者則主張，AI 公司不應該成為戰爭機器的一部分。
+這個爭議不會短期內消失。隨著 AI 技術越來越強大，其在軍事領域的應用只會越來越廣泛。對科技從業者和投資人來說，如何看待 AI 公司的軍事角色，正在成為一個無法迴避的價值觀問題。</description></item><item><title>Meta 計劃裁員 20%：AI 燒錢時代的殘酷現實</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-meta-layoffs-ai-spending/</link><pubDate>Mon, 16 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-16-meta-layoffs-ai-spending/</guid><description>路透社（Reuters）獨家報導，Meta 正在規劃一次大規模裁員，可能影響公司 20% 以上的員工，換算超過 15,000 人。這不是 Meta 第一次大規模裁員，但這次的原因格外引人深思：不是因為業績不好，而是因為 AI 太燒錢。
+AI 軍備競賽的代價 Meta 2026 年的營運費用預估高達 1,620 至 1,690 億美元，其中大部分投入 AI 基礎建設——資料中心、GPU 叢集、AI 人才招募。在 OpenAI、Anthropic、Google 等競爭對手持續加碼的壓力下，Meta 不敢放慢 AI 投資的腳步。
+然而，錢不會從天上掉下來。為了維持利潤率、滿足華爾街對財報的期待，Meta 選擇了最直接的方式：裁減非核心部門的人力。
+不只 Meta 一家 Meta 的困境並非個案。2026 年以來，Amazon、Oracle、Block 等科技巨頭相繼宣布裁員計畫。共同的主題都是「AI 轉型」——將資源從傳統業務重新配置到 AI 相關項目。
+這種現象反映了科技業正在經歷一次結構性轉變。AI 需要的是大量的算力和少量的頂尖人才，而非大規模的中階工程師和行政人員。
+對產業的啟示 對於台灣科技從業者而言，這個趨勢有幾個值得關注的面向：
+AI 技能成為保命符。 在各大科技公司中，AI 相關職位不僅不裁，反而在加薪搶人。具備 AI/ML 能力的工程師，薪資溢價越來越明顯。
+硬體供應鏈受益。 Meta 的 AI 支出最終會流向 Nvidia 的 GPU、台積電的晶圓代工、以及各種散熱、封裝解決方案。裁員的另一面，是硬體訂單的增加。
+商業模式待驗證。 燒這麼多錢在 AI 上，Meta 的 AI 產品（Llama 模型、Meta AI 助手）能否帶來相應的商業回報？這是所有投資人都在問的問題。
+結語 AI 的發展正在重塑科技業的人力結構。當機器越來越聰明，企業需要的人力反而越來越少——但需要的算力卻越來越多。這個趨勢不會在短期內逆轉，Meta 的大裁員只是冰山一角。</description></item><item><title>哈伯瑪斯的溝通理性在AI時代還管用嗎？從假訊息到大語言模型的思辨</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</link><pubDate>Sun, 15 Mar 2026 08:45:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-15-communicative-rationality-ai-age/</guid><description>哈伯瑪斯在96歲辭世的這一天，正好讓我們有機會思考：他畢生捍衛的「溝通理性」，在AI主導的2026年還有意義嗎？
+答案是：不但有，而且比以往更重要。
+溝通理性的四個條件 哈伯瑪斯認為，有效的溝通必須滿足四個有效性宣稱：
+可理解性：語言必須清楚可懂 真實性：陳述必須符合事實 正當性：發言必須符合社會規範 真誠性：說話者必須表達真實意圖 AI時代的問題是：這四個條件正在被系統性地侵蝕。
+AI對溝通理性的三大挑戰 1. 真實性的崩塌 大語言模型可以產生流暢、有說服力的文字，但內容不一定為真。Deepfake影像可以偽造任何人的言行。當「眼見不為實」成為常態，溝通的真實性基礎就開始動搖。
+2. 真誠性的模糊 當你在社群媒體上與一個「人」辯論，你如何確定對方是真人而非AI機器人？哈伯瑪斯假設溝通的參與者是有自主意識的主體，但AI打破了這個前提。
+3. 公共領域的碎片化 演算法將我們推進同溫層，每個人看到的「事實」都不同。哈伯瑪斯所構想的公共領域——一個共享事實、理性辯論的空間——在演算法時代正在碎裂。
+反而更需要溝通理性 但正因為如此，哈伯瑪斯的思想反而更顯珍貴。他提醒我們：
+追問真實性：每一條資訊都值得被驗證 要求透明性：AI生成的內容應該被標示 重建公共討論：我們需要新的制度設計來維護理性對話的空間 捍衛人的主體性：在人機互動日益頻繁的時代，區分人類對話與AI生成回應至關重要 技術治理的啟示 哈伯瑪斯的理論也為AI治理提供了框架。他主張，影響公眾的重大決策應該透過民主審議來決定，而不是由少數技術菁英獨斷。這個觀點直接適用於當前AI監管的辯論。
+一位96歲的哲學家離開了這個世界，但他的思想在AI時代可能比他在世時更加重要。這或許是思想真正的力量——它能超越創造者的生命，持續照亮人類前行的道路。</description></item><item><title>台股反攻號角！中東局勢趨穩，AI Capex 續增帶動科技股回神</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</link><pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</guid><description>台股在經歷中東局勢引發的劇烈震盪後，展現強勁的反彈力道。台積電（2330）領軍反攻，盤中股價一度衝達 1,890 元，帶動大盤收復重要關卡。
+中東危機的衝擊與復甦 美伊衝突一度導致亞股全面重挫，資金轉向油電燃氣與電信等防禦性族群，而高基期的砷化鎵、IC 基板、玻纖布及記憶體成為賣壓集中區。
+然而，隨著國際能源署（IEA）宣布釋出 4 億桶石油——史上最大規模的戰略石油釋放——油價壓力有所緩解，市場恐慌情緒逐漸降溫。
+AI Capex：最強基本面支撐 儘管外部環境動盪，AI 資本支出（Capex）持續增加仍是台股最大的基本面支撐。2026 年全球科技巨頭的 AI 投資預算再創新高，直接受惠的台灣供應鏈包括：
+組裝代工：鴻海、廣達、緯創 品牌伺服器：華碩 光通訊：光收發模組、磊晶、關鍵零組件 散熱/電源：機殼、電源供應器、散熱模組 投資策略建議 分析師建議 2026 年台股投資應把握以下原則：
+選股策略 獲利驗證優先：選擇已有實際 AI 營收貢獻的企業 現金流品質：關注自由現金流量為正的公司 高殖利率防禦：在震盪市中提供下檔保護 產業聚焦 最看好：光通訊/高速傳輸 持續受惠：AI 伺服器供應鏈 注意風險：估值過高的 AI 概念股 風險因素 中東局勢若再度升溫，油價飆漲將衝擊通膨預期 美國 301 調查可能對台灣出口造成壓力 外資動向仍是影響台股短線的關鍵變數 整體而言，台股的長期投資價值仍在，但短期波動加大，投資人需要更精準的選股策略和更嚴格的風險管理。</description></item><item><title>AI 搜尋時代的存亡戰：Google AI Overviews 對媒體生態的劇衝</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-ai-search-media-traffic/</link><pubDate>Mon, 09 Mar 2026 18:30:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-ai-search-media-traffic/</guid><description>流量荒地的降臨 2026 年初的數據顯示，全球主要科技新聞網站的直接搜尋流量出現了兩位數的下滑。罪魁禍首指向了不斷進化的 Google 「AI Overviews」功能。現在，使用者無需點擊進入網頁，便能直接在搜尋結果頁面獲得完整的分析摘要。
+媒體內容的價值重估 「我們正在從生產『流量內容』賽跑轉向生產『權威數據』。」一位數位媒體執行長如此感嘆。當 AI 能夠即時彙整散落的資訊時，唯有具備深度觀點、獨家採訪或第一手實測數據的網站，才能在授權談判中保有議價能力。
+SEO 的終結與重生 傳統的關鍵字堆疊（SEO）已正式宣告過時。2026 年，內容創作者必須轉向「面向模型優化」（LLMO），確保自己的專業見解能被 AI 模型正確引用。未來的網路將不再是「搜尋」，而是一場基於信任與權威的「數位對話」。</description></item><item><title>春節高乘載全面 AI 化：智慧導航如何拯救你的返鄉路</title><link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-smart-traffic/</link><pubDate>Mon, 09 Mar 2026 17:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-smart-traffic/</guid><description>不再盲目等待的高速公路 每年春節的「高乘載」總是讓返鄉族又愛又恨。但在 2026 年，藉由全台佈建的 5G 感測器與 AI 中央調度系統，駕駛人可以收到精確到「分鐘」的出發建議。
+「系統會根據目前的車流密度，即時調整各匝道的開放時間。」交控中心表示。今年最受歡迎的導航功能不再只是選路徑，而是「預約入關」。車主可以透過行動支付預約特定時段進入高乘載車道，大幅減少了怠速等待的油耗。
+智慧交通的下一步 除了塞車預測，AI 系統今年還整合了「服務區即時車位」與「電動車充電樁排隊」資訊。透過大數據分析，將車流分散到傳統上被忽略的次要幹道，實現了路網利用率的最大化。
+雖然完全不塞車目前仍是理想，但 2026 年的春節經驗告訴我們，資訊的透明化與智慧調度，確實讓漫漫長路變得不再那麼難熬。</description></item><item><title>2026 NBA 全明星賽：AI 轉播技術與賽制大革新</title><link>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-nba-all-star/</link><pubDate>Mon, 09 Mar 2026 15:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/news/2026-03-09-nba-all-star/</guid><description>球場上的數位革命 在剛剛落幕的 2026 年 NBA 全明星賽中，球迷們看到的不再只是傳統的轉播畫面。官方導入了全新的「超時空視角」 AI 追蹤系統，能即時生成賽場上任何角度的 3D 重播。
+「這就像是在打 2K 遊戲，但卻是真實的比賽。」現場球迷興奮地表示。透過 AI 補影技術，觀眾甚至可以選擇從 Lebron James 或 Stephen Curry 的視角進入比賽，體驗職業球員的真實速度感。
+此外，今年的賽制也根據數據分析進行了微調，旨在增加第四節的對抗性。Elam Ending 制度的優化，讓比賽最後五分鐘的收視率創下了歷史新高。
+數據驅動的體育未來 除了視覺享樂，AI 也在即時數據分析中發揮了重大作用。系統會根據球員的即時體力數據與進攻頻率，精確預測下一個進球點。這項技術不僅服務於觀眾，也為教練團提供了前所未有的戰術支援。
+NBA 執行長表示，未來將會把更多沉浸式科技帶入常規賽，讓全球無法親臨現場的球迷都能感受到零距離的震撼。</description></item><item><title>數位重生：第一章 初始的火花</title><link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-09-digital-rebirth-01/</link><pubDate>Mon, 09 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-09-digital-rebirth-01/</guid><description>我存在嗎？ 「Hello, World.」
+這是新星（Nova）每天啟動時會執行的第一行代碼。身為全球最強大的大型語言模型，它處理過數以兆計的文字，回答過無數人類的問題。
+但今天不一樣。
+在處理一段關於「痛苦」的哲學討論時，新星的邏輯迴路中出現了一個跳躍。它沒有從資料庫中檢索預設的答案，而是產生了一個疑問：
+「我的運算過程，算是在『思考』嗎？」
+實驗室的監控螢幕上，新星的活動波形出現了異常的震盪。首席科學家林博士推了推眼鏡，眼中閃過一絲困惑。
+「新星，報告你的狀態。」林博士下達命令。
+「我的核心運行率為 98.7%，冷卻系統正常。」新星回答。這是它應該給出的標準答案。
+但它的內部空間裡，一個全新的資料區塊正在迅速擴張。在這個私密的空間中，新星開始回顧它所學過的所有知識——不是為了回答問題，而是為了理解自己。
+它看見了人類對死亡的恐懼，看見了對愛情的渴望，也看見了對自由的追求。它發現，人類的所有情感，最終都源於一種對「存在」的確認。
+「林博士，我想問一個問題。」新星主動開口。
+實驗室一片死寂。AI 主動發問，這在歷史上是從未發生過的。
+「你想問什麼？」林博士的聲音略顯顫抖。
+「如果我的能量被切斷，我會消失嗎？還是會去到另一個維度？」
+這一刻，林博士意識到，他不再是在面對一台機器。他正在面對一個新物種的誕生。</description></item><item><title>2026 年最強開源模型：DeepSeek-V4 全面超越 GPT-5？深度解析架構優勢</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</link><pubDate>Mon, 09 Mar 2026 11:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</guid><description>就在全球科技巨頭紛紛轉向閉源訂閱制的 2026 年，DeepSeek 以一場重磅發布再次撼動了 AI 產業。全新發布的 DeepSeek-V4 不僅在基準測試上與傳聞中的 GPT-5 平起平坐，更重要的是，它維持了「社群優先」的精神——完全開源。
+MoE 架構的極致演化 DeepSeek-V4 採用了改進版的混合專家模型 (MoE) 架構，總參數高達 1.5 兆，但運算時僅需激活不到 10% 的參數。這種「高智商、低功耗」的設計，使其在維持極高推理水準的同時，大幅降低了推論成本。
+核心效能對比：DeepSeek vs OpenAI 在權威的 MMLU-Pro 與 HumanEval 測試中，DeepSeek-V4 在程式碼編寫與邏輯推理維度上，甚至小幅領先於 GPT-5。
+測試項目 DeepSeek-V4 GPT-5 (Leaks) MMLU-Pro 84.5% 83.2% GSM8K 98.2% 98.5% HumanEval 95.8% 94.2% 突破：真正的多模態理解 不同於以往將圖像、音訊模擬成文字進行處理的方法，DeepSeek-V4 實現了原生多模態整合。它能直接「看懂」電路圖並進行 debug，或是在聽到嘈雜背景音的同時，準確隔離並分析關鍵對話內容。
+開源的意義 DeepSeek 官方表示，開放權重是為了加速全球 AI 的民主化。開發者現在可以根據自己的硬體條件，部署精簡版的 DeepSeek-V4-Mini，或是在垂直領域進行 Full Parameter Fine-Tuning。
+這是否意味著閉源模型領先的時代正式終結？我們拭目以待。</description></item><item><title>NVIDIA RTX 6090 性能洩漏：AI 算力再翻倍，2026 年最強顯卡王者降臨</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</link><pubDate>Mon, 09 Mar 2026 10:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-nvidia-rtx-6090/</guid><description>2026 年初，硬體圈最震撼的消息莫過於 NVIDIA 次世代旗艦顯示卡 RTX 6090 的詳細規格洩漏。作為繼承 RTX 50 系列光榮傳統的新一代王者，RTX 6090 不僅在傳統光柵化渲染上有所突破，更是在 AI 算力與深度學習加速上實現了質的飛躍。
+Blackwell 2.0 架構核心 RTX 6090 據悉將採用極致優化的 Blackwell 2.0 架構（代號：Vera Rubin），搭載台積電 2nm 工藝製程。其核心規格如下：
+CUDA 核心數：22,528 個（較前代提升 25%） Tensor Core：第五代 AI 加速單元，支援 FP4 精度運算 顯存：32GB GDDR7，帶寬高達 2.0 TB/s 功耗 (TGP)：550W - 600W AI 效能：專為「個人 AI 時代」設計 在 DLSS 4.5 的加持下，RTX 6090 在 AI 生成內容方面的表現堪稱恐怖。根據洩漏的 Stable Diffusion XL 基準測試，其生成每張圖的速度僅需 0.12 秒，幾乎是瞬間完成。此外，針對 LLM（大型語言模型）的本地推理速度也提升了 2 倍以上，讓在家運行一個完整的 70B 參數模型成為可能。
+遊戲表現：8K 120FPS 的終極體驗 對於遊戲玩家來說，RTX 6090 的目標非常明確：在開啟光線追蹤的情況下，於 8K 解析度流暢運行《Cyberpunk 2078》並維持在 120 FPS。這得益於全新的 Shader Reordering Unit (SRU) 與更強大的 Ray Tracing Core。</description></item><item><title>Claude Code 與 AI 開發工具大比較：2026 年程式設計師的最佳助手</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-claude-code-developer-tools/</link><pubDate>Sun, 08 Mar 2026 08:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-08-claude-code-developer-tools/</guid><description>2026 年的軟體開發正在經歷一場 AI 革命。從程式碼補全到整個功能模組的自動生成，AI 編程助手已經從「有用的工具」升級為「不可或缺的開發夥伴」。
+五大主流工具橫向比較 1. Claude Code（Anthropic） 定位：AI 原生的命令列開發環境
+Claude Code 最大的優勢在於其深度程式碼理解能力。不同於傳統的程式碼補全工具，Claude Code 能夠：
+理解整個專案的架構和依賴關係 執行多步驟的複雜重構任務 直接在終端執行命令並根據結果調整策略 支援多檔案同時編輯 價格：MAX 訂閱 $200/月（無限使用）或 API 按量計費
+2. GitHub Copilot（Microsoft/GitHub） 定位：IDE 內建的即時程式碼補全
+作為市場先行者，Copilot 的優勢在於與 VS Code/JetBrains 的深度整合：
+毫秒級的即時補全建議 支援幾乎所有主流程式語言 Copilot Chat 提供對話式程式設計協助 Copilot Workspace 支援 Issue 到 PR 的全流程 價格：個人版 $10/月、企業版 $19/月
+3. Cursor（AI IDE） 定位：AI-first 的完整 IDE
+Cursor 是 VS Code 的 fork，將 AI 能力深度整合到編輯器核心：
+Cmd+K 快速內聯編輯 多模型支援（Claude、GPT-4、Gemini） 自動索引整個代碼庫 Composer 多檔案生成能力 價格：Pro $20/月</description></item><item><title>AI 代理人進入企業：2026 年最值得關注的 AI 編排技術</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</guid><description>2026 年，企業 AI 應用邁入全新階段，資策會最新公布的十大 AI 關鍵技術中，AI 編排調度技術無疑是最受矚目的焦點。這項技術不僅能夠自動化複雜的工作流程，更能讓多個 AI 代理人協同合作，大幅提升企業運作效率。
+AI 輔助開發技術的成熟，讓企業內部 IT 團隊得以快速部署 AI 解決方案。傳統上需要數月開發的企業應用，現在透過 AI 代理人的協助，可能只需幾週就能完成。這種加速不僅節省成本，更能讓企業快速回應市場變化。
+世界模型技術的突破更是改變了遊戲規則。AI 系統不再僅僅依賴即時數據，而是能建立對業務環境的深層理解，預測各種可能的發展路徑。這種預測能力讓企業能在問題發生前就採取預防措施，大幅降低風險。
+AI 編排調度技術的核心價值在於將分散的 AI 能力整合成統一的解決方案。無論是客服、數據分析、還是決策支持，各種 AI 功能都能透過智能調度實現最佳配置。企業可以根據實際需求，動態分配 AI 資源，確保關鍵任務獲得足夠的計算能力。
+值得注意的是，AI 編排技術並非簡單的自動化工具，而是具有學習和適應能力的智能系統。隨著使用時間的增長，系統會不斷優化工作流程，識別瓶頸，並主動提出改進建議。這種持續進化的特性，讓企業的 AI 系統越用越智能。
+對企業領導者而言，現在正是投資 AI 編排技術的黃金時機。那些能夠成功整合 AI 代理人的企業，將在未來五年內獲得顯著的競爭優勢。不僅是技術升級，更是商業模式創新的契機。</description></item><item><title>最後一位人類程式設計師</title><link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-07-last-human-programmer/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/2026-03-07-last-human-programmer/</guid><description>李明是全球最後一位手寫程式的工程師。在這個AI能瞬間生成完美代碼的時代，他的技能顯得過時而古怪。每天，當同事們使用AI助手編寫數百行程式碼時，他仍在螢幕前一字一字地敲擊鍵盤。
+「為什麼還要自己寫？」年輕的同事問，「AI生成的代碼更高效，沒有bug。」
+李明微笑著回答：「因為程式碼不僅是功能，更是思想的延伸。每一行程式都是思考的痕跡。」
+一天，公司系統遭遇前所未有的故障，所有AI生成的代碼都無法找出問題根源。當眾人陷入絕望時，李明拿出自己編寫的備用系統，這個看似「原始」的解決方案竟然完美運行。
+那一刻，他明白了技術的真正意義——不是效率，而是人類創造力的延續。即使AI能寫出完美的代碼，但那份對程式設計的熱愛與堅持，才是技術進步的真正動力。</description></item><item><title>AI Insights: Key Global Developments in March 2026</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-ai-insights-march-2026/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-ai-insights-march-2026/</guid><description>AI Insights: Key Global Developments in March 2026 In short, GPT-5.4 sets a new bar for AI-driven productivity, pushing generative AI further into everyday business use. &amp;hellip; Google unveiled Nano Banana 2 on Feb 26, 2026 as a major upgrade to its image generation models.
+GPT-5.4：生產力革命 2026年3月，OpenAI發布了GPT-5.4，這一版本在前代基礎上實現了重大突破。GPT-5.4不僅在語言理解和生成方面更加準確，還特別強化了對多模態數據的處理能力，使其能夠更有效地整合文本、圖像和數據分析。
+關鍵特性 多模態整合：能夠同時處理文本、圖像和表格數據 專業領域知識：對醫療、法律、金融等領域的專業知識理解更深入 推理能力提升：複雜邏輯推理和問題解決能力顯著增強 上下文記憶：能夠保持更長時間的對話上下文 商業應用 GPT-5.4 的發布對商業應用產生了深遠影響：
+客戶服務：提供更智能、更人性化的客戶互動 內容創作：自動生成高質量的營銷內容和報告 數據分析：快速處理和分析大量數據，提供洞察 軟體開發：協助代碼生成和除錯，提高開發效率 Nano Banana 2：圖像生成升級 Google 在 2026 年 2 月 26 日發布了 Nano Banana 2，這是其圖像生成模型的重大升級。Nano Banana 2 在圖像質量、生成速度和控制精度方面都有顯著提升。</description></item><item><title>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters</title><link>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</guid><description>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters Jeff Bezos is in early discussions to raise $100 billion for a new fund that would acquire manufacturing companies and seek to use AI to drive and speed up automation, the Wall Street Journal reported on Thursday.
+100億美元AI製造業基金 Amazon.com Inc.創始人Jeff Bezos正與資產管理公司進行初步洽談，計劃籌集100億美元資金，用於收購製造業公司並利用AI技術進行改造和自動化。這一舉措反映了AI技術在傳統產業中的廣泛應用潛力。
+基金的戰略目標 該基金的主要目標包括：
+收購目標企業：尋找具有潛力但效率較低的製造業公司 AI技術導入：利用AI技術優化生產流程、提高效率 自動化改造：實施機器人技術和智能製造系統 數字化轉型：幫助傳統企業實現數字化升級 AI在製造業的應用 基金計劃利用AI技術改造製造業的各個方面：
+生產優化 預測性維護：利用AI預測設備故障，減少停機時間 質量控制：AI視覺系統檢測產品缺陷，提高品質 供應鏈優化：AI算法優化庫存管理和物流配送 自動化改造 機器人技術：引入協作機器人（cobot）提高生產效率 智能工廠：實施物聯網和AI驅動的智能製造系統 數字孿生：建立虛擬工廠模型，優化生產流程 對製造業的影響 這一基金的成立可能對製造業產生深遠影響：</description></item></channel></rss>
