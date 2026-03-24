@@ -7,8 +7,8 @@ tags: ["小說", "奇幻", "冒險", "連載"]
 series: "異界藥師"
 image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&h=630&fit=crop"
 novel: true
-chapters: 20
-words: 45498
+chapters: 25
+words: 58159
 status: "完結"
 ---
 
