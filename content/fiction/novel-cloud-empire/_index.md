@@ -7,8 +7,8 @@ tags: ["小說", "科幻", "賽博龐克", "連載"]
 series: "雲端帝國"
 image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop"
 novel: true
-chapters: 20
-words: 42335
+chapters: 31
+words: 71579
 status: "完結"
 ---
 
