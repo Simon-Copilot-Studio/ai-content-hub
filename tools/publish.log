@@ -41,3 +41,17 @@ hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubu
 Total in 1037 ms
 Error: error building site: process: readAndProcessContent: "/home/simon/blog/content/economy/2026-03-24-crypto-etf-institutional.md:2:1": EOF looking for end YAML front matter delimiter
 [2026-03-24 06:00:01] ERROR: Hugo build failed!
+[2026-03-24 18:00:01] Starting daily publish...
+Start building sites … 
+hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
+
+Total in 1548 ms
+Error: error building site: process: readAndProcessContent: "/home/simon/blog/content/economy/2026-03-24-ai-labor-market-impact.md:2:1": EOF looking for end YAML front matter delimiter
+[2026-03-24 18:00:01] ERROR: Hugo build failed!
+[2026-03-25 06:00:01] Starting daily publish...
+Start building sites … 
+hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
+
+Total in 987 ms
+Error: error building site: process: readAndProcessContent: "/home/simon/blog/content/economy/2026-03-24-crypto-etf-institutional.md:2:1": EOF looking for end YAML front matter delimiter
+[2026-03-25 06:00:01] ERROR: Hugo build failed!
