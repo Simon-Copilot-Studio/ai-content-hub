@@ -10,7 +10,7 @@ tags:
   - 通膨
   - 全球經濟
   - 市場趨勢
-image: "https://images.unsplash.com/photo-1611974717413-568343719e7a?auto=format&fit=crop&q=80&w=800"
+image: "images/economy/2026-03-09-global-inflation-cooling.png"
 readingTime: 5
 lang: zh-TW
 ---

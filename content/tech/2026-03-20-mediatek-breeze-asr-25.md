@@ -14,7 +14,7 @@ tags:
   - Whisper
   - 台灣
   - 繁體中文
-image: ""
+image: "images/tech/2026-03-20-mediatek-breeze-asr-25.png"
 readingTime: 3
 draft: false
 lang: zh-TW

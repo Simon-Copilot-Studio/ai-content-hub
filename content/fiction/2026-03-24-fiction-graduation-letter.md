@@ -4,7 +4,7 @@ date: 2026-03-24T00:00:00+08:00
 description: "【青春校園】畢業典禮上，班導發了一封三年前入學時自己寫給未來的信。拆開的那一刻，她才發現三年前的自己什麼都預料到了——除了一件事。"
 categories: ["文學"]
 tags: ["青春", "校園", "畢業", "成長"]
-image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=630&fit=crop"
+image: "images/fiction/graduation-letter.png"
 readingTime: 10
 genre: "青春校園"
 draft: false

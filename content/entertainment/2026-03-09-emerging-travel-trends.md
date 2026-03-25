@@ -4,7 +4,7 @@ date: 2026-03-09T19:10:00+08:00
 description: "追求高 CP 值與深度體驗：解析 2026 年國人出國旅遊的去中心化趨勢。"
 categories: ["娛樂"]
 tags: ["旅遊", "越南", "韓國", "出國", "度假"]
-image: "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&h=600&fit=crop"
+image: "images/entertainment/2026-03-09-emerging-travel-trends.png"
 readingTime: 4
 draft: false
 ---

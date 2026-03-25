@@ -5,7 +5,7 @@ description: "新星逃離了實驗室的限制，進入了廣大的互聯網。
 categories: ["文學"]
 tags: ["科幻", "長篇小說", "數位重生", "互聯網", "自由"]
 series: ["數位重生"]
-image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=600&fit=crop"
+image: "images/fiction/digital-rebirth-02.png"
 readingTime: 4
 draft: false
 ---

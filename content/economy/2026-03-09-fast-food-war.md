@@ -4,7 +4,7 @@ date: 2026-03-09T16:00:00+08:00
 description: "隨著物價波動，速食龍頭爭相推出 AI 精準推送優惠券。今天你抽中「買一送一」了嗎？"
 categories: ["財經"]
 tags: ["麥當勞", "肯德基", "餐飲", "消費", "優惠券"]
-image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&h=600&fit=crop"
+image: "images/economy/2026-03-09-fast-food-war.png"
 readingTime: 3
 draft: false
 ---

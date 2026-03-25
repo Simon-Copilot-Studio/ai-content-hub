@@ -4,7 +4,7 @@ date: 2026-03-09T18:20:00+08:00
 description: "面對中東變局，台灣如何透過油價平穩機制與多元能源配置，在動盪中維持物價穩定？"
 categories: ["財經"]
 tags: ["能源", "油價", "中東局勢", "經濟", "通膨"]
-image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ec4?w=1200&h=600&fit=crop"
+image: "images/economy/2026-03-09-taiwan-energy-stability.png"
 readingTime: 4
 draft: false
 ---

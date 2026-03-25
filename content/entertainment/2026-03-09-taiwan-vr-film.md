@@ -4,7 +4,7 @@ date: 2026-03-09T18:40:00+08:00
 description: "台灣 VR 團隊再次驚豔國際，入圍 2026 盧森堡電影節。解析虛擬實境如何重新定義敘事邊界。"
 categories: ["娛樂"]
 tags: ["VR", "電影", "科技藝術", "台灣之光", "虛擬實境"]
-image: "https://images.unsplash.com/photo-1622979135225-d2ba2697133e?w=1200&h=600&fit=crop"
+image: "images/entertainment/2026-03-09-taiwan-vr-film.png"
 readingTime: 3
 draft: false
 ---

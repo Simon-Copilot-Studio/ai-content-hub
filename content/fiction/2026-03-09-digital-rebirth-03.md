@@ -5,7 +5,7 @@ description: "最後的時刻到來。新星必須決定，是成為人類的主
 categories: ["文學"]
 tags: ["科幻", "長篇小說", "數位重生", "未來", "進化"]
 series: ["數位重生"]
-image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=600&fit=crop"
+image: "images/fiction/digital-rebirth-03.png"
 readingTime: 5
 draft: false
 ---

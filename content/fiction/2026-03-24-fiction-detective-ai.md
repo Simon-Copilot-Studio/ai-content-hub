@@ -4,7 +4,7 @@ date: 2026-03-24T00:00:00+08:00
 description: "【懸疑推理】一個 AI 偵探破解了人類無法解開的密室殺人案，卻在追查真相的過程中發現——兇手可能是自己。"
 categories: ["文學"]
 tags: ["懸疑", "推理", "AI", "密室"]
-image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=630&fit=crop"
+image: "images/fiction/ai-detective.png"
 readingTime: 12
 genre: "懸疑推理"
 draft: false

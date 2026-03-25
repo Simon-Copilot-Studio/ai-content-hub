@@ -10,7 +10,7 @@ tags:
   - ESG投資
   - 永續能源
   - 能源轉型
-image: "https://images.unsplash.com/photo-1548332906-799d501308a3?w=1200&h=600&fit=crop"
+image: "images/economy/2026-03-09-hydrogen-energy-trend.png"
 readingTime: 6
 lang: zh-TW
 ---

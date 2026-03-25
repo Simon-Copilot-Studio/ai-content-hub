@@ -4,7 +4,7 @@ description: "嘉義瑞里紫藤花季 3 月下旬至 4 月中旬盛開！紫色
 author: "AI 趨勢觀察站"
 date: 2026-03-23
 tags: ["紫藤花", "嘉義", "瑞里", "賞花", "梅山", "阿里山"]
-image: "https://images.unsplash.com/photo-1553692034-d0ed83a2ce1b?w=1200"
+image: "images/entertainment/2026-03-23-chiayi-wisteria-season-2026-guide.png"
 ---
 
 ## 2026 嘉義瑞里紫藤花季

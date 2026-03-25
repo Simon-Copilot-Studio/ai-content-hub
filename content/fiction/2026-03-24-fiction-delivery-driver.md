@@ -4,7 +4,7 @@ date: 2026-03-24T00:00:00+08:00
 description: "【社會寫實】一個外送員在台北的 12 小時裡，送了 31 單，遇見了一個獨居老人、一對吵架的情侶、一個剛被裁員的工程師，和一個叫他名字的陌生人。"
 categories: ["文學"]
 tags: ["社會", "寫實", "外送", "都市"]
-image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=1200&h=630&fit=crop"
+image: "images/fiction/delivery-driver.png"
 readingTime: 11
 genre: "社會寫實"
 draft: false

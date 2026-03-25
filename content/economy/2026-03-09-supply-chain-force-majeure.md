@@ -4,7 +4,7 @@ date: 2026-03-09T18:00:00+08:00
 description: "「Force Majeure」（不可抗力）頻傳，企業如何利用 AI 與邊緣運算構建更強大的防護體系？"
 categories: ["財經"]
 tags: ["供應鏈", "Force Majeure", "數位轉型", "半導體", "全球經濟"]
-image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=600&fit=crop"
+image: "images/economy/2026-03-09-supply-chain-force-majeure.png"
 readingTime: 5
 draft: false
 ---

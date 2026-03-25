@@ -4,7 +4,7 @@ date: 2026-03-09T19:00:00+08:00
 description: "當折扣成為剛需：解析 e-market 時代的點數經濟與優惠券自動化趨勢。"
 categories: ["財經"]
 tags: ["電商", "通膨", "省錢", "LINEPay", "消費趨勢"]
-image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&h=600&fit=crop"
+image: "images/economy/2026-03-09-ecommerce-savings-trend.png"
 readingTime: 5
 draft: false
 ---
