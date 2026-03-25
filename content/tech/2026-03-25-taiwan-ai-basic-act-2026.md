@@ -4,7 +4,7 @@ date: 2026-03-25
 description: "全面解讀台灣 AI 基本法，分析其對 AI 產業的影響，並與國際監管趨勢進行比較。"
 tags: ["台灣AI", "AI監管", "AI基本法", "產業政策"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-25-taiwan-ai-basic-act-2026.png"
 ---
 
 ## 台灣 AI 基本法的核心內容與立法背景

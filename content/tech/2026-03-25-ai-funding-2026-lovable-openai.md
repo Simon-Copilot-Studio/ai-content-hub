@@ -4,7 +4,7 @@ date: 2026-03-25
 description: "全面盤點 2026 年 AI 產業的融資動態，分析主要玩家策略與市場趨勢。"
 tags: ["AI融資", "Lovable", "OpenAI", "新創"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-25-ai-funding-2026-lovable-openai.png"
 ---
 
 ## Lovable 估值 66 億美元的「氛圍編碼」革命

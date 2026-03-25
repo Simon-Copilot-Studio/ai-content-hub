@@ -4,7 +4,7 @@ date: 2026-03-25
 description: "深入分析 Anthropic 最新發布的 Claude 電腦使用功能，比較其與 OpenClaw 的差異，並探討 AI 代理的未來發展方向。"
 tags: ["AI代理", "Anthropic", "OpenClaw", "Claude", "電腦使用"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-25-anthropic-claude-computer-use-vs-openclaw.png"
 ---
 
 ## 什麼是 Claude 的電腦使用功能？

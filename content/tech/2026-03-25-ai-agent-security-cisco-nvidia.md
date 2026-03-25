@@ -4,7 +4,7 @@ date: 2026-03-25
 description: "分析 AI 代理快速發展下的安全挑戰，以及科技巨頭如何佈局安全解決方案。"
 tags: ["AI安全", "Cisco", "Nvidia", "AI代理"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-25-ai-agent-security-cisco-nvidia.png"
 ---
 
 ## AI 代理安全風險：當 AI 獲得電腦存取權

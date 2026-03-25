@@ -4,7 +4,7 @@ date: 2026-03-25
 description: "深度分析 Google 如何應對 ChatGPT 帶來的挑戰，以及 Gemini 3 如何成為 AI 市場的重要玩家。"
 tags: ["Google", "Gemini", "OpenAI", "Anthropic", "AI模型"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-25-google-gemini-3-rise.png"
 ---
 
 ## ChatGPT 如何引發 Google 內部「代碼紅色」危機
