@@ -4,7 +4,7 @@ date: 2026-03-26
 description: "AI EXPO Taiwan 2026 於3月25-27日在臺北花博舉行，聚焦代理型 AI 與推論應用。這是觀察台灣 AI 產業發展的重要窗口。"
 tags: ["台灣", "AI EXPO", "代理型AI", "Inference", "展會"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-26-taiwan-ai-expo-2026-agent-ai-inference.png"
 ---
 
 # 台灣 AI EXPO 2026 登場：代理型 AI 與推論應用成焦點

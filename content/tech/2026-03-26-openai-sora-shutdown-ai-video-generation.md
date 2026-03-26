@@ -4,7 +4,7 @@ date: 2026-03-26
 description: "OpenAI 短影片生成工具 Sora 上線不到半年即關閉，震驚業界。這是 AI 產品失敗案例，也是生成式 AI 市場競爭激烈與技術挑戰的縮影。"
 tags: ["OpenAI", "Sora", "AI影片", "生成式AI", "產品失敗"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-26-openai-sora-shutdown-ai-video-generation.png"
 ---
 
 # OpenAI Sora 不到半年收攤！AI 影片生成戰國時代終局？

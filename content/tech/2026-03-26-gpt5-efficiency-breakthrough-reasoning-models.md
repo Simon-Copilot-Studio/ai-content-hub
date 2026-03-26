@@ -4,7 +4,7 @@ date: 2026-03-26
 description: "最新分析顯示 GPT-5 使用 extended reasoning 技術，輸出效率提升 50-80%。這代表 AI 模型不再追求輸出長度，而是以更精簡、更可靠的方式完成複雜任務。"
 tags: ["GPT-5", "OpenAI", "AI模型", "效率優化", "LLM"]
 categories: ["tech"]
-image: ""
+image: "images/tech/gpt5-efficiency-breakthrough-reasoning-models.png"
 ---
 
 # GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代

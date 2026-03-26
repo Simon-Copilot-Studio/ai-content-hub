@@ -10,7 +10,7 @@ tags:
   - AI工具
   - ChatAI
   - LLM
-image: ""
+image: "images/tech/2026-03-21-claude-double-limits-update.png"
 readingTime: 5
 lang: zh-TW
 draft: false

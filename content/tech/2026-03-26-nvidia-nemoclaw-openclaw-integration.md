@@ -4,7 +4,7 @@ date: 2026-03-26
 description: "黃仁勳在 GTC 大會發布 NemoClaw，為 OpenClaw 智慧體平台提供一鍵安裝體驗。透過 NVIDIA Agent Toolkit 實現無縫優化，內建 OpenShell 隔離沙箱保障資料隱私。"
 tags: ["NVIDIA", "OpenClaw", "AI Agent", "GTC 2026", "部署工具"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-26-nvidia-nemoclaw-openclaw-integration.png"
 ---
 
 # NVIDIA 發布 NemoClaw 支援 OpenClaw！黃仁勳的一鍵部署願景

@@ -10,7 +10,7 @@ tags:
   - AI模型
   - ChatGPT
   - LLM
-image: ""
+image: "images/tech/2026-03-21-gpt54-mini-nano-openai.png"
 readingTime: 6
 lang: zh-TW
 draft: false

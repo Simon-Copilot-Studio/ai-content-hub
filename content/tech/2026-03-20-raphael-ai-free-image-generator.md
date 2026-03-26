@@ -10,7 +10,7 @@ tags:
   - Flux.1
   - 免費工具
   - Raphael AI
-image: ""
+image: "images/tech/2026-03-20-raphael-ai-free-image-generator.png"
 readingTime: 3
 lang: zh-TW
 draft: false

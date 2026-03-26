@@ -13,7 +13,7 @@ tags:
   - React
   - Google Labs
   - 無程式碼開發
-image: ""
+image: "images/tech/2026-03-21-google-stitch-vibe-design.png"
 readingTime: 6
 draft: false
 lang: zh-TW

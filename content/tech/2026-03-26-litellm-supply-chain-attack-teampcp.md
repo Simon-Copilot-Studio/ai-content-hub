@@ -4,7 +4,7 @@ date: 2026-03-26
 description: "LiteLLM 1.82.7/1.82.8 被植入後門程式，日下載量300萬次已隔離。TeamPCP 透過 Trivy CI/CD 滲透攻擊開發者憑證。這是2026年最嚴重的開源資安事件之一。"
 tags: ["資安", "供應鏈攻擊", "LiteLLM", "AI開發", "Python"]
 categories: ["tech"]
-image: ""
+image: "images/tech/2026-03-26-litellm-supply-chain-attack-teampcp.png"
 ---
 
 # 【資安警報】LiteLLM 供應鏈被駭！300萬日下載量陷危機｜開發者必須立刻行動

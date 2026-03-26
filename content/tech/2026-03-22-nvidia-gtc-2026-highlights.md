@@ -12,7 +12,7 @@ tags:
   - Vera Rubin
   - DLSS
   - Jensen Huang
-image: ""
+image: "images/tech/2026-03-22-nvidia-gtc-2026-highlights.png"
 readingTime: 8
 lang: zh-TW
 draft: false

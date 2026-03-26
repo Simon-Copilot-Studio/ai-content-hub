@@ -11,7 +11,7 @@ tags:
   - LLM
   - Nvidia
   - 商品化
-image: ""
+image: "images/tech/2026-03-22-openclaw-chatgpt-moment.png"
 readingTime: 7
 lang: zh-TW
 draft: false

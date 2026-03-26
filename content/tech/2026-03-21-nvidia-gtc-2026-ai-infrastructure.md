@@ -11,7 +11,7 @@ tags:
   - GPU
   - 資料中心
   - AI工廠
-image: ""
+image: "images/tech/2026-03-21-nvidia-gtc-2026-ai-infrastructure.png"
 readingTime: 6
 lang: zh-TW
 draft: false

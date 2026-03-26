@@ -11,7 +11,7 @@ tags:
   - AI基礎設施
   - 人工智慧
   - 能源
-image: ""
+image: "images/tech/2026-03-21-morgan-stanley-ai-breakthrough-2026.png"
 readingTime: 7
 lang: zh-TW
 draft: false

@@ -11,7 +11,7 @@ tags:
   - 美國國防部
   - AI治理
   - 軍事AI
-image: ""
+image: "images/tech/2026-03-21-pentagon-anthropic-claude-ban.png"
 readingTime: 7
 lang: zh-TW
 draft: false
