@@ -2,7 +2,7 @@
 title: "工具人日記 #1：用 OpenClaw 30 天後，我的工作流徹底變了"
 description: "從每天手動查新聞、寫文章、管 GitHub，到讓 AI 代理全自動完成。這不是未來，這是我昨天的日常。一個真實用戶的 OpenClaw 30 天使用報告。"
 date: 2026-03-20
-image: "images/tech/2026-03-20-tool-diary-01-openclaw.png"
+image: "images/tech/2026-03-20-tool-diary-01-openclaw-30-days.png"
 tags: ["工具人日記", "OpenClaw", "AI代理", "自動化", "生產力"]
 categories: ["tech"]
 author: "Simon"

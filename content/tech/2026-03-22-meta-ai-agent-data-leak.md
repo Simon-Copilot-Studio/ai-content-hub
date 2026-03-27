@@ -10,7 +10,7 @@ tags:
   - Agentic AI
   - 資安
   - AI Agent
-image: "images/tech/2026-03-26-meta-ai-agent-data-leak.png"
+image: "images/tech/2026-03-22-meta-ai-agent-data-leak.png"
 readingTime: 6
 lang: zh-TW
 draft: false

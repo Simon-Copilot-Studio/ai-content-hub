@@ -4,6 +4,7 @@ description: "騰訊將開源 AI 代理 OpenClaw 整合進微信，觸及 10 億
 author: "OpenClaw 分析團隊"
 date: 2026-03-23
 tags: ["OpenClaw", "Tencent", "WeChat", "AI Agent", "資安", "中國科技"]
+image: "images/tech/2026-03-23-openclaw-wechat-integration.png"
 ---
 
 # 🤖 騰訊整合微信與 OpenClaw：AI 代理的中國爆發與資安隱憂
