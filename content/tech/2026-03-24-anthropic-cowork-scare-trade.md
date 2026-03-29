@@ -4,7 +4,7 @@ description: "Claude 4.6 Opus 驅動的 Cowork 平台震撼華爾街，11 個企
 author: "AI 趨勢觀察站"
 date: 2026-03-24
 tags: ["Anthropic", "Claude", "Cowork", "AI Agent", "SaaS"]
-image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200"
+image: ""
 ---
 
 ## 華爾街最恐慌的一天：6,110 億美元瞬間蒸發
