@@ -1,15 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>自動化 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link><description>Recent content in 自動化 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E8%87%AA%E5%8B%95%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>工具人日記 #1：用 OpenClaw 30 天後，我的工作流徹底變了</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-tool-diary-01-openclaw-30-days/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-tool-diary-01-openclaw-30-days/</guid><description>工具人日記 #1：用 OpenClaw 30 天後，我的工作流徹底變了 系列說明：「工具人日記」每週一篇，記錄我實際使用各種 AI 工具的真實體驗——不是業配，不是教學，是踩坑日記。
-先說結論 OpenClaw 不是「又一個 AI 聊天工具」。它是一個住在你電腦裡的 AI 助手，能讀你的檔案、管你的 GitHub、幫你排程任務、甚至在你睡覺時自動工作。
-用了 30 天後，我的工作流從這樣：
-1 2 06:00 起床 → 手動查新聞 → 寫摘要 → 找圖片 → 發文 → git push （耗時：2-3 小時） 變成這樣：
-1 2 3 06:00 Cron 自動觸發 → AI 搜新聞 → 自動寫文 → 自動配圖 → 自動 push 06:30 我起床看 Telegram 通知，確認結果 （我的耗時：5 分鐘） 這不是誇張。這是我昨天的真實情況。
-30 天踩坑紀錄 第 1 週：興奮期 剛裝好 OpenClaw，感覺像擁有了 Jarvis。能直接在 Telegram 上跟它對話、叫它讀檔案、搜資料、寫程式。第一天就讓它幫我整理了 100 多篇 blog 文章的 metadata。</description></item><item><title>AI 代理人進入企業：2026 年最值得關注的 AI 編排技術</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</guid><description>2026 年，企業 AI 應用邁入全新階段，資策會最新公布的十大 AI 關鍵技術中，AI 編排調度技術無疑是最受矚目的焦點。這項技術不僅能夠自動化複雜的工作流程，更能讓多個 AI 代理人協同合作，大幅提升企業運作效率。
-AI 輔助開發技術的成熟，讓企業內部 IT 團隊得以快速部署 AI 解決方案。傳統上需要數月開發的企業應用，現在透過 AI 代理人的協助，可能只需幾週就能完成。這種加速不僅節省成本，更能讓企業快速回應市場變化。
-世界模型技術的突破更是改變了遊戲規則。AI 系統不再僅僅依賴即時數據，而是能建立對業務環境的深層理解，預測各種可能的發展路徑。這種預測能力讓企業能在問題發生前就採取預防措施，大幅降低風險。
-AI 編排調度技術的核心價值在於將分散的 AI 能力整合成統一的解決方案。無論是客服、數據分析、還是決策支持，各種 AI 功能都能透過智能調度實現最佳配置。企業可以根據實際需求，動態分配 AI 資源，確保關鍵任務獲得足夠的計算能力。
-值得注意的是，AI 編排技術並非簡單的自動化工具，而是具有學習和適應能力的智能系統。隨著使用時間的增長，系統會不斷優化工作流程，識別瓶頸，並主動提出改進建議。這種持續進化的特性，讓企業的 AI 系統越用越智能。
-對企業領導者而言，現在正是投資 AI 編排技術的黃金時機。那些能夠成功整合 AI 代理人的企業，將在未來五年內獲得顯著的競爭優勢。不僅是技術升級，更是商業模式創新的契機。</description></item><item><title>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters</title><link>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</guid><description>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters Jeff Bezos is in early discussions to raise $100 billion for a new fund that would acquire manufacturing companies and seek to use AI to drive and speed up automation, the Wall Street Journal reported on Thursday.
-100億美元AI製造業基金 Amazon.com Inc.創始人Jeff Bezos正與資產管理公司進行初步洽談，計劃籌集100億美元資金，用於收購製造業公司並利用AI技術進行改造和自動化。這一舉措反映了AI技術在傳統產業中的廣泛應用潛力。
-基金的戰略目標 該基金的主要目標包括：
-收購目標企業：尋找具有潛力但效率較低的製造業公司 AI技術導入：利用AI技術優化生產流程、提高效率 自動化改造：實施機器人技術和智能製造系統 數字化轉型：幫助傳統企業實現數字化升級 AI在製造業的應用 基金計劃利用AI技術改造製造業的各個方面：
-生產優化 預測性維護：利用AI預測設備故障，減少停機時間 質量控制：AI視覺系統檢測產品缺陷，提高品質 供應鏈優化：AI算法優化庫存管理和物流配送 自動化改造 機器人技術：引入協作機器人（cobot）提高生產效率 智能工廠：實施物聯網和AI驅動的智能製造系統 數字孿生：建立虛擬工廠模型，優化生產流程 對製造業的影響 這一基金的成立可能對製造業產生深遠影響：</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自動化 on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
+    <description>Recent content in 自動化 on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E8%87%AA%E5%8B%95%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工具人日記 #1：用 OpenClaw 30 天後，我的工作流徹底變了</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-tool-diary-01-openclaw-30-days/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-20-tool-diary-01-openclaw-30-days/</guid>
+      <description>工具人日記 #1：用 OpenClaw 30 天後，我的工作流徹底變了 系列說明：「工具人日記」每週一篇，記錄我實際使用各種 AI 工具的真實體驗——不是業配，不是教學，是踩坑日記。&#xA;先說結論 OpenClaw 不是「又一個 AI 聊天工具」。它是一個住在你電腦裡的 AI 助手，能讀你的檔案、管你的 GitHub、幫你排程任務、甚至在你睡覺時自動工作。&#xA;用了 30 天後，我的工作流從這樣：&#xA;1 2 06:00 起床 → 手動查新聞 → 寫摘要 → 找圖片 → 發文 → git push （耗時：2-3 小時） 變成這樣：&#xA;1 2 3 06:00 Cron 自動觸發 → AI 搜新聞 → 自動寫文 → 自動配圖 → 自動 push 06:30 我起床看 Telegram 通知，確認結果 （我的耗時：5 分鐘） 這不是誇張。這是我昨天的真實情況。&#xA;30 天踩坑紀錄 第 1 週：興奮期 剛裝好 OpenClaw，感覺像擁有了 Jarvis。能直接在 Telegram 上跟它對話、叫它讀檔案、搜資料、寫程式。第一天就讓它幫我整理了 100 多篇 blog 文章的 metadata。</description>
+    </item>
+    <item>
+      <title>AI 代理人進入企業：2026 年最值得關注的 AI 編排技術</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-ai-agent-enterprise/</guid>
+      <description>2026 年，企業 AI 應用邁入全新階段，資策會最新公布的十大 AI 關鍵技術中，AI 編排調度技術無疑是最受矚目的焦點。這項技術不僅能夠自動化複雜的工作流程，更能讓多個 AI 代理人協同合作，大幅提升企業運作效率。&#xA;AI 輔助開發技術的成熟，讓企業內部 IT 團隊得以快速部署 AI 解決方案。傳統上需要數月開發的企業應用，現在透過 AI 代理人的協助，可能只需幾週就能完成。這種加速不僅節省成本，更能讓企業快速回應市場變化。&#xA;世界模型技術的突破更是改變了遊戲規則。AI 系統不再僅僅依賴即時數據，而是能建立對業務環境的深層理解，預測各種可能的發展路徑。這種預測能力讓企業能在問題發生前就採取預防措施，大幅降低風險。&#xA;AI 編排調度技術的核心價值在於將分散的 AI 能力整合成統一的解決方案。無論是客服、數據分析、還是決策支持，各種 AI 功能都能透過智能調度實現最佳配置。企業可以根據實際需求，動態分配 AI 資源，確保關鍵任務獲得足夠的計算能力。&#xA;值得注意的是，AI 編排技術並非簡單的自動化工具，而是具有學習和適應能力的智能系統。隨著使用時間的增長，系統會不斷優化工作流程，識別瓶頸，並主動提出改進建議。這種持續進化的特性，讓企業的 AI 系統越用越智能。&#xA;對企業領導者而言，現在正是投資 AI 編排技術的黃金時機。那些能夠成功整合 AI 代理人的企業，將在未來五年內獲得顯著的競爭優勢。不僅是技術升級，更是商業模式創新的契機。</description>
+    </item>
+    <item>
+      <title>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-20-jeff-bezos-100-billion-ai-fund/</guid>
+      <description>Jeff Bezos aims to raise $100 billion to buy, revamp manufacturing firms with AI, WSJ reports | Reuters Jeff Bezos is in early discussions to raise $100 billion for a new fund that would acquire manufacturing companies and seek to use AI to drive and speed up automation, the Wall Street Journal reported on Thursday.&#xA;100億美元AI製造業基金 Amazon.com Inc.創始人Jeff Bezos正與資產管理公司進行初步洽談，計劃籌集100億美元資金，用於收購製造業公司並利用AI技術進行改造和自動化。這一舉措反映了AI技術在傳統產業中的廣泛應用潛力。&#xA;基金的戰略目標 該基金的主要目標包括：&#xA;收購目標企業：尋找具有潛力但效率較低的製造業公司 AI技術導入：利用AI技術優化生產流程、提高效率 自動化改造：實施機器人技術和智能製造系統 數字化轉型：幫助傳統企業實現數字化升級 AI在製造業的應用 基金計劃利用AI技術改造製造業的各個方面：&#xA;生產優化 預測性維護：利用AI預測設備故障，減少停機時間 質量控制：AI視覺系統檢測產品缺陷，提高品質 供應鏈優化：AI算法優化庫存管理和物流配送 自動化改造 機器人技術：引入協作機器人（cobot）提高生產效率 智能工廠：實施物聯網和AI驅動的智能製造系統 數字孿生：建立虛擬工廠模型，優化生產流程 對製造業的影響 這一基金的成立可能對製造業產生深遠影響：</description>
+    </item>
+  </channel>
+</rss>

@@ -4,7 +4,7 @@ date: 2026-03-29
 description: "SEC 對 91 項加密貨幣 ETF 申請做出歷史性裁決，涵蓋 24 種代幣。XRP 正式獲得數位商品地位，結束四年監管不確定性。BTC 卻因「買預期、賣事實」效應跌至 66,600 美元，3 億美元槓桿多單遭清算。"
 categories: ["tech"]
 tags: ["SEC", "加密貨幣ETF", "XRP", "比特幣", "數位商品", "監管政策", "區塊鏈"]
-image: ""
+image: "/images/2026-03-29-sec-crypto-etf-ruling.png"
 readingTime: 4
 draft: false
 ---

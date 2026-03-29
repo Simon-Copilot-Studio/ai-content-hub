@@ -4,7 +4,7 @@ date: 2026-03-29
 description: "美伊衝突進入第五週，荷莫茲海峽封鎖導致原油供應中斷，Brent 原油飆升至 110 美元。Morgan Stanley 警告油價可能挑戰 130 美元，全球滯脹（stagflation）風險正在成為 2026 年最大經濟威脅。"
 categories: ["tech"]
 tags: ["油價", "美伊戰爭", "滯脹", "荷莫茲海峽", "能源危機", "通膨", "經濟衰退"]
-image: ""
+image: "/images/2026-03-29-oil-price-stagflation.png"
 readingTime: 5
 draft: false
 ---
