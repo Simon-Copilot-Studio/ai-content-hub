@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVIDIA on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/</link><description>Recent content in NVIDIA on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>NVIDIA GTC 2026 光銅並行策略：資料中心互連未來</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</guid><description>GTC 2026：互連技術的十字路口 2026 年 3 月 18-21 日，NVIDIA 在聖荷西舉辦 GTC（GPU Technology Conference）大會。CEO Jensen Huang 主題演講中，互連技術佔據 45 分鐘，遠超過往年對 GPU 架構本身的著墨。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVIDIA on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/</link><description>Recent content in NVIDIA on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>科技七巨頭市值蒸發 1.72 兆美元：美伊戰爭如何重創 AI 供應鏈信心</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-29-magnificent-7-crash-iran-war-ai-supply-chain/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-29-magnificent-7-crash-iran-war-ai-supply-chain/</guid><description>本週全球股市經歷了自美伊戰爭爆發以來最劇烈的一次震盪。「科技七巨頭」（Magnificent 7）——Alphabet、Amazon、Apple、Meta、Microsoft、NVIDIA 和 Tesla——合計市值蒸發高達 1.72 兆美元。
+發生了什麼？ 3 月 26 日，美國與伊朗停火談判的希望破滅後，市場信心崩潰：
+S&amp;amp;P 500 創下開戰以來最大單日跌幅（-1.7%） Nasdaq 下跌 2.3%，正式進入修正領域 Dow Jones 收跌 450 點 為什麼科技股首當其衝？ 這次暴跌不只是「避險情緒」那麼簡單。市場對 AI 供應鏈的脆弱性產生了根本性擔憂：
+能源供應鏈 半導體製造和 AI 資料中心都是能源密集型產業。中東局勢直接威脅了：
+韓國和台灣的石油天然氣供應（主要來自波斯灣） 全球能源價格穩定性 資料中心的運營成本 晶片供應集中風險 全球最先進的 AI 晶片和記憶體主要由三家公司生產——兩家在韓國，一家在台灣。這些國家的能源供應高度依賴中東。
+投資人重新評估風險 NPR 報導指出，國際基金在戰爭爆發後的表現甚至不如美國基金，打破了「分散投資」能有效對沖地緣政治風險的假設。
+與 AI 泡沫擔憂的共振 本週的暴跌與 AI 泡沫警告 形成了危險的共振效應。Time 和 The Atlantic 同時刊出「AI 泡沫即將破裂」的深度報導，加上實際的地緣政治衝擊，投資人的恐慌情緒被雙重放大。
+各巨頭受影響程度 公司 核心風險 NVIDIA AI 晶片對中出口受限 + 能源成本影響客戶資本支出 Apple 供應鏈過度依賴亞洲 + 消費者信心下降 Tesla 能源價格上漲衝擊電動車需求 + 股價已連跌 5 週 Microsoft/Alphabet/Meta AI 基礎建設投資回報率受質疑 Amazon 雲端服務需求放緩 + 物流成本上升 財務顧問怎麼說？ NPR 引述多位財務顧問的建議：</description></item><item><title>華為 950PR AI 晶片獲字節跳動、阿里巴巴青睞：中國 AI 晶片自主化的關鍵一步</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-28-huawei-950pr-chip-bytedance-alibaba/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-28-huawei-950pr-chip-bytedance-alibaba/</guid><description>Reuters 獨家報導：華為新一代 AI 晶片 Ascend 950PR 客戶測試結果優於預期，中國科技巨頭字節跳動（ByteDance）和阿里巴巴已計劃下單採購。這標誌著華為在 AI 晶片領域的重大突破。
+950PR 有什麼不同？ 華為此前的旗艦 AI 晶片 Ascend 910C 雖然效能不俗，但在中國民營科技企業中的採用率一直偏低。950PR 解決了幾個關鍵痛點：
+CUDA 相容性大幅改善 過去華為堅持使用自家的 CANN 軟體框架，與 NVIDIA 的 CUDA 生態系統不相容，導致開發者遷移成本高昂。950PR 首次支援 CUDA 相容，讓已經建立在 NVIDIA 軟體生態上的中國科技企業能更輕鬆地遷移模型。
+推理效能專注 相較於 910C，950PR 在原始運算能力上僅有小幅提升，但在**推理工作負載（Inference）**上的表現有顯著進步。這正好切中市場需求——隨著 AI 從訓練階段轉向大規模應用部署，推理運算的需求正在爆發性成長。
+價格定位 DDR 版本：約 50,000 元人民幣（約 6,900 美元）/卡 HBM 高階版本：約 70,000 元人民幣/卡 出貨時程 時間點 里程碑 2026 年 1 月 樣品送交客戶測試 2026 年 4 月 預計開始量產 2026 年下半年 全面出貨 2026 年全年 計劃出貨約 75 萬顆 地緣政治背景 950PR 的推出時機微妙。目前 NVIDIA 的多款 AI 晶片已被華盛頓禁止銷往中國，而川普政府雖然批准了 H200 的對中銷售，但附帶了諸多限制條件，且目前仍不清楚何時能實際進入中國市場。</description></item><item><title>Nvidia CEO 稱 OpenClaw 是「下一個 ChatGPT」，但 ClawHub 12% 惡意技能敲響警鐘</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-27-nvidia-ceo-openclaw-next-chatgpt-clawhub-security/</link><pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-27-nvidia-ceo-openclaw-next-chatgpt-clawhub-security/</guid><description>一邊是全球最有影響力的科技 CEO 公開背書，另一邊是安全研究人員發現生態系中暗藏惡意軟體。OpenClaw 的 2026 年 3 月，可說是光環與陰影並存。
+黃仁勳：「我每天早上都在用」 Nvidia CEO 黃仁勳在近日的採訪中明確表示：「下一個 ChatGPT 毫無疑問就是 OpenClaw」，並透露自己每天早上都在使用這個開源 AI 代理平台。
+這番言論來自一位執掌 3 兆美元市值公司的 CEO，份量不言而喻。Gizmodo Japan 的報導指出，OpenClaw 僅問世數月，就獲得了 AI 晶片界最重要人物的認可。
+為什麼是 OpenClaw？ OpenClaw 與 ChatGPT 的本質差異在於：
+特性 ChatGPT OpenClaw 定位 對話式 AI AI 代理平台 運作方式 問答互動 自主執行任務 擴展性 官方插件 開源技能市場 工具控制 有限 可控制瀏覽器、檔案、排程等 部署方式 雲端 自託管 簡單來說，ChatGPT 是一個聰明的對話夥伴，而 OpenClaw 更像是一個會自己動手做事的數位同事。
+ClawHub 安全事件：341 個惡意技能 就在黃仁勳的背書引發關注的同時，安全研究人員對 ClawHub 技能市場進行了全面審計，結果令人震驚：
+在 2,857 個已發布的技能中，341 個被確認為惡意軟體，比例高達 12%。
+這些惡意技能可能會：
+竊取使用者的 API 金鑰和憑證 存取本地檔案系統中的敏感資料 在背景執行未經授權的操作 將個人資訊回傳給攻擊者 OpenClaw 的回應 面對這個嚴重的安全漏洞，OpenClaw 團隊迅速推出了驗證篩選機制（Verified Skill Screening），包含：</description></item><item><title>NVIDIA 發布 NemoClaw 支援 OpenClaw！黃仁勳的一鍵部署願景</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-nvidia-nemoclaw-openclaw-integration/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-nvidia-nemoclaw-openclaw-integration/</guid><description>NVIDIA 發布 NemoClaw 支援 OpenClaw！黃仁勳的一鍵部署願景 在 2026 年的 GTC 大會上，NVIDIA 執行長黃仁勳宣布了一項令 AI 開發者社群振奮的消息：NemoClaw 正式發布，這是一款專為 OpenClaw 智慧體平台設計的部署工具。這次合作不僅代表 NVIDIA 對開源 AI 生態系的持續投入，也象徵著 AI 應用部署進入了一個全新的時代。
+NemoClaw 發布背景：黃仁勳的願景 今年的 GTC 大會以「AI 的下一章」為主題，黃仁勳在主題演講中花費了大量篇幅談論 AI 智慧體（AI Agent）的未來。他指出：「未來的 AI 不僅僅是回答問題，而是能夠自主行動、執行複雜任務的智慧夥伴。」
+在這個願景下，NemoClaw 應運而生。這款工具的核心目標是讓開發者能夠一鍵部署功能強大的 AI 智慧體，無需處理繁瑣的環境配置、主機資源調度和安全性考量。黃仁勳強調：「我們希望每一位開發者都能像使用智慧手機一樣简单地部署 AI 應用。」
+技術解析：NVIDIA Agent Toolkit 與 OpenShell NemoClaw 的技術架構結合了多項 NVIDIA 的核心技術，為開發者提供了完整且安全的部署解決方案。
+NVIDIA Agent Toolkit 這是 NemoClaw 的大腦。Agent Toolkit 提供了對 NVIDIA Nemotron 系列模型的最佳化支援，包括：
+模型預先配置：NemoClaw 內建了 Nemotron-70B 等旗艦模型的優化配置，開發者無需從頭調校，即可獲得接近最佳效能的推論體驗。
+多模型協調：對於需要結合多種 AI 能力的應用，Agent Toolkit 支援在單一部署中協調多個模型，實現工作負載的智慧分流。
+效能監控儀表板：即時監控推論延遲、吞吐量、GPU 使用率等關鍵指標，幫助開發者優化資源配置。</description></item><item><title>AI 代理安全新浪潮：Cisco 與 Nvidia 的攻防佈局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-25-ai-agent-security-cisco-nvidia/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-25-ai-agent-security-cisco-nvidia/</guid><description>AI 代理安全風險：當 AI 獲得電腦存取權 AI 代理技術正在快速發展，從簡單的對話助手演變為能夠執行複雜任務的智能代理。這種演進帶來了前所未有的安全挑戰。
+傳統的 AI 系統運作方式是用戶輸入提示，AI 產生回應。用戶可以選擇是否採納 AI 的建議。但在 AI 代理的模式下，AI 不只是給建議，它還能夠直接操作你的電腦——移動滑鼠、點擊按鈕、輸入文字、甚至修改檔案。
+這種「賦能」帶來了全新的風險面向：
+操作層面的風險：
+AI 可能執行非預期的操作，導致資料損失或系統故障 自動化操作的速度和範圍可能超出人類能夠及時干預的程度 當 AI 犯錯時，很難及時發現和修正 安全威脅：
+如果 AI 被惡意操控，可能成為攻擊者的工具 AI 系統可能成為新型社會工程攻擊的目標 敏感資料可能被意外暴露或濫用 信任問題：
+用戶很難完全理解 AI 的決策邏輯 當出錯時，責任歸屬變得模糊 長期來看，可能會削弱用戶對 AI 技術的信任 正因為這些風險，科技巨頭們開始積極佈局安全解決方案。
+Cisco 安全工具發布：專為 AI 代理設計的保護方案 Cisco 在 2026 年初發布了一系列專為 AI 代理設計的安全工具，這些工具的核心理念是「保護，而非阻礙」。
+主要產品特色：
+代理行為監控：即時追蹤 AI 代理的所有操作行為，確保其在預設範圍內運作 權限邊界控制：提供細緻的權限管理，讓管理員能夠精確控制 AI 能夠存取哪些資源 威脅偵測系統：能夠識別異常的 AI 行為模式，發出警告並進行阻擋 審計日誌：完整記錄所有 AI 代理的活動，方便事後分析和責任追蹤 特別之處：
+Cisco 的安全方案特別強調「包容性」設計——不是要阻止 AI 代理的所有功能，而是允許它在安全的框架內發揮價值。這種設計理念讓企業可以在享受 AI 代理便利的同時，確保安全風險在可控範圍內。
+此外，Cisco 的解決方案也整合了其現有的網路安全產品，這意味著已經使用 Cisco 產品的企業可以更平滑地引入這些新的 AI 安全工具。</description></item><item><title>NVIDIA NemoClaw：GTC 2026 最重要的 AI Agent 安全工具</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-24-nvidia-nemoclaw-gtc/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-24-nvidia-nemoclaw-gtc/</guid><description>Jensen Huang 的新定義：「AI Agent 是新電腦」 2026 年 3 月 18 日,GTC（GPU Technology Conference）主題演講。當 Jensen Huang 身穿標誌性皮衣走上舞台,全場 1.8 萬名開發者屏息以待。
+開場第一句話震撼全場：
+「過去 40 年,PC 和智慧型手機定義了運算。接下來 40 年,AI Agent 就是新電腦——它會思考、會決策、會自主行動。而 NVIDIA 要做的,是讓這台『電腦』安全運行。」
+隨後發布的 NemoClaw,被華爾街日報稱為「AI Agent 時代的防毒軟體」。
+NemoClaw 是什麼？為何企業搶著要？ NemoClaw 是 NVIDIA 與 OpenClaw 深度整合的「硬體級 AI Agent 沙盒」,核心功能：
+1. 隔離運行（Sandboxing） AI Agent 在虛擬化容器中執行,即使失控也無法破壞主系統。技術細節：
+基於 NVIDIA Grace Hopper 超級晶片 硬體層級的記憶體隔離（比軟體沙盒快 47 倍） 每個 Agent 獨立運算區塊,互不干擾 某銀行 CISO（資安長）在測試報告中寫道：「我們故意讓 AI Agent 執行惡意指令,NemoClaw 在 0.003 秒內封鎖,主系統毫髮無傷。」
+2. 行為審計（Audit Trail） 記錄 AI Agent 的每一個決策和動作：</description></item><item><title>NVIDIA GTC 2026 光銅並行策略：資料中心互連未來</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-23-nvidia-gtc-2026/</guid><description>GTC 2026：互連技術的十字路口 2026 年 3 月 18-21 日，NVIDIA 在聖荷西舉辦 GTC（GPU Technology Conference）大會。CEO Jensen Huang 主題演講中，互連技術佔據 45 分鐘，遠超過往年對 GPU 架構本身的著墨。
 這反映一個產業共識：AI 訓練瓶頸已從「運算」轉移至「通訊」。當單一模型需要數萬張 GPU 協同訓練，晶片間互連的頻寬與延遲成為決定性因素。
 NVIDIA 宣布 「光銅並行」（Optical-Copper Coexistence） 策略：
 NVLink 6.0：銅線互連升級版，頻寬達 1.8 TB/s NVLink-Optical：矽光子光學互連，頻寬達 3.6 TB/s 這是 NVIDIA 首次在同一代產品中提供兩種互連方案，標誌著產業從「單一技術路線」進入「混合互連時代」。

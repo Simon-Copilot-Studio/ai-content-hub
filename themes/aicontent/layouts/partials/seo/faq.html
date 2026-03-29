@@ -1,4 +1,4 @@
-{{/* FAQ Schema - use in articles with .Params.faq (list of {q, a} pairs) */}}
+{{/* FAQ Schema - use in articles with .Params.faq (list of {q, a} / {question, answer} pairs) */}}
 {{ with .Params.faq }}
 <script type="application/ld+json">
 {
@@ -6,15 +6,17 @@
   "@type": "FAQPage",
   "mainEntity": [
     {{- range $i, $item := . -}}
+    {{- if reflect.IsMap $item -}}
     {{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $item.q | jsonify }},
+      "name": {{ with $item.q }}{{ . | jsonify }}{{ else }}{{ $item.question | jsonify }}{{ end }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $item.a | jsonify }}
+        "text": {{ with $item.a }}{{ . | jsonify }}{{ else }}{{ $item.answer | jsonify }}{{ end }}
       }
     }
+    {{- end -}}
     {{- end -}}
   ]
 }

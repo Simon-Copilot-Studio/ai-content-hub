@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/</link><description>Recent content in LLM on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 22 Mar 2026 07:00:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 的 ChatGPT 時刻：AI 模型商品化危機來了嗎？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</link><pubDate>Sun, 22 Mar 2026 07:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</guid><description>2026 年 3 月 21 日，CNBC 發表了一篇重量級報導，標題直白：「OpenClaw 的 ChatGPT 時刻引發 AI 模型商品化擔憂。」
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/</link><description>Recent content in LLM on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-gpt5-efficiency-breakthrough-reasoning-models/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-gpt5-efficiency-breakthrough-reasoning-models/</guid><description>GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代 AI 模型的發展方向正在發生微妙但深遠的轉變。最新分析顯示，OpenAI 最新旗艦模型 GPT-5 在輸出效率上實現了驚人的突破——使用所謂的 extended reasoning 技術後，輸出 tokens 數量減少了 50-80%，但任務完成品質卻絲毫不減。這不僅是技術上的勝利，更預示著 AI 產業對於「何為更好的 AI」這件事的根本性反思。
+Extended Reasoning 技術解析 要理解 GPT-5 的效率突破，我們需要深入了解 extended reasoning 這個核心概念。這不是簡單的「讓AI少說話」，而是一種全新的模型架構設計理念。
+傳統推理的困境 在 GPT-4 和之前的模型中，當面對複雜問題時，模型通常會採用「逐步推理」（Chain-of-Thought）的方式。這種方法雖然有效，但存在幾個問題：
+冗長的中間過程：模型會產生大量的推理步驟和 intermediate tokens，這些在最終回答中並不需要，卻消耗了寶貴的計算資源。
+錯誤累積風險：推理步驟越多，中間出錯的概率就越高，最終可能導致回答偏離主題。
+延遲增加：更長的輸出意味著更久的等待時間，對即時應用場景極為不利。
+Extended Reasoning 的創新 Extended reasoning 技術的核心思想是：讓模型在「內部」進行更深入的分析，但只輸出精煉的最終結論。
+這類似於人類的思考過程：當我們解決一個複雜問題時，會在腦中進行大量的推理和判斷，但表達出來的通常只是結論。GPT-5 現在能夠做到這一點——在模型的 latent space 中完成複雜推理，然後只產生必要的輸出 tokens。
+技術層面上，這涉及：
+壓縮的推理表示：模型學會用更緊湊的向量表示來儲存推理過程，而非依賴冗長的文字序列。
+動態的推理深度：根據任務複雜度，模型自動調整內部推理的深度，簡單問題快速回答，複雜問題深入分析。
+品質感知的輸出控制：模型能夠判斷「說多少才夠」，在效率和準確性之間取得最佳平衡。
+輸出 tokens 大幅減少的實際意義 讓我們更具體地看看這個效率提升帶來的改變。根據多個第三方測試，GPT-5 在常見任務中的輸出長度變化如下：
+任務類型 GPT-4 平均輸出 GPT-5 平均輸出 效率提升 程式碼撰寫 2,500 tokens 800 tokens 68% 文件摘要 1,200 tokens 400 tokens 67% 複雜分析 3,000 tokens 1,200 tokens 60% 對話回應 500 tokens 150 tokens 70% 這些數字代表什麼？相同的計算資源現在可以處理多達 2-5 倍的請求量。對於 API 服務商來說，這意味著成本的大幅下降；對於終端用戶來說，則是更快的回應時間。</description></item><item><title>OpenClaw 的 ChatGPT 時刻：AI 模型商品化危機來了嗎？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</link><pubDate>Sun, 22 Mar 2026 07:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</guid><description>2026 年 3 月 21 日，CNBC 發表了一篇重量級報導，標題直白：「OpenClaw 的 ChatGPT 時刻引發 AI 模型商品化擔憂。」
 三個月前，科技產業還不知道這個以龍蝦為主題的 AI 程式專案。如今，全球最有價值公司的 CEO 在年度大會上稱它為「人類史上最受歡迎的開源專案」。
 這不只是一個開源軟體的成功故事——它可能標誌著 AI 產業權力結構的根本轉移。
 Jensen Huang 的背書 在 Nvidia GTC 2026 大會上，Jensen Huang 對 OpenClaw 的推崇程度超出所有人預期：
