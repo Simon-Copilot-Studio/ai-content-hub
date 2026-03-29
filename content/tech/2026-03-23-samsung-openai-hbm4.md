@@ -4,7 +4,7 @@ description: "三星與 OpenAI 簽署 HBM4 記憶體獨家供應協議，支援 
 author: "AI Content Team"
 date: 2026-03-23
 tags: ["三星", "OpenAI", "HBM4", "AI晶片", "記憶體", "供應鏈"]
-image: ""
+image: "/images/tech/2026-03-23-samsung-openai-hbm4.png"
 faq:
   - q: "為什麼 OpenAI 要自研晶片？"
     a: "主要原因：(1) NVIDIA H200 供應緊張，限制 GPT-5 訓練進度、(2) 成本控制：自研晶片可降低 40-50% 訓練成本、(3) 技術自主：針對 Transformer 架構深度優化，效能提升 30%、(4) 避免受制於單一供應商。預計 2027 年底推出代號 'Tigris' 的訓練晶片。"

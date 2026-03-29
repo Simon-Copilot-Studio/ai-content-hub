@@ -4,7 +4,7 @@ description: "Jensen Huang 稱 OpenClaw 為「新電腦」,並發布與其整合
 author: "AI 趨勢觀察站"
 date: 2026-03-24
 tags: ["NVIDIA", "NemoClaw", "GTC 2026", "AI Agent", "企業安全"]
-image: ""
+image: "/images/tech/2026-03-24-nvidia-nemoclaw-gtc.png"
 ---
 
 ## Jensen Huang 的新定義：「AI Agent 是新電腦」

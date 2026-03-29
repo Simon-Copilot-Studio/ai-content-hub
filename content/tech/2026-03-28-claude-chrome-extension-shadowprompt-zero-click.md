@@ -4,7 +4,7 @@ date: 2026-03-28
 description: "Anthropic Claude Chrome Extension 爆出 ShadowPrompt 零點擊漏洞，攻擊者僅需讓用戶造訪惡意網頁即可竊取 Gmail Token、Google Drive 檔案與聊天記錄。已修補，但 300 萬用戶曾暴露在風險中。"
 categories: ["tech"]
 tags: ["Anthropic", "Claude", "Chrome Extension", "零點擊漏洞", "ShadowPrompt", "資安", "Prompt Injection", "AI安全"]
-image: "/images/2026-03-28-shadowprompt.webp"
+image: "/images/tech/2026-03-28-claude-chrome-extension-shadowprompt-zero-click.png"
 readingTime: 5
 draft: false
 ---

@@ -4,7 +4,7 @@ date: 2026-03-28
 description: "華為新一代 AI 晶片 Ascend 950PR 測試表現優異，字節跳動與阿里巴巴計劃大量採購。支援 CUDA 相容、推理效能大幅提升，預計 2026 下半年全面出貨。"
 categories: ["tech"]
 tags: ["華為", "950PR", "AI晶片", "字節跳動", "阿里巴巴", "半導體", "NVIDIA", "中國AI"]
-image: "/images/2026-03-28-huawei-950pr.webp"
+image: "/images/tech/2026-03-28-huawei-950pr-chip-bytedance-alibaba.png"
 readingTime: 5
 draft: false
 ---

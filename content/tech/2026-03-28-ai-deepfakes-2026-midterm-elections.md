@@ -4,7 +4,7 @@ date: 2026-03-28
 description: "2026 美國期中選舉 AI 深偽廣告氾濫，聯邦監管完全空白。Reuters 調查揭露競選團隊如何利用 AI 生成逼真影片攻擊對手，民主制度面臨嚴峻考驗。"
 categories: ["tech"]
 tags: ["AI深偽", "Deepfake", "2026期中選舉", "美國政治", "AI監管", "選舉安全", "人工智慧"]
-image: "/images/2026-03-28-deepfake-election.webp"
+image: "/images/tech/2026-03-28-ai-deepfakes-2026-midterm-elections.png"
 readingTime: 5
 draft: false
 ---

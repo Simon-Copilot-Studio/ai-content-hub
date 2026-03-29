@@ -4,7 +4,7 @@ date: 2026-03-28
 description: "Time 與 The Atlantic 同日發出警告：AI 基礎建設投資已達 5 兆美元規模，但營收嚴重不匹配。加上中東局勢、能源危機與供應鏈脆弱性，AI 泡沫破裂可能引發系統性金融危機。"
 categories: ["tech"]
 tags: ["AI泡沫", "AI投資", "金融危機", "資料中心", "能源危機", "半導體供應鏈", "科技股"]
-image: "/images/2026-03-28-ai-bubble.webp"
+image: "/images/tech/2026-03-28-ai-bubble-5-trillion-crisis.png"
 readingTime: 6
 draft: false
 ---

@@ -4,7 +4,7 @@ date: 2026-03-29
 description: "受美伊戰爭停火談判破裂影響，Magnificent 7 科技股市值蒸發 1.72 兆美元。S&P 500 創開戰以來最大跌幅，Nasdaq 進入修正領域。AI 供應鏈脆弱性成為核心擔憂。"
 categories: ["tech"]
 tags: ["Magnificent 7", "科技股", "美伊戰爭", "股市暴跌", "AI供應鏈", "NVIDIA", "能源危機"]
-image: "/images/2026-03-29-mag7-crash.webp"
+image: "/images/tech/2026-03-29-magnificent-7-crash-iran-war-ai-supply-chain.png"
 readingTime: 5
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "微信正式上線 ClawBot 聯繫人，標誌著中國科技巨頭
 author: "AI 趨勢觀察站"
 date: 2026-03-24
 tags: ["騰訊", "WeChat", "OpenClaw", "AI Agent", "中國科技"]
-image: ""
+image: "/images/tech/2026-03-24-tencent-wechat-openclaw.png"
 ---
 
 ## 微信史上最大更新：ClawBot 正式成為你的聊天對象

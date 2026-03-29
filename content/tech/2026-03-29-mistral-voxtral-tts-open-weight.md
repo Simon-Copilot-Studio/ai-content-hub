@@ -4,7 +4,7 @@ date: 2026-03-29
 description: "Mistral AI 發布首款開源 TTS 模型 Voxtral，40 億參數、支援 9 種語言、90 毫秒延遲、3GB RAM 即可運行。人類偏好測試擊敗 ElevenLabs Flash v2.5，開放權重免費使用。"
 categories: ["tech"]
 tags: ["Mistral AI", "Voxtral", "TTS", "文字轉語音", "開源AI", "語音合成", "ElevenLabs"]
-image: "/images/2026-03-29-voxtral-tts.webp"
+image: "/images/tech/2026-03-29-mistral-voxtral-tts-open-weight.png"
 readingTime: 5
 draft: false
 ---

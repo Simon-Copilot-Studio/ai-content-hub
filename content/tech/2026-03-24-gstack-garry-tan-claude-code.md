@@ -4,7 +4,7 @@ description: "YC CEO Garry Tan 開源虛擬團隊工具 gstack,18 個角色指�
 author: "AI 趨勢觀察站"
 date: 2026-03-24
 tags: ["gstack", "Claude Code", "YC", "Garry Tan", "AI 開發"]
-image: ""
+image: "/images/tech/2026-03-24-gstack-garry-tan-claude-code.png"
 ---
 
 ## 一人完成百人團隊的工作：gstack 誕生記
