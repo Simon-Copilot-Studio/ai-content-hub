@@ -4,7 +4,7 @@ description: "Meta AI Agent 原始碼洩漏事件揭露企業 AI 部署的致命
 author: "AI Content Team"
 date: 2026-03-23
 tags: ["AI安全", "AI Agent", "Meta", "資安", "企業風險", "OWASP"]
-image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=630&fit=crop"
+image: "/images/tech/2026-03-23-ai-agent-security-meta-leak.png"
 faq:
   - q: "Meta AI Agent 洩漏事件到底發生什麼？"
     a: "2026 年 2 月，駭客透過 SQL 注入漏洞入侵 Meta 內部 AI Agent 系統，竊取 280 GB 資料（包含未發布產品規格、員工薪資、廣告客戶資料）。調查發現 AI Agent 擁有過高資料庫權限（DBA 級），且無存取日誌記錄。Meta 支付 520 萬美元賠償，CEO Mark Zuckerberg 向參議院作證。"

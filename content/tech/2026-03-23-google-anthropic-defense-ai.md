@@ -4,7 +4,7 @@ description: "Google 與美國國防部簽署 28 億美元 AI 合約，Anthropic
 author: "AI Content Team"
 date: 2026-03-23
 tags: ["Google", "Anthropic", "國防AI", "軍事應用", "科技倫理", "五角大廈"]
-image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=630&fit=crop"
+image: "/images/tech/2026-03-23-google-anthropic-defense-ai.png"
 faq:
   - q: "Google 為何改變「不作惡」立場，接受軍事合約？"
     a: "Google 在 2018 年 Maven 計畫爭議後曾承諾不開發武器 AI，但 2024 年修訂政策，允許「防禦性」與「非致命性」軍事應用。此次合約主要用於：(1) 衛星影像分析（非目標鎖定）、(2) 網路安全防禦、(3) 後勤優化。Google 強調「不參與自主武器開發」。"

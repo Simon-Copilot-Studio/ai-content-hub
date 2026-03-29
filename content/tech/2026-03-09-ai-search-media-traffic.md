@@ -4,7 +4,7 @@ date: 2026-03-09T18:30:00+08:00
 description: "從「點擊率」到「資訊摘錄」：解析 2026 年 AI 搜尋技術如何重塑內容產權與流量分配。"
 categories: ["科技"]
 tags: ["AI", "Google", "SEO", "數位媒體", "流量"]
-image: "https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&h=600&fit=crop"
+image: "/images/tech/2026-03-09-ai-search-media-traffic.png"
 readingTime: 5
 draft: false
 ---

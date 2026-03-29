@@ -4,7 +4,7 @@ description: "近年來，量子運算技術已經開始從實驗室走向商業
 author: "AI 趨勢觀察站"
 date: 2026-03-24
 tags: ["量子運算", "IBM", "Google"]
-image: "https://images.unsplash.com/photo-1597773150796-e5c14ebb013d?w=1200&h=630&fit=crop" 
+image: "/images/tech/2026-03-24-quantum-computing.png"
 faq:
 - q: "IBM 和 Google 在量子運算硬件領域的最新動態是什麼?"
   a: "IBM 推出了全新的 Quantum System Two 量子電腦，Google 則發布了 Quantum Supremacy 2.0 系統，兩家公司正在激烈競爭。"

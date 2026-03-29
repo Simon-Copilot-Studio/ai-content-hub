@@ -10,7 +10,7 @@ tags:
   - Meta
   - Apple
   - AR
-image: "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&q=80&w=800"
+image: "/images/tech/2026-03-09-wearable-ai-glasses.png"
 readingTime: 7
 lang: zh-TW
 ---
