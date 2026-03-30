@@ -6,8 +6,15 @@
     <description>Recent content in Tech on AI 趨勢觀察站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026 免費 AI 產圖網站完整盤點：17 個平台從無限免費到開源自架一次看</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-30-free-ai-image-generators-complete-guide/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-30-free-ai-image-generators-complete-guide/</guid>
+      <description>2026 年，AI 產圖技術已經進入全民時代。不需要設計底子、不需要付費訂閱，只要一段文字描述就能生成高品質圖像。但面對市場上數十個平台，哪些真正免費？額度夠不夠用？品質是否達標？&#xA;本文實測盤點 17 個可免費使用的 AI 產圖平台，按照免費額度分為四個層級，幫你快速找到最適合的工具。&#xA;第一層：完全免費無限制 這些平台幾乎沒有生成次數限制，部分甚至不需要註冊帳號。&#xA;Raphael AI — 2026 年最強免費選擇 網址：raphael.app 免費額度：無限，不需要註冊 模型：FLUX.1-Dev 品質：高（1024×1024），無浮水印 適用場景：個人創作、社群媒體、部落格配圖 Raphael AI 是 2026 年搜尋量成長最快的 AI 產圖工具（年增 11,471%），完全免費、不需要帳號、沒有浮水印，堪稱目前 CP 值最高的選擇。&#xA;Meta AI Imagine 網址：meta.ai 免費額度：無限（需 Meta 帳號） 品質：高，每次產生 4 張 適用場景：社群內容、創意發想、快速產圖 Meta 的 AI 繪圖功能整合在聊天介面中，輸入描述即可生成四張風格各異的圖片。品質穩定，但圖片帶有「Imagined with AI」浮水印。&#xA;Craiyon &amp;amp; Perchance — 零門檻入門 Craiyon（craiyon.com）：不需要註冊，約 50 次/天，品質偏卡通風 Perchance（perchance.org/ai-image-generator）：不需要註冊，無限制，社群驅動 這兩個平台適合快速嘗試 AI 產圖的新手，品質不如上面兩個，但勝在完全零門檻。&#xA;第二層：免費額度慷慨 這些平台每天或每月提供大量免費生成次數，足以應付一般創作需求。&#xA;Playground AI — 免費額度之王 網址：playground.com 免費額度：最高 500 張/天 品質：高，支援多種 AI 模型 適用場景：大量產圖需求、藝術創作、素材庫建置 目前免費額度最慷慨的平台，每天可以生成數百張圖片，並提供圖片編輯功能。</description>
+    </item>
     <item>
       <title>Mistral 發布 Voxtral TTS：40 億參數開源語音模型，3 秒克隆聲音打敗 ElevenLabs</title>
       <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-29-mistral-voxtral-tts-open-weight/</link>
