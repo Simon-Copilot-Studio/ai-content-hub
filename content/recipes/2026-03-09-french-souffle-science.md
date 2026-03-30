@@ -10,7 +10,7 @@ tags:
   - 烘焙
   - 蛋白霜
   - 零失敗
-image: "https://images.unsplash.com/photo-1579954115563-e72bf1381629?auto=format&fit=crop&q=80&w=800"
+image: "/images/2026-03-09-french-souffle-science.png"
 readingTime: 8
 lang: zh-TW
 ---

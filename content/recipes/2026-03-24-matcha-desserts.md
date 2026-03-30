@@ -3,7 +3,7 @@ title: "抹茶控必學：5 款抹茶甜點食譜"
 description: "精選 5 道極品抹茶甜點,從蛋糕、布丁到冰淇淋,讓您一次get到抹茶控的最愛。"
 categories: ["食譜"]
 tags: ["甜點", "抹茶", "日式料理"]
-image: "https://images.unsplash.com/photo-1563227812-2a524c604d8a?w=1200&h=630&fit=crop"
+image: "/images/2026-03-24-matcha-desserts.png"
 date: 2026-03-24T10:00:00+08:00
 readingTime: 15
 lang: zh-TW

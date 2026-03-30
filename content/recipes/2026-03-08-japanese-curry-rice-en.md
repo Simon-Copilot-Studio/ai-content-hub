@@ -4,7 +4,7 @@ date: 2026-03-08T01:00:00+08:00
 description: "Learn how to make authentic Japanese curry rice at home. Discover the secret ingredients that make this beloved comfort food irresistible."
 categories: ["recipes"]
 tags: ["japanese", "curry", "comfort food", "easy dinner", "rice"]
-image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800"
+image: "/images/2026-03-08-japanese-curry-rice-en.png"
 lang: en
 readingTime: 3
 draft: false

@@ -3,7 +3,7 @@ title: "泰式綠咖哩：從零開始做咖哩醬"
 description: "學會做正宗的泰式綠咖哩醬，再加入雞肉和各種蔬菜，就能在家享受道地的泰式風味。"
 categories: ["食譜"]
 tags: ["泰式料理", "咖哩", "主菜"] 
-image: "https://images.unsplash.com/photo-1629392171571-5d1e0a2dac98?w=1200&h=630&fit=crop"
+image: "/images/2026-03-24-thai-green-curry.png"
 date: 2026-03-24T10:00:00+08:00
 readingTime: 12
 lang: zh-TW

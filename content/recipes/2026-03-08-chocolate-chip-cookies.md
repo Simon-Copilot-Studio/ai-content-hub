@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["cookies", "chocolate", "baking", "dessert", "classic", "chocolate chip"]
 lang: en
 readingTime: 4
-image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800"
+image: "/images/2026-03-08-chocolate-chip-cookies.png"
 draft: false
 recipe:
   prepTime: "15M"

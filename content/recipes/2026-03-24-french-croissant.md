@@ -3,7 +3,7 @@ title: "法式可頌：層層酥脆的烘焙藝術"
 description: "學會製作正宗法式可頌,在家就能享受到酥脆外皮和鬆軟內餡的絕妙滋味。"
 categories: ["食譜"]
 tags: ["法式料理", "麵包", "早餐"]
-image: "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=1200&h=630&fit=crop"
+image: "/images/2026-03-24-french-croissant.png"
 date: 2026-03-24T10:00:00+08:00
 readingTime: 15
 lang: zh-TW

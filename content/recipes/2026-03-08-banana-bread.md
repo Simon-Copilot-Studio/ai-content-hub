@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["banana bread", "baking", "classic", "easy", "breakfast", "snack"]
 lang: en
 readingTime: 4
-image: "https://images.unsplash.com/photo-1558401546-2838ef5b8082?w=800"
+image: "/images/2026-03-08-banana-bread.png"
 draft: false
 recipe:
   prepTime: "15M"

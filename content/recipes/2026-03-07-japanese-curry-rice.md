@@ -4,7 +4,7 @@ date: 2026-03-07T14:00:00+08:00
 description: "從零開始製作日式咖哩飯的完整教學，包含自製咖哩醬技巧、蔬菜切法與隱藏調味料，讓你的咖哩飯比餐廳更好吃。"
 categories: ["食譜"]
 tags: ["咖哩", "日式料理", "家常菜", "米飯", "新手友善"]
-image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800"
+image: "/images/2026-03-07-japanese-curry-rice.png"
 readingTime: 3
 draft: false
 prepTime: "15 分鐘"

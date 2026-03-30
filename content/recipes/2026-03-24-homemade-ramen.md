@@ -3,7 +3,7 @@ title: "自製日式拉麵：湯底、麵條、叉燒全攻略"
 description: "從零開始製作日式拉麵,包括濃郁湯底、彈牙麵條,以及軟嫩多汁的叉燒肉,讓你在家也能享受道地拉麵風味。"
 categories: ["食譜"]
 tags: ["日式料理", "麵食", "主菜"]
-image: "https://images.unsplash.com/photo-1551183053-bf91a1d4d4b9?w=1200&h=630&fit=crop"
+image: "/images/2026-03-24-homemade-ramen.png"
 date: 2026-03-24T10:00:00+08:00
 readingTime: 18
 lang: zh-TW

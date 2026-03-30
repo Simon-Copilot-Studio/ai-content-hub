@@ -3,7 +3,7 @@ title: "經典提拉米蘇：義大利甜點之王"
 description: "學會做出正宗濃郁綿密的提拉米蘇,一口咬下醇厚滑順的口感,讓你無法抗拒。"
 categories: ["食譜"]
 tags: ["義大利料理", "甜點", "咖啡風味"]
-image: "https://images.unsplash.com/photo-1617651524211-7419395c9e83?w=1200&h=630&fit=crop"
+image: "/images/2026-03-24-italian-tiramisu.png"
 date: 2026-03-24T10:00:00+08:00
 readingTime: 12
 lang: zh-TW

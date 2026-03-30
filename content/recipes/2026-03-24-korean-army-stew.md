@@ -3,7 +3,7 @@ title: "韓式部隊鍋：正宗做法與創意變化"
 description: "學會正宗韓式部隊鍋的做法，以及各種美味創意變化，讓你在家也能享受濃郁韓式料理。"
 categories: ["食譜"]
 tags: ["韓式料理", "火鍋", "家常菜"]
-image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&h=630&fit=crop" 
+image: "/images/2026-03-24-korean-army-stew.png"
 date: 2026-03-24T10:00:00+08:00
 readingTime: 10
 lang: zh-TW

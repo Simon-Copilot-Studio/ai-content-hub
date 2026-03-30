@@ -6,7 +6,7 @@ categories: ["recipes"]
 tags: ["breakfast", "avocado", "toast", "healthy", "vegetarian", "quick", "easy", "mediterranean"]
 lang: en
 readingTime: 4
-image: "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=800"
+image: "/images/2026-03-08-avocado-toast.png"
 draft: false
 recipe:
   prepTime: "10M"

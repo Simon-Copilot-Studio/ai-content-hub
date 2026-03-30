@@ -4,7 +4,7 @@ date: 2026-03-08T00:00:00+08:00
 description: "元宵節剛過，湯圓的幸福感還在。本文分享三種湯圓內餡做法——黑芝麻、花生碎粒、抹茶紅豆，從糯米皮的配比技巧、內餡黃金比例，到煮湯圓不破皮的秘訣，一篇學會，下次過節不必再買現成的。"
 categories: ["recipes"]
 tags: ["湯圓", "元宵節", "甜點", "手作", "台灣小吃"]
-image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800"
+image: "/images/2026-03-08-tangyuan-lantern-festival.png"
 readingTime: 5
 prepTime: "30 分鐘"
 cookTime: "15 分鐘"
