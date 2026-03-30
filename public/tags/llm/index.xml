@@ -1,54 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>LLM on AI 趨勢觀察站</title>
-    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/</link>
-    <description>Recent content in LLM on AI 趨勢觀察站</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-TW</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-gpt5-efficiency-breakthrough-reasoning-models/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-gpt5-efficiency-breakthrough-reasoning-models/</guid>
-      <description>GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代 AI 模型的發展方向正在發生微妙但深遠的轉變。最新分析顯示，OpenAI 最新旗艦模型 GPT-5 在輸出效率上實現了驚人的突破——使用所謂的 extended reasoning 技術後，輸出 tokens 數量減少了 50-80%，但任務完成品質卻絲毫不減。這不僅是技術上的勝利，更預示著 AI 產業對於「何為更好的 AI」這件事的根本性反思。&#xA;Extended Reasoning 技術解析 要理解 GPT-5 的效率突破，我們需要深入了解 extended reasoning 這個核心概念。這不是簡單的「讓AI少說話」，而是一種全新的模型架構設計理念。&#xA;傳統推理的困境 在 GPT-4 和之前的模型中，當面對複雜問題時，模型通常會採用「逐步推理」（Chain-of-Thought）的方式。這種方法雖然有效，但存在幾個問題：&#xA;冗長的中間過程：模型會產生大量的推理步驟和 intermediate tokens，這些在最終回答中並不需要，卻消耗了寶貴的計算資源。&#xA;錯誤累積風險：推理步驟越多，中間出錯的概率就越高，最終可能導致回答偏離主題。&#xA;延遲增加：更長的輸出意味著更久的等待時間，對即時應用場景極為不利。&#xA;Extended Reasoning 的創新 Extended reasoning 技術的核心思想是：讓模型在「內部」進行更深入的分析，但只輸出精煉的最終結論。&#xA;這類似於人類的思考過程：當我們解決一個複雜問題時，會在腦中進行大量的推理和判斷，但表達出來的通常只是結論。GPT-5 現在能夠做到這一點——在模型的 latent space 中完成複雜推理，然後只產生必要的輸出 tokens。&#xA;技術層面上，這涉及：&#xA;壓縮的推理表示：模型學會用更緊湊的向量表示來儲存推理過程，而非依賴冗長的文字序列。&#xA;動態的推理深度：根據任務複雜度，模型自動調整內部推理的深度，簡單問題快速回答，複雜問題深入分析。&#xA;品質感知的輸出控制：模型能夠判斷「說多少才夠」，在效率和準確性之間取得最佳平衡。&#xA;輸出 tokens 大幅減少的實際意義 讓我們更具體地看看這個效率提升帶來的改變。根據多個第三方測試，GPT-5 在常見任務中的輸出長度變化如下：&#xA;任務類型 GPT-4 平均輸出 GPT-5 平均輸出 效率提升 程式碼撰寫 2,500 tokens 800 tokens 68% 文件摘要 1,200 tokens 400 tokens 67% 複雜分析 3,000 tokens 1,200 tokens 60% 對話回應 500 tokens 150 tokens 70% 這些數字代表什麼？相同的計算資源現在可以處理多達 2-5 倍的請求量。對於 API 服務商來說，這意味著成本的大幅下降；對於終端用戶來說，則是更快的回應時間。</description>
-    </item>
-    <item>
-      <title>OpenClaw 的 ChatGPT 時刻：AI 模型商品化危機來了嗎？</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</link>
-      <pubDate>Sun, 22 Mar 2026 07:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</guid>
-      <description>2026 年 3 月 21 日，CNBC 發表了一篇重量級報導，標題直白：「OpenClaw 的 ChatGPT 時刻引發 AI 模型商品化擔憂。」&#xA;三個月前，科技產業還不知道這個以龍蝦為主題的 AI 程式專案。如今，全球最有價值公司的 CEO 在年度大會上稱它為「人類史上最受歡迎的開源專案」。&#xA;這不只是一個開源軟體的成功故事——它可能標誌著 AI 產業權力結構的根本轉移。&#xA;Jensen Huang 的背書 在 Nvidia GTC 2026 大會上，Jensen Huang 對 OpenClaw 的推崇程度超出所有人預期：&#xA;「OpenClaw 絕對是下一個 ChatGPT。」——對 CNBC Jim Cramer 表示&#xA;「它在幾週內超越了 Linux 30 年的成就。」——GTC 主題演講&#xA;Nvidia 不只是嘴巴說說。他們在 GTC 上發布了 NemoClaw——一套免費的安全服務套件，專門為 OpenClaw 打造，幫助企業安全地部署 AI agent。&#xA;這意味著全球最大的 AI 硬體公司，正在把自己的未來與一個開源 agent 平台綁在一起。&#xA;為什麼業界擔憂「商品化」？ OpenClaw 的獨特之處在於：它不依賴任何特定的 AI 模型。&#xA;你可以用 Claude、GPT-4、Gemini、甚至開源的 Llama 來驅動 OpenClaw agent。這意味著：&#xA;AI 模型變成可替換的零件 — 用戶不在乎底層用哪個模型，只在乎 agent 能完成任務 價值轉移到應用層 — 真正的商業價值不在模型，而在 agent 如何解決問題 訓練大模型的投資回報受質疑 — OpenAI 和 Anthropic 投入數十億美元訓練的模型，可能只是 agent 生態中的一個可替換零件 CNBC 報導引述業界專家的說法：</description>
-    </item>
-    <item>
-      <title>Anthropic Claude 雙倍使用量更新：什麼是 Double Limits？誰能享受？</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-claude-double-limits-update/</link>
-      <pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-claude-double-limits-update/</guid>
-      <description>2026 年 3 月中旬，Anthropic 悄悄推出了一項新功能：Claude Double Limits。這個更新讓許多 Claude Pro 用戶驚喜，也讓更多人對 Claude 的使用量限制機制有了新的好奇。本文為你完整解析這項更新的所有細節。&#xA;什麼是 Claude Double Limits？ Claude Double Limits（雙倍限制）是一項動態使用量擴充功能。簡單說：在特定低峰時段，Anthropic 會自動將你的訊息配額提升為原本的兩倍。&#xA;這意味著，如果你在 Pro 方案下平時每 8 小時可以發送 N 條訊息，在 Double Limits 時段就可以發送 2N 條。&#xA;Anthropic 推出這個功能的背景是：他們在高峰時段有使用量限制，主要是為了維持服務品質；但在非高峰時段，伺服器有多餘的算力可以提供更慷慨的配額。&#xA;Claude Pro 訂閱的完整功能清單（2026 年 3 月） 要理解 Double Limits 的意義，先了解 Claude Pro 在 2026 年提供什麼：&#xA;核心功能 Extended messaging limits：比 Free 方案更高的訊息上限 Double Limits 時段：低峰時段的雙倍配額（新功能） Projects：建立持久性專案工作區，維持長期記憶 Claude Code：命令列 AI 程式開發工具 Claude in Chrome：Chrome 瀏覽器整合（延伸功能） 模型存取 Claude Opus 4（最新旗艦模型，思考能力最強） Claude Sonnet 4.</description>
-    </item>
-    <item>
-      <title>OpenAI 推出 GPT-5.4 Mini 與 Nano：更快更便宜的 AI 模型來了</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-gpt54-mini-nano-openai/</link>
-      <pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-gpt54-mini-nano-openai/</guid>
-      <description>OpenAI 在 2026 年 3 月中旬正式推出兩款新的輕量級語言模型：GPT-5.4 Mini 和 GPT-5.4 Nano。這兩款模型的誕生，讓開發者在「效能」與「成本」之間有了更靈活的選擇空間，也讓免費用戶首次能體驗到接近旗艦等級的 AI 能力。&#xA;什麼是 GPT-5.4 Mini 和 Nano？ GPT-5.4 Mini 是 OpenAI 旗艦模型 GPT-5.4 的輕量化版本，針對速度和成本進行了深度優化：&#xA;速度：推理速度是 GPT-5 Mini 的兩倍以上 成本：API 費用大幅降低，適合大量呼叫場景 能力：在程式碼生成、推理和多模態任務上保持接近旗艦的表現 GPT-5.4 Nano 則更進一步，是目前 OpenAI 推出的最輕量模型，主要針對：&#xA;邊緣裝置部署 超低延遲場景（&amp;lt; 100ms 回應） 嵌入式 AI 應用 核心技術突破 速度翻倍的秘密 GPT-5.4 Mini 採用了 OpenAI 最新的「Speculative Decoding」技術改良版，透過並行預測多個 token 來加速輸出，同時不顯著降低輸出品質。&#xA;根據 ZDNet 的報導，在標準 benchmark 測試中：&#xA;程式碼生成任務：比 GPT-5 Mini 快 2.3 倍 文字摘要：快 2.1 倍 多輪對話：快 1.9 倍 Agent 場景的最佳化 OpenAI 這次特別針對 Multi-Agent 架構進行了優化。開發者現在可以：</description>
-    </item>
-    <item>
-      <title>別再切片了！Claude 百萬 Token 上下文全面開放：統一費率、零溢價、直吞整套程式碼</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-claude-1m-context-ga/</link>
-      <pubDate>Tue, 17 Mar 2026 07:30:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-claude-1m-context-ga/</guid>
-      <description>Anthropic 正式宣布將 Claude 百萬 token 上下文視窗（Context Window）從 Beta 推向全面開放（GA）。這次更新同時涵蓋旗艦模型 Opus 4.6 和高性價比的 Sonnet 4.6，對整個 AI 開發生態系帶來深遠影響。&#xA;統一費率：長文本不再加錢 過去使用超長上下文時，多數 LLM 服務會加收「長度溢價」。Anthropic 這次直接採用單一費率機制：&#xA;模型 Input 費率 Output 費率 Opus 4.6 $5 / 百萬 token $25 / 百萬 token Sonnet 4.6 $3 / 百萬 token $15 / 百萬 token 關鍵：無倍增係數。 一個 900K token 的請求與 9K token 的請求，per-token 單價完全一致。這讓企業在預算預估上的不確定性大幅降低。&#xA;六倍媒體容量提升 單次請求可包含的媒體數量從 100 份提升至 600 份（圖片 + PDF 頁面）。這對需要跨文件視覺分析的場景——專利比對、多年度財報掃描、建築圖面審查——提供了實質的能力升級。&#xA;速率限制（Rate Limits）也與上下文長度解耦，不會因為請求內容過長而降低吞吐頻率。&#xA;工程簡化：Beta 標頭走入歷史 GA 化後，超過 200K 的請求由 Claude 平台自動處理。過去開發者需要手動加入的 Beta HTTP Header 正式移除，現有 SDK 與自動化腳本無需任何代碼變更即可向下相容。</description>
-    </item>
-    <item>
-      <title>DeepSeek 開源模型如何改變 AI 產業格局</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid>
-      <description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。&#xA;DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。&#xA;性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。&#xA;開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。&#xA;對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。&#xA;未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/</link><description>Recent content in LLM on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-gpt5-efficiency-breakthrough-reasoning-models/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-26-gpt5-efficiency-breakthrough-reasoning-models/</guid><description>GPT-5 效率提升 50-80%！AI 模型進入「精簡推理」新時代 AI 模型的發展方向正在發生微妙但深遠的轉變。最新分析顯示，OpenAI 最新旗艦模型 GPT-5 在輸出效率上實現了驚人的突破——使用所謂的 extended reasoning 技術後，輸出 tokens 數量減少了 50-80%，但任務完成品質卻絲毫不減。這不僅是技術上的勝利，更預示著 AI 產業對於「何為更好的 AI」這件事的根本性反思。
+Extended Reasoning 技術解析 要理解 GPT-5 的效率突破，我們需要深入了解 extended reasoning 這個核心概念。這不是簡單的「讓AI少說話」，而是一種全新的模型架構設計理念。
+傳統推理的困境 在 GPT-4 和之前的模型中，當面對複雜問題時，模型通常會採用「逐步推理」（Chain-of-Thought）的方式。這種方法雖然有效，但存在幾個問題：
+冗長的中間過程：模型會產生大量的推理步驟和 intermediate tokens，這些在最終回答中並不需要，卻消耗了寶貴的計算資源。
+錯誤累積風險：推理步驟越多，中間出錯的概率就越高，最終可能導致回答偏離主題。
+延遲增加：更長的輸出意味著更久的等待時間，對即時應用場景極為不利。
+Extended Reasoning 的創新 Extended reasoning 技術的核心思想是：讓模型在「內部」進行更深入的分析，但只輸出精煉的最終結論。
+這類似於人類的思考過程：當我們解決一個複雜問題時，會在腦中進行大量的推理和判斷，但表達出來的通常只是結論。GPT-5 現在能夠做到這一點——在模型的 latent space 中完成複雜推理，然後只產生必要的輸出 tokens。
+技術層面上，這涉及：
+壓縮的推理表示：模型學會用更緊湊的向量表示來儲存推理過程，而非依賴冗長的文字序列。
+動態的推理深度：根據任務複雜度，模型自動調整內部推理的深度，簡單問題快速回答，複雜問題深入分析。
+品質感知的輸出控制：模型能夠判斷「說多少才夠」，在效率和準確性之間取得最佳平衡。
+輸出 tokens 大幅減少的實際意義 讓我們更具體地看看這個效率提升帶來的改變。根據多個第三方測試，GPT-5 在常見任務中的輸出長度變化如下：
+任務類型 GPT-4 平均輸出 GPT-5 平均輸出 效率提升 程式碼撰寫 2,500 tokens 800 tokens 68% 文件摘要 1,200 tokens 400 tokens 67% 複雜分析 3,000 tokens 1,200 tokens 60% 對話回應 500 tokens 150 tokens 70% 這些數字代表什麼？相同的計算資源現在可以處理多達 2-5 倍的請求量。對於 API 服務商來說，這意味著成本的大幅下降；對於終端用戶來說，則是更快的回應時間。</description></item><item><title>OpenClaw 的 ChatGPT 時刻：AI 模型商品化危機來了嗎？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</link><pubDate>Sun, 22 Mar 2026 07:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-22-openclaw-chatgpt-moment/</guid><description>2026 年 3 月 21 日，CNBC 發表了一篇重量級報導，標題直白：「OpenClaw 的 ChatGPT 時刻引發 AI 模型商品化擔憂。」
+三個月前，科技產業還不知道這個以龍蝦為主題的 AI 程式專案。如今，全球最有價值公司的 CEO 在年度大會上稱它為「人類史上最受歡迎的開源專案」。
+這不只是一個開源軟體的成功故事——它可能標誌著 AI 產業權力結構的根本轉移。
+Jensen Huang 的背書 在 Nvidia GTC 2026 大會上，Jensen Huang 對 OpenClaw 的推崇程度超出所有人預期：
+「OpenClaw 絕對是下一個 ChatGPT。」——對 CNBC Jim Cramer 表示
+「它在幾週內超越了 Linux 30 年的成就。」——GTC 主題演講
+Nvidia 不只是嘴巴說說。他們在 GTC 上發布了 NemoClaw——一套免費的安全服務套件，專門為 OpenClaw 打造，幫助企業安全地部署 AI agent。
+這意味著全球最大的 AI 硬體公司，正在把自己的未來與一個開源 agent 平台綁在一起。
+為什麼業界擔憂「商品化」？ OpenClaw 的獨特之處在於：它不依賴任何特定的 AI 模型。
+你可以用 Claude、GPT-4、Gemini、甚至開源的 Llama 來驅動 OpenClaw agent。這意味著：
+AI 模型變成可替換的零件 — 用戶不在乎底層用哪個模型，只在乎 agent 能完成任務 價值轉移到應用層 — 真正的商業價值不在模型，而在 agent 如何解決問題 訓練大模型的投資回報受質疑 — OpenAI 和 Anthropic 投入數十億美元訓練的模型，可能只是 agent 生態中的一個可替換零件 CNBC 報導引述業界專家的說法：</description></item><item><title>Anthropic Claude 雙倍使用量更新：什麼是 Double Limits？誰能享受？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-claude-double-limits-update/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-claude-double-limits-update/</guid><description>2026 年 3 月中旬，Anthropic 悄悄推出了一項新功能：Claude Double Limits。這個更新讓許多 Claude Pro 用戶驚喜，也讓更多人對 Claude 的使用量限制機制有了新的好奇。本文為你完整解析這項更新的所有細節。
+什麼是 Claude Double Limits？ Claude Double Limits（雙倍限制）是一項動態使用量擴充功能。簡單說：在特定低峰時段，Anthropic 會自動將你的訊息配額提升為原本的兩倍。
+這意味著，如果你在 Pro 方案下平時每 8 小時可以發送 N 條訊息，在 Double Limits 時段就可以發送 2N 條。
+Anthropic 推出這個功能的背景是：他們在高峰時段有使用量限制，主要是為了維持服務品質；但在非高峰時段，伺服器有多餘的算力可以提供更慷慨的配額。
+Claude Pro 訂閱的完整功能清單（2026 年 3 月） 要理解 Double Limits 的意義，先了解 Claude Pro 在 2026 年提供什麼：
+核心功能 Extended messaging limits：比 Free 方案更高的訊息上限 Double Limits 時段：低峰時段的雙倍配額（新功能） Projects：建立持久性專案工作區，維持長期記憶 Claude Code：命令列 AI 程式開發工具 Claude in Chrome：Chrome 瀏覽器整合（延伸功能） 模型存取 Claude Opus 4（最新旗艦模型，思考能力最強） Claude Sonnet 4.</description></item><item><title>OpenAI 推出 GPT-5.4 Mini 與 Nano：更快更便宜的 AI 模型來了</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-gpt54-mini-nano-openai/</link><pubDate>Sat, 21 Mar 2026 06:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-21-gpt54-mini-nano-openai/</guid><description>OpenAI 在 2026 年 3 月中旬正式推出兩款新的輕量級語言模型：GPT-5.4 Mini 和 GPT-5.4 Nano。這兩款模型的誕生，讓開發者在「效能」與「成本」之間有了更靈活的選擇空間，也讓免費用戶首次能體驗到接近旗艦等級的 AI 能力。
+什麼是 GPT-5.4 Mini 和 Nano？ GPT-5.4 Mini 是 OpenAI 旗艦模型 GPT-5.4 的輕量化版本，針對速度和成本進行了深度優化：
+速度：推理速度是 GPT-5 Mini 的兩倍以上 成本：API 費用大幅降低，適合大量呼叫場景 能力：在程式碼生成、推理和多模態任務上保持接近旗艦的表現 GPT-5.4 Nano 則更進一步，是目前 OpenAI 推出的最輕量模型，主要針對：
+邊緣裝置部署 超低延遲場景（&amp;lt; 100ms 回應） 嵌入式 AI 應用 核心技術突破 速度翻倍的秘密 GPT-5.4 Mini 採用了 OpenAI 最新的「Speculative Decoding」技術改良版，透過並行預測多個 token 來加速輸出，同時不顯著降低輸出品質。
+根據 ZDNet 的報導，在標準 benchmark 測試中：
+程式碼生成任務：比 GPT-5 Mini 快 2.3 倍 文字摘要：快 2.1 倍 多輪對話：快 1.9 倍 Agent 場景的最佳化 OpenAI 這次特別針對 Multi-Agent 架構進行了優化。開發者現在可以：</description></item><item><title>別再切片了！Claude 百萬 Token 上下文全面開放：統一費率、零溢價、直吞整套程式碼</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-claude-1m-context-ga/</link><pubDate>Tue, 17 Mar 2026 07:30:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-17-claude-1m-context-ga/</guid><description>Anthropic 正式宣布將 Claude 百萬 token 上下文視窗（Context Window）從 Beta 推向全面開放（GA）。這次更新同時涵蓋旗艦模型 Opus 4.6 和高性價比的 Sonnet 4.6，對整個 AI 開發生態系帶來深遠影響。
+統一費率：長文本不再加錢 過去使用超長上下文時，多數 LLM 服務會加收「長度溢價」。Anthropic 這次直接採用單一費率機制：
+模型 Input 費率 Output 費率 Opus 4.6 $5 / 百萬 token $25 / 百萬 token Sonnet 4.6 $3 / 百萬 token $15 / 百萬 token 關鍵：無倍增係數。 一個 900K token 的請求與 9K token 的請求，per-token 單價完全一致。這讓企業在預算預估上的不確定性大幅降低。
+六倍媒體容量提升 單次請求可包含的媒體數量從 100 份提升至 600 份（圖片 + PDF 頁面）。這對需要跨文件視覺分析的場景——專利比對、多年度財報掃描、建築圖面審查——提供了實質的能力升級。
+速率限制（Rate Limits）也與上下文長度解耦，不會因為請求內容過長而降低吞吐頻率。
+工程簡化：Beta 標頭走入歷史 GA 化後，超過 200K 的請求由 Claude 平台自動處理。過去開發者需要手動加入的 Beta HTTP Header 正式移除，現有 SDK 與自動化腳本無需任何代碼變更即可向下相容。</description></item><item><title>DeepSeek 開源模型如何改變 AI 產業格局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid><description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。
+DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。
+性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。
+開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。
+對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。
+未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description></item></channel></rss>
