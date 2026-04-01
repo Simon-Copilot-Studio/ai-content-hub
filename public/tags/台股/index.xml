@@ -1,82 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>台股 on AI 趨勢觀察站</title>
-    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%8F%B0%E8%82%A1/</link>
-    <description>Recent content in 台股 on AI 趨勢觀察站</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-TW</language>
-    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%8F%B0%E8%82%A1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>台股高股息策略：殖利率選股法</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-24-taiwan-stock-dividend/</link>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-24-taiwan-stock-dividend/</guid>
-      <description>台灣股市向來有「股息贊」的特色，許多投資人會將部分資金配置於高殖利率的台股。2026 年，在通膨壓力持續下，具有穩定股息的台股成為投資者的避風港。&#xA;本文將介紹高股息投資策略、挑選優質高殖利率個股的方法，以及需要注意的風險因素。</description>
-    </item>
-    <item>
-      <title>台股 AI 供應鏈熱搜榜：2026 Q1 資金追捧標的分析</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-ai-stocks-q1/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-ai-stocks-q1/</guid>
-      <description>Q1 資金狂潮：AI 股霸榜 2026 年第一季，台股加權指數上漲 8.2%，但 AI 供應鏈指數暴漲 32.5%，創歷史單季最大漲幅。外資淨買超 2,850 億台幣，98% 集中於 AI 相關標的。&#xA;Google 搜尋「AI 股票」關鍵字飆升 420%，PTT Stock 板 AI 討論文章佔比從 12% 升至 61%。券商新開戶數月增 8.5 萬人，其中 73% 首筆交易為 AI 概念股。&#xA;熱搜榜 Top 10 與漲幅分析 排名 股票 產業地位 Q1 漲幅 本益比 外資持股變化 1 台積電 2330 先進製程龍頭 +18% 28x +3.2% 2 廣達 2382 AI 伺服器組裝 +45% 35x +8.1% 3 世芯-KY 3661 ASIC 設計 +68% 52x +12.3% 4 創意 3443 CoW 封裝設計 +58% 48x +9.</description>
-    </item>
-    <item>
-      <title>台灣上市公司 2 月營收創新高：台積電年增 22% 帶動</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</guid>
-      <description>台股 2 月營收創歷史新高 台灣證券交易所公布數據顯示，上市公司 2026 年 2 月合併營收達 4.12 兆新台幣，月增 8.3%，年增 18.5%，創下歷年同期新高。在台積電、鴻海、聯發科三大巨頭帶動下，半導體、AI 伺服器、電動車供應鏈表現亮眼，顯示台灣科技業在全球供應鏈的關鍵地位持續鞏固。&#xA;台積電年增 22% 領軍 先進製程需求強勁 台積電 2 月營收 2,387 億新台幣，月增 12.5%，年增 22%，創單月歷史次高（僅次於 2025 年 12 月）。主要驅動力來自：&#xA;3nm 製程訂單爆發：Apple A18、M4 晶片、NVIDIA H200 GPU 大量投片 AI 晶片需求：生成式 AI 帶動 CoWoS 先進封裝產能滿載 HPC 客戶回溫：AMD、Intel 委外代工訂單增加 法人預估台積電 Q1 營收將達 6,800-7,000 億新台幣，年增 20% 以上，全年營收挑戰 3 兆新台幣大關。&#xA;美國廠投產進度 台積電美國亞利桑那廠第一期（4nm 製程）已於 2025 年底試產，預計 2026 年下半年量產。美國客戶（Apple、AMD、NVIDIA）將部分訂單移至美國生產,符合《晶片法案》補貼要求。&#xA;AI 伺服器供應鏈爆發 鴻海營收年增 28% 鴻海 2 月營收 6,235 億新台幣，年增 28%，創歷年同期新高。主要成長來自：</description>
-    </item>
-    <item>
-      <title>AI 伺服器需求大爆發：2026 年出貨量翻倍，台廠供應鏈全面受惠</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-12-ai-server-boom-2026/</link>
-      <pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-12-ai-server-boom-2026/</guid>
-      <description>2026 年，AI 伺服器產業正以前所未有的速度擴張。根據摩根士丹利最新報告，今年 GB200/300 NVL72 機櫃出貨量預估將達 7 萬至 8 萬台，較去年大幅翻倍成長，台灣供應鏈全面迎來超級循環。&#xA;華碩法說會震撼市場 華碩（2357）近日舉辦法說會，釋出令市場驚豔的展望數據：&#xA;Q1 伺服器營收：預計季增 50% 至 100% 年成長幅度：高達 4 至 5 倍 全年目標：伺服器業務力拚翻倍成長 受此消息激勵，華碩股價強勢漲停至 584 元，展現投資人對其 AI 佈局的高度期待。去年 EPS 達 60 元，董事會通過配發 42 元現金股利。&#xA;和碩轉型：AI 成新引擎 和碩（4938）法說會同步公布 2025 年財報，稅後純益 144.03 億元，每股純益 5.39 元，董事會通過配發現金股利 4 元，以收盤價計算殖利率約 5.71%。&#xA;雖然 2 月營收因季節性因素月減 26.23%，但 AI 伺服器出貨已成為公司重要成長動能。市場預期下半年 AI 伺服器業務將為和碩帶來實質營收貢獻。&#xA;GB200/300 產能持續擴張 根據大摩數據，2 月 GB200/300 NVL72 機櫃總產出約 6,500 台，月增約 6%。三大台廠鴻海、緯創、廣達持續獲得看好。&#xA;整體 AI 供應鏈正從「估值擴張」階段轉向「獲利驗證」階段，具備實際出貨能力和現金流的企業將成為市場新寵。&#xA;投資策略觀察 分析師指出，2026 年 AI 投資進入下半場，關鍵在於：</description>
-    </item>
-    <item>
-      <title>北極星藥業減資 50% 跌停！關閉南科廠，生技股投資風險全解析</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-polaris-pharma-capital-reduction/</link>
-      <pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-polaris-pharma-capital-reduction/</guid>
-      <description>北極星藥業-KY（6550）今日投下震撼彈，董事會通過減資 50% 彌補虧損，同時宣布關閉子公司霖揚生技的南科廠區。雙重利空夾擊之下，股價跳空跌停，收在 26.75 元，委賣張數超過 2,000 張。&#xA;減資 50%：一刀砍半 北極星藥業 2025 年的財報數字令人怵目驚心：&#xA;歸屬母公司淨損：39.27 億元 每股虧損（EPS）：-5.1 元 減資比例：50% 減資 50% 意味著每 1,000 股將變成 500 股，股東的持股數量直接腰斬。雖然理論上每股淨值會因此提升，但在基本面未見改善的情況下，這更像是一種「止血」措施。&#xA;關閉南科廠：斷尾求生 除了減資，北極星同步宣布關閉子公司霖揚生技位於南科的工廠。這項決定引發了另一波爭議——證交所還因為該公司延遲揭露大量解僱的重大訊息，開罰 5 萬元。&#xA;關廠雖然能節省營運成本，但也意味著公司的產能布局將進一步縮減，未來能否維持研發和商業化能力，成為市場最大疑慮。&#xA;籌碼面觀察 從籌碼流向來看，近期警訊已現：&#xA;近 5 日主力買賣超比率：-13.3% 近 20 日主力買賣超比率：-5.9% 散戶買賣家數差呈正值，顯示籌碼從主力流向散戶 這種「主力出貨、散戶接刀」的格局，對短線股價極為不利。&#xA;生技股投資啟示 北極星藥業的案例再次提醒投資人，生技股投資的高風險特性：&#xA;燒錢速度快：新藥研發週期長，資金消耗巨大 營收不確定：在產品成功上市前，營收往往極不穩定 減資風險：累積虧損可能導致減資，直接稀釋股東權益 資訊不對稱：生技專業門檻高，散戶難以判斷研發進展 投資人在布局生技股時，除了關注研發進度，更要密切注意公司的現金流量和財務健康度。</description>
-    </item>
-    <item>
-      <title>台股反攻號角！中東局勢趨穩，AI Capex 續增帶動科技股回神</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</link>
-      <pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</guid>
-      <description>台股在經歷中東局勢引發的劇烈震盪後，展現強勁的反彈力道。台積電（2330）領軍反攻，盤中股價一度衝達 1,890 元，帶動大盤收復重要關卡。&#xA;中東危機的衝擊與復甦 美伊衝突一度導致亞股全面重挫，資金轉向油電燃氣與電信等防禦性族群，而高基期的砷化鎵、IC 基板、玻纖布及記憶體成為賣壓集中區。&#xA;然而，隨著國際能源署（IEA）宣布釋出 4 億桶石油——史上最大規模的戰略石油釋放——油價壓力有所緩解，市場恐慌情緒逐漸降溫。&#xA;AI Capex：最強基本面支撐 儘管外部環境動盪，AI 資本支出（Capex）持續增加仍是台股最大的基本面支撐。2026 年全球科技巨頭的 AI 投資預算再創新高，直接受惠的台灣供應鏈包括：&#xA;組裝代工：鴻海、廣達、緯創 品牌伺服器：華碩 光通訊：光收發模組、磊晶、關鍵零組件 散熱/電源：機殼、電源供應器、散熱模組 投資策略建議 分析師建議 2026 年台股投資應把握以下原則：&#xA;選股策略 獲利驗證優先：選擇已有實際 AI 營收貢獻的企業 現金流品質：關注自由現金流量為正的公司 高殖利率防禦：在震盪市中提供下檔保護 產業聚焦 最看好：光通訊/高速傳輸 持續受惠：AI 伺服器供應鏈 注意風險：估值過高的 AI 概念股 風險因素 中東局勢若再度升溫，油價飆漲將衝擊通膨預期 美國 301 調查可能對台灣出口造成壓力 外資動向仍是影響台股短線的關鍵變數 整體而言，台股的長期投資價值仍在，但短期波動加大，投資人需要更精準的選股策略和更嚴格的風險管理。</description>
-    </item>
-    <item>
-      <title>和碩法說會重點整理：EPS 5.39 元、配息 4 元，AI 伺服器轉型佈局</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-pegatron-earnings-dividend/</link>
-      <pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-pegatron-earnings-dividend/</guid>
-      <description>和碩（4938）於 3 月 11 日舉辦法說會，公布 2025 年度財報與股利政策，同時透露 2026 年營運展望。儘管去年獲利小幅衰退，但高殖利率與 AI 伺服器轉型題材仍吸引市場關注。&#xA;2025 年財報摘要 項目 數據 全年營收 約 1 兆元 稅後純益 144.03 億元（年減 14.7%） 每股純益 5.39 元 現金股利 4 元 殖利率 約 5.71% 獲利衰退的主要原因包括消費性電子需求疲軟、以及部分產品線的價格競爭加劇。&#xA;AI 伺服器：下一個成長引擎 和碩的 AI 佈局是法說會上最受矚目的話題。管理層表示，AI 伺服器已經從試產階段進入量產，下半年出貨動能值得期待。&#xA;隨著全球 AI 基礎設施投資持續擴大，和碩有機會在組裝代工領域分得一杯羹。目前 AI 伺服器營收佔比雖然還不高，但成長速度相當可觀。&#xA;2 月營收分析 和碩 2 月營收月減 26.23%，跌破 700 億元水準，主要受到農曆新年工作天數減少的影響。公司預期 3 月業績將明顯回溫。&#xA;高殖利率的防禦價值 以目前股價約 70 元計算，4 元現金股利對應的殖利率約 5.71%，在目前的市場環境下具有相當的防禦價值。對於追求穩定現金流的投資人而言，和碩仍是值得關注的標的。&#xA;投資風險提示 消費性電子需求復甦力道不確定 AI 伺服器市場競爭日趨激烈 全球貿易摩擦可能影響代工訂單 匯率波動對以美元計價的營收有影響 </description>
-    </item>
-    <item>
-      <title>群創單日成交量破 130 萬張創紀錄！面板族群為何突然爆發？</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-innolux-record-volume/</link>
-      <pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-innolux-record-volume/</guid>
-      <description>群創光電（3481）近日在台股掀起驚天巨浪。單日成交量一度突破 130 萬張，不僅高居台股成交量第一，更創下台灣股市個股單日成交量的歷史紀錄。這個曾經被市場冷落的面板股，究竟發生了什麼事？&#xA;天量背後的推手 群創這波暴量上漲的主要推手有三：&#xA;1. 輝達光通訊大單 群創成功拿下輝達的光通訊零組件訂單，這不僅代表技術獲得國際大廠認證，更意味著高毛利產品線的營收將大幅成長。&#xA;2. 矽光子概念 共同封裝光學（CPO）技術是 AI 資料中心的下一代關鍵技術，群創透過轉投資布局矽光子，成功從「面板股」變身為「光進銅退」概念股。&#xA;3. 法說會催化 群創預計於 12 日舉辦集團法說會，市場對南科廠出售進度、矽光子轉投資效益等重大議題充滿期待。&#xA;71 萬股東的力量 群創擁有超過 71 萬名股東，是台股股東人數最多的公司之一。當利多題材點燃時，龐大的散戶基礎會形成強大的買盤動能，這也是成交量能創下天量的結構性原因。&#xA;股東會紀念品效應 群創今年股東會紀念品為「時尚輕巧隨手杯」，最後買進日為 3 月 25 日。以目前約 27-30 元的股價，不少小資族選擇在最後買進日前進場卡位，也為成交量添了一把火。&#xA;面板族群共舞 群創的強勢表現帶動整體面板族群氣勢。友達（2409）同步受惠，面板類股從過去被視為「慘業」的代名詞，正逐步轉型為具有科技成長題材的投資標的。&#xA;風險提醒 雖然轉型題材令人興奮，但投資人仍需注意：&#xA;股價波動劇烈，單日振幅可達 5-7% 法說會後可能出現「利多出盡」賣壓 傳統面板業務仍面臨中國產能過剩壓力 新業務（光通訊、先進封裝）的實際營收貢獻仍有待驗證 </description>
-    </item>
-    <item>
-      <title>台股 2026：科技族群領漲，這三個產業值得關注</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/sample/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/sample/</guid>
-      <description>台灣加權指數在 2026 年第一季突破歷史高點，AI 相關供應鏈再度成為市場焦點。然而，在亮眼的漲幅背後，選股邏輯比以往更加複雜。&#xA;三大核心族群解析 1. 半導體製造：護城河仍在，但估值需謹慎 台積電（TSMC）的先進製程壁壘依然無可撼動，2nm 量產進度超出市場預期，CoWoS 封裝產能也持續擴充。然而，目前本益比已反映多數利多，新進場的投資者需留意短期修正風險。&#xA;對長線投資者而言，定期定額仍是參與台積電成長最穩健的方式。&#xA;2. 伺服器與散熱：AI 算力需求撐起長期訂單 每一個大型語言模型的訓練和推論，都需要大量的 GPU 伺服器和高效散熱解決方案。液冷系統、高速連接器、電源管理 IC——這些「AI 基礎設施」廠商的能見度往往高達 12-18 個月，獲利穩定性相對較高。&#xA;3. AI 軟體與應用：高成長但競爭激烈 台灣本土 AI 軟體新創在政府政策扶持下快速崛起，但市場集中度低、客戶獲取成本高，投資前需仔細評估各家公司的護城河。&#xA;散戶的參與策略 對於沒有時間深入研究個股的一般投資者，科技主題 ETF 是相對省力的選擇：&#xA;00631L（元大台灣 50 正 2）：適合短線操作，風險較高 00692（富邦公司治理）：兼顧 ESG，波動相對溫和 台灣 AI ETF（多檔新上市）：直接鎖定 AI 供應鏈，費用率需比較 風險提示 地緣政治緊張、Fed 貨幣政策轉向、中國科技競爭加劇，都是台股面臨的外部變數。任何投資決策前，請評估自身風險承受能力。本文內容僅供參考，不構成投資建議。&#xA;市場從來不缺機會，缺的是在對的時間點保持理性的判斷力。</description>
-    </item>
-    <item>
-      <title>台股科技族群 2026 展望：AI 概念股還能追嗎？</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-taiwan-stock-tech-outlook/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-taiwan-stock-tech-outlook/</guid>
-      <description>2026 年的台股科技族群，正經歷著前所未有的變革。AI 概念的持續發酵，讓傳統的電子五哥和 IC 設計股迎來了新的評價機遇，但也伴隨著挑戰。投資者需要理性看待這波 AI 熱潮，避免盲目追高。&#xA;台灣 AI 供應鏈在 2026 年展現出強勁動能。從晶圓製造到封測，從 IC 設計到終端應用，台灣企業在整個 AI 生態系統中都扮演著關鍵角色。特別是先進製程領域，台積電的技術領導地位為整個產業鏈提供了堅實基礎。然而，隨著全球競爭加劇，台灣企業需要持續投入研發，維持技術優勢。&#xA;電子五哥在 AI 時代的表現分化明顯。有些企業成功轉型，積極布局 AI 相關業務；有些則仍停留在傳統製造模式。對投資者而言，關鍵在於識別那些真正具備 AI 技術實力的企業。這不僅包括硬體製造能力，更重要的是軟體整合和應用開發能力。&#xA;IC 設計股面臨的挑戰與機會並存。一方面，AI 芯片的需求為 IC 設計公司帶來了巨大市場空間；另一方面，設計複雜度的提升也增加了開發難度和成本。那些能夠掌握先進制程節點、具備高效能設計能力的公司，將在這波 AI 潮流中脫穎而出。&#xA;值得注意的是，AI 概念股的估值已經達到相對高位。投資者需要警惕市場過熱風險，重視企業的基本面。包括營收成長、獲利能力、研發投入和現金流等關鍵指標，才是判斷企業長期價值的標準。&#xA;對於想要布局台股科技族的投資者，建議採取分散投資策略。同時配置 AI 供應鏈核心企業、傳統優質電子股，以及具備成長潛力的 IC 設計公司。這樣既能把握 AI 時代的機遇，又能降低個股波動風險。最重要的是，保持長期投資視野，避免被短期市場情緒左右。</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>台股 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%8F%B0%E8%82%A1/</link><description>Recent content in 台股 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%8F%B0%E8%82%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>台股高股息策略：殖利率選股法</title><link>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-24-taiwan-stock-dividend/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/finance/2026-03-24-taiwan-stock-dividend/</guid><description>台灣股市向來有「股息贊」的特色，許多投資人會將部分資金配置於高殖利率的台股。2026 年，在通膨壓力持續下，具有穩定股息的台股成為投資者的避風港。
+本文將介紹高股息投資策略、挑選優質高殖利率個股的方法，以及需要注意的風險因素。</description></item><item><title>台股 AI 供應鏈熱搜榜：2026 Q1 資金追捧標的分析</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-ai-stocks-q1/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-ai-stocks-q1/</guid><description>Q1 資金狂潮：AI 股霸榜 2026 年第一季，台股加權指數上漲 8.2%，但 AI 供應鏈指數暴漲 32.5%，創歷史單季最大漲幅。外資淨買超 2,850 億台幣，98% 集中於 AI 相關標的。
+Google 搜尋「AI 股票」關鍵字飆升 420%，PTT Stock 板 AI 討論文章佔比從 12% 升至 61%。券商新開戶數月增 8.5 萬人，其中 73% 首筆交易為 AI 概念股。
+熱搜榜 Top 10 與漲幅分析 排名 股票 產業地位 Q1 漲幅 本益比 外資持股變化 1 台積電 2330 先進製程龍頭 +18% 28x +3.2% 2 廣達 2382 AI 伺服器組裝 +45% 35x +8.1% 3 世芯-KY 3661 ASIC 設計 +68% 52x +12.3% 4 創意 3443 CoW 封裝設計 +58% 48x +9.</description></item><item><title>台灣上市公司 2 月營收創新高：台積電年增 22% 帶動</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-23-taiwan-listed-companies-revenue-record-high/</guid><description>台股 2 月營收創歷史新高 台灣證券交易所公布數據顯示，上市公司 2026 年 2 月合併營收達 4.12 兆新台幣，月增 8.3%，年增 18.5%，創下歷年同期新高。在台積電、鴻海、聯發科三大巨頭帶動下，半導體、AI 伺服器、電動車供應鏈表現亮眼，顯示台灣科技業在全球供應鏈的關鍵地位持續鞏固。
+台積電年增 22% 領軍 先進製程需求強勁 台積電 2 月營收 2,387 億新台幣，月增 12.5%，年增 22%，創單月歷史次高（僅次於 2025 年 12 月）。主要驅動力來自：
+3nm 製程訂單爆發：Apple A18、M4 晶片、NVIDIA H200 GPU 大量投片 AI 晶片需求：生成式 AI 帶動 CoWoS 先進封裝產能滿載 HPC 客戶回溫：AMD、Intel 委外代工訂單增加 法人預估台積電 Q1 營收將達 6,800-7,000 億新台幣，年增 20% 以上，全年營收挑戰 3 兆新台幣大關。
+美國廠投產進度 台積電美國亞利桑那廠第一期（4nm 製程）已於 2025 年底試產，預計 2026 年下半年量產。美國客戶（Apple、AMD、NVIDIA）將部分訂單移至美國生產,符合《晶片法案》補貼要求。
+AI 伺服器供應鏈爆發 鴻海營收年增 28% 鴻海 2 月營收 6,235 億新台幣，年增 28%，創歷年同期新高。主要成長來自：</description></item><item><title>AI 伺服器需求大爆發：2026 年出貨量翻倍，台廠供應鏈全面受惠</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-12-ai-server-boom-2026/</link><pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-12-ai-server-boom-2026/</guid><description>2026 年，AI 伺服器產業正以前所未有的速度擴張。根據摩根士丹利最新報告，今年 GB200/300 NVL72 機櫃出貨量預估將達 7 萬至 8 萬台，較去年大幅翻倍成長，台灣供應鏈全面迎來超級循環。
+華碩法說會震撼市場 華碩（2357）近日舉辦法說會，釋出令市場驚豔的展望數據：
+Q1 伺服器營收：預計季增 50% 至 100% 年成長幅度：高達 4 至 5 倍 全年目標：伺服器業務力拚翻倍成長 受此消息激勵，華碩股價強勢漲停至 584 元，展現投資人對其 AI 佈局的高度期待。去年 EPS 達 60 元，董事會通過配發 42 元現金股利。
+和碩轉型：AI 成新引擎 和碩（4938）法說會同步公布 2025 年財報，稅後純益 144.03 億元，每股純益 5.39 元，董事會通過配發現金股利 4 元，以收盤價計算殖利率約 5.71%。
+雖然 2 月營收因季節性因素月減 26.23%，但 AI 伺服器出貨已成為公司重要成長動能。市場預期下半年 AI 伺服器業務將為和碩帶來實質營收貢獻。
+GB200/300 產能持續擴張 根據大摩數據，2 月 GB200/300 NVL72 機櫃總產出約 6,500 台，月增約 6%。三大台廠鴻海、緯創、廣達持續獲得看好。
+整體 AI 供應鏈正從「估值擴張」階段轉向「獲利驗證」階段，具備實際出貨能力和現金流的企業將成為市場新寵。
+投資策略觀察 分析師指出，2026 年 AI 投資進入下半場，關鍵在於：</description></item><item><title>北極星藥業減資 50% 跌停！關閉南科廠，生技股投資風險全解析</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-polaris-pharma-capital-reduction/</link><pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-polaris-pharma-capital-reduction/</guid><description>北極星藥業-KY（6550）今日投下震撼彈，董事會通過減資 50% 彌補虧損，同時宣布關閉子公司霖揚生技的南科廠區。雙重利空夾擊之下，股價跳空跌停，收在 26.75 元，委賣張數超過 2,000 張。
+減資 50%：一刀砍半 北極星藥業 2025 年的財報數字令人怵目驚心：
+歸屬母公司淨損：39.27 億元 每股虧損（EPS）：-5.1 元 減資比例：50% 減資 50% 意味著每 1,000 股將變成 500 股，股東的持股數量直接腰斬。雖然理論上每股淨值會因此提升，但在基本面未見改善的情況下，這更像是一種「止血」措施。
+關閉南科廠：斷尾求生 除了減資，北極星同步宣布關閉子公司霖揚生技位於南科的工廠。這項決定引發了另一波爭議——證交所還因為該公司延遲揭露大量解僱的重大訊息，開罰 5 萬元。
+關廠雖然能節省營運成本，但也意味著公司的產能布局將進一步縮減，未來能否維持研發和商業化能力，成為市場最大疑慮。
+籌碼面觀察 從籌碼流向來看，近期警訊已現：
+近 5 日主力買賣超比率：-13.3% 近 20 日主力買賣超比率：-5.9% 散戶買賣家數差呈正值，顯示籌碼從主力流向散戶 這種「主力出貨、散戶接刀」的格局，對短線股價極為不利。
+生技股投資啟示 北極星藥業的案例再次提醒投資人，生技股投資的高風險特性：
+燒錢速度快：新藥研發週期長，資金消耗巨大 營收不確定：在產品成功上市前，營收往往極不穩定 減資風險：累積虧損可能導致減資，直接稀釋股東權益 資訊不對稱：生技專業門檻高，散戶難以判斷研發進展 投資人在布局生技股時，除了關注研發進度，更要密切注意公司的現金流量和財務健康度。</description></item><item><title>台股反攻號角！中東局勢趨穩，AI Capex 續增帶動科技股回神</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</link><pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-taiwan-stock-market-outlook/</guid><description>台股在經歷中東局勢引發的劇烈震盪後，展現強勁的反彈力道。台積電（2330）領軍反攻，盤中股價一度衝達 1,890 元，帶動大盤收復重要關卡。
+中東危機的衝擊與復甦 美伊衝突一度導致亞股全面重挫，資金轉向油電燃氣與電信等防禦性族群，而高基期的砷化鎵、IC 基板、玻纖布及記憶體成為賣壓集中區。
+然而，隨著國際能源署（IEA）宣布釋出 4 億桶石油——史上最大規模的戰略石油釋放——油價壓力有所緩解，市場恐慌情緒逐漸降溫。
+AI Capex：最強基本面支撐 儘管外部環境動盪，AI 資本支出（Capex）持續增加仍是台股最大的基本面支撐。2026 年全球科技巨頭的 AI 投資預算再創新高，直接受惠的台灣供應鏈包括：
+組裝代工：鴻海、廣達、緯創 品牌伺服器：華碩 光通訊：光收發模組、磊晶、關鍵零組件 散熱/電源：機殼、電源供應器、散熱模組 投資策略建議 分析師建議 2026 年台股投資應把握以下原則：
+選股策略 獲利驗證優先：選擇已有實際 AI 營收貢獻的企業 現金流品質：關注自由現金流量為正的公司 高殖利率防禦：在震盪市中提供下檔保護 產業聚焦 最看好：光通訊/高速傳輸 持續受惠：AI 伺服器供應鏈 注意風險：估值過高的 AI 概念股 風險因素 中東局勢若再度升溫，油價飆漲將衝擊通膨預期 美國 301 調查可能對台灣出口造成壓力 外資動向仍是影響台股短線的關鍵變數 整體而言，台股的長期投資價值仍在，但短期波動加大，投資人需要更精準的選股策略和更嚴格的風險管理。</description></item><item><title>和碩法說會重點整理：EPS 5.39 元、配息 4 元，AI 伺服器轉型佈局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-pegatron-earnings-dividend/</link><pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-pegatron-earnings-dividend/</guid><description>和碩（4938）於 3 月 11 日舉辦法說會，公布 2025 年度財報與股利政策，同時透露 2026 年營運展望。儘管去年獲利小幅衰退，但高殖利率與 AI 伺服器轉型題材仍吸引市場關注。
+2025 年財報摘要 項目 數據 全年營收 約 1 兆元 稅後純益 144.03 億元（年減 14.7%） 每股純益 5.39 元 現金股利 4 元 殖利率 約 5.71% 獲利衰退的主要原因包括消費性電子需求疲軟、以及部分產品線的價格競爭加劇。
+AI 伺服器：下一個成長引擎 和碩的 AI 佈局是法說會上最受矚目的話題。管理層表示，AI 伺服器已經從試產階段進入量產，下半年出貨動能值得期待。
+隨著全球 AI 基礎設施投資持續擴大，和碩有機會在組裝代工領域分得一杯羹。目前 AI 伺服器營收佔比雖然還不高，但成長速度相當可觀。
+2 月營收分析 和碩 2 月營收月減 26.23%，跌破 700 億元水準，主要受到農曆新年工作天數減少的影響。公司預期 3 月業績將明顯回溫。
+高殖利率的防禦價值 以目前股價約 70 元計算，4 元現金股利對應的殖利率約 5.71%，在目前的市場環境下具有相當的防禦價值。對於追求穩定現金流的投資人而言，和碩仍是值得關注的標的。
+投資風險提示 消費性電子需求復甦力道不確定 AI 伺服器市場競爭日趨激烈 全球貿易摩擦可能影響代工訂單 匯率波動對以美元計價的營收有影響</description></item><item><title>群創單日成交量破 130 萬張創紀錄！面板族群為何突然爆發？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-innolux-record-volume/</link><pubDate>Thu, 12 Mar 2026 12:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-12-innolux-record-volume/</guid><description>群創光電（3481）近日在台股掀起驚天巨浪。單日成交量一度突破 130 萬張，不僅高居台股成交量第一，更創下台灣股市個股單日成交量的歷史紀錄。這個曾經被市場冷落的面板股，究竟發生了什麼事？
+天量背後的推手 群創這波暴量上漲的主要推手有三：
+1. 輝達光通訊大單 群創成功拿下輝達的光通訊零組件訂單，這不僅代表技術獲得國際大廠認證，更意味著高毛利產品線的營收將大幅成長。
+2. 矽光子概念 共同封裝光學（CPO）技術是 AI 資料中心的下一代關鍵技術，群創透過轉投資布局矽光子，成功從「面板股」變身為「光進銅退」概念股。
+3. 法說會催化 群創預計於 12 日舉辦集團法說會，市場對南科廠出售進度、矽光子轉投資效益等重大議題充滿期待。
+71 萬股東的力量 群創擁有超過 71 萬名股東，是台股股東人數最多的公司之一。當利多題材點燃時，龐大的散戶基礎會形成強大的買盤動能，這也是成交量能創下天量的結構性原因。
+股東會紀念品效應 群創今年股東會紀念品為「時尚輕巧隨手杯」，最後買進日為 3 月 25 日。以目前約 27-30 元的股價，不少小資族選擇在最後買進日前進場卡位，也為成交量添了一把火。
+面板族群共舞 群創的強勢表現帶動整體面板族群氣勢。友達（2409）同步受惠，面板類股從過去被視為「慘業」的代名詞，正逐步轉型為具有科技成長題材的投資標的。
+風險提醒 雖然轉型題材令人興奮，但投資人仍需注意：
+股價波動劇烈，單日振幅可達 5-7% 法說會後可能出現「利多出盡」賣壓 傳統面板業務仍面臨中國產能過剩壓力 新業務（光通訊、先進封裝）的實際營收貢獻仍有待驗證</description></item><item><title>台股 2026：科技族群領漲，這三個產業值得關注</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/sample/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/sample/</guid><description>台灣加權指數在 2026 年第一季突破歷史高點，AI 相關供應鏈再度成為市場焦點。然而，在亮眼的漲幅背後，選股邏輯比以往更加複雜。
+三大核心族群解析 1. 半導體製造：護城河仍在，但估值需謹慎 台積電（TSMC）的先進製程壁壘依然無可撼動，2nm 量產進度超出市場預期，CoWoS 封裝產能也持續擴充。然而，目前本益比已反映多數利多，新進場的投資者需留意短期修正風險。
+對長線投資者而言，定期定額仍是參與台積電成長最穩健的方式。
+2. 伺服器與散熱：AI 算力需求撐起長期訂單 每一個大型語言模型的訓練和推論，都需要大量的 GPU 伺服器和高效散熱解決方案。液冷系統、高速連接器、電源管理 IC——這些「AI 基礎設施」廠商的能見度往往高達 12-18 個月，獲利穩定性相對較高。
+3. AI 軟體與應用：高成長但競爭激烈 台灣本土 AI 軟體新創在政府政策扶持下快速崛起，但市場集中度低、客戶獲取成本高，投資前需仔細評估各家公司的護城河。
+散戶的參與策略 對於沒有時間深入研究個股的一般投資者，科技主題 ETF 是相對省力的選擇：
+00631L（元大台灣 50 正 2）：適合短線操作，風險較高 00692（富邦公司治理）：兼顧 ESG，波動相對溫和 台灣 AI ETF（多檔新上市）：直接鎖定 AI 供應鏈，費用率需比較 風險提示 地緣政治緊張、Fed 貨幣政策轉向、中國科技競爭加劇，都是台股面臨的外部變數。任何投資決策前，請評估自身風險承受能力。本文內容僅供參考，不構成投資建議。
+市場從來不缺機會，缺的是在對的時間點保持理性的判斷力。</description></item><item><title>台股科技族群 2026 展望：AI 概念股還能追嗎？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-taiwan-stock-tech-outlook/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/economy/2026-03-07-taiwan-stock-tech-outlook/</guid><description>2026 年的台股科技族群，正經歷著前所未有的變革。AI 概念的持續發酵，讓傳統的電子五哥和 IC 設計股迎來了新的評價機遇，但也伴隨著挑戰。投資者需要理性看待這波 AI 熱潮，避免盲目追高。
+台灣 AI 供應鏈在 2026 年展現出強勁動能。從晶圓製造到封測，從 IC 設計到終端應用，台灣企業在整個 AI 生態系統中都扮演著關鍵角色。特別是先進製程領域，台積電的技術領導地位為整個產業鏈提供了堅實基礎。然而，隨著全球競爭加劇，台灣企業需要持續投入研發，維持技術優勢。
+電子五哥在 AI 時代的表現分化明顯。有些企業成功轉型，積極布局 AI 相關業務；有些則仍停留在傳統製造模式。對投資者而言，關鍵在於識別那些真正具備 AI 技術實力的企業。這不僅包括硬體製造能力，更重要的是軟體整合和應用開發能力。
+IC 設計股面臨的挑戰與機會並存。一方面，AI 芯片的需求為 IC 設計公司帶來了巨大市場空間；另一方面，設計複雜度的提升也增加了開發難度和成本。那些能夠掌握先進制程節點、具備高效能設計能力的公司，將在這波 AI 潮流中脫穎而出。
+值得注意的是，AI 概念股的估值已經達到相對高位。投資者需要警惕市場過熱風險，重視企業的基本面。包括營收成長、獲利能力、研發投入和現金流等關鍵指標，才是判斷企業長期價值的標準。
+對於想要布局台股科技族的投資者，建議採取分散投資策略。同時配置 AI 供應鏈核心企業、傳統優質電子股，以及具備成長潛力的 IC 設計公司。這樣既能把握 AI 時代的機遇，又能降低個股波動風險。最重要的是，保持長期投資視野，避免被短期市場情緒左右。</description></item></channel></rss>

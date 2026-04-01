@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>國際時事 on AI 趨勢觀察站</title>
-    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%8B%E9%9A%9B%E6%99%82%E4%BA%8B/</link>
-    <description>Recent content in 國際時事 on AI 趨勢觀察站</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-TW</language>
-    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%8B%E9%9A%9B%E6%99%82%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AI 監管浪潮：歐盟 AI 法案全面生效後，全球科技版圖如何重塑？</title>
-      <link>https://simon-copilot-studio.github.io/ai-content-hub/news/sample/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://simon-copilot-studio.github.io/ai-content-hub/news/sample/</guid>
-      <description>2026 年 2 月，歐盟《人工智慧法案》（EU AI Act）的核心條款正式生效，全球科技產業迎來一個分水嶺時刻。這不只是法規條文的問題——它正在重新定義什麼樣的 AI，可以在世界上最大的單一市場裡生存。&#xA;法案的核心精神 EU AI Act 採取風險分層的監管邏輯，將 AI 系統按照潛在危害分為四個等級：&#xA;不可接受風險：全面禁止（如：即時人臉識別用於執法） 高風險：需事先認證、嚴格透明度要求（如：醫療診斷、信用評分） 有限風險：需標示 AI 生成（如：聊天機器人、deepfake 影片） 最低風險：無限制（如：垃圾郵件過濾器） 值得注意的是，通用 AI 模型（GPAI）——包括 GPT 和 Claude 這類大型語言模型——被納入專屬監管框架，開發者需提交技術文件並遵守著作權合規要求。&#xA;科技巨頭的應對策略 Meta 宣布部分高風險功能將不在歐盟市場上線；Apple 則選擇為歐洲用戶提供「合規版」AI 功能，相較美國版本有所閹割。Google 採取積極合規態度，在布魯塞爾設立了 AI 治理辦公室。&#xA;這種「地理差異化」的服務策略，引發了研究者對**「AI 主權碎片化」**的憂慮——不同地區的公民，將使用能力不同的 AI 工具，進一步拉大數位落差。&#xA;台灣的處境與機遇 台灣目前沒有相對應的 AI 專項立法，數位部正在研擬指導原則。短期看，歐盟標準可能讓台灣 AI 新創進入歐洲市場的門檻提高；長期看，若台灣能搶先建立與 EU AI Act 相容的認證機制，反而可能成為亞太地區「AI 合規出口基地」。&#xA;各方評價 支持者認為，嚴格監管是建立公眾對 AI 信任的必要代價；批評者則擔心歐洲將在監管負擔下，將 AI 創新機會拱手相讓給美國和中國。&#xA;歷史一再告訴我們：真正有影響力的技術，終將受到規範。問題只是規範的品質，能否趕上技術演進的速度。</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>國際時事 on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%8B%E9%9A%9B%E6%99%82%E4%BA%8B/</link><description>Recent content in 國際時事 on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/%E5%9C%8B%E9%9A%9B%E6%99%82%E4%BA%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 監管浪潮：歐盟 AI 法案全面生效後，全球科技版圖如何重塑？</title><link>https://simon-copilot-studio.github.io/ai-content-hub/news/sample/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/news/sample/</guid><description>2026 年 2 月，歐盟《人工智慧法案》（EU AI Act）的核心條款正式生效，全球科技產業迎來一個分水嶺時刻。這不只是法規條文的問題——它正在重新定義什麼樣的 AI，可以在世界上最大的單一市場裡生存。
+法案的核心精神 EU AI Act 採取風險分層的監管邏輯，將 AI 系統按照潛在危害分為四個等級：
+不可接受風險：全面禁止（如：即時人臉識別用於執法） 高風險：需事先認證、嚴格透明度要求（如：醫療診斷、信用評分） 有限風險：需標示 AI 生成（如：聊天機器人、deepfake 影片） 最低風險：無限制（如：垃圾郵件過濾器） 值得注意的是，通用 AI 模型（GPAI）——包括 GPT 和 Claude 這類大型語言模型——被納入專屬監管框架，開發者需提交技術文件並遵守著作權合規要求。
+科技巨頭的應對策略 Meta 宣布部分高風險功能將不在歐盟市場上線；Apple 則選擇為歐洲用戶提供「合規版」AI 功能，相較美國版本有所閹割。Google 採取積極合規態度，在布魯塞爾設立了 AI 治理辦公室。
+這種「地理差異化」的服務策略，引發了研究者對**「AI 主權碎片化」**的憂慮——不同地區的公民，將使用能力不同的 AI 工具，進一步拉大數位落差。
+台灣的處境與機遇 台灣目前沒有相對應的 AI 專項立法，數位部正在研擬指導原則。短期看，歐盟標準可能讓台灣 AI 新創進入歐洲市場的門檻提高；長期看，若台灣能搶先建立與 EU AI Act 相容的認證機制，反而可能成為亞太地區「AI 合規出口基地」。
+各方評價 支持者認為，嚴格監管是建立公眾對 AI 信任的必要代價；批評者則擔心歐洲將在監管負擔下，將 AI 創新機會拱手相讓給美國和中國。
+歷史一再告訴我們：真正有影響力的技術，終將受到規範。問題只是規範的品質，能否趕上技術演進的速度。</description></item></channel></rss>

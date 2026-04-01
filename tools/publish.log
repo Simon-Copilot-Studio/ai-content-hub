@@ -196,3 +196,20 @@ hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubu
   Cleaned          |     0 |    0  
 
 Total in 497919 ms
+[2026-04-01 18:00:01] Starting daily publish...
+Start building sites … 
+hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
+
+
+                   | ZH-TW |  EN   
+-------------------+-------+-------
+  Pages            |  5321 | 2733  
+  Paginator pages  |   467 |  270  
+  Non-page files   |     4 |    0  
+  Static files     |   515 |  515  
+  Processed images |     0 |    0  
+  Aliases          |  2049 | 1020  
+  Cleaned          |     0 |    0  
+
+Total in 17804 ms
+[2026-04-01 18:00:01] Build OK — 2733 pages
