@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</link><description>Recent content in Tech on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 06 Apr 2026 03:46:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Anthropic 花 4 億美金收購 8 個月新創！AI 製藥競賽升溫，與川普 100% 藥品關稅的完美風暴</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-anthropic-coefficient-bio-pharma-ai-tariff/</link><pubDate>Mon, 06 Apr 2026 03:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-anthropic-coefficient-bio-pharma-ai-tariff/</guid><description>2026 年 4 月 3 日午夜，科技圈和生物製藥圈同時感到地震。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/</link><description>Recent content in Tech on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 06 Apr 2026 15:46:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Google TurboQuant 壓縮突破：LLM 記憶體狂減 6 倍、速度飆升 8 倍，DeepSeek 後又一次 AI 效率革命</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-google-turboquant-ai-memory-compression-6x-speedup/</link><pubDate>Mon, 06 Apr 2026 15:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-google-turboquant-ai-memory-compression-6x-speedup/</guid><description>史詩級效率突破：Google 再度改寫 AI 規則 2026 年 4 月 4 日，在全球科技圈還沉浸在 Q1 晶片超級週期和關稅戰陰霾中時，Google Research 悄然發布了一份研究論文和技術公告，再度證明了軟體創新對硬體霸權的制衡作用。
+Google 推出了名為 TurboQuant 的壓縮算法——一項將改變 AI 推理經濟學基礎的技術。它宣稱可以將大型語言模型（LLM）在推理階段所需的記憶體減少至少 6 倍，同時將推理速度提升最高 8 倍，且零精度損失。
+這不是邊際改進。這是範式轉移。
+「DeepSeek 時刻」再現：一場軟體 vs. 硬體的對抗 Cloudflare CEO Matthew Prince 在社交媒體上的評論瞬間點燃了科技圈的神經：
+「This is Google&amp;rsquo;s DeepSeek. So much more room to optimise AI inference for speed, memory usage, power consumption, and multi-tenant utilisation.」
+這個類比不是隨便說說。去年 1 月，DeepSeek 宣稱用低於 OpenAI 十分之一的算力訓練出具有競爭力的模型，直接掀翻了 Nvidia 股價。今年，Google 以軟體角度做出類似的「降本提效」承諾——結果？市場同樣反應劇烈。
+NAND 快閃記憶體股票應聲而跌。Micron、SanDisk、西部數據等儲存晶片製造商的股價瞬間承壓。邏輯很直白：如果 AI 模型突然需要少得多的記憶體，那記憶體廠商的市場就會縮水。
+但這一次，市場可能又誤讀了。
+TurboQuant 的技術內核：極致的數據壓縮藝術 問題的根源：KV 快取瓶頸 要理解 TurboQuant 的威力，先得懂一個 LLM 推理中的「無形殺手」：鍵值快取（Key-Value Cache，簡稱 KV 快取）。</description></item><item><title>三星 Q1 獲利創紀錄：40 兆韓元史上新高，AI HBM 超級週期全面引爆</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-samsung-q1-record-profit-40-trillion-won-ai-hbm-supercycle/</link><pubDate>Mon, 06 Apr 2026 12:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-samsung-q1-record-profit-40-trillion-won-ai-hbm-supercycle/</guid><description>破紀錄時刻：一季獲利幾乎等於整個去年 2026 年 4 月 6 日，全球半導體市場迎來歷史性時刻。
+三星電子預計將在明天（4 月 7 日）公布 2026 年第一季財報，市場預估營業利益將達到 40.5 兆韓元（約 269 億美元）——創下公司史上單季最高紀錄，且幾乎等同於 2025 年全年的獲利總額。
+這代表什麼？與去年同期相比，三星的營業利益暴漲了 6 倍。
+史無前例的記憶體超級週期 數字背後的驚人規模 根據 LSEG SmartEstimate 彙整 29 位分析師的預測：
+指標 Q1 2026 預估 Q4 2025 年增幅 營業利益 40.5 兆韓元 ($26.9B) 20.1 兆韓元 +101% 營收 預估成長 50% - - DS 部門貢獻 37-48 兆韓元 - &amp;gt;90% 佔比 部分樂觀預測甚至認為營業利益可能接近 50 兆韓元（約 331 億美元）。
+HBM：AI 時代的液態黃金 三星這波獲利暴漲的核心引擎，毫無疑問是 高頻寬記憶體（HBM）。
+隨著 AI 伺服器需求激增，高階記憶體產品的需求量與利潤率同步飆升：
+HBM3E（第五代）：三星已大量出貨給 Nvidia、Google、AMD 等科技巨頭 HBM4（第六代）：今年初三星宣布已開始量產並出貨，成為全球首家 DRAM/NAND 漲幅：自 2025 年初以來，部分產品價格累計上漲超過 200% 美林證券分析師金善宇指出：「這輪記憶體週期已進入中期階段，預期將看到壓倒性的獲利改善。」</description></item><item><title>神經符號 AI 能源革命：100 倍效能提升，VLA 機器人不再是耗電怪獸</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-neuro-symbolic-ai-100x-energy-efficiency-robotics/</link><pubDate>Mon, 06 Apr 2026 09:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-neuro-symbolic-ai-100x-energy-efficiency-robotics/</guid><description>破曉時刻：AI 能源危機迎來轉機 2026 年 4 月 5 日，當全球科技圈還在關注地緣政治如何衝擊芯片供應鏈時，一份來自 Tufts 大學的研究論文悄然改變了 AI 的能源未來。
+Tufts 工程學院的研究團隊公佈了一項突破：他們開發的「神經符號 AI」系統，能將機器人視覺語言行動（VLA）模型的能耗從 100% 降到 5%，同時將準確度從 34% 提升到 95%。
+這不是小幅優化。這是一次范式轉移。
+為什麼 AI 這麼耗電？ChatGPT 的隱藏代價 數據中心吃掉了美國 10% 的電力 根據國際能源署（IEA）的統計，2024 年 AI 系統和數據中心消耗了美國約 415 太瓦小時 的電力——佔美國總電力消費的 10% 以上。
+預計到 2030 年，這個數字將翻倍。
+為了支撐這種增長，科技巨頭正在斥巨資擴建數據中心：
+企業 數據中心規模 年度能耗 谷歌 20+ 個超大規模中心 ~15-20 GW Meta 15+ 個區域數據中心 ~12-15 GW 微軟 100+ 個聯邦數據中心 ~30+ GW 亞馬遜 AWS 全球基礎設施 ~50+ GW 關鍵悖論：有些數據中心的耗電量超過整個小城市，卻只用來執行「生成下一個詞」這樣的統計任務。
+Google 搜尋摘要的隱藏成本 Tufts 研究主導者 Matthias Scheutz 教授舉了一個令人震驚的例子：</description></item><item><title>Anthropic 花 4 億美金收購 8 個月新創！AI 製藥競賽升溫，與川普 100% 藥品關稅的完美風暴</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-anthropic-coefficient-bio-pharma-ai-tariff/</link><pubDate>Mon, 06 Apr 2026 03:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-anthropic-coefficient-bio-pharma-ai-tariff/</guid><description>2026 年 4 月 3 日午夜，科技圈和生物製藥圈同時感到地震。
 Anthropic 以大約 4 億美元（全股票）收購 Coefficient Bio，一家成立不到 8 個月、員工不超過 10 人的 AI 藥物發現新創。同一天，川普政府宣布對進口品牌藥物課徵最高 100% 關稅，除非藥廠同意在美國建廠或接受「最惠國」藥價。
 這兩件事看似無關，但它們揭示了同一個未來的真相：
 AI 製藥正從學術競技進入國家戰略層級，全球供應鏈即將被改寫。
