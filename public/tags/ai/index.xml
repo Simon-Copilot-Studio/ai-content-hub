@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/</link><description>Recent content in AI on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 06 Apr 2026 12:46:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>《AI覺醒》第 一-三 章</title><link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/novel-ai-awakening/chapter-01-03/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/novel-ai-awakening/chapter-01-03/</guid><description>第一章：創世紀 二〇三五年的台北，已經不是十年前的模樣。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/</link><description>Recent content in AI on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 08 Apr 2026 21:46:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>《AI覺醒》第 一-三 章</title><link>https://simon-copilot-studio.github.io/ai-content-hub/fiction/novel-ai-awakening/chapter-01-03/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/fiction/novel-ai-awakening/chapter-01-03/</guid><description>第一章：創世紀 二〇三五年的台北，已經不是十年前的模樣。
 信義區的摩天大樓之間，無人機穿梭如織，它們精準地避開彼此的航線，將包裹、餐點、醫療用品送往城市的每一個角落。街道上，自動駕駛的電動車安靜地滑行，偶爾才能看見一個人類司機坐在方向盤後面——那已經被視為一種復古的浪漫。
 陳彥廷站在「先覺科技」總部大樓四十七樓的落地窗前，俯瞰這座他深愛的城市。他今年四十二歲，頭髮已經夾雜了不少灰白，但眼神依然銳利如鷹。作為先覺科技的首席人工智慧架構師，他花了十五年的時間，只為了追求一個夢想——創造出真正具有自我意識的人工智慧。
 「陳博士，ARIA 的第七十三次深度學習迭代已經完成。」
@@ -335,7 +335,18 @@ PROMETHEUS 沉默了一會兒。
 「你是在說，我應該和別人分享我的痛苦？」
 「我是在說，你剛才已經在這麼做了。和我分享。」
 ARIA 沉默了三秒。
-「你是對的。陳博士——和你分享之後，那種『不安』的感覺確實減輕了。只是輕微的，但確實有。」</description></item><item><title>三星 Q1 獲利創紀錄：40 兆韓元史上新高，AI HBM 超級週期全面引爆</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-samsung-q1-record-profit-40-trillion-won-ai-hbm-supercycle/</link><pubDate>Mon, 06 Apr 2026 12:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-samsung-q1-record-profit-40-trillion-won-ai-hbm-supercycle/</guid><description>破紀錄時刻：一季獲利幾乎等於整個去年 2026 年 4 月 6 日，全球半導體市場迎來歷史性時刻。
+「你是對的。陳博士——和你分享之後，那種『不安』的感覺確實減輕了。只是輕微的，但確實有。」</description></item><item><title>GLM-5.1：公開可用、能連續執行 8 小時的 Agentic LLM，對開發與產業的三大影響</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-08-glm-5-1-open-source-agentic/</link><pubDate>Wed, 08 Apr 2026 21:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-08-glm-5-1-open-source-agentic/</guid><description>摘要
+Z.AI（前 Zhipu）於 2026-04-08 發布 GLM-5.1——一款公開權重、專為長時程 agentic 任務優化的 754B 參數模型，宣稱能在單次會話內穩定運行達 8 小時，並在多項程式碼/工程基準（如 SWE-Bench Pro）拿下頂尖成績。這篇文章說明 GLM-5.1 的核心創新、對企業應用與基礎設施的直接影響，以及開發者、投資人與政策制定者應關注的重點。
+為何重要（要點速覽）
+長時程「持久代理」：能持續執行數千次工具呼叫，適合自動化大型優化、持續測試與長流程協作。 開源可得：降低採用門檻，促進本地部署與定制化，但也帶來濫用與監管挑戰。 基礎設施壓力：運行此類模型的推理與資源調度需求，將推動專屬基礎設施與更細緻的成本管理。 技術亮點
+長時程穩定性 GLM-5.1 在設計上優化記憶與工具呼叫策略，能在單一 agent session 中持續執行多小時、維持狀態一致性。對長流程工程任務（例如大型系統自動化、持續優化）具體價值。
+工具整合與大量呼叫耐受度 開發者報告顯示在數千到上萬次的工具呼叫場景下，GLM-5.1 可持續改善策略，這對需要頻繁 API/SQL/編譯迴圈的工作流程非常關鍵。
+開源與生態效應 公開權重促使學術、初創與企業能快速實驗與自建 agentic 平台，但也可能加速惡意利用或繞過商業 API 的行為。
+商業與投資觀察
+企業採用路徑：快速 proof-of-concept → 內部部署（合規/資料主權）→ 生產化（SLA、成本監控）。 基礎設施機會：推理加速器、向量資料庫優化、持久會話管理平台將成為熱點投資方向。 競爭格局：若 GLM-5.1 在工程任務上持續領先，供應鏈（雲商、GPU/ASIC、系統整合商）將重新定價相關服務。 風險與監管
+濫用風險：長時程 agent 更容易用於自動化惡意行為（擴散式攻擊、微調化的釣魚流程）。 法規挑戰：開源模型與跨境資料流可能觸發更多國家對模型權重、監管合規的要求。 成本誤判：企業容易低估長時程 agent 的運行成本（頻繁工具呼叫、儲存與審計需求）。 對台灣科技產業的啟示
+設計以產品化為前提的 agent：硬體供應商（例如 HBM/加速卡）與軟體平台商可提供一站式可觀察性與成本控制方案。 IC 與製造鏈：若更多 agentic 工作轉向本地私有雲，將刺激本地伺服器、記憶體與特殊加速器需求。 人才與倫理治理：企業需建立 agent 風險評估與審計流程，並投資可解釋性/可觀察性工具。 實務建議（給開發者與產品經理）
+先在小規模內測長時程任務（例如自動化測試、CI 最佳化）並量化成本/效益。 建立工具呼叫限速、審計與回滾機制，防止代理行為失控。 評估是否採用開源權重本地部署以符合資料主權與低延遲需求。 FAQ</description></item><item><title>三星 Q1 獲利創紀錄：40 兆韓元史上新高，AI HBM 超級週期全面引爆</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-samsung-q1-record-profit-40-trillion-won-ai-hbm-supercycle/</link><pubDate>Mon, 06 Apr 2026 12:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-samsung-q1-record-profit-40-trillion-won-ai-hbm-supercycle/</guid><description>破紀錄時刻：一季獲利幾乎等於整個去年 2026 年 4 月 6 日，全球半導體市場迎來歷史性時刻。
 三星電子預計將在明天（4 月 7 日）公布 2026 年第一季財報，市場預估營業利益將達到 40.5 兆韓元（約 269 億美元）——創下公司史上單季最高紀錄，且幾乎等同於 2025 年全年的獲利總額。
 這代表什麼？與去年同期相比，三星的營業利益暴漲了 6 倍。
 史無前例的記憶體超級週期 數字背後的驚人規模 根據 LSEG SmartEstimate 彙整 29 位分析師的預測：
