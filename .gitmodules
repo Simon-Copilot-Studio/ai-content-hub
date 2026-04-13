@@ -1,0 +1,3 @@
+[submodule "openclaw-migrated"]
+	path = openclaw-migrated
+	url = https://github.com/Simon-Copilot-Studio/ai-content-hub.git
