@@ -301,23 +301,52 @@ hermes mcp list
 # 檢查當前 Hermes cron 狀態
 hermes cron list
 
-# 手動建立 X → Blog 任務
-hermes cron create "x-blog-autopilot" "0 9 * * 1" \
-    "--model kilo* \
-    --skills web-search,image-generators-mcp \
-    --prompt '執行 X → Blog 自動發布流程...'"
+# 如果為空，手動建立所有 OpenClaw cron 任務
+hermes cron create --name "sync-skills" --deliver "origin" "0 3 * * *" "⏰ 定時任務：同步 Skills 到 GitHub。請執行 cd ~/.hermes/skills && git add -A && git diff --cached --quiet && echo 'no changes' || (git commit -m 'daily sync skills' && git push)，完成後簡短回報結果。"
+hermes cron create --name "workspace-sync" --deliver "origin" "0 4 * * *" "⏰ 定時任務：同步 Workspace 到 GitHub。請執行 cd ~/.hermes/workspace && git add -A && git diff --cached --quiet && echo 'no changes' || (git commit -m 'daily workspace sync' && git push)，完成後簡短回報結果。"
+hermes cron create --name "lottery-data-update" --deliver "origin" "30 22 * * *" "⏰ 定時任務：更新台灣樂透開獎資料。請執行 bash ~/.hermes/workspace/scripts/lottery-auto-update.sh，完成後簡短回報結果。如果失敗，回報錯誤訊息。"
+hermes cron create --name "daily-radar" --deliver "origin" "0 9 * * *" "執行每日機會雷達掃描。依照 research/daily-radar/README.md 的規格：1) 用 3 個 sub-agent 並行搜尋 GitHub Trending、HN、Product Hunt、arXiv CS.AI 2) 彙整成報告存到 research/daily-radar/$(date +%Y-%m-%d).md 3) 發送 Top 3 摘要到 Telegram。只報告跟 AI/Agent/LLM/Hermes 相關的內容。用中文輸出。"
+hermes cron create --name "x-blog-autopilot" --deliver "origin" "every 3h" "執行 X → Blog 自動發布流程：1) 用 web_search 搜尋 AI 科技、經濟財金、科技產業的最新熱門話題（過去 3 小時）2) 選擇最有價值的 1 個主題，撰寫一篇 SEO 優化繁體中文 Blog 文章 3) 文章格式參考 ~/blog/content/tech/ 既有文章 4) 用 image_generate 產封面圖 5) cd ~/blog && git add -A && git commit -m \"auto: [文章標題]\" && git push 6) 完成後發 Telegram 通知 Simon"
+hermes cron create --name "blog-image-gen-midnight" --deliver "origin" "0 0 * * *" "🎨 Blog 自動產圖任務啟動（00:00-06:00）。請讀取 ~/.hermes/workspace/scripts/blog-image-gen.md 了解完整流程，然後執行文章盤點、產圖、Git 同步等步驟。"
 
-# 手動建立 Novel 監控任務
-hermes cron create "novel-monitor" "*/30 * * * *" \
-    "--model trinity-large-preview:free \
-    --skills novel-monitor \
-    --prompt '監控小說寫作 API 狀態...'"
+# 驗證任務建立
+hermes cron list
+```
 
-# 手動建立 Novel 報告任務
-hermes cron create "novel-report" "0 18 * * *" \
-    "--model kilo* \
-    --skills telegram-messaging \
-    --prompt '發送小進度報告到 Telegram...'"
+### 手動路徑變更程序
+```bash
+# 1. 建立 Hermes workspace 目錄
+mkdir -p ~/.hermes/workspace
+
+# 2. 從 OpenClaw 複製 scripts
+cp -r ~/.openclaw/workspace/scripts ~/.hermes/workspace/
+
+# 3. 設置執行權限
+chmod +x ~/.hermes/workspace/scripts/*.sh
+
+# 4. 初始化 git 倉庫
+cd ~/.hermes/workspace
+git init
+git remote add origin https://github.com/Simon-Copilot-Studio/ai-content-hub.git
+git add .
+git commit -m "Initial commit: migrated scripts from OpenClaw"
+git push -u origin main
+
+# 5. 設置 skills git 倉庫（處理 submodule）
+cd ~/.hermes/skills
+git init
+git remote add origin https://github.com/Simon-Copilot-Studio/ai-content-hub.git
+git submodule add https://github.com/Simon-Copilot-Studio/ai-content-hub.git openclaw-migrated
+git add .
+git commit -m "Add openclaw-migrated skills submodule"
+git push -u origin main
+
+# 6. 處理 submodule 合併衝突
+git pull --rebase origin main
+git submodule foreach 'git commit -am "Update skills from OpenClaw migration"'
+git add .
+git commit -m "Update openclaw-migrated skills after rebase"
+git push -u origin main
 ```
 
 ## 常見問題
@@ -370,20 +399,34 @@ hermes /skill free_agent_teams --test free_analyst
 hermes /skill free_agent_teams --test free_speed
 ```
 
-### 3. 驗證 Cron 任務
+### 4. 驗證 Cron 任務
 ```bash
 # 檢查 cron 任務狀態
 hermes cron list
 
 # 測試 cron 任務執行
 hermes cron test x-blog-autopilot
-hermes cron test novel-monitor
-hermes cron test novel-report
+hermes cron test daily-radar
+hermes cron test blog-image-gen-midnight
 
 # 查看 cron 日誌
-hermes cron logs x-blog-autopilot
-hermes cron logs novel-monitor
-hermes cron logs novel-report
+hermes cron logs x-blog-autopilot --limit 5
+hermes cron logs daily-radar --limit 5
+hermes cron logs blog-image-gen-midnight --limit 5
+
+# 監控首次執行（特別是每 3 小時一次的 x-blog-autopilot）
+watch -n 180 hermes cron list  # 每 3 分鐘檢查一次
+```
+
+### 5. 持續監控
+```bash
+# 監控首次 Cron 執行（特別是每 3 小時一次的 x-blog-autopilot）
+# 執行以下命令持續監控：
+watch -n 180 'echo "=== $(date) ===" && hermes cron list && hermes cron logs x-blog-autopilot --limit 3'
+
+# 驗證 blog-image-gen-midnight 是否在午夜正確調用
+# 在午夜前設置提醒，檢查任務是否正常執行
+echo "提醒檢查: 00:00 blog-image-gen-midnight 任務執行"
 ```
 
 ### 4. 清理備份
@@ -393,7 +436,7 @@ rm ~/.hermes/.env.backup
 rm ~/.hermes/config.yaml.backup
 ```
 
-## 已完成的遷移項目
+### 已完成的遷移項目
 
 ### ✅ Free AI Agent Teams
 - **狀態**: 已完成配置
@@ -405,23 +448,77 @@ rm ~/.hermes/config.yaml.backup
   - `free_analyst` (免費分析助手)
   - `free_speed` (免費快速助手)
 - **管理腳本**: `free_agent_teams.py`, `free_agent_manager.py`
+- **驗證命令**: `hermes /skill free_agent_teams --list`
 
 ### ✅ API 金鑰遷移
-- **狀態**: 已完成
-- **金鑰數量**: 10+ 個 API 金鑰
+- **狀態**: 已完成並簡化為單一 OpenRouter 金鑰
+- **金鑰數量**: 10+ 個 API 金鑰（已映射到 Hermes 格式）
 - **主要提供商**: OpenRouter, KiloCode, Groq, Gemini, NVIDIA, HuggingFace, Mistral
+- **重複金鑰處理**: 移除重複的 OpenRouter 金鑰，保留 `sk-or-...c6f9`
+- **驗證命令**: `hermes config check`
 
 ### ✅ 技能遷移
 - **狀態**: 已完成
 - **技能數量**: 14 個核心技能
-- **位置**: `~/.hermes/skills/openclaw-migrated/`
+- **位置**: `~/.hermes/skills/openclaw-migrated/`（設為 git submodule）
 - **關鍵技能**: browser-automation, pdf, docx, xlsx, pptx, image-generators-mcp
+- **Git 倉庫**: 已關聯遠端 `https://github.com/Simon-Copilot-Studio/ai-content-hub.git`
+- **驗證命令**: `hermes skills list | grep openclaw`
+
+### ✅ Cron 任務遷移（2026-04-14）
+- **狀態**: 已完成手動遷移 6 個核心任務
+- **任務列表**: 
+  - `sync-skills` (每天 03:00) - 同步 Skills 到 GitHub
+  - `workspace-sync` (每天 04:00) - 同步 Workspace 到 GitHub  
+  - `lottery-data-update` (每天 22:30) - 更新台灣樂透開獎資料
+  - `daily-radar` (每天 09:00) - 每日機會雷達掃描
+  - `x-blog-autopilot` (每 3 小時) - X → Blog 自動發布流程
+  - `blog-image-gen-midnight` (每天 00:00) - Blog 自動產圖任務
+- **驗證命令**: `hermes cron list`
+
+### ✅ Git 倉庫設置
+- **狀態**: 已完成
+- **Workspace**: `~/.hermes/workspace` → 已初始化 git 倉庫並推送至遠端
+- **Skills**: `~/.hermes/skills` → 已設置 `openclaw-migrated` 為 submodule
+- **遠端倉庫**: `https://github.com/Simon-Copilot-Studio/ai-content-hub.git`
+- **問題解決**: 已處理 `non-fast-forward` 錯誤，使用 `git pull --rebase` 解決衝突
+- **驗證命令**: `cd ~/.hermes/workspace && git status` 及 `cd ~/.hermes/skills && git status`
 
 ### ⏳ 待完成項目
-- **Cron 任務遷移**: 需要手動轉換 3 個 OpenClaw cron 任務
-- **Telegram 整合**: 修復 Chat ID 問題
-- **模型配置**: 確認所有模型正確映射
+- **首次 Cron 執行監控**: 需監控 `x-blog-autopilot` 每 3 小時的執行狀態
+- **`blog-image-gen-midnight` 驗證**: 確認午夜正確調用 `meta-ai.generate_image`
+- **Telegram 整合**: 修復 Chat ID 問題（已配置 5978244306）
+- **模型配置**: 確認所有模型正確映射（特別是 `trinity-large-preview:free` 到 `kilo*`）
 - **整合測試**: 驗證所有遷移功能的正常運作
+
+### 重要經驗總結
+
+#### 1. Cron 任務遷移限制
+- **問題**: `hermes cron list` 初始為空，無法直接從 OpenClaw 自動轉換
+- **解決方案**: 手動解析 `~/.openclaw/cron/jobs.json` 的 Prompt 邏輯，轉換為 `hermes cron create` 命令
+- **關鍵發現**: OpenClaw 的 `jobs.json` 格式與 Hermes cron 格式差異較大，需要人工轉換
+
+#### 2. Git Submodule 處理
+- **問題**: 在 `skills` 目錄推送時發生 `non-fast-forward` 錯誤
+- **解決方案**: 使用 `git pull --rebase` 解決衝突，然後重新推送
+- **重要指令**: 
+  ```bash
+  git pull --rebase origin main
+  git submodule foreach 'git commit -am "Update skills from OpenClaw migration"'
+  git add .
+  git commit -m "Update openclaw-migrated skills after rebase"
+  git push -u origin main
+  ```
+
+#### 3. 路徑遷移模式
+- **標準流程**: `mkdir -p` → `cp -r` → `chmod +x`
+- **應用案例**: 將 `~/.openclaw/workspace/scripts/*` 遷移到 `~/.hermes/workspace/scripts/*`
+- **權限設置**: 確保所有 `.sh` 腳本具有執行權限
+
+#### 4. 金鑰管理原則
+- **單一 OpenRouter 金鑰**: 如用戶要求，僅保留一把 OpenRouter 金鑰（`sk-or-...c6f9`）
+- **API 健檢**: 定期驗證 `.env` 中所有金鑰的有效性
+- **備份機制**: 遷移前備份原有配置，可快速恢復
 
 ## 安全注意事項
 
