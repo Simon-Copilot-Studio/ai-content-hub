@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Computing Visualization</title>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; overflow: hidden; background: #000; }
+    canvas { display: block; }
+    #saveBtn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background: rgba(0, 255, 255, 0.8);
+      border: none;
+      border-radius: 5px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    #saveBtn:hover {
+      background: rgba(0, 255, 255, 1);
+    }
+  </style>
+</head>
+<body>
+<button id="saveBtn" onclick="saveImage()">Save Image</button>
+<script>
+// === Configuration ===
+const CONFIG = {
+  seed: 16416,
+  particleCount: 200,
+  connectionDistance: 120,
+  glitchIntensity: 0.02
+};
+
+// === Color Palette ===
+const PALETTE = {
+  bg: '#0a0a0f',
+  primary: '#00ffff',
+  secondary: '#ff00ff',
+  accent: '#ffff00',
+  quantum: '#ff0080',
+  neural: '#00ff80'
+};
+
+// === Global State ===
+let particles = [];
+let time = 0;
+let quantumField;
+let neuralNetwork;
+let p5Instance;
+
+// === Preload ===
+function preload() {
+  // No external assets needed
+}
+
+// === Setup ===
+function setup() {
+  let canvas = createCanvas(1920, 1080);
+  canvas.parent('canvas-container');
+  randomSeed(CONFIG.seed);
+  noiseSeed(CONFIG.seed);
+  colorMode(HSB, 360, 100, 100, 100);
+  
+  // Initialize quantum field
+  quantumField = new QuantumField();
+  
+  // Initialize particles
+  for (let i = 0; i < CONFIG.particleCount; i++) {
+    particles.push(new Particle(i));
+  }
+  
+  // Initialize neural network visualization
+  neuralNetwork = new NeuralNetwork();
+}
+
+// === Draw Loop ===
+function draw() {
+  // Animate background
+  drawBackground();
+  
+  // Update and draw quantum field
+  quantumField.update();
+  quantumField.display();
+  
+  // Update and draw particles
+  for (let particle of particles) {
+    particle.update();
+    particle.display();
+  }
+  
+  // Draw connections
+  drawConnections();
+  
+  // Update and draw neural network
+  neuralNetwork.update();
+  neuralNetwork.display();
+  
+  // Add quantum effects
+  addQuantumEffects();
+  
+  time += 0.01;
+}
+
+// === Background ===
+function drawBackground() {
+  // Create deep space gradient
+  for (let i = 0; i <= height; i++) {
+    let inter = map(i, 0, height, 0, 1);
+    let c = lerpColor(
+      color(240, 80, 10),  // Deep blue
+      color(280, 60, 5),   // Purple
+      inter
+    );
+    stroke(c);
+    line(0, i, width, i);
+  }
+  
+  // Add starfield
+  randomSeed(12345);
+  for (let i = 0; i < 100; i++) {
+    let x = random(width);
+    let y = random(height);
+    let brightness = random(20, 80);
+    stroke(0, 0, brightness);
+    point(x, y);
+  }
+  randomSeed(CONFIG.seed);
+}
+
+// === Particle Class ===
+class Particle {
+  constructor(index) {
+    this.index = index;
+    this.x = random(width);
+    this.y = random(height);
+    this.z = random(-100, 100);
+    this.vx = random(-0.5, 0.5);
+    this.vy = random(-0.5, 0.5);
+    this.vz = random(-0.5, 0.5);
+    this.size = random(2, 6);
+    this.hue = random(180, 300); // Blue to purple range
+    this.brightness = random(70, 100);
+    this.quantumState = random(TWO_PI);
+    this.entangledWith = floor(random(particles.length));
+  }
+  
+  update() {
+    // Quantum motion
+    this.x += this.vx + noise(this.x * 0.01, time) * 2;
+    this.y += this.vy + noise(this.y * 0.01, time) * 2;
+    this.z += this.vz;
+    
+    // Wrap around screen
+    if (this.x < 0) this.x = width;
+    if (this.x > width) this.x = 0;
+    if (this.y < 0) this.y = height;
+    if (this.y > height) this.y = 0;
+    
+    // Update quantum state
+    this.quantumState += 0.05;
+    
+    // Entanglement effect
+    if (particles[this.entangledWith]) {
+      let other = particles[this.entangledWith];
+      let distance = dist(this.x, this.y, other.x, other.y);
+      if (distance < 200) {
+        this.hue = other.hue + sin(time * 2) * 30;
+      }
+    }
+  }
+  
+  display() {
+    push();
+    translate(this.x, this.y);
+    
+    // Quantum glow effect
+    let glowSize = this.size + sin(this.quantumState) * 3;
+    for (let i = 3; i > 0; i--) {
+      fill(this.hue, 80, this.brightness, 0.1);
+      noStroke();
+      ellipse(0, 0, glowSize * i * 2);
+    }
+    
+    // Core particle
+    fill(this.hue, 90, this.brightness);
+    noStroke();
+    ellipse(0, 0, this.size);
+    
+    // Quantum spin indicator
+    stroke(this.hue, 90, this.brightness);
+    strokeWeight(1);
+    let spinX = cos(this.quantumState) * this.size;
+    let spinY = sin(this.quantumState) * this.size;
+    line(0, 0, spinX, spinY);
+    
+    pop();
+  }
+}
+
+// === Quantum Field ===
+class QuantumField {
+  constructor() {
+    this.gridSize = 50;
+    this.field = [];
+    this.initializeField();
+  }
+  
+  initializeField() {
+    for (let x = 0; x < width; x += this.gridSize) {
+      for (let y = 0; y < height; y += this.gridSize) {
+        this.field.push({
+          x: x,
+          y: y,
+          intensity: random(0, 1),
+          phase: random(TWO_PI)
+        });
+      }
+    }
+  }
+  
+  update() {
+    for (let point of this.field) {
+      point.intensity = noise(point.x * 0.005, point.y * 0.005, time) * 0.5 + 0.5;
+      point.phase += 0.02;
+    }
+  }
+  
+  display() {
+    for (let point of this.field) {
+      push();
+      translate(point.x, point.y);
+      
+      // Quantum field visualization
+      let alpha = point.intensity * 0.3;
+      fill(280, 60, 80, alpha);
+      noStroke();
+      ellipse(0, 0, this.gridSize * point.intensity);
+      
+      // Field lines
+      stroke(280, 60, 80, alpha * 0.5);
+      strokeWeight(1);
+      let angle = point.phase;
+      let length = this.gridSize * point.intensity;
+      line(0, 0, cos(angle) * length, sin(angle) * length);
+      
+      pop();
+    }
+  }
+}
+
+// === Neural Network ===
+class NeuralNetwork {
+  constructor() {
+    this.nodes = [];
+    this.connections = [];
+    this.createNetwork();
+  }
+  
+  createNetwork() {
+    // Create layers
+    let layers = [4, 6, 4, 2]; // 4 input, 2 hidden, 2 output
+    let nodePositions = [];
+    
+    // Generate node positions
+    for (let layerIndex = 0; layerIndex < layers.length; layerIndex++) {
+      let layer = [];
+      let x = map(layerIndex, 0, layers.length - 1, 100, width - 100);
+      
+      for (let nodeIndex = 0; nodeIndex < layers[layerIndex]; nodeIndex++) {
+        let y = map(nodeIndex, 0, layers[layerIndex] - 1, 100, height - 100);
+        layer.push({
+          x: x,
+          y: y,
+          activation: random(),
+          phase: random(TWO_PI)
+        });
+      }
+      nodePositions.push(layer);
+    }
+    
+    this.nodes = nodePositions;
+    
+    // Create connections
+    for (let i = 0; i < this.nodes.length - 1; i++) {
+      for (let j = 0; j < this.nodes[i].length; j++) {
+        for (let k = 0; k < this.nodes[i + 1].length; k++) {
+          this.connections.push({
+            from: this.nodes[i][j],
+            to: this.nodes[i + 1][k],
+            weight: random(-1, 1)
+          });
+        }
+      }
+    }
+  }
+  
+  update() {
+    // Update node activations
+    for (let layer of this.nodes) {
+      for (let node of layer) {
+        node.activation = noise(node.x * 0.01, node.y * 0.01, time) * 0.5 + 0.5;
+        node.phase += 0.03;
+      }
+    }
+    
+    // Update connection weights
+    for (let conn of this.connections) {
+      conn.weight = noise(conn.from.x * 0.01, conn.from.y * 0.01, time) * 2 - 1;
+    }
+  }
+  
+  display() {
+    // Draw connections
+    for (let conn of this.connections) {
+      push();
+      strokeWeight(abs(conn.weight) * 2);
+      
+      if (conn.weight > 0) {
+        stroke(120, 80, 60, 0.3); // Positive connections - green
+      } else {
+        stroke(0, 80, 60, 0.3);  // Negative connections - red
+      }
+      
+      line(conn.from.x, conn.from.y, conn.to.x, conn.to.y);
+      pop();
+    }
+    
+    // Draw nodes
+    for (let layer of this.nodes) {
+      for (let node of layer) {
+        push();
+        translate(node.x, node.y);
+        
+        // Node glow
+        let glowSize = node.activation * 20 + 10;
+        for (let i = 3; i > 0; i--) {
+          fill(200, 60, 80, node.activation * 0.1);
+          noStroke();
+          ellipse(0, 0, glowSize * i);
+        }
+        
+        // Node core
+        fill(200, 80, 90);
+        noStroke();
+        ellipse(0, 0, 8);
+        
+        // Activation indicator
+        stroke(200, 80, 90);
+        strokeWeight(2);
+        let actLength = node.activation * 15;
+        line(0, 0, actLength * cos(node.phase), actLength * sin(node.phase));
+        
+        pop();
+      }
+    }
+  }
+}
+
+// === Connections ===
+function drawConnections() {
+  for (let i = 0; i < particles.length; i++) {
+    for (let j = i + 1; j < particles.length; j++) {
+      let p1 = particles[i];
+      let p2 = particles[j];
+      let distance = dist(p1.x, p1.y, p2.x, p2.y);
+      
+      if (distance < CONFIG.connectionDistance) {
+        push();
+        strokeWeight(map(distance, 0, CONFIG.connectionDistance, 3, 0.5));
+        
+        // Entangled particles have special connection
+        if (p1.entangledWith === j || p2.entangledWith === i) {
+          stroke(320, 80, 100, 0.8); // Magenta for entangled
+          drawingContext.setLineDash([5, 5]);
+        } else {
+          stroke(200, 60, 80, map(distance, 0, CONFIG.connectionDistance, 0.6, 0.1));
+        }
+        
+        line(p1.x, p1.y, p2.x, p2.y);
+        pop();
+      }
+    }
+  }
+}
+
+// === Quantum Effects ===
+function addQuantumEffects() {
+  // Glitch effect
+  if (random() < CONFIG.glitchIntensity) {
+    push();
+    translate(random(-10, 10), 0);
+    fill(0, 0, 100, 0.1);
+    noStroke();
+    rect(0, 0, width, height);
+    pop();
+  }
+  
+  // Quantum tunneling effect
+  if (random() < 0.01) {
+    push();
+    let x = random(width);
+    let y = random(height);
+    
+    // Tunnel portal
+    for (let i = 20; i > 0; i--) {
+      fill(280, 80, 100, 0.1);
+      noStroke();
+      ellipse(x, y, i * 10);
+    }
+    
+    fill(280, 80, 100);
+    noStroke();
+    ellipse(x, y, 20);
+    pop();
+  }
+}
+
+// === Event Handlers ===
+function keyPressed() {
+  if (key === 's' || key === 'S') {
+    saveCanvas('quantum-computing-visualization', 'png');
+  }
+  if (key === 'r' || key === 'R') {
+    randomSeed(millis());
+    noiseSeed(millis());
+    CONFIG.seed = floor(random(99999));
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+// Save image function
+function saveImage() {
+  saveCanvas('quantum-computing-visualization', 'png');
+}
+</script>
+<div id="canvas-container"></div>
+</body>
+</html>
