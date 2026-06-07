@@ -1,15 +1,5 @@
-🎉 新Blog文章已發布！
-
-標題：ChatGPT女性用戶突破5億大關：AI普及化時代來臨，日常諮詢需求成主力
-
-發布時間：2026-04-18
-
-連結：https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-18-chatgpt-female-users-breakthrough
-
-文章摘要：
-- ChatGPT女性用戶突破5億大關，整體用戶接近10億
-- 使用者結構從80%男性轉變為50-52%性別平衡
-- 73%使用與工作無關，主要用於日常諮詢
-- OpenAI訂閱用戶突破5,000萬，商業模式成熟
-
-#AI科技 #ChatGPT #生成式AI #女性用戶 #AI普及化
+新文章發布通知：\n\n標題：ArXiv新政策震撼學術界：AI撰寫論文將遭一年禁令，研究倫理邊界重新定義\n\n發布時間：2026-05-17\n\n文章已成功發布到博客，涵蓋了ArXiv最新政策對學術界影響的深度分析。
+🚀 新文章發布通知：
+📄 標題：AI熱潮引爆半導體黃金時代：韓股KOSPI首度突破8,000點，全球科技版圖重構
+📅 發布時間：2026-05-17 09:30
+🔗 URL：https://github.com/Simon-Copilot-Studio/ai-content-hub/blob/main/content/tech/2026-05-17-ai-semiconductor-boom-kospi-8000.md
