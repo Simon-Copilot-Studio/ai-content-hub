@@ -23,19 +23,27 @@ This skill implements a complete automated blog publishing pipeline:
 ## Prerequisites
 
 ### Required Tools
-- `blogwatcher-cli` - RSS feed monitoring
+- **Primary Option**: `blogwatcher-cli` - RSS feed monitoring
+- **Alternative Option**: Browser tools for direct site navigation
 - Git - Version control for blog content
 - Text editor - Content creation (handled by Hermes)
 
 ### Setup Commands
 ```bash
-# Install blogwatcher CLI
+# Install blogwatcher CLI (RSS-based approach)
 go install github.com/JulienTant/blogwatcher-cli/cmd/blogwatcher-cli@latest
 
 # Verify installation
 which blogwatcher-cli
 # Should output: /home/simon/go/bin/blogwatcher-cli
 ```
+
+### Alternative: Browser-Based Approach
+When RSS feeds are unavailable or blocked (common with news sites):
+- Use `browser_navigate` to access news sites directly
+- Navigate through site structure manually
+- Extract content from full article pages
+- Handle bot detection gracefully
 
 ## Configuration
 
@@ -72,6 +80,7 @@ Ensure blog directory structure:
 
 ### 1. News Monitoring & Topic Discovery
 
+#### Method A: RSS Monitoring (Primary)
 ```bash
 # Scan all configured sources
 ~/go/bin/blogwatcher-cli scan
@@ -83,11 +92,25 @@ Ensure blog directory structure:
 ~/go/bin/blogwatcher-cli articles --all | grep "2026-05-17"
 ```
 
+#### Method B: Browser-Based Discovery (Alternative)
+When RSS feeds are blocked or unavailable:
+
+```bash
+# Navigate directly to news sites
+browser_navigate "https://techcrunch.com"
+browser_click "AI category link"
+browser_snapshot
+
+# Extract recent articles
+browser_vision "Extract full article content"
+```
+
 **Key Considerations:**
 - Monitor sources within 3-hour window for timeliness
 - Check existing content to avoid duplicates
 - Focus on high-impact topics with lasting relevance
 - Prioritize stories with multiple source coverage
+- **Handle bot detection**: Use browser tools instead of direct API calls
 
 ### 2. Topic Selection Criteria
 
@@ -142,8 +165,8 @@ faq:
 ### 4. Image Handling
 
 **Image Sources:**
-- **Primary**: Use Unsplash URLs with proper sizing
-- **Fallback**: Keep existing Unsplash URLs if generation fails
+- **Primary**: Use `image_generate` tool when available
+- **Fallback**: Use Unsplash URLs with proper sizing (when image_generate unavailable)
 - **Format**: `https://images.unsplash.com/photo-xxx?w=800&q=80`
 
 **Image Directory Structure:**
@@ -154,6 +177,22 @@ faq:
 ├── economy/
 └── ...
 ```
+
+**Handling Missing Tools:**
+When `image_generate` is not available:
+```bash
+# Create image directory
+mkdir -p ~/blog/static/images/[category]
+
+# Use high-quality Unsplash images
+# Create attribution file
+echo "# Image attribution
+# Source: Unsplash
+# URL: [image_url]
+# Description: [description]" > ~/blog/static/images/[category]/[article]-image.txt
+```
+
+**Practical Finding**: Many environments lack image generation tools, so Unsplash fallback should be the primary strategy.
 
 ### 5. Git Workflow
 
@@ -188,6 +227,11 @@ git push origin main
 ```
 
 **File Location:** `~/blog/telegram_notification.txt`
+
+**Practical Considerations:**
+- Many environments lack `send_message` integration
+- Store notification content in text file for manual sending
+- Include complete article details for external notification systems
 
 ## Error Handling
 
@@ -291,10 +335,33 @@ ls ~/.blogwatcher-cli/
 ~/go/bin/blogwatcher-cli scan "Specific Source"
 ```
 
+**Browser-Based Approach Issues:**
+```bash
+# Handle bot detection
+browser_navigate "https://techcrunch.com"  # Avoid direct search queries
+browser_click "AI category"               # Navigate through site structure
+browser_vision "Extract content"          # Use vision for full content
+
+# Handle blocked content
+browser_scroll "down"                     # Reveal more content
+browser_console "Extract text content"    # Get article content programmatically
+```
+
+**Missing Tools Workarounds:**
+- **No web_search**: Use browser_navigate + manual site navigation
+- **No image_generate**: Use Unsplash URLs with proper attribution
+- **No send_message**: Store notification content in text file
+
 **Content Issues:**
 - Check file permissions for blog directory
 - Validate frontmatter YAML syntax
 - Ensure proper character encoding
 - Test image URLs before publishing
+
+**Practical Findings from Recent Execution:**
+1. **RSS feeds often blocked**: Browser-based approach more reliable
+2. **Bot detection common**: Use browser tools instead of direct API calls
+3. **Image generation frequently unavailable**: Unsplash URLs should be primary strategy
+4. **Notification tools often missing**: Store content for manual notification
 
 This skill provides a complete framework for automated blog publishing, from content discovery to deployment, with built-in quality controls and error handling.
