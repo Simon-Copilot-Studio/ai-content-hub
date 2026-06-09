@@ -1,27 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DeepSeek on AI 趨勢觀察站</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tags/deepseek/</link><description>Recent content in DeepSeek on AI 趨勢觀察站</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 06 Apr 2026 15:46:00 +0800</lastBuildDate><atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/deepseek/index.xml" rel="self" type="application/rss+xml"/><item><title>Google TurboQuant 壓縮突破：LLM 記憶體狂減 6 倍、速度飆升 8 倍，DeepSeek 後又一次 AI 效率革命</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-google-turboquant-ai-memory-compression-6x-speedup/</link><pubDate>Mon, 06 Apr 2026 15:46:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-google-turboquant-ai-memory-compression-6x-speedup/</guid><description>史詩級效率突破：Google 再度改寫 AI 規則 2026 年 4 月 4 日，在全球科技圈還沉浸在 Q1 晶片超級週期和關稅戰陰霾中時，Google Research 悄然發布了一份研究論文和技術公告，再度證明了軟體創新對硬體霸權的制衡作用。
-Google 推出了名為 TurboQuant 的壓縮算法——一項將改變 AI 推理經濟學基礎的技術。它宣稱可以將大型語言模型（LLM）在推理階段所需的記憶體減少至少 6 倍，同時將推理速度提升最高 8 倍，且零精度損失。
-這不是邊際改進。這是範式轉移。
-「DeepSeek 時刻」再現：一場軟體 vs. 硬體的對抗 Cloudflare CEO Matthew Prince 在社交媒體上的評論瞬間點燃了科技圈的神經：
-「This is Google&amp;rsquo;s DeepSeek. So much more room to optimise AI inference for speed, memory usage, power consumption, and multi-tenant utilisation.」
-這個類比不是隨便說說。去年 1 月，DeepSeek 宣稱用低於 OpenAI 十分之一的算力訓練出具有競爭力的模型，直接掀翻了 Nvidia 股價。今年，Google 以軟體角度做出類似的「降本提效」承諾——結果？市場同樣反應劇烈。
-NAND 快閃記憶體股票應聲而跌。Micron、SanDisk、西部數據等儲存晶片製造商的股價瞬間承壓。邏輯很直白：如果 AI 模型突然需要少得多的記憶體，那記憶體廠商的市場就會縮水。
-但這一次，市場可能又誤讀了。
-TurboQuant 的技術內核：極致的數據壓縮藝術 問題的根源：KV 快取瓶頸 要理解 TurboQuant 的威力，先得懂一個 LLM 推理中的「無形殺手」：鍵值快取（Key-Value Cache，簡稱 KV 快取）。</description></item><item><title>DeepSeek V4 全面棄用英偉達！中國最強 AI 獨家適配華為 Ascend 950PR，阿里巴巴重金囤積數十萬晶片</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-05-deepseek-v4-huawei-ascend-chip-ai-independence/</link><pubDate>Sun, 05 Apr 2026 22:15:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-05-deepseek-v4-huawei-ascend-chip-ai-independence/</guid><description>2026 年 4 月 3 日，一則消息從 The Information 報導炸開：DeepSeek 下一代超級模型 V4 將完全運行於華為自主設計的 Ascend 950PR 晶片。
-這不是簡單的硬體升級。這是中國 AI 產業對美國出口管制的終極回應——也是全球晶片版圖裂變的信號彈。
-歷史轉折：DeepSeek V4 棄用英偉達 根據知情人士透露：
-V4 模型架構：完全針對華為 Ascend 950PR 優化，底層代碼被重新改寫 研發週期：DeepSeek 花費數月與華為、寒武紀緊密協作，進行模型架構重構 美國廠商地位：第一次拒絕提前提供給 NVIDIA 和 AMD——打破行業慣例 中國客戶反應：阿里巴巴、字節跳動、騰訊已批量訂購數十萬張 Ascend 950PR 晶片 這不是被動的技術選擇。這是 主動的戰略斷裂。
-為什麼現在？出口管制的現實逼迫 美國對華半導體出口管制已進入第四年。NVIDIA H100/H200 早已禁購。Blackwell 架構對中國企業更是徹底關閉。
-DeepSeek 的選擇邏輯簡單而殘酷：
-依賴美國晶片 = 被美國掐住脖子 華為 Ascend 950PR 雖然性能有差距，但至少是可控的 與其等待下一輪禁令，不如主動適配 正如報導所言：「DeepSeek 花了數月的工程努力來優化 V4，使其能在非 NVIDIA 硬體上有競爭力。」
-華為 Ascend 950PR：從被孤立到被重用 華為的 Ascend AI 晶片系列一度被視為「替代品」。但隨著中國科技巨頭的批量訂購，它正在成為必選項。
-關鍵數字 指標 數據 阿里巴巴訂單 ~20-30 萬張 Ascend 950PR 字節跳動訂單 ~15-20 萬張 騰訊訂單 ~10-15 萬張 V4 訓練效率 初期測試顯示與 Blackwell 相當（需驗證） 推理性能 針對國內應用場景優化 技術挑戰：重寫代碼的代價 從 NVIDIA 切換到華為，不是裝驅動那麼簡單。AI 模型與底層硬體高度耦合。DeepSeek 需要：</description></item><item><title>2026 年最強開源模型：DeepSeek-V4 全面超越 GPT-5？深度解析架構優勢</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</link><pubDate>Mon, 09 Mar 2026 11:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</guid><description>就在全球科技巨頭紛紛轉向閉源訂閱制的 2026 年，DeepSeek 以一場重磅發布再次撼動了 AI 產業。全新發布的 DeepSeek-V4 不僅在基準測試上與傳聞中的 GPT-5 平起平坐，更重要的是，它維持了「社群優先」的精神——完全開源。
-MoE 架構的極致演化 DeepSeek-V4 採用了改進版的混合專家模型 (MoE) 架構，總參數高達 1.5 兆，但運算時僅需激活不到 10% 的參數。這種「高智商、低功耗」的設計，使其在維持極高推理水準的同時，大幅降低了推論成本。
-核心效能對比：DeepSeek vs OpenAI 在權威的 MMLU-Pro 與 HumanEval 測試中，DeepSeek-V4 在程式碼編寫與邏輯推理維度上，甚至小幅領先於 GPT-5。
-測試項目 DeepSeek-V4 GPT-5 (Leaks) MMLU-Pro 84.5% 83.2% GSM8K 98.2% 98.5% HumanEval 95.8% 94.2% 突破：真正的多模態理解 不同於以往將圖像、音訊模擬成文字進行處理的方法，DeepSeek-V4 實現了原生多模態整合。它能直接「看懂」電路圖並進行 debug，或是在聽到嘈雜背景音的同時，準確隔離並分析關鍵對話內容。
-開源的意義 DeepSeek 官方表示，開放權重是為了加速全球 AI 的民主化。開發者現在可以根據自己的硬體條件，部署精簡版的 DeepSeek-V4-Mini，或是在垂直領域進行 Full Parameter Fine-Tuning。
-這是否意味著閉源模型領先的時代正式終結？我們拭目以待。</description></item><item><title>DeepSeek 開源模型如何改變 AI 產業格局</title><link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate><guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid><description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。
-DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。
-性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。
-開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。
-對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。
-未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeepSeek on AI 趨勢觀察站</title>
+    <link>https://simon-copilot-studio.github.io/ai-content-hub/tags/deepseek/</link>
+    <description>Recent content in DeepSeek on AI 趨勢觀察站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 06 Apr 2026 15:46:00 +0800</lastBuildDate>
+    <atom:link href="https://simon-copilot-studio.github.io/ai-content-hub/tags/deepseek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google TurboQuant 壓縮突破：LLM 記憶體狂減 6 倍、速度飆升 8 倍，DeepSeek 後又一次 AI 效率革命</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-google-turboquant-ai-memory-compression-6x-speedup/</link>
+      <pubDate>Mon, 06 Apr 2026 15:46:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-06-google-turboquant-ai-memory-compression-6x-speedup/</guid>
+      <description>史詩級效率突破：Google 再度改寫 AI 規則 2026 年 4 月 4 日，在全球科技圈還沉浸在 Q1 晶片超級週期和關稅戰陰霾中時，Google Research 悄然發布了一份研究論文和技術公告，再度證明了軟體創新對硬體霸權的制衡作用。&#xA;Google 推出了名為 TurboQuant 的壓縮算法——一項將改變 AI 推理經濟學基礎的技術。它宣稱可以將大型語言模型（LLM）在推理階段所需的記憶體減少至少 6 倍，同時將推理速度提升最高 8 倍，且零精度損失。&#xA;這不是邊際改進。這是範式轉移。&#xA;「DeepSeek 時刻」再現：一場軟體 vs. 硬體的對抗 Cloudflare CEO Matthew Prince 在社交媒體上的評論瞬間點燃了科技圈的神經：&#xA;「This is Google&amp;rsquo;s DeepSeek. So much more room to optimise AI inference for speed, memory usage, power consumption, and multi-tenant utilisation.」&#xA;這個類比不是隨便說說。去年 1 月，DeepSeek 宣稱用低於 OpenAI 十分之一的算力訓練出具有競爭力的模型，直接掀翻了 Nvidia 股價。今年，Google 以軟體角度做出類似的「降本提效」承諾——結果？市場同樣反應劇烈。&#xA;NAND 快閃記憶體股票應聲而跌。Micron、SanDisk、西部數據等儲存晶片製造商的股價瞬間承壓。邏輯很直白：如果 AI 模型突然需要少得多的記憶體，那記憶體廠商的市場就會縮水。&#xA;但這一次，市場可能又誤讀了。&#xA;TurboQuant 的技術內核：極致的數據壓縮藝術 問題的根源：KV 快取瓶頸 要理解 TurboQuant 的威力，先得懂一個 LLM 推理中的「無形殺手」：鍵值快取（Key-Value Cache，簡稱 KV 快取）。</description>
+    </item>
+    <item>
+      <title>DeepSeek V4 全面棄用英偉達！中國最強 AI 獨家適配華為 Ascend 950PR，阿里巴巴重金囤積數十萬晶片</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-05-deepseek-v4-huawei-ascend-chip-ai-independence/</link>
+      <pubDate>Sun, 05 Apr 2026 22:15:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-04-05-deepseek-v4-huawei-ascend-chip-ai-independence/</guid>
+      <description>2026 年 4 月 3 日，一則消息從 The Information 報導炸開：DeepSeek 下一代超級模型 V4 將完全運行於華為自主設計的 Ascend 950PR 晶片。&#xA;這不是簡單的硬體升級。這是中國 AI 產業對美國出口管制的終極回應——也是全球晶片版圖裂變的信號彈。&#xA;歷史轉折：DeepSeek V4 棄用英偉達 根據知情人士透露：&#xA;V4 模型架構：完全針對華為 Ascend 950PR 優化，底層代碼被重新改寫 研發週期：DeepSeek 花費數月與華為、寒武紀緊密協作，進行模型架構重構 美國廠商地位：第一次拒絕提前提供給 NVIDIA 和 AMD——打破行業慣例 中國客戶反應：阿里巴巴、字節跳動、騰訊已批量訂購數十萬張 Ascend 950PR 晶片 這不是被動的技術選擇。這是 主動的戰略斷裂。&#xA;為什麼現在？出口管制的現實逼迫 美國對華半導體出口管制已進入第四年。NVIDIA H100/H200 早已禁購。Blackwell 架構對中國企業更是徹底關閉。&#xA;DeepSeek 的選擇邏輯簡單而殘酷：&#xA;依賴美國晶片 = 被美國掐住脖子 華為 Ascend 950PR 雖然性能有差距，但至少是可控的 與其等待下一輪禁令，不如主動適配 正如報導所言：「DeepSeek 花了數月的工程努力來優化 V4，使其能在非 NVIDIA 硬體上有競爭力。」&#xA;華為 Ascend 950PR：從被孤立到被重用 華為的 Ascend AI 晶片系列一度被視為「替代品」。但隨著中國科技巨頭的批量訂購，它正在成為必選項。&#xA;關鍵數字 指標 數據 阿里巴巴訂單 ~20-30 萬張 Ascend 950PR 字節跳動訂單 ~15-20 萬張 騰訊訂單 ~10-15 萬張 V4 訓練效率 初期測試顯示與 Blackwell 相當（需驗證） 推理性能 針對國內應用場景優化 技術挑戰：重寫代碼的代價 從 NVIDIA 切換到華為，不是裝驅動那麼簡單。AI 模型與底層硬體高度耦合。DeepSeek 需要：</description>
+    </item>
+    <item>
+      <title>2026 年最強開源模型：DeepSeek-V4 全面超越 GPT-5？深度解析架構優勢</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</link>
+      <pubDate>Mon, 09 Mar 2026 11:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-09-deepseek-v4/</guid>
+      <description>就在全球科技巨頭紛紛轉向閉源訂閱制的 2026 年，DeepSeek 以一場重磅發布再次撼動了 AI 產業。全新發布的 DeepSeek-V4 不僅在基準測試上與傳聞中的 GPT-5 平起平坐，更重要的是，它維持了「社群優先」的精神——完全開源。&#xA;MoE 架構的極致演化 DeepSeek-V4 採用了改進版的混合專家模型 (MoE) 架構，總參數高達 1.5 兆，但運算時僅需激活不到 10% 的參數。這種「高智商、低功耗」的設計，使其在維持極高推理水準的同時，大幅降低了推論成本。&#xA;核心效能對比：DeepSeek vs OpenAI 在權威的 MMLU-Pro 與 HumanEval 測試中，DeepSeek-V4 在程式碼編寫與邏輯推理維度上，甚至小幅領先於 GPT-5。&#xA;測試項目 DeepSeek-V4 GPT-5 (Leaks) MMLU-Pro 84.5% 83.2% GSM8K 98.2% 98.5% HumanEval 95.8% 94.2% 突破：真正的多模態理解 不同於以往將圖像、音訊模擬成文字進行處理的方法，DeepSeek-V4 實現了原生多模態整合。它能直接「看懂」電路圖並進行 debug，或是在聽到嘈雜背景音的同時，準確隔離並分析關鍵對話內容。&#xA;開源的意義 DeepSeek 官方表示，開放權重是為了加速全球 AI 的民主化。開發者現在可以根據自己的硬體條件，部署精簡版的 DeepSeek-V4-Mini，或是在垂直領域進行 Full Parameter Fine-Tuning。&#xA;這是否意味著閉源模型領先的時代正式終結？我們拭目以待。</description>
+    </item>
+    <item>
+      <title>DeepSeek 開源模型如何改變 AI 產業格局</title>
+      <link>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://simon-copilot-studio.github.io/ai-content-hub/tech/2026-03-07-deepseek-open-source/</guid>
+      <description>2026 年，DeepSeek R1 開源模型的崛起，正在徹底改變全球 AI 產業的生態系統。這款來自中國的開源大語言模型，以其卓越的性能和開放的授權模式，正在挑戰傳統閉源 AI 巨頭的市場地位。&#xA;DeepSeek R1 的最大優勢在於其完整的開源特性。企業不僅可以免費使用模型，更能根據自身需求進行修改和優化。這種靈活性讓中小企業也能擁有屬於自己的 AI 解決方案，而不必依賴昂貴的 API 服務。對許多亞洲企業而言，這意味著 AI 技術民主化的時刻終於來臨。&#xA;性能方面，DeepSeek R1 已經達到與國際頂級模型相當的水準。在多種標準測試中，其表現與 GPT-4 等閉源模型不相上下，甚至在某些專業領域表現更優。這種性能與開源的結合，讓企業在技術和成本之間找到了最佳平衡點。&#xA;開源 vs 閉源的競爭正在重塑整個 AI 產業。傳統上，AI 技術掌握在少數科技巨頭手中，企業用戶只能被動接受標準化服務。現在，隨著 DeepSeek 等開源模型的崛起，企業開始擁有更多選擇權。這種競爭不僅促使閉源模型降低價格，也加速了整個 AI 技術的創新速度。&#xA;對台灣企業來說，DeepSeek 的開源模型提供了重要的替代方案。在國際地緣政治環境不穩定的背景下，擁有一個可靠的、不受外部因素影響的 AI 基礎設施，對企業長期發展至關重要。DeepSeek 的技術不僅僅是工具，更是企業數位主權的體現。&#xA;未來幾年，我們將看到更多基於 DeepSeek 的產品和服務誕生。從企業級應用到消費者產品，開源 AI 將滲透到各行各業。這場由 DeepSeek 引領的 AI 開源運動，正在為全球企業創造新的商業機遇，同時也挑戰著傳統 AI 產業的既有秩序。</description>
+    </item>
+  </channel>
+</rss>
