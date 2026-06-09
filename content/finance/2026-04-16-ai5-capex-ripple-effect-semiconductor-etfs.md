@@ -30,6 +30,7 @@ keywords:
   - 科技股投资机会
   - 2026半导体投资趋势
   - 台湾科技股投资
+image: "/images/2026-04-16-ai5-capex-ripple-effect-semiconductor-etfs.jpg"
 ---
 
 ## 风暴前夜：AI5芯片投片引爆投资狂潮
