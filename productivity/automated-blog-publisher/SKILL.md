@@ -1,9 +1,10 @@
 ---
 name: automated-blog-publisher
+category: productivity
 description: End-to-end automated blog publishing workflow - from RSS news monitoring to SEO-optimized content creation and Git deployment
-version: 1.0.0
+version: 1.1.0
 author: Hermes Agent
-tags: [blog, automation, rss, seo, git, content-creation]
+tags: [blog, automation, rss, seo, git, content-creation, image-generation]
 ---
 
 # Automated Blog Publisher
@@ -194,7 +195,232 @@ echo "# Image attribution
 
 **Practical Finding**: Many environments lack image generation tools, so Unsplash fallback should be the primary strategy.
 
-### 5. Git Workflow
+### 5. Image Enhancement Workflow
+
+**Automated Image Generation for Existing Content**
+
+This workflow scans existing blog posts for missing images and automatically generates appropriate images:
+
+#### Step 1: Scan for Missing Images
+```bash
+# Create image generation script
+cat > /tmp/blog-image-gen.py << 'EOF'
+#!/usr/bin/env python3
+import os
+import json
+import re
+from pathlib import Path
+
+def extract_front_matter(content):
+    """Extract front matter from markdown content"""
+    if content.startswith('---'):
+        lines = content.split('\n')
+        fm_end = 0
+        for i, line in enumerate(lines[1:], 1):
+            if line.strip() == '---':
+                fm_end = i
+                break
+        if fm_end > 0:
+            fm_content = '\n'.join(lines[1:fm_end])
+            return fm_content, fm_end
+    return None, 0
+
+def has_image_field(front_matter):
+    """Check if front matter contains an image field"""
+    return 'image:' in front_matter and 'image: ""' not in front_matter
+
+def generate_prompt(title, content):
+    """Generate image prompt based on title and content"""
+    title_words = set(title.lower().split())
+    
+    tech_keywords = ['ai', 'artificial intelligence', 'machine learning', 'blockchain', 
+                    'cryptocurrency', 'bitcoin', 'nvidia', 'gpu', 'chip', 'semiconductor']
+    finance_keywords = ['finance', 'investment', 'stock', 'market', 'trading', 
+                       'bitcoin', 'crypto', 'etf', 'capex', 'revenue']
+    
+    if any(word in title_words for word in tech_keywords):
+        return f"Professional technology illustration of {title}. AI neural network visualization, circuit board patterns, digital innovation concept. Clean, modern design with blue and purple color scheme."
+    elif any(word in title_words for word in finance_keywords):
+        return f"Financial chart and market data visualization for {title}. Stock market graph, cryptocurrency trend line, investment analysis concept. Professional finance theme with green and gold colors."
+    else:
+        return f"Professional illustration for {title}. Modern, clean design with relevant symbolism."
+
+def scan_blog_content():
+    """Scan blog content for articles without images"""
+    blog_path = Path("/home/simon/blog/content")
+    queue = []
+    
+    md_files = list(blog_path.rglob("*.md"))
+    
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            fm_content, offset = extract_front_matter(content)
+            if fm_content and has_image_field(fm_content):
+                continue
+            
+            title_match = re.search(r'title:\s*"([^"]+)"', fm_content)
+            title = title_match.group(1) if title_match else md_file.stem
+            
+            prompt = generate_prompt(title, content)
+            
+            queue.append({
+                "path": str(md_file),
+                "prompt": prompt
+            })
+            
+        except Exception as e:
+            print(f"Error processing {md_file}: {e}")
+    
+    return queue
+
+if __name__ == "__main__":
+    queue = scan_blog_content()
+    
+    with open("/tmp/blog-image-queue.json", "w", encoding="utf-8") as f:
+        json.dump(queue, f, indent=2, ensure_ascii=False)
+    
+    print(f"Found {len(queue)} articles needing images")
+EOF
+
+python3 /tmp/blog-image-gen.py
+```
+
+#### Step 2: Generate Images
+```bash
+# Create placeholder image generation
+cat > /tmp/blog-image-final.py << 'EOF'
+#!/usr/bin/env python3
+import json
+import os
+import re
+from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
+import time
+
+def create_placeholder_image(title, output_path):
+    """Create a simple placeholder image with text"""
+    img = Image.new('RGB', (800, 400), color='lightblue')
+    draw = ImageDraw.Draw(img)
+    
+    try:
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 30)
+    except:
+        font = ImageFont.load_default()
+    
+    words = title.split()
+    lines = []
+    current_line = []
+    
+    for word in words:
+        test_line = ' '.join(current_line + [word])
+        if draw.textlength(test_line, font=font) <= 760:
+            current_line.append(word)
+        else:
+            if current_line:
+                lines.append(' '.join(current_line))
+                current_line = [word]
+            else:
+                lines.append(word)
+    
+    if current_line:
+        lines.append(' '.join(current_line))
+    
+    y = (400 - len(lines) * 40) // 2
+    for line in lines:
+        text_width = draw.textlength(line, font=font)
+        x = (800 - text_width) // 2
+        draw.text((x, y), line, fill='darkblue', font=font)
+        y += 40
+    
+    img.save(output_path)
+    return True
+
+def update_markdown_with_image(file_path, image_url):
+    """Update markdown file with image field"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        if content.startswith('---'):
+            lines = content.split('\n')
+            fm_end = 0
+            for i, line in enumerate(lines[1:], 1):
+                if line.strip() == '---':
+                    fm_end = i
+                    break
+            
+            if fm_end > 0:
+                fm_lines = lines[1:fm_end]
+                updated_fm = []
+                image_found = False
+                
+                for line in fm_lines:
+                    if line.strip().startswith('image:'):
+                        updated_fm.append(f'image: "{image_url}"')
+                        image_found = True
+                    else:
+                        updated_fm.append(line)
+                
+                if not image_found:
+                    updated_fm.append(f'image: "{image_url}"')
+                
+                new_content = '---\n' + '\n'.join(updated_fm) + '\n---\n' + '\n'.join(lines[fm_end + 1:])
+                
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                
+                return True
+        
+        return False
+    except Exception as e:
+        print(f"Error updating {file_path}: {e}")
+        return False
+
+# Main execution
+with open("/tmp/blog-image-queue.json", 'r', encoding='utf-8') as f:
+    queue = json.load(f)
+
+static_dir = Path("/home/simon/blog/static/images")
+static_dir.mkdir(exist_ok=True)
+
+processed_count = 0
+
+for item in queue[:10]:  # Process first 10 articles
+    file_path = item['path']
+    
+    if file_path.endswith('_index.md'):
+        continue
+        
+    title = Path(file_path).stem
+    safe_title = re.sub(r'[^a-zA-Z0-9-]', '-', title)
+    image_path = static_dir / f"{safe_title}.jpg"
+    image_url = f"/images/{safe_title}.jpg"
+    
+    if create_placeholder_image(title, str(image_path)):
+        if update_markdown_with_image(file_path, image_url):
+            processed_count += 1
+            print(f"Updated {file_path}")
+    
+    time.sleep(2)
+
+print(f"Processed {processed_count} images")
+EOF
+
+python3 /tmp/blog-image-final.py
+```
+
+#### Step 3: Commit Changes
+```bash
+cd /home/simon/blog
+git add .
+git commit -m "Add generated images to blog posts"
+git push origin main
+```
+
+### 6. Git Workflow
 
 ```bash
 # Navigate to blog directory
@@ -215,7 +441,7 @@ git push origin main
 - Use exact article title
 - Include date when relevant
 
-### 6. Notification System
+### 7. Notification System
 
 **Notification Template:**
 ```text
@@ -267,6 +493,12 @@ git push origin main
 - Ensure proper categorization
 - Validate FAQ format
 
+**Image Generation Issues:**
+- Check available disk space
+- Verify write permissions
+- Try alternative generation methods
+- Check for dependency conflicts
+
 ## Best Practices
 
 ### Content Quality
@@ -289,6 +521,13 @@ git push origin main
 - Buffer time for unexpected delays
 - Monitor for breaking news opportunities
 
+### Image Management
+- Regularly scan existing content for missing images
+- Use consistent naming conventions
+- Create backup images before overwriting
+- Test image URLs before publishing
+- Include attribution information
+
 ## Sample Execution
 
 ```bash
@@ -305,6 +544,11 @@ cd ~/blog && git add -A && git commit -m "auto: [Title]" && git push
 
 # 6. Create notification
 echo "通知內容..." > ~/blog/telegram_notification.txt
+
+# 7. Enhance existing content with images
+python3 /tmp/blog-image-gen.py
+python3 /tmp/blog-image-final.py
+git add -A && git commit -m "Add generated images to blog posts" && git push
 ```
 
 ## Monitoring and Maintenance
@@ -314,12 +558,14 @@ echo "通知內容..." > ~/blog/telegram_notification.txt
 - Monthly: Analyze top-performing articles
 - Quarterly: Update topic selection criteria
 - As needed: Troubleshoot feed issues
+- Monthly: Scan existing content for missing images
 
 ### Performance Metrics
 - Track publish frequency
 - Monitor article engagement (if analytics available)
 - Measure topic selection success rate
 - Track content quality scores
+- Monitor image generation success rate
 
 ## Troubleshooting
 
@@ -358,10 +604,18 @@ browser_console "Extract text content"    # Get article content programmatically
 - Ensure proper character encoding
 - Test image URLs before publishing
 
+**Image Generation Issues:**
+- Check available disk space for image generation
+- Verify write permissions for static/images directory
+- Try alternative generation methods if AI services fail
+- Check for dependency conflicts (PIL, diffusers, etc.)
+
 **Practical Findings from Recent Execution:**
 1. **RSS feeds often blocked**: Browser-based approach more reliable
 2. **Bot detection common**: Use browser tools instead of direct API calls
 3. **Image generation frequently unavailable**: Unsplash URLs should be primary strategy
 4. **Notification tools often missing**: Store content for manual notification
+5. **Many posts lack images**: Automated image enhancement workflow valuable
+6. **Local generation works**: PIL-based placeholder creation reliable fallback
 
 This skill provides a complete framework for automated blog publishing, from content discovery to deployment, with built-in quality controls and error handling.

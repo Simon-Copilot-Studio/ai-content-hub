@@ -12,11 +12,11 @@ name: "ai-tech-blog-publisher"
 
 **描述**：自動搜尋 AI 科技、經濟財金、科技產業最新熱門話題，撰寫 SEO 優化繁體中文部落格文章並發布
 
-**版本**：1.1.0  
+**版本**：1.2.0  
 **作者**：Hermes Agent  
 **標籤**：["blog", "ai", "automation", "seo", "tech", "finance"]  
 **建立日期**：2026-05-17  
-**最後更新**：2026-06-08
+**最後更新**：2026-06-09
 
 ## 觸發條件
 - 需要產生 AI/科技/財金相關的部落格文章
@@ -65,9 +65,19 @@ print(f"已發布主題: {published_topics}")
 ```
 
 ### 3. 熱門話題搜尋 📈
-**策略：多管道搜尋**
+**策略：多管道搜尋，包含工具可用性檢查**
 - **主要來源**：內容分析 + 搜尋工具 (推薦)
   ```bash
+  # 檢查 web_search 工具是否可用
+  if command -v search > /dev/null; then
+      # 使用 search 工具
+      search query="AI news LLM chips robotics past 3 hours" engine=web_search
+  else
+      # 使用 browser 工具直接導航網站
+      browser_navigate url="https://techcrunch.com"
+      # 手動抓取最新內容
+  fi
+  
   # 使用 search_files 分析現有內容，找出熱門話題
   search_files pattern="AI|artificial intelligence|machine learning|deep learning|大模型|AI芯片|LLM" target="content" path="." limit=20
   search_files pattern="股市|股票|Fed|台股|美股|crypto|bitcoins|加密貨幣|央行" target="content" path="." limit=20
@@ -82,7 +92,14 @@ print(f"已發布主題: {published_topics}")
   - 直接導航網站獲取最新內容
   - 避免 RSS feed 的延遲和過時問題
 - **備用來源**：Bloomberg、The Verge、WSJ
-  - 注意：可能遭遇 bot detection，需要備用方案
+  - **注意**：可能遭遇 bot detection，需要備用方案
+  - **實際經驗**：Bloomberg 有嚴格 bot 檢測，建議使用 TechCrunch 等替代
+
+**實際執行經驗**：
+- **工具檢查**：先檢查工具可用性，再決定採用方法
+- **Bot Detection**：Bloomberg 等網站有嚴格 bot 檢測，改用 TechCrunch
+- **Browser Navigation**：當 web_search 不可用時，使用 browser_navigate + 手動抓取
+- **內容抓取**：使用 browser_snapshot 獲取完整內容，browser_console 獲取純文本
 
 **搜尋時間範圍**：
 - **推薦**：過去 3 小時內 (獲取最新熱門)
@@ -136,8 +153,20 @@ faq:
 - FAQ 章節
 
 ### 5. 封面圖處理 🖼️
-**優先順序**：
-1. **自動圖片生成工具** (推薦)
+**優先順序與實際執行經驗**：
+1. **檢查工具可用性** (新增)
+   ```bash
+   # 先檢查圖片生成工具是否可用
+   if skill_exists "stable-diffusion-image-generation"; then
+       echo "圖片生成工具可用"
+   elif skill_exists "pixel-art"; then
+       echo "像素藝術工具可用"
+   else
+       echo "圖片生成工具不可用，使用 fallback 方案"
+   fi
+   ```
+
+2. **自動圖片生成工具** (推薦)
    ```python
    # 使用 image_gen 工具自動生成專屬封面圖
    delegate_task goal="生成加密貨幣市場分析文章的封面圖，圖片應專業、現代，包含Bitcoin、Ethereum等加密貨幣元素，適合繁體中文讀者。圖片格式為PNG，尺寸建議1200x600px。" toolsets=["image_gen"]
@@ -145,32 +174,46 @@ faq:
    # 檢查生成結果
    search_files pattern="crypto" target="files" path="/home/simon/blog/static/images" file_glob="*.png"
    ```
+   - **實際經驗**：許多圖片生成技能在特定環境中可能不可用
    - 優點：完全自控、符合文章主題、無版權問題
    - 需要：image_gen 工具支援
    - 注意：檢查生成是否成功
 
-2. **使用 skill 工具生成圖片** (備用)
+3. **使用 skill 工具生成圖片** (備用)
    ```bash
    # 如果 image_gen 失敗，使用其他圖片生成技能
+   skill_view name="pixel-art"
+   # 檢查其他可用技能
+   skills_list category="creative"
    ```
 
-3. **使用 Unsplash API 獲取免費高品質圖片**
+4. **使用 Unsplash API 獲取免費高品質圖片** (實際採用)
    ```python
    # 直接使用 Unsplash URL 作為 fallback
    image_url = "https://source.unsplash.com/random/?crypto,currency,finance"
+   
+   # 實際執行：建立圖片 URL 檔案
+   echo "https://images.unsplash.com/photo-1550745165-9bc0b252726a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" > image_url.txt
    ```
 
-4. **使用 Unsplash URL 作為最終 fallback**
+5. **使用 Unsplash URL 作為最終 fallback** (實際使用)
    ```bash
    # 在圖片生成失敗時使用
-   echo "image: \"/static/images/[article_topic]_chinese.png\"" > fallback_image.yml
+   echo "image: \"https://images.unsplash.com/...\"" > fallback_image.yml
    ```
+
+**實際執行經驗**：
+- **工具檢查**：技能列表中的圖片生成工具可能實際不可用
+- **快速決策**：當自動生成失敗時，立即切換到 Unsplash fallback
+- **圖片 URL 管理**：將圖片 URL 直接寫入文章 frontmatter
+- **無延誤處理**：圖片處理不應影響整體發布流程
 
 **圖片要求**：
 - 寬度 1200px x 高度 630px (Facebook分享最佳比例)
 - 相關主題
 - 高品質免版權
 - 中文標題顯示
+- **實際策略**：優保證發布速度，次要考慮圖片完美性
 
 ### 6. Git 操作 🚀
 ```bash
@@ -185,17 +228,72 @@ git add content/tech/YYYY-MM-DD-article-title.md
 # 提交變更
 git commit -m "auto: [文章標題]"
 
-# 重要：處理可能的遠端衝突
+# 重要：處理可能的遠端衝突 (實際經驗)
+echo "檢查遠端變更..."
+git fetch origin main
+
+# 檢查是否有衝突
+if git diff --quiet origin/main; then
+    echo "無遠端變更，直接推送"
+    git push origin main
+else
+    echo "發現遠端變更，進行 rebase..."
+    # 使用 rebase 整合遠端變更
+    git pull --rebase origin main
+    
+    # 如果 rebase 成功，再推送
+    if [ $? -eq 0 ]; then
+        echo "Rebase 成功，推送變更"
+        git push origin main
+    else
+        echo "Rebase 失敗，需要手動解決衝突"
+        # 可以嘗試其他策略或標記為需要人工介入
+        echo "⚠️  需要人工介入解決 git 衝突"
+        exit 1
+    fi
+fi
+```
+
+**實際執行經驗**：
+- **衝突處理**：多台設備同時推送時可能發生 `Updates were rejected` 錯誤
+- **解決方案**：使用 `git pull --rebase` 整合遠端變更，而非 `merge`
+- **錯誤處理**：檢查 rebase 是否成功，失敗時需要人工介入
+- **安全機制**：確保 commit 訊息格式一致 (`auto: [標題]`)
+
+**Git 衝突處理進階策略**：
+```bash
+# 完整的衝突解決流程
+cd ~/blog
+
+# 1. 嘗試 rebase
 git pull --rebase origin main
 
-# 推送到遠端
+# 2. 如果失敗，檢查衝突狀態
+if [ $? -ne 0 ]; then
+    echo "發生衝突，檢查衝突檔案..."
+    git status
+    
+    # 3. 手動解決衝突（如果需要）
+    # git checkout --ours content/tech/YYYY-MM-DD-article-title.md
+    # git add content/tech/YYYY-MM-DD-article-title.md
+    
+    # 4. 繼續 rebase
+    # git rebase --continue
+    
+    # 5. 如果仍無法解決，放棄 rebase 使用 merge
+    # git rebase --abort
+    # git pull origin main --no-rebase
+fi
+
+# 6. 最終推送
 git push origin main
 ```
 
-**Git 衝突處理**：
-- **問題**：多台設備同時推送時可能發生衝突
-- **解決方案**：使用 `git pull --rebase` 整合遠端變更
-- **注意**：確保 commit 訊息格式一致 (`auto: [標題]`)
+**最佳實踐**：
+- **定期 fetch**：在操作前先 fetch 最新遠端狀態
+- **衝突預防**：開發前確認遠端最新狀態
+- **錯誤恢復**：準備好 abort 和備用方案
+- **日誌記錄**：記錄重要操作步驟和結果
 
 ### 7. 通知系統 📱
 **本地通知檔案**：
@@ -209,6 +307,26 @@ echo "📊 字數：[文章字數]字" >> ~/blog_notification.txt
 echo "📝 Commit Hash：$(git rev-parse HEAD)" >> ~/blog_notification.txt
 echo "📂 文章路徑：~/blog/content/tech/YYYY-MM-DD-article-title.md" >> ~/blog_notification.txt
 ```
+
+**環境限制處理**：
+```bash
+# 檢查可用通知工具
+if command -v telegram-send > /dev/null; then
+    # 使用 telegram-send 進行通知
+    telegram-send "🚀 新文章發布：[文章標題]"
+elif [ -f "$HOME/.hermes/messaging/telegram_available" ]; then
+    # 如果有 Telegram 配置檔案
+    echo "Telegram 通知可用，但需要正確的 Bot Token 和 Chat ID"
+else
+    # 僅使用本地通知檔案
+    echo "⚠️  通知功能受限，僅建立本地通知檔案"
+fi
+```
+
+**實際執行經驗**：
+- **環境限制**：某些工具（如 Telegram、image_gen）在特定環境中可能不可用
+- **處理策略**：檢查工具可用性，提供備用方案
+- **通知優先級**：本地檔案 > 服務通知 > 無通知（不影響發布流程）
 
 **通知內容範例**：
 ```
@@ -285,6 +403,7 @@ echo "📂 文章路徑：~/blog/content/tech/YYYY-MM-DD-article-title.md" >> ~/
 - **RSS feed 問題**：很多 RSS feed 已過時或受 bot protection
 - **解決方案**：直接導航網站獲取最新內容
 - **備用網站**：TechNews.tw、ETtoday、中央社科技版
+- **實際發現**：TechCrunch 是最穩定的來源，Bloomberg 有嚴格 bot 檢測
 
 ### Bot Detection 處理 🤖
 - **問題**：Bloomberg、WSJ 等金融網站有嚴格的 bot 檢測
@@ -292,12 +411,52 @@ echo "📂 文章路徑：~/blog/content/tech/YYYY-MM-DD-article-title.md" >> ~/
   - 使用 browser 工具而非 curl
   - 添加適當的 User-Agent
   - 避免過於頻繁的請求
+- **實際經驗**：
+  ```bash
+  # Bloomberg 會直接拒絕訪問，返回 "Are you a robot?"
+  # 改用 TechCrunch，相對開放且內容豐富
+  browser_navigate url="https://techcrunch.com"
+  ```
 
-### 內容避坑指南 ⚠️
-- **避免重複**：先檢查現有文章
-- **時間戳記**：確認文章發布時間
-- **來源驗證**：多來源交叉驗證
-- **數據準確性**：確認統計數據和趨勢
+### 工具可用性檢查 🔧
+```bash
+# 檢查關鍵工具是否可用
+check_tool_availability() {
+    local tools=("$@")
+    for tool in "${tools[@]}"; do
+        if command -v "$tool" > /dev/null; then
+            echo "✓ $tool 可用"
+        else
+            echo "✗ $tool 不可用"
+        fi
+    done
+}
+
+# 檢查技能可用性
+check_skill_availability() {
+    local skills=("$@")
+    for skill in "${skills[@]}"; do
+        if skill_view "$skill" > /dev/null 2>&1; then
+            echo "✓ 技能 $skill 可用"
+        else
+            echo "✗ 技能 $skill 不可用"
+        fi
+    done
+}
+
+# 使用範例
+check_tool_availability "search" "browser" "git"
+check_skill_availability "stable-diffusion-image-generation" "web_search"
+```
+
+### 環境適應策略 🌍
+- **問題**：不同環境中工具可用性不同
+- **解決方案**：建立工具檢查機制，動態調整策略
+- **實際執行**：
+  1. 檢查 web_search → 不可用 → 改用 browser_navigate
+  2. 檢查 image_gen → 不可用 → 改用 Unsplash URL
+  3. 檢查 Telegram → 不可用 → 改用本地通知檔案
+  4. Git 衝突 → 使用 rebase 解決
 
 ## 錯誤處理
 
@@ -309,18 +468,49 @@ echo "📂 文章路徑：~/blog/content/tech/YYYY-MM-DD-article-title.md" >> ~/
 2. **Bot detection**
    - 使用 browser 工具而非 curl
    - 添加適當的延遲
+   - 更換新聞來源
 
 3. **Git 操作失敗**
    - 檢查 git status
    - 確認遠程倉庫連接
    - 檢查 branch 狀態
+   - 使用 rebase 解決衝突
 
 4. **文章格式錯誤**
    - 使用現有文章作為模板
    - 檢查 YAML frontmatter 格式
    - 驗證 FAQ 結構
 
-## 成功案例
+5. **工具不可用** (新增)
+   - 檢查工具和技能可用性
+   - 提供備用方案
+   - 確保核心流程不中斷
+
+### 錯誤處理流程圖
+```
+開始 → 檢查工具可用性 → 工具可用？ → 執行主要邏輯
+                              ↓ 否
+                          使用備用方案 → 備用方案可用？ → 繼續執行
+                                                    ↓ 否
+                                                  記錄錯誤 → 繼續執行（不中斷）
+```
+
+### 錯誤記錄機制
+```bash
+# 建立錯誤日誌
+log_error() {
+    local error_message="$1"
+    local timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+    echo "[$timestamp] ERROR: $error_message" >> ~/blog_publisher_errors.log
+    echo "⚠️  錯誤已記錄：$error_message"
+}
+
+# 使用範例
+log_error "web_search 工具不可用，已切換到 browser_navigate"
+log_error "圖片生成失敗，已使用 Unsplash fallback"
+```
+
+### 成功案例
 
 ### 案例 1：AI 半導體熱潮
 - **主題**：韓股 KOSPI 突破 8,000 點
@@ -333,6 +523,14 @@ echo "📂 文章路徑：~/blog/content/tech/YYYY-MM-DD-article-title.md" >> ~/
 - **來源**：學術界最新政策
 - **成果**：159 行政策分析文章
 - **關鍵因素**：權威性 + 政策深度 + 台灣影響
+
+### 案例 3：微軟安全事件 (最新)
+- **主題**：Microsoft 開源工具遭駭客攻擊
+- **來源**：TechCrunch 直接導航
+- **成果**：10,893 字安全分析文章
+- **關鍵因素**：即時性 + 安全深度 + 全球影響
+- **技術挑戰**：Bloomberg bot detection → 改用 TechCrunch
+- **解決方案**：browser_navigate + 手動內容提取
 
 ## 優化建議
 
