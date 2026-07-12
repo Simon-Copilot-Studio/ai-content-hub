@@ -95,11 +95,11 @@ print(f"已發布主題: {published_topics}")
   - **注意**：可能遭遇 bot detection，需要備用方案
   - **實際經驗**：Bloomberg 有嚴格 bot 檢測，建議使用 TechCrunch 等替代
 
-**實際執行經驗**：
-- **工具檢查**：先檢查工具可用性，再決定採用方法
-- **Bot Detection**：Bloomberg 等網站有嚴格 bot 檢測，改用 TechCrunch
-- **Browser Navigation**：當 web_search 不可用時，使用 browser_navigate + 手動抓取
-- **內容抓取**：使用 browser_snapshot 獲取完整內容，browser_console 獲取純文本
+**實際經驗**：
+- **工具檢查**：先檢查工具可用性，再決定採用方法。
+- **Bot Detection**：金融/科技網站 (如 Google Search, Bloomberg) 常有嚴格 bot 檢測。若 `search` 工具無法直接使用，改用 `browser_navigate` + `browser_snapshot`。若連 `browser_navigate` 受阻，應立即切換其他新聞源 (如 TechNews.tw 原始網頁)。
+- **Git 流程與衝突**：多終端操作容易導致 `Updates were rejected`。務必在 `git add` 前執行 `git fetch` 並進行 `git pull --rebase origin main`，確保遠端變更已整合，避免盲目推送造成的衝突與人為介入需求。
+- **環境適應**：圖片生成工具的可用性常因環境而異。建議優先使用高品質 Unsplash API Fallback，將圖片處理邏輯降級為非關鍵路徑，確保文章發布流程不受阻。
 
 **搜尋時間範圍**：
 - **推薦**：過去 3 小時內 (獲取最新熱門)
