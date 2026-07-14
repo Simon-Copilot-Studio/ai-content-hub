@@ -65,92 +65,14 @@ print(f"已發布主題: {published_topics}")
 ```
 
 ### 3. 熱門話題搜尋 📈
-**策略：多管道搜尋，包含工具可用性檢查**
-- **主要來源**：內容分析 + 搜尋工具 (推薦)
-  ```bash
-  # 檢查 web_search 工具是否可用
-  if command -v search > /dev/null; then
-      # 使用 search 工具
-      search query="AI news LLM chips robotics past 3 hours" engine=web_search
-  else
-      # 使用 browser 工具直接導航網站
-      browser_navigate url="https://techcrunch.com"
-      # 手動抓取最新內容
-  fi
-  
-  # 使用 search_files 分析現有內容，找出熱門話題
-  search_files pattern="AI|artificial intelligence|machine learning|deep learning|大模型|AI芯片|LLM" target="content" path="." limit=20
-  search_files pattern="股市|股票|Fed|台股|美股|crypto|bitcoins|加密貨幣|央行" target="content" path="." limit=20
-  search_files pattern="Apple|Google|Meta|TSMC|Nvidia|芯片|半導體|科技|technology" target="content" path="." limit=20
-  
-  # 分析話題頻率，找出最熱門主題
-  # 優點：避免重複、即時性、多來源整合
-  # 注意：需要過濾已發布內容
-  ```
+**策略：內容分析優先，確保高時效與 relevancy**
+- **內容來源**：直接瀏覽 TechNews.tw 分類頁面獲取最新文章標題，挑選最具熱門/產業影響力者。
+- **Git 衝突與推送**：在 commit 之前務必執行 `git pull --rebase origin main`，確保在自動排程環境下能無衝突地推送至遠端。
+- **通知策略**：因 cron 環境無直接傳訊 API，採取寫入 ~/blog/telegram_notification.txt 本地紀錄檔作為發布存證。
 
-- **次要來源**：TechNews.tw、ETtoday、中央社科技版
-  - 直接導航網站獲取最新內容
-  - 避免 RSS feed 的延遲和過時問題
-- **備用來源**：Bloomberg、The Verge、WSJ
-  - **注意**：可能遭遇 bot detection，需要備用方案
-  - **實際經驗**：Bloomberg 有嚴格 bot 檢測，建議使用 TechCrunch 等替代
-
-**實際經驗**：
-- **工具檢查**：先檢查工具可用性，再決定採用方法。
-- **Bot Detection**：金融/科技網站 (如 Google Search, Bloomberg) 常有嚴格 bot 檢測。若 `search` 工具無法直接使用，改用 `browser_navigate` + `browser_snapshot`。若連 `browser_navigate` 受阻，應立即切換其他新聞源 (如 TechNews.tw 原始網頁)。
-- **Git 流程與衝突**：多終端操作容易導致 `Updates were rejected`。務必在 `git add` 前執行 `git fetch` 並進行 `git pull --rebase origin main`，確保遠端變更已整合，避免盲目推送造成的衝突與人為介入需求。
-- **環境適應**：圖片生成工具的可用性常因環境而異。建議優先使用高品質 Unsplash API Fallback，將圖片處理邏輯降級為非關鍵路徑，確保文章發布流程不受阻。
-
-**搜尋時間範圍**：
-- **推薦**：過去 3 小時內 (獲取最新熱門)
-- **備用**：過去 24 小時內
-
-**搜尋關鍵字**：
-- AI/LLM/chips/robotics
-- 台股/美股/crypto
-- Apple/Google/Meta/TSMC/Nvidia
-- 地緣政治對科技影響
-
-### 3. 主題選擇標準 🎯
-**價值評估因素**：
-- 時效性（過去 24-48 小時內的新聞）
-- SEO 潛力（關鍵字密度和搜尋量）
-- 讀者關注度（瀏覽量和討論度）
-- 專業深度（技術細節和市場分析）
-- 獨特性（避免與現有文章重複）
-
-### 4. 文章撰寫格式 📝
-**YAML Frontmatter 結構**：
-```yaml
----
-title: "文章標題"
-date: "2026-05-17T09:30:00+08:00"
-description: "文章描述"
-categories:
-  - "科技"
-  - "財經"
-tags:
-  - "AI"
-  - "半導體"
-  - "KOSPI"
-image: "https://images.unsplash.com/...?w=800&q=80"
-readingTime: 10
-draft: false
-faq:
-  - q: "問題1"
-    a: "答案1"
-  - q: "問題2"
-    a: "答案2"
----
-```
-
-**文章結構範例**：
-- 標題和導言
-- 背景分析
-- 核心內容（3-5 個章節）
-- 影響分析
-- 未來展望
-- FAQ 章節
+### 4. 寫作標準 📝
+- **內容驗證**：確保 YAML Frontmatter 包含 `faq` 區段，格式必須嚴格遵從 `q` 與 `a` 配對結構，避免渲染失敗。
+- **SEO 優化**：文章描述與標題應包含當前科技產業關鍵字（如：川普政策、先進封裝、CoWoS、晶片主權）。
 
 ### 5. 封面圖處理 🖼️
 **優先順序與實際執行經驗**：
