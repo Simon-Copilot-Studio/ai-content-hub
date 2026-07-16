@@ -1,9 +1,6 @@
-新文章發布通知：\n\n標題：ArXiv新政策震撼學術界：AI撰寫論文將遭一年禁令，研究倫理邊界重新定義\n\n發布時間：2026-05-17\n\n文章已成功發布到博客，涵蓋了ArXiv最新政策對學術界影響的深度分析。
 🚀 新文章發布通知：
-📄 標題：AI熱潮引爆半導體黃金時代：韓股KOSPI首度突破8,000點，全球科技版圖重構
-📅 發布時間：2026-05-17 09:30
-🔗 URL：https://github.com/Simon-Copilot-Studio/ai-content-hub/blob/main/content/tech/2026-05-17-ai-semiconductor-boom-kospi-8000.md
-🚀 新文章發布通知：
-📄 標題：川普政府再出招：推動英特爾在美擴產先進封裝，挑戰台積電 CoWoS 霸主地位
-📅 發布時間：2026-07-13 22:12:17
-🔗 URL：https://github.com/Simon-Copilot-Studio/ai-content-hub/blob/main/content/tech/2026-07-13-trump-intel-advanced-packaging-vs-tsmc.md
+📄 標題：IBM 股價單日暴跌 25%：客戶預算大挪移，優先搶購 AI 基礎設施
+📅 發布時間：2026-07-16 04:46:15
+🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
+📝 Commit Hash：3eb39fa5612450bd24e70e2cba611d5cf975e36f
+📂 文章路徑：content/tech/2026-07-16-IBM-stock-plunge-AI-infrastructure-shift.md
