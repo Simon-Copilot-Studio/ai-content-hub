@@ -1,6 +1,7 @@
 🚀 新文章發布通知：
-📄 標題：IBM 股價單日暴跌 25%：客戶預算大挪移，優先搶購 AI 基礎設施
-📅 發布時間：2026-07-16 04:46:15
-🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📝 Commit Hash：3eb39fa5612450bd24e70e2cba611d5cf975e36f
-📂 文章路徑：content/tech/2026-07-16-IBM-stock-plunge-AI-infrastructure-shift.md
+📄 標題：台股史上最大崩盤！單日重挫 2,953 點，地緣政治關稅海嘯與 AI 權值股斷頭潮全解析
+📅 發布時間：2026-07-17 17:12:38
+🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/tech/2026-07-17-taiex-plunge-record-tariff-shock/
+📊 字數：約 8,000 字
+📝 Commit Hash：3d6cf102546622549d91fc80614e3fc57ca4ec9b
+📂 文章路徑：~/blog/content/tech/2026-07-17-taiex-plunge-record-tariff-shock.md
