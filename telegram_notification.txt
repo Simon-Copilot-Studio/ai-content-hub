@@ -1,7 +1,5 @@
 🚀 新文章發布通知：
-📄 標題：台股史上最大崩盤！單日重挫 2,953 點，地緣政治關稅海嘯與 AI 權值股斷頭潮全解析
-📅 發布時間：2026-07-17 17:12:38
-🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/tech/2026-07-17-taiex-plunge-record-tariff-shock/
-📊 字數：約 8,000 字
-📝 Commit Hash：3d6cf102546622549d91fc80614e3fc57ca4ec9b
-📂 文章路徑：~/blog/content/tech/2026-07-17-taiex-plunge-record-tariff-shock.md
+📄 標題：Netflix 財報揭露：生成式 AI 深入 300 部影視製作，效率與成本的雙重革命
+📅 發布時間：2026-07-18 08:18:48
+🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
+📂 文章路徑：~/blog/content/tech/2026-07-18-netflix-ai-production.md
