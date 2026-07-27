@@ -75,106 +75,16 @@ print(f"已發布主題: {published_topics}")
 - **SEO 優化**：文章描述與標題應包含當前科技產業關鍵字（如：川普政策、先進封裝、CoWoS、晶片主權）。
 
 ### 5. 封面圖處理 🖼️
-**優先順序與實際執行經驗**：
-1. **檢查工具可用性** (新增)
-   ```bash
-   # 先檢查圖片生成工具是否可用
-   if skill_exists "stable-diffusion-image-generation"; then
-       echo "圖片生成工具可用"
-   elif skill_exists "pixel-art"; then
-       echo "像素藝術工具可用"
-   else
-       echo "圖片生成工具不可用，使用 fallback 方案"
-   fi
-   ```
+**策略優先級**：
+1. **AI 自動生成**：優先呼叫專屬 Subagent 使用 `image_gen` 工具生成專業級 (1200x630px) 無文字封面圖。若生成成功則直接使用該路徑。
+2. **自動路徑管理**：生成圖片後，自動儲存至 `~/blog/static/images/tech/[日期]-[文章簡稱].png` 並寫入文章 frontmatter。
+3. **備用 Fallback**：若圖片生成工具不可用或生成失敗，自動 Fallback 使用 Unsplash 的 `1200x630` 隨機金融/科技主題圖片 URL。
 
-2. **自動圖片生成工具** (推薦)
-   ```python
-   # 使用 image_gen 工具自動生成專屬封面圖
-   delegate_task goal="生成加密貨幣市場分析文章的封面圖，圖片應專業、現代，包含Bitcoin、Ethereum等加密貨幣元素，適合繁體中文讀者。圖片格式為PNG，尺寸建議1200x600px。" toolsets=["image_gen"]
-   
-   # 檢查生成結果
-   search_files pattern="crypto" target="files" path="/home/simon/blog/static/images" file_glob="*.png"
-   ```
-   - **實際經驗**：許多圖片生成技能在特定環境中可能不可用
-   - 優點：完全自控、符合文章主題、無版權問題
-   - 需要：image_gen 工具支援
-   - 注意：檢查生成是否成功
-
-3. **使用 skill 工具生成圖片** (備用)
-   ```bash
-   # 如果 image_gen 失敗，使用其他圖片生成技能
-   skill_view name="pixel-art"
-   # 檢查其他可用技能
-   skills_list category="creative"
-   ```
-
-4. **使用 Unsplash API 獲取免費高品質圖片** (實際採用)
-   ```python
-   # 直接使用 Unsplash URL 作為 fallback
-   image_url = "https://source.unsplash.com/random/?crypto,currency,finance"
-   
-   # 實際執行：建立圖片 URL 檔案
-   echo "https://images.unsplash.com/photo-1550745165-9bc0b252726a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" > image_url.txt
-   ```
-
-5. **使用 Unsplash URL 作為最終 fallback** (實際使用)
-   ```bash
-   # 在圖片生成失敗時使用
-   echo "image: \"https://images.unsplash.com/...\"" > fallback_image.yml
-   ```
-
-**實際執行經驗**：
-- **工具檢查**：技能列表中的圖片生成工具可能實際不可用
-- **快速決策**：當自動生成失敗時，立即切換到 Unsplash fallback
-- **圖片 URL 管理**：將圖片 URL 直接寫入文章 frontmatter
-- **無延誤處理**：圖片處理不應影響整體發布流程
-
-**圖片要求**：
-- 寬度 1200px x 高度 630px (Facebook分享最佳比例)
-- 相關主題
-- 高品質免版權
-- 中文標題顯示
-- **實際策略**：優保證發布速度，次要考慮圖片完美性
-
-### 6. Git 操作 🚀
-```bash
-cd ~/blog
-
-# 檢查 git 狀態
-git status
-
-# 添加新文章
-git add content/tech/YYYY-MM-DD-article-title.md
-
-# 提交變更
-git commit -m "auto: [文章標題]"
-
-# 重要：處理可能的遠端衝突 (實際經驗)
-echo "檢查遠端變更..."
-git fetch origin main
-
-# 檢查是否有衝突
-if git diff --quiet origin/main; then
-    echo "無遠端變更，直接推送"
-    git push origin main
-else
-    echo "發現遠端變更，進行 rebase..."
-    # 使用 rebase 整合遠端變更
-    git pull --rebase origin main
-    
-    # 如果 rebase 成功，再推送
-    if [ $? -eq 0 ]; then
-        echo "Rebase 成功，推送變更"
-        git push origin main
-    else
-        echo "Rebase 失敗，需要手動解決衝突"
-        # 可以嘗試其他策略或標記為需要人工介入
-        echo "⚠️  需要人工介入解決 git 衝突"
-        exit 1
-    fi
-fi
-```
+### 6. Git 安全發布流程 🚀
+為確保在 Cron 排程環境下不發生衝突：
+1. **預先 Fetch**：`git fetch origin main`
+2. **強制 Rebase**：使用 `git pull --rebase origin main` 以確保版本線性與衝突解決，絕不使用 merge。
+3. **自動狀態檢查**：Push 前自動檢查 `git status`，確保僅提交目標文章檔案。
 
 **實際執行經驗**：
 - **衝突處理**：多台設備同時推送時可能發生 `Updates were rejected` 錯誤
