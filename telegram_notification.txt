@@ -1,5 +1,5 @@
 🚀 新文章發布通知：
-📄 標題：Netflix 財報揭露：生成式 AI 深入 300 部影視製作，效率與成本的雙重革命
-📅 發布時間：2026-07-18 08:18:48
+📄 標題：長鑫存儲上市暴漲 466% 與字節跳動 70 億美元大單：中國半導體自主化與 DUV 量產的市場衝擊
+📅 發布時間：2026-07-28 16:30:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📂 文章路徑：~/blog/content/tech/2026-07-18-netflix-ai-production.md
+📂 文章路徑：~/blog/content/tech/2026-07-28-cxmt-bytedance-duv-breakthrough.md
