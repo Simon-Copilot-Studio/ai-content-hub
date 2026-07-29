@@ -1,5 +1,6 @@
 🚀 新文章發布通知：
-📄 標題：長鑫存儲上市暴漲 466% 與字節跳動 70 億美元大單：中國半導體自主化與 DUV 量產的市場衝擊
-📅 發布時間：2026-07-28 16:30:00
+📄 標題：Apple Intelligence 2.0 與端側 Agent 晶片架構升級：2026 下半年終端 AI 革命
+📅 發布時間：2026-07-29 11:30:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📂 文章路徑：~/blog/content/tech/2026-07-28-cxmt-bytedance-duv-breakthrough.md
+📂 文章路徑：content/tech/2026-07-29-apple-intelligence-edge-ai-revolution.md
+📝 Commit Hash：68324b8b
