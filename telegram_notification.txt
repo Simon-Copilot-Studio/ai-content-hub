@@ -1,6 +1,6 @@
 🚀 新文章發布通知：
-📄 標題：Fed 7月利率按兵不動但鷹聲大作：3名官員投反對票、9月升息警報拉高與科技股、加密貨幣總經衝擊解析
-📅 發布時間：2026-07-30 06:00:00
+📄 標題：歐盟啟動 1.12 兆歐元「AI 超級工廠」計畫：7座算力中心翻轉主權 AI 局勢、牽動台積電與輝達歐洲供應鏈布局
+📅 發布時間：2026-07-31 06:30:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📝 Commit Hash：c4f4b7a7
-📂 文章路徑：content/tech/2026-07-30-fed-hawkish-hold-september-rate-hike-alert.md
+📝 Commit Hash：d4138919
+📂 文章路徑：~/blog/content/tech/2026-07-31-eu-ai-gigafactories-sovereignty-tsmc-nvidia.md
