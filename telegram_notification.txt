@@ -1,7 +1,7 @@
 🚀 新文章發布通知：
-📄 標題：Meta 攜手貝萊德砸 140 億美元建德州 AI 資料中心：解析「SPV 獨立合資 + 表外融資」新模式，華爾街如何翻轉 Big Tech 算力軍備競賽
-📅 發布時間：2026-07-31 19:30:00
+📄 標題：南韓擬砸 20 兆韓元成立主權財富基金：國家級資本大砲全面進場，激戰 AI 與半導體新紀元
+📅 發布時間：2026-08-02 09:00:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📝 Commit Hash：dad6f28f
-📂 文章路徑：~/blog/content/tech/2026-07-31-meta-blackrock-14b-ai-datacenter-spv-financing.md
-🖼️ 封面圖片：~/blog/static/images/tech/2026-07-31-meta-blackrock-14b-ai-datacenter.jpg
+📊 類別：tech, finance
+📝 Commit Hash：5b9adf4a
+📂 文章路徑：content/tech/2026-08-02-south-korea-20trillion-sovereign-fund-ai-semiconductor.md
