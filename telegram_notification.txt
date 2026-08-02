@@ -1,7 +1,7 @@
 🚀 新文章發布通知：
-📄 標題：南韓擬砸 20 兆韓元成立主權財富基金：國家級資本大砲全面進場，激戰 AI 與半導體新紀元
-📅 發布時間：2026-08-02 09:00:00
+📄 標題：美四大 CSP 資本支出衝破 1.1 兆美元與亞馬遜 250 億美元「AI 債券狂潮」：自由現金流拉警報，華爾街「資本警衛」對決科技巨頭的世紀豪賭
+📅 發布時間：2026-08-02 09:30:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📊 類別：tech, finance
-📝 Commit Hash：5b9adf4a
-📂 文章路徑：content/tech/2026-08-02-south-korea-20trillion-sovereign-fund-ai-semiconductor.md
+📊 字數：10,366字
+📝 Commit Hash：df31ca60
+📂 文章路徑：~/blog/content/tech/2026-08-02-amazon-big-tech-capex-bond-ai-crisis.md
