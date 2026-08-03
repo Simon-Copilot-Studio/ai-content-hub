@@ -1,5 +1,5 @@
 🚀 新文章發布通知：
-📄 標題：高通完成收購 Modular：跨足雲端與代理式 AI（Agentic AI），Chris Lattner 掌舵挑戰輝達生態系
-📅 發布時間：2026-08-03 23:30:00
+📄 標題：自由現金流拉警報：美四大 CSP 累計資本支出超過 1.1 兆美元，AI 豪賭終點在哪？
+📅 發布時間：2026-08-03 23:55:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📂 文章路徑：content/tech/2026-08-03-qualcomm-modular-acquisition.md
+📂 文章路徑：~/blog/content/tech/2026-08-03-csp-ai-investments-free-cash-flow-crisis.md
