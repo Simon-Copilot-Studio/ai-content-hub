@@ -1,7 +1,6 @@
 🚀 新文章發布通知：
-📄 標題：輝達砸 5,000 億美元聯手 SK 集團：美韓 AI 大聯盟成形，如何牽動 Rubin 晶片、HBM 記憶體與全球半導體供應鏈？
-📅 發布時間：2026-08-05 08:30:00
+📄 標題：麥可貝瑞坦承放空輝達虧損、警告 1987 年崩盤恐至：AI 泡沫論與美股歷史頂部的終極對決
+📅 發布時間：2026-08-05 10:00:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📊 字數：8,780字
-📝 Commit Hash：c018fab3
-📂 文章路徑：~/blog/content/tech/2026-08-05-nvidia-sk-group-500b-ai-alliance-rubin-hbm.md
+📊 文章路徑：content/tech/2026-08-05-michael-burry-nvidia-short-1987-crash-warning.md
+📝 Commit Hash：97af045b
