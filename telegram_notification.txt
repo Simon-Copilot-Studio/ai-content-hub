@@ -1,6 +1,7 @@
 🚀 新文章發布通知：
-📄 標題：「AI 記憶體黑洞」引爆全球供應鏈危機：華邦電預警 2027 缺貨更兇、蘋果 iPhone 18 320 億晶片堆在台積電苦等 DRAM
-📅 發布時間：2026-08-06 20:30:00
+📄 標題：Anthropic 震撼宣布自研 AI 晶片！開出 48.5 萬美元高薪挖角：為何 OpenAI 與 AI 巨頭相繼「拋棄」單一 NVIDIA 依賴？
+📅 發布時間：2026-08-07 05:00:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📝 Commit Hash：edcdc22e
-📂 文章路徑：content/tech/2026-08-06-ai-memory-dram-shortage-iphone18-winbond.md
+📊 字數：約 4,000 字
+📝 Commit Hash：f8baef5e
+📂 文章路徑：~/blog/content/tech/2026-08-07-anthropic-custom-silicon-ai-chip-strategy.md
