@@ -1,7 +1,5 @@
 🚀 新文章發布通知：
-📄 標題：Anthropic 震撼宣布自研 AI 晶片！開出 48.5 萬美元高薪挖角：為何 OpenAI 與 AI 巨頭相繼「拋棄」單一 NVIDIA 依賴？
-📅 發布時間：2026-08-07 05:00:00
-🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📊 字數：約 4,000 字
-📝 Commit Hash：f8baef5e
-📂 文章路徑：~/blog/content/tech/2026-08-07-anthropic-custom-silicon-ai-chip-strategy.md
+📄 標題：Google 傳聯手 AMD 打造第十代 TPU：整合 CPU 核心攻克強化學習與 AI Agent 算力瓶頸，半導體架構迎來什麼巨變？
+📅 發布時間：2026-08-17 06:05:00
+🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/tech/2026-08-17-google-amd-tpu-v10-reinforcement-learning/
+📂 路徑：content/tech/2026-08-17-google-amd-tpu-v10-reinforcement-learning.md
