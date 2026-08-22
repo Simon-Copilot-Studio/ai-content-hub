@@ -1,5 +1,6 @@
 🚀 新文章發布通知：
-📄 標題：AI 晶片新王崛起：專用推論晶片新創 Etched 估值一個月暴增一倍達 210 億美元，正面叫板 Nvidia 霸權
-📅 發布時間：2026-08-19 13:00:00
+📄 標題：獲 Anthropic 晶片大單加持！AI 硬體新創 Fractile 傳以 6.5 億美元估值狂募 6 億美元：專用推論晶片如何挑戰輝達生態系？
+📅 發布時間：2026-08-21 09:30:00
 🔗 URL：https://simoncopilotstudio.github.io/ai-content-hub/
-📂 文章路徑：content/tech/2026-08-19-etched-valuation-21b-inference-chips.md
+📂 文章路徑：content/tech/2026-08-21-fractile-anthropic-6b-valuation-ai-chips.md
+📝 Commit Hash：386d272a
